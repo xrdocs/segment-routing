@@ -25,7 +25,8 @@ Check out the Techfield Day Rountable that dives into Segment Routing Strategy a
 
 
 Check out the complete playlist here:   
->[Segment Routing Techfield Day Playlist](https://www.youtube.com/playlist?list=PLinuRwpnsHacUlfUCrVstvpzURnK_M3iI)
+>
+[Segment Routing Techfield Day Playlist](https://www.youtube.com/playlist?list=PLinuRwpnsHacUlfUCrVstvpzURnK_M3iI)
 
 
 ### Greenfield Deployment of Segment Routing with Mark Pagan

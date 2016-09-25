@@ -9,10 +9,8 @@ tags:
 ---
 
 
-<div id="pdf">
-  <object width="400" height="500" type="application/pdf" data="http://www.ieice.org/~ia/archives/20130906-beertalk-shtsuchi.pdf?" id="pdf_content">
-  </object>
-</div>
+<iframe src="http://docs.google.com/gview?http://www.ieice.org/~ia/archives/20130906-beertalk-shtsuchi.pdf?url=&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+
 
 XR 6.0.0 shifts IOS-XR to a 64-bit linux operating system. Now, Cisco's core routing products can join the vibrant Linux ecosystem. We’re committed to engaging the community in various open source projects and working in a collaborative model with our partners and customers.   
 

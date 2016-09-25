@@ -62,9 +62,14 @@ Recorded post conference.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RzsyUfS4lb0" frameborder="0" allowfullscreen></iframe>  
   
 
+  
+  
 
+## Avoiding Micro-loops in MPLS Networks using Segment-routing  
 
-##
+   
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/cMIG9HCKFOus70" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/StephaneLitkowski/mpls-sdn-2016-microloop-avoidance-with-segment-routing-63809004" title="MPLS SDN 2016 - Microloop avoidance with segment routing" target="_blank">MPLS SDN 2016 - Microloop avoidance with segment routing</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/StephaneLitkowski">Stephane Litkowski</a></strong> </div>   
+  
  
  
   

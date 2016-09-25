@@ -14,7 +14,7 @@ tags:
        
 ## Segment Routing Field Day Roundtable
 
-Check out the Techfield Day Rountable that dives into Segment Routing Strategy along with Deployment Experiences with some key Customers: Walmart, Microsoft and Comcast.
+Check out the Techfield Day Rountable content from June 21, 2016, that dives into Segment Routing Strategy along with Deployment Experiences with some key Customers: Walmart, Microsoft and Comcast.
 
 ><http://techfieldday.com/event/srr1/>
 
@@ -57,6 +57,8 @@ John Leddy, Network Engineering with Comcast, discusses how Comcast is leveragin
   
 
 ### Cisco Software Strategy with Sumeet Arora
+  
+Sumeet Arora, Senior Vice President Engineering, discusses how Cisco is leveraging software to help extend their networking offerings to embrace new technologies.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s2qruWUSXDk" frameborder="0" allowfullscreen></iframe>
 

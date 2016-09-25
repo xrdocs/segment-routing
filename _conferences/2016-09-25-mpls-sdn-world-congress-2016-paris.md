@@ -13,9 +13,10 @@ title: 'MPLS/SDN World Congress 2016, Paris'
 ## Recording of session at congress by Clarence Filsfils, Cisco:  
 
 ### Video  
-  
+
+<div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VORGW0bBHLs" frameborder="0" allowfullscreen></iframe>  
-  
+</div>  
   
 
 ### Slides

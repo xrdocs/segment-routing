@@ -18,7 +18,7 @@ Recording of session at congress by Clarence Filsfils, Cisco:
 ### Slides
   
   
-<iframe src="https://app.box.com/embed/preview/vel8mmbct6k5rzo4ulxymljdsvudce0x?theme=dark" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>    
+<iframe src="https://app.box.com/embed/preview/vel8mmbct6k5rzo4ulxymljdsvudce0x?theme=dark" width="800" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>    
   
 ##   
   

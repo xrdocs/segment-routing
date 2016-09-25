@@ -63,7 +63,6 @@ Recorded post conference.
   
 
   
-  
 
 ## Avoiding Micro-loops in MPLS Networks using Segment-routing  
 

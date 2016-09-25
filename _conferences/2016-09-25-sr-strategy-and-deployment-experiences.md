@@ -47,6 +47,7 @@ Paul Mattes, Software Engineer with Microsoft, describes how segment routing can
 ### Comcast and The Smarter Network with John Leddy
 
 John Leddy, Network Engineering with Comcast, discusses how Comcast is leveraging segment routing to help transition their service provider network to something smarter with increased IPv6 capabilities, IPv4 transition mechanisms, and enhanced service delivery.  
+{: .notice--info}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GQkVpfgjiJ0" frameborder="0" allowfullscreen></iframe>  
 

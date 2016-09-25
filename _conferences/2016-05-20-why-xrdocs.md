@@ -15,7 +15,7 @@ tags:
 <script>
         PDFObject.embed("https://www.ieice.org/~ia/archives/20130906-beertalk-shtsuchi.pdf",
                         "#example1",
-                        {height: "600px"});
+                        {height: "1000px"});
 </script>
 
 

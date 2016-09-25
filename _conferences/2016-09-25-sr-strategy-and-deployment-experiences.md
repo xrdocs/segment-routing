@@ -8,8 +8,11 @@ tags:
   - segment-routing
   - cisco
 ---
-
-# Segment Routing Field Day Roundtable
+   
+     
+       
+       
+## Segment Routing Field Day Roundtable
 
 Check out the Techfield Day Rountable that dives into Segment Routing Strategy and Deployment Experiences with some key Customers: Walmart, Microsoft and Comcast.
 

@@ -39,3 +39,10 @@ Mark Pagan, Global WAN Engineering with Walmart, discusses how Walmart evaluated
 Paul Mattes, Software Engineer with Microsoft, describes how segment routing can be used in a cloud environment like Microsoft Azure to provide traffic engineering above and beyond existing MPLS strategies. Recorded at Segment Routing Field Day on June 21, 2016
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen></iframe>
+
+
+### Comcast and The Smarter Network with John Leddy
+
+John Leddy, Network Engineering with Comcast, discusses how Comcast is leveraging segment routing to help transition their service provider network to something smarter with increased IPv6 capabilities, IPv4 transition mechanisms, and enhanced service delivery  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GQkVpfgjiJ0" frameborder="0" allowfullscreen></iframe>

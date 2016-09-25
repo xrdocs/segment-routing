@@ -21,8 +21,6 @@ Check out the Techfield Day Rountable that dives into Segment Routing Strategy a
 
 ## Video Playlist 
 
-### Segment Routing Field Day Roundtable - Complete Playlist  
-
 
 Check out the complete playlist here:  
 

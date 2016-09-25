@@ -9,7 +9,7 @@ tags:
   - cisco
 ---
    
-{% include toc icon="table" title="Launching a Container App" %}  
+{% include toc icon="table" title="SR Strategy and Deployment Experiences" %}  
        
        
 ## Segment Routing Field Day Roundtable
@@ -93,9 +93,4 @@ Jose Liste, Technical Marketing Engineer, demonstrates the use of Cisco segment 
 Join Tom Hollingsworth and the Segment Routing Field Day delegates as they discussed the applications of segment routing, how it can help improve visibility in the underlay network, and where it should be used in the enterprise.   
 {: .notice--info}
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OlohcviMvoE" frameborder="0" allowfullscreen></iframe>  
-
-
-
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OlohcviMvoE" frameborder="0" allowfullscreen></iframe>

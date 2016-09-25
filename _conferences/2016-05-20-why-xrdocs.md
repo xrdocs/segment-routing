@@ -11,7 +11,6 @@ tags:
 
 <div id="pdf">
   <object width="400" height="500" type="application/pdf" data="http://www.ieice.org/~ia/archives/20130906-beertalk-shtsuchi.pdf?" id="pdf_content">
-    <p>Insert your error message here, if the PDF cannot be displayed.</p>
   </object>
 </div>
 

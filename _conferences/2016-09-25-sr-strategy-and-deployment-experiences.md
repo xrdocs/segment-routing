@@ -59,6 +59,7 @@ John Leddy, Network Engineering with Comcast, discusses how Comcast is leveragin
 ### Cisco Software Strategy with Sumeet Arora
   
 Sumeet Arora, Senior Vice President Engineering, discusses how Cisco is leveraging software to help extend their networking offerings to embrace new technologies.
+{: .notice--info}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s2qruWUSXDk" frameborder="0" allowfullscreen></iframe>  
   
@@ -66,6 +67,7 @@ Sumeet Arora, Senior Vice President Engineering, discusses how Cisco is leveragi
 ### Cisco Segment Routing Overview with Clarence Filsfils
   
 Clarence Filsfils, Cisco Fellow, gives an overview of segment routing and how it can be used to extend and enhance traditional WAN protocols such as MPLS.  
+{: .notice--info}
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZpUnsYjMBEA" frameborder="0" allowfullscreen></iframe>  
   
@@ -73,6 +75,7 @@ Clarence Filsfils, Cisco Fellow, gives an overview of segment routing and how it
 ### Cisco On-Demand Next-Hop Demo with Jose Liste  
 
 Jose Liste, Technical Marketing Engineer, demonstrates how Cisco segment routing can be used to dynamically readdress packets toward their next-hop address with the use of Path Computation Elements (PCEs).  
+{: .notice--info}
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CRjXmFtyFKw" frameborder="0" allowfullscreen></iframe>  
 
@@ -80,6 +83,7 @@ Jose Liste, Technical Marketing Engineer, demonstrates how Cisco segment routing
 ### Cisco Segment Routing Multicast Use Case Demo with Jose Liste  
   
 Jose Liste, Technical Marketing Engineer, demonstrates the use of Cisco segment routing to solve multicast challenges in the core of a service delivery network.  
+{: .notice--info}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W-q4T-vN0Q4" frameborder="0" allowfullscreen></iframe>  
    
@@ -87,6 +91,7 @@ Jose Liste, Technical Marketing Engineer, demonstrates the use of Cisco segment 
 ### Cisco Segment Routing Field Day Delegate Roundtable  
   
 Join Tom Hollingsworth and the Segment Routing Field Day delegates as they discussed the applications of segment routing, how it can help improve visibility in the underlay network, and where it should be used in the enterprise.   
+{: .notice--info}
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OlohcviMvoE" frameborder="0" allowfullscreen></iframe>  
 

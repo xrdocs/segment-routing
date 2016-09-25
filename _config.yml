@@ -325,6 +325,7 @@ prose:
         field:
             element: "text"
             label: "Author"
+            value: "Segment Routing Team"
       - name: "excerpt"
         field:
             element: "text"
@@ -365,6 +366,7 @@ prose:
         field:
             element: "text"
             label: "Author"
+            value: "Segment Routing Team"
       - name: "excerpt"
         field:
             element: "text"
@@ -405,6 +407,7 @@ prose:
         field:
             element: "text"
             label: "Author"
+            value: "Segment Routing Team"
       - name: "excerpt"
         field:
             element: "text"
@@ -445,6 +448,7 @@ prose:
         field:
             element: "text"
             label: "Author"
+            value: "Segment Routing Team"
       - name: "excerpt"
         field:
             element: "text"
@@ -485,6 +489,7 @@ prose:
         field:
             element: "text"
             label: "Author"
+            value: "Segment Routing Team"
       - name: "excerpt"
         field:
             element: "text"

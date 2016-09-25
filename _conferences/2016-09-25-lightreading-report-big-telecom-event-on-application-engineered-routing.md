@@ -6,4 +6,4 @@ title: Lightreading report Big telecom event on Application Engineered Routing
 ---
 
 
-<script type="text/javascript" src="//admin.brightcove.com/js/BrightcoveExperiences.js"></script><script type="text/javascript" src="//www.lightreading.com/tv/get_player.asp?site=&doc_id=716898&player_ver=bc3.1"></script>
+<script type="text/javascript" src="https://xrdocs.github.io?url=http://admin.brightcove.com/js/BrightcoveExperiences.js"></script><script type="text/javascript" src="https://xrdocs.github.io?url=http://www.lightreading.com/tv/get_player.asp?site=&doc_id=716898&player_ver=bc3.1"></script>

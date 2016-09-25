@@ -6,6 +6,4 @@ title: Lightreading report Big telecom event on Application Engineered Routing
 ---
 
 
-<object data="http://www.lightreading.com/spit-(service-provider-it)/application-engineered-routing-at-bte-2015/v/d-id/716898" type="text/html" width="200" height="200">
-  <a href="http://www.lightreading.com/spit-(service-provider-it)/application-engineered-routing-at-bte-2015/v/d-id/716898"></a>
-</object>
+<script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script><script type="text/javascript" src="http://www.lightreading.com/tv/get_player.asp?site=&doc_id=716898&player_ver=bc3.1"></script>

@@ -25,6 +25,7 @@ Check out the Techfield Day Rountable that dives into Segment Routing Strategy a
 
 
 <iframe width="280" height="158" src="https://www.youtube.com/embed/videoseries?list=PLinuRwpnsHacUlfUCrVstvpzURnK_M3iI" frameborder="0" allowfullscreen></iframe>{: .align-left}
+Tech Field Day: 8 videos.
 
 
 ### Greenfield Deployment of Segment Routing with Mark Pagan

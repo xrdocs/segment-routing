@@ -25,7 +25,7 @@ Recording of session at congress by Clarence Filsfils, Cisco:
 <iframe src="https://app.box.com/embed/preview/vel8mmbct6k5rzo4ulxymljdsvudce0x?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>    
   
 
-### Longer video:  
+### Longer video  
   
 Recorded post conference.  
 {: .notice--info}  
@@ -33,31 +33,31 @@ Recorded post conference.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EUxm9EH1wyQ" frameborder="0" allowfullscreen></iframe>  
 
 
-### Segment Routing On-Demand Next-hop (ODN) Demo  
+## Segment Routing On-Demand Next-hop (ODN) Demo  
 
   
     
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0xtysG86Fik" frameborder="0" allowfullscreen></iframe>  
   
   
-### Segment Routing Agile Carrier Ethernet (ACE) Demo  
+## Segment Routing Agile Carrier Ethernet (ACE) Demo  
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/biYqyAn9rl0" frameborder="0" allowfullscreen></iframe>  
   
 
-### Segment Routing TI-LFA FRR Node Protection Demo  
+## Segment Routing TI-LFA FRR Node Protection Demo  
   
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dttw2nc5FrA" frameborder="0" allowfullscreen></iframe>  
   
     
-### Segment Routing Microloop Avoidance Demo  
+## Segment Routing Microloop Avoidance Demo  
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7nfnp-dnUHk" frameborder="0" allowfullscreen></iframe>  
   
     
-### Segment Routing and EPE for Application Optimization   
+## Segment Routing and EPE for Application Optimization   
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RzsyUfS4lb0" frameborder="0" allowfullscreen></iframe>  
   

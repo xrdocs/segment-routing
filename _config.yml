@@ -315,17 +315,12 @@ prose:
     - README.md
     - feed.xml
   metadata:
-    _getting-started:
+    _tutorials:
       - name: "title"
         field:
             element: "text"
             label: "Title"
             value: ""
-      - name: "permalink"
-        field:
-            element: "text"
-            label: "Relative URL"
-            help: "provide a url relative to site url, for eg. /getting-started/blog1"
       - name: "author"
         field:
             element: "text"
@@ -333,7 +328,7 @@ prose:
       - name: "excerpt"
         field:
             element: "text"
-            help: "Brief description of the blog"
+            help: "Brief description of the tutorial"
             label: "Excerpt"
       - name: "tags"
         field:
@@ -342,35 +337,30 @@ prose:
             placeholder: "Choose Tags"
             alterable: true
             options:
-             - name: "Vagrant"
-               value: "vagrant"
+             - name: "Segment-Routing"
+               value: "segment-routing"
              - name: "IOS-XR"
                value: "iosxr"
              - name: "Cisco"
                value: "cisco"
-             - name: "Linux"
-               value: "linux"
+             - name: "MPLS"
+               value: "mpls"
       - name: "published"
         field:
             label: "Published"
             element: "checkbox"
-            value: false
+            value: true
       - name: "date"
         field:
             element: "text"
             label: "Date"
             value: "CURRENT_DATETIME"
-    _helpdocs:
+    _conferences:
       - name: "title"
         field:
             element: "text"
             label: "Title"
             value: ""
-      - name: "permalink"
-        field:
-            element: "text"
-            label: "Relative URL"
-            help: "provide a url relative to site url, for eg. /helpdocs/docname"
       - name: "author"
         field:
             element: "text"
@@ -378,7 +368,7 @@ prose:
       - name: "excerpt"
         field:
             element: "text"
-            help: "Brief description of the helpdoc"
+            help: "Brief description of the tutorial"
             label: "Excerpt"
       - name: "tags"
         field:
@@ -387,24 +377,145 @@ prose:
             placeholder: "Choose Tags"
             alterable: true
             options:
-             - name: "Vagrant"
-               value: "vagrant"
+             - name: "Segment-Routing"
+               value: "segment-routing"
              - name: "IOS-XR"
                value: "iosxr"
              - name: "Cisco"
                value: "cisco"
-             - name: "Linux"
-               value: "linux"
+             - name: "MPLS"
+               value: "mpls"
       - name: "published"
         field:
             label: "Published"
             element: "checkbox"
-            value: false
+            value: true
       - name: "date"
         field:
             element: "text"
             label: "Date"
             value: "CURRENT_DATETIME"
+    _ietf:
+      - name: "title"
+        field:
+            element: "text"
+            label: "Title"
+            value: ""
+      - name: "author"
+        field:
+            element: "text"
+            label: "Author"
+      - name: "excerpt"
+        field:
+            element: "text"
+            help: "Brief description of the tutorial"
+            label: "Excerpt"
+      - name: "tags"
+        field:
+            element: "multiselect"
+            label: "Add Tags"
+            placeholder: "Choose Tags"
+            alterable: true
+            options:
+             - name: "Segment-Routing"
+               value: "segment-routing"
+             - name: "IOS-XR"
+               value: "iosxr"
+             - name: "Cisco"
+               value: "cisco"
+             - name: "MPLS"
+               value: "mpls"
+      - name: "published"
+        field:
+            label: "Published"
+            element: "checkbox"
+            value: true
+      - name: "date"
+        field:
+            element: "text"
+            label: "Date"
+            value: "CURRENT_DATETIME"
+    _open-software:
+      - name: "title"
+        field:
+            element: "text"
+            label: "Title"
+            value: ""
+      - name: "author"
+        field:
+            element: "text"
+            label: "Author"
+      - name: "excerpt"
+        field:
+            element: "text"
+            help: "Brief description of the tutorial"
+            label: "Excerpt"
+      - name: "tags"
+        field:
+            element: "multiselect"
+            label: "Add Tags"
+            placeholder: "Choose Tags"
+            alterable: true
+            options:
+             - name: "Segment-Routing"
+               value: "segment-routing"
+             - name: "IOS-XR"
+               value: "iosxr"
+             - name: "Cisco"
+               value: "cisco"
+             - name: "MPLS"
+               value: "mpls"
+      - name: "published"
+        field:
+            label: "Published"
+            element: "checkbox"
+            value: true
+      - name: "date"
+        field:
+            element: "text"
+            label: "Date"
+            value: "CURRENT_DATETIME"
+    _scientific-papers:
+      - name: "title"
+        field:
+            element: "text"
+            label: "Title"
+            value: ""
+      - name: "author"
+        field:
+            element: "text"
+            label: "Author"
+      - name: "excerpt"
+        field:
+            element: "text"
+            help: "Brief description of the tutorial"
+            label: "Excerpt"
+      - name: "tags"
+        field:
+            element: "multiselect"
+            label: "Add Tags"
+            placeholder: "Choose Tags"
+            alterable: true
+            options:
+             - name: "Segment-Routing"
+               value: "segment-routing"
+             - name: "IOS-XR"
+               value: "iosxr"
+             - name: "Cisco"
+               value: "cisco"
+             - name: "MPLS"
+               value: "mpls"
+      - name: "published"
+        field:
+            label: "Published"
+            element: "checkbox"
+            value: true
+      - name: "date"
+        field:
+            element: "text"
+            label: "Date"
+            value: "CURRENT_DATETIME"
+
 
 
 sass:

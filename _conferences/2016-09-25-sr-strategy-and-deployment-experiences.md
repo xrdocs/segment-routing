@@ -23,9 +23,8 @@ Check out the Techfield Day Rountable that dives into Segment Routing Strategy a
 
 ### Segment Routing Field Day Roundtable - Complete Playlist  
 
-<div style="display:inline; height:20px width: 70px">
-<iframe width="280" height="158" src="https://www.youtube.com/embed/videoseries?list=PLinuRwpnsHacUlfUCrVstvpzURnK_M3iI" frameborder="0"> </iframe>
-</div>
+
+Check out the complete playlist here: [Segment Routing Techfield Day Playlist](https://www.youtube.com/playlist?list=PLinuRwpnsHacUlfUCrVstvpzURnK_M3iI)
 
 
 ### Greenfield Deployment of Segment Routing with Mark Pagan
@@ -44,6 +43,8 @@ Paul Mattes, Software Engineer with Microsoft, describes how segment routing can
 
 ### Comcast and The Smarter Network with John Leddy
 
-John Leddy, Network Engineering with Comcast, discusses how Comcast is leveraging segment routing to help transition their service provider network to something smarter with increased IPv6 capabilities, IPv4 transition mechanisms, and enhanced service delivery  
+John Leddy, Network Engineering with Comcast, discusses how Comcast is leveraging segment routing to help transition their service provider network to something smarter with increased IPv6 capabilities, IPv4 transition mechanisms, and enhanced service delivery.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GQkVpfgjiJ0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GQkVpfgjiJ0" frameborder="0" allowfullscreen></iframe>  
+
+

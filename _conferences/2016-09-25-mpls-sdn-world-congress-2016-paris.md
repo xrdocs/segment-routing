@@ -7,10 +7,10 @@ title: 'MPLS/SDN World Congress 2016, Paris'
 {% include toc icon="table" title="MPLS/SDN World Congress 2016" %}  
   
   
-## Segment Routing: Deployment Experience and Technology Update  
+# Segment Routing: Deployment Experience and Technology Update  
   
   
-Recording of session at congress by Clarence Filsfils, Cisco:  
+## Recording of session at congress by Clarence Filsfils, Cisco:  
 
 ### Video  
   
@@ -59,7 +59,8 @@ Recorded post conference.
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RzsyUfS4lb0" frameborder="0" allowfullscreen></iframe>  
   
-  
+
+
  
  
   

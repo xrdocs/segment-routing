@@ -8,13 +8,11 @@ Akshat Sharma:
   avatar      : "akshat.jpg"
   twitter     : "irakshat"
   
-Cisco Web Team:
-  name        : "Cisco Web Team"
-  uri         : "https://developer.cisco.com/site/ios-xr"
-  github      : "ios-xr"
-  bio         : "A Team of coders and network engineers determined to build the best network operating system for Web-Scale Service Providers."
-  avatar      : "cisco-web-team.jpg"
-  twitter     : "xrdocs"
+Segment Routing Team:
+  name        : "Segment Routing Team"
+  github      : "xrdocs/segment-routing"
+  avatar      : "sr-web-team.jpg"
+  twitter     : "segmentrouting"
 
 Jose Palafox:
   name        : "Jose Palafox"

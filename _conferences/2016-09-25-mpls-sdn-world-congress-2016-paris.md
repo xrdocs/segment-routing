@@ -4,7 +4,7 @@ date: '2016-09-25 04:29 -0700'
 title: 'MPLS/SDN World Congress 2016, Paris'
 ---
 
-{% include toc icon="table" title="MPLS/SDN World Congress 2016" %}  
+{% include toc icon="table" title="MPLS/SDN World Congress 2016" %}{: .align-center}
   
   
 # Segment Routing: Deployment Experience and Technology Update  

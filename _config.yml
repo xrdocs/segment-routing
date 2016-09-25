@@ -149,20 +149,29 @@ kramdown:
 
 # Collections
 collections:
-  getting-started:
+  tutorials:
     output: true
     permalink: /:collection/:path/
-  helpdocs:
+  conferences:
     output: true
     permalink: /:collection/:path/
-  
+  ietf:
+    output: true
+    permalink: /:collection/:path/
+  open-software:
+    output: true
+    permalink: /:collection/:path/
+  scientific-papers:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
-# _getting-started
+# _tutorials
   - scope:
       path: ""
-      type: getting-started 
+      type: tutorials 
     values:
       layout: single
       author_profile: true
@@ -171,10 +180,10 @@ defaults:
       share: true
       related: true
       position: "top"
-# _helpdocs
+# _conferences
   - scope:
       path: ""
-      type: helpdocs 
+      type: conferences 
     values:
       layout: single
       author_profile: true
@@ -183,14 +192,39 @@ defaults:
       share: true
       related: true
       position: "top"
-      sitemap: false
-# _pages
+# _ietf
   - scope:
       path: ""
-      type: pages
+      type: ietf
     values:
       layout: single
       author_profile: true
+      comments: true
+      share: true
+      related: true
+      position: "top"
+# _open-software
+  - scope:
+      path: ""
+      type: open-software
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+      share: true
+      related: true
+      position: "top"
+# _scientific-papers
+  - scope:
+      path: ""
+      type: scientific-papers 
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+      share: true
+      related: true
+      position: "top"
 
 # Outputting
 permalink: /:categories/:title/

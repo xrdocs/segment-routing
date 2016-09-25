@@ -1,7 +1,7 @@
 ---
 published: true
 date: '2016-09-25 03:06 -0700'
-title: SR strategy and deployment experiences
+title: 'Techfield Day: SR strategy and deployment experiences'
 author: Segment Routing Team
 excerpt: ' SR Tech Field Day: SR strategy and deployment experiences from Walmart, Microsoft and Comcast'
 tags:
@@ -60,5 +60,17 @@ John Leddy, Network Engineering with Comcast, discusses how Comcast is leveragin
   
 Sumeet Arora, Senior Vice President Engineering, discusses how Cisco is leveraging software to help extend their networking offerings to embrace new technologies.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s2qruWUSXDk" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s2qruWUSXDk" frameborder="0" allowfullscreen></iframe>  
+  
+    
+### Cisco Segment Routing Overview with Clarence Filsfils
+  
+Clarence Filsfils, Cisco Fellow, gives an overview of segment routing and how it can be used to extend and enhance traditional WAN protocols such as MPLS.  
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZpUnsYjMBEA" frameborder="0" allowfullscreen></iframe>  
+  
+  
+### Cisco On Demand Next Hop Demo with Jose Liste  
+
+
 

@@ -14,7 +14,7 @@ tags:
        
 ## Segment Routing Field Day Roundtable
 
-Check out the Techfield Day Rountable that dives into Segment Routing Strategy and Deployment Experiences with some key Customers: Walmart, Microsoft and Comcast.
+Check out the Techfield Day Rountable that dives into Segment Routing Strategy along with Deployment Experiences with some key Customers: Walmart, Microsoft and Comcast.
 
 ><http://techfieldday.com/event/srr1/>
 

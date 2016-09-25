@@ -37,24 +37,24 @@ Recorded post conference.
 
   
     
-<iframe width="400" height="220" class="fitvidsignore" src="https://www.youtube.com/embed/0xtysG86Fik" frameborder="0" allowfullscreen></iframe>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0xtysG86Fik" frameborder="0" allowfullscreen></iframe>  
   
   
 ### Segment Routing Agile Carrier Ethernet (ACE) Demo  
 
 
-<iframe width="400" height="220" class="fitvidsignore" src="https://www.youtube.com/embed/biYqyAn9rl0" frameborder="0" allowfullscreen></iframe>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/biYqyAn9rl0" frameborder="0" allowfullscreen></iframe>  
   
 
 ### Segment Routing TI-LFA FRR Node Protection Demo  
   
   
-<iframe width="400" height="220" class="fitvidsignore" src="https://www.youtube.com/embed/dttw2nc5FrA" frameborder="0" allowfullscreen></iframe>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dttw2nc5FrA" frameborder="0" allowfullscreen></iframe>  
   
     
 ### Segment Routing Microloop Avoidance Demo  
   
-<iframe width="400" height="220" class="fitvidsignore" src="https://www.youtube.com/embed/7nfnp-dnUHk" frameborder="0" allowfullscreen></iframe>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7nfnp-dnUHk" frameborder="0" allowfullscreen></iframe>  
   
     
 ### Segment Routing and EPE for Application Optimization   

@@ -31,6 +31,7 @@ Check out the complete playlist here:
 ### Greenfield Deployment of Segment Routing with Mark Pagan
 
 Mark Pagan, Global WAN Engineering with Walmart, discusses how Walmart evaluated and deployed segment routing in their environment and how they envision the technology helping meet their complex networking needs in the future. 
+{: .notice--info}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hIb4xESVqyM" frameborder="0" allowfullscreen></iframe>
 
@@ -38,6 +39,7 @@ Mark Pagan, Global WAN Engineering with Walmart, discusses how Walmart evaluated
 ### Traffic Engineering in a Large Network with Segment Routing
  
 Paul Mattes, Software Engineer with Microsoft, describes how segment routing can be used in a cloud environment like Microsoft Azure to provide traffic engineering above and beyond existing MPLS strategies. Recorded at Segment Routing Field Day on June 21, 2016
+{: .notice--info}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen></iframe>
 

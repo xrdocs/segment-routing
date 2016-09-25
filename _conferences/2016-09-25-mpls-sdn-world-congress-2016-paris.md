@@ -14,9 +14,9 @@ title: 'MPLS/SDN World Congress 2016, Paris'
 
 ### Video  
 
-<div style="height: 280px; width: 158px;">
-<iframe width="280" height="158" src="https://www.youtube.com/embed/VORGW0bBHLs" frameborder="0" allowfullscreen></iframe>  
-</div>  
+
+<iframe width="280" height="158" class="fitvidsignore" src="https://www.youtube.com/embed/VORGW0bBHLs" frameborder="0" allowfullscreen></iframe>  
+
   
 
 ### Slides

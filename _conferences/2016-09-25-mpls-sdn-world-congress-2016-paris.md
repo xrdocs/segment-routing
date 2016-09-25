@@ -8,7 +8,8 @@ title: 'MPLS/SDN World Congress 2016, Paris'
   
   
 ## Segment Routing: Deployment Experience and Technology Update  
-
+  
+  
 Recording of session at congress by Clarence Filsfils, Cisco:  
 
 ### Video  

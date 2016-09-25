@@ -9,12 +9,10 @@ tags:
 ---
 
 
-
-
-<div id="example1"></div>
+<div id="pdf1"></div>
 <script>
         PDFObject.embed("https://www.ieice.org/~ia/archives/20130906-beertalk-shtsuchi.pdf",
-                        "#example1",
+                        "#pdf1",
                         {height: "500px"});
 </script>
 

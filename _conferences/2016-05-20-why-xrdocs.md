@@ -11,7 +11,7 @@ tags:
 
 {% include base_path %}
 
-<div id="example1" style="height: 100%; overflow: hidden;"></div>
+<div id="example1" style="min-height: 100px;overflow: hidden;"></div>
 <script src="{{ base_path }}/assets/js/pdfobject.js"></script>
 <script>PDFObject.embed("https://www.ieice.org/~ia/archives/20130906-beertalk-shtsuchi.pdf", "#example1");</script>
 

@@ -22,7 +22,7 @@ Recording of session at congress by Clarence Filsfils, Cisco:
 ### Slides
   
   
-<iframe src="https://app.box.com/embed/preview/vel8mmbct6k5rzo4ulxymljdsvudce0x?theme=dark" width="800" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>    
+<iframe src="https://app.box.com/embed/preview/vel8mmbct6k5rzo4ulxymljdsvudce0x?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>    
   
 
 ### Longer video:  
@@ -68,7 +68,11 @@ Recorded post conference.
 ## Avoiding Micro-loops in MPLS Networks using Segment-routing  
 
    
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/cMIG9HCKFOus70" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/StephaneLitkowski/mpls-sdn-2016-microloop-avoidance-with-segment-routing-63809004" title="MPLS SDN 2016 - Microloop avoidance with segment routing" target="_blank">MPLS SDN 2016 - Microloop avoidance with segment routing</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/StephaneLitkowski">Stephane Litkowski</a></strong> </div>   
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/cMIG9HCKFOus70" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/StephaneLitkowski/mpls-sdn-2016-microloop-avoidance-with-segment-routing-63809004" title="MPLS SDN 2016 - Microloop avoidance with segment routing" target="_blank">MPLS SDN 2016 - Microloop avoidance with segment routing</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/StephaneLitkowski">Stephane Litkowski</a></strong> </div>  
+
+
+  
+
   
  
  

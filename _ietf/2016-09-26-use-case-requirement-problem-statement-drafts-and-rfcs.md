@@ -18,9 +18,7 @@ tags:
 
 | Draft/RFC            | Datatracker Link   | Direct link                                       |
 | --------             | ---------          | -----------                                       |
-| RFC 7855: Source Packet Routing in Networking (SPRING) Problem Statement and Requirements| 
-                        [RFC][draft-rfc-1-link]|
-                                             [pdf][draft-rfc-1-pdf]{: .btn .fa .fa-file-pdf-o}  |             
+| RFC 7855: Source Packet Routing in Networking (SPRING) Problem Statement and Requirements|[RFC][draft-rfc-1-link]|[pdf][draft-rfc-1-pdf]{: .btn .fa .fa-file-pdf-o} [text][draft-rfc-1-text]{: .btn .fa .fa-file-text-o} [html][draft-rfc-1-text]{: .btn .fa .fa-file-code-o}                  |             
 | _pages/home.md       | `permalink: /`                     |                        |
 | _pages/contact.md    | `permalink: /contact/`             |                        |
 

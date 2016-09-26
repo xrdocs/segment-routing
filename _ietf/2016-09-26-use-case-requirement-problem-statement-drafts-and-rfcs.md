@@ -2,7 +2,7 @@
 author: Segment Routing Team
 published: true
 date: '2016-09-26 03:32 -0700'
-title: Use Case / Requirement / Problem Statement drafts and RFCs
+title: Use Case / Requirement / Problem Statement drafts/RFCs
 tags:
   - segment-routing
   - rfc
@@ -12,7 +12,7 @@ tags:
 [draft-rfc-1-link]: https://datatracker.ietf.org/doc/rfc7855/
 [draft-rfc-1-pdf]: https://www.rfc-editor.org/rfc/pdfrfc/rfc7855.txt.pdf
 [draft-rfc-1-html]: https://tools.ietf.org/html/rfc7855
-[draft-rfc-1-text]: https://www.rfc-editor.org/rfc/rfc7855.txt
+[draft-rfc-1-text]: https://www.rfc-editor.org/rfc/rfc7855.txtß
 
 [draft-rfc-2-link]: https://datatracker.ietf.org/doc/draft-ietf-spring-resiliency-use-cases/
 [draft-rfc-2-pdf]: https://tools.ietf.org/pdf/draft-ietf-spring-resiliency-use-cases-06.pdf

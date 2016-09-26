@@ -9,6 +9,7 @@ excerpt: >-
 tags:
   - segment-routing
   - mpls-sdn-world-congress
+teaser: 'https://img.youtube.com/vi/8qGVmrArU7o/0.jpg'
 ---
 
 ##  Tactical Centralized SR-based Traffic Enginering

@@ -372,6 +372,12 @@ prose:
             element: "text"
             help: "Brief description of the tutorial"
             label: "Excerpt"
+      - name: "teaser-image"
+        field:
+            element: "text"
+            help: "Provide a url for a teaser image for this conference/event"
+            label: "teaser"
+            value: ""            
       - name: "tags"
         field:
             element: "multiselect"

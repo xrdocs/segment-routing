@@ -15,7 +15,7 @@ tags:
 {: .notice--info}  
 
 {% capture "pdf1-link" %}
-http://www.ieice.org/~ia/archives/20130906-beertalk-shtsuchi.pdf
+https://www.ieice.org/~ia/archives/20130906-beertalk-shtsuchi.pdf
 {% endcapture %}
 
 <div id="pdf1"></div>

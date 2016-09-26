@@ -7,7 +7,9 @@ tags:
   - segment-routing
   - cisco
   - mpls sdn world congress
-excerpt: 'MPLS/SDN world congress, 2016 held in Paris.'
+excerpt: >-
+  MPLS/SDN world congress, 2016 held in Paris:  Segment Routing: Deployment
+  Experience and Technology Update
 ---
 
 {% include toc icon="table" title="MPLS/SDN World Congress 2016" %}

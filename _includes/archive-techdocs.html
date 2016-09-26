@@ -1,7 +1,7 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% if post.teaser %}
+  {% capture teaser %}{{ post.teaser }}{% endcapture %}
 {% else %}
   {% capture teaser %}{{ site.teaser }}{% endcapture %}
 {% endif %}

@@ -2,7 +2,7 @@
 author: Segment Routing Team
 published: true
 date: '2016-09-26 03:32 -0700'
-title: Use Case / Requirement / Problem Statement drafts/RFCs
+title: Use Case/Requirement/Problem Statement drafts/RFCs
 tags:
   - segment-routing
   - rfc

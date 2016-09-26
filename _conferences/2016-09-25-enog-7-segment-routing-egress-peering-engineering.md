@@ -13,3 +13,15 @@ tags:
 {: .notice--info}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lujkWfdB4NM" frameborder="0" allowfullscreen></iframe>
+
+
+{% capture "pdf1-link" %}
+https://www.enog.org/presentations/enog-7/263-EPE-ENOG7.pdf
+{% endcapture %}
+
+<div id="pdf1"></div>
+<script>
+        PDFObject.embed("{{ pdf1-link }}",
+                        "#pdf1",
+                        {height: "500px"});
+</script>

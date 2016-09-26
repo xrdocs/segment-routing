@@ -7,6 +7,8 @@ excerpt: 'Nanog 61: Segment Routing Centralized Egress Peer Engineering'
 tags:
   - segment-routing
   - cisco
+teaser: >-
+  https://networks.nokia.com/sites/live/files/styles/alu_events_node/public/meeting61.jpg?itok=QFIu-IXE
 ---
 
 {% capture "pdf1-link" %}

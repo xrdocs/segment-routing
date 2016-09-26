@@ -9,7 +9,7 @@ tags:
   - cisco
   - lightreading
   - BTE
-teaser: 'http://img.deusm.com/2013/12/707058/BTE-logo.jpg'
+teaser: 'https://www.webnms.com/images/event1_1.png'
 ---
 &nbsp;
   

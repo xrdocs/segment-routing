@@ -8,20 +8,16 @@ tags:
   - cisco
 ---
 {% include toc icon="table" title="MPLS/SDN World Congress 2016" %}
-&nbsp;
-&nbsp;
+
 
 ## Segment Routing Use Cases and Deployment Status    
 
-&nbsp;
-&nbsp;  
-  
+
 **Clarence filsfils**
 {: .notice--info}  
-&nbsp;
-&nbsp;  
+ 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0IVk3WnrROs" frameborder="0" allowfullscreen></iframe>    
+<iframe width="300" height="315" class="fitvidsignore" src="https://www.youtube.com/embed/0IVk3WnrROs" frameborder="0" allowfullscreen></iframe>    
 
   
 ## Microsoft MPLS MPLS SDN World Congress 2015     

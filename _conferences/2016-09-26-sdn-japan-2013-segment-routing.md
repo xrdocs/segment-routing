@@ -13,4 +13,4 @@ tags:
 **Miya Kohno, Cisco.**  
 {: .notice--info}
 
-><http://www.lightreading.com/spit-%28service-provider-it%29/application-engineered-routing-at-bte-2015/v/d-id/716898>
+><http://www.sdnjapan.org/images/2013spdf/0918_08cisco2.pdf>

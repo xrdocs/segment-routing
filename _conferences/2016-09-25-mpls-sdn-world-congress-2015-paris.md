@@ -6,6 +6,7 @@ title: 'MPLS/SDN World Congress 2015, Paris'
 tags:
   - segment-routing
   - cisco
+  - mpls sdn world congress
 excerpt: >-
   MPLS/SDN World Congress 2015, Paris. Segment Routing Use Cases and Deployment
   Status

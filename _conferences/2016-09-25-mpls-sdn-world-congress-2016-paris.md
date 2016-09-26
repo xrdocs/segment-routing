@@ -17,7 +17,7 @@ author: Segment Routing Team
 ### Video  
 
 
-<iframe width="40s0" height="190" class="fitvidsignore" src="https://www.youtube.com/embed/VORGW0bBHLs" frameborder="0" allowfullscreen></iframe>  
+<iframe width="320" height="190" class="fitvidsignore" src="https://www.youtube.com/embed/VORGW0bBHLs" frameborder="0" allowfullscreen></iframe>  
 
   
 

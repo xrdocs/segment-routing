@@ -2,12 +2,16 @@
 author: Segment Routing Team
 published: true
 date: '2016-09-25 20:54 -0700'
-title: 'MPLS/SDN 2014: Tactical Centralized SR-based Traffic Enginering'
-excerpt: 'MPLS/SDN world Congress 2014, Paris.'
+title: MPLS/SDN World Congress 2014
+excerpt: >-
+  MPLS/SDN world Congress 2014, Paris: Segment Routing based Traffic Engineering
+  Introduction.
 tags:
   - segment-routing
   - mpls-sdn-world-congress
 ---
+
+##  Tactical Centralized SR-based Traffic Enginering
 
 **Presented by Clarence Filsfils, Cisco at the MPLS/SDN world congress, 2014, held in Paris: <http://www.uppersideconferences.com/mpls2014/mpls2014introduction.html>**
 {: .notice--info}  

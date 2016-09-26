@@ -7,6 +7,7 @@ excerpt: Moving towards an SDN era for the Network with Segment Routing
 tags:
   - segment-routing
   - cisco
+teaser: ieice_2013_sdn.png
 ---
 
 ## Moving towards a Software Defined Network with Segment Routing

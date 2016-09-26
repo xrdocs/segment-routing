@@ -5,7 +5,7 @@ title: 'MPLS/SDN World Congress 2016, Paris'
 author: Segment Routing Team
 ---
 
-{% include toc icon="table" title="MPLS/SDN World Congress 2016" %}{: .align-center}
+{% include toc icon="table" title="MPLS/SDN World Congress 2016" %}
   
   
 ## Segment Routing: Deployment Experience and Technology Update  
@@ -17,7 +17,7 @@ author: Segment Routing Team
 ### Video  
 
 
-<iframe width="320" height="190" class="fitvidsignore" src="https://www.youtube.com/embed/VORGW0bBHLs" frameborder="0" allowfullscreen></iframe>  
+<iframe width="40s0" height="190" class="fitvidsignore" src="https://www.youtube.com/embed/VORGW0bBHLs" frameborder="0" allowfullscreen></iframe>  
 
   
 

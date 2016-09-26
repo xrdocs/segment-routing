@@ -17,7 +17,7 @@ tags:
 
 
 {% capture "pdf1-link" %}
-https://drive.google.com/file/d/0B8Ws5Hhj8UoOVnlRYWNKYk02dFE/view?usp=sharing
+https://docs.google.com/file/d/0B8Ws5Hhj8UoOVnlRYWNKYk02dFE/edit
 {% endcapture %}
 
 <div id="pdf1"></div>

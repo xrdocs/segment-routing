@@ -11,8 +11,12 @@ tags:
 
 ## Segment Routing Use Cases and Deployment Status    
 
+  
+  
 **Clarence filsfils**
-{: .notice--info}
+{: .notice--info}  
+   
+   
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0IVk3WnrROs" frameborder="0" allowfullscreen></iframe>    
 

@@ -6,6 +6,7 @@ title: 'PLNOG 13: Programmable and Application aware IP/MPLS networking'
 excerpt: 'Polish Network Operators Group 13th Edition, October 2014, Poland.'
 tags:
   - segment-routing
+teaser: 'https://img.youtube.com/vi/2jjgrq805VU/0.jpg'
 ---
 
 {% capture "info-text" %}

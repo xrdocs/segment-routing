@@ -3,6 +3,10 @@ author: Segment Routing Team
 published: true
 date: '2016-09-26 00:55 -0700'
 title: Janog 32 "Segment Routing - Ultimate Hybrid SDN"
+excerpt: Janog (Japan Network Operators' Group) 32 - 4 July 2013
+tags:
+  - segment-routing
+  - cisco
 ---
 
 ## Segment Routing - Ultimate Hybrid SDN"

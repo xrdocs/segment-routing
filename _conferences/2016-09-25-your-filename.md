@@ -8,7 +8,7 @@ tags:
   - segment-routing
 ---
 
-{ % capture info-text %}
+{% capture info-text %}
 **Jeff Tantsura's (Head of Technology Strategy Routing, Ericsson) session covers the topic of controlling and managing IP / MPLS architecture using SDN.** 
 
 In this session, the concept of support for Segment Routing based on Open Daylight architecture is shown. Jeff presents examples of Segment Routing applications such as: optimization of the network in near real-time, network applications optimized angle and multi-tenant environment, segment routing and packet optical networks. Jeff Tantsura (speaker) is the co-author of emerging standardization documents relating to Segment Routing.

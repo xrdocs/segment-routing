@@ -6,7 +6,7 @@ title: 'UKNOF30: Segment Routing intro and EPE use-case'
 tags:
   - segment-routing
   - cisco
-excerpt: UK Network Operators' Forum
+excerpt: 'UK Network Operators'' Forum, 30th Edition, London.'
 ---
 
 **For more information on the UK network operator's forum, head over to <https://www.uknof.org.uk/>.  

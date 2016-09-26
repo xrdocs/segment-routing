@@ -3,6 +3,13 @@ author: Segment Routing Team
 published: true
 date: '2016-09-25 15:47 -0700'
 title: Lightreading report Big telecom event on Application Engineered Routing
+excerpt: 'Lightreading''s Big Telecom Event, Austin, MAY 24 & 25, 2016 '
+tags:
+  - segment-routing
+  - cisco
+  - lightreading
+  - BTE
+teaser: 'http://img.deusm.com/2013/12/707058/BTE-logo.jpg'
 ---
 &nbsp;
   

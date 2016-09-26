@@ -7,6 +7,7 @@ tags:
   - segment-routing
   - cisco
 ---
+{% include toc icon="table" title="MPLS/SDN World Congress 2016" %}{: .align-center}  
 
 ## Segment Routing Use Cases and Deployment Status    
 
@@ -38,9 +39,4 @@ tags:
 **Dave Ward, Cisco**
 {: .notice--info}     
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aNBxxPZJUjg" frameborder="0" allowfullscreen></iframe>  
-
-
-  
-  
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aNBxxPZJUjg" frameborder="0" allowfullscreen></iframe>

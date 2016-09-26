@@ -16,13 +16,4 @@ tags:
 {: .notice--info}  
 
 
-{% capture "pdf1-link" %}
-https://docs.google.com/file/d/0B8Ws5Hhj8UoOVnlRYWNKYk02dFE/edit
-{% endcapture %}
-
-<div id="pdf1"></div>
-<script>
-        PDFObject.embed("{{ pdf1-link }}",
-                        "#pdf1",
-                        {height: "500px"});
-</script>
+<iframe src="https://docs.google.com/viewer?srcid=0B8Ws5Hhj8UoOVnlRYWNKYk02dFE&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="580px" height="480px"></iframe>

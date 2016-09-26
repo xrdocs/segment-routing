@@ -7,6 +7,8 @@ tags:
   - segment-routing
   - cisco
 excerpt: 'MPLS World Congress, Ethernet World Congress and IPv6 World Congress 2013'
+teaser: >-
+  http://image.slidesharecdn.com/segment-routing-ipv6march212013-130408135053-phpapp01/95/segment-routing-ipv6-world-congress-2013-1-638.jpg
 ---
 
 

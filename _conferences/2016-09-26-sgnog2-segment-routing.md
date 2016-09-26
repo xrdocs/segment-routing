@@ -26,4 +26,3 @@ https://drive.google.com/file/d/0B8Ws5Hhj8UoOVnlRYWNKYk02dFE/view?usp=sharing
                         "#pdf1",
                         {height: "500px"});
 </script>
-

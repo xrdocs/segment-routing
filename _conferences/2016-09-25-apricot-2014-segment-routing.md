@@ -3,8 +3,7 @@ author: Segment Routing Team
 published: true
 date: '2016-09-25 22:21 -0700'
 title: 'Apricot 2014:  Segment Routing'
-teaser: >-
-  https://conference.apnic.net/data/37/apnic2014-segment-routing_santanu_v5_1393404956.pdf
+teaser: 'https://www.apricot.net/images/apricot-new.jpg'
 excerpt: 'Apricot 2014, Petaling Jaya, Malaysia 18-28 February 2014'
 tags:
   - segment-routing

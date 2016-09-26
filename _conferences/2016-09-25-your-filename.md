@@ -2,7 +2,10 @@
 author: Segment Routing Team
 published: true
 date: '2016-09-25 19:40 -0700'
-title: ''
+title: 'PLNOG 13: Programmable and Application aware IP/MPLS networking'
+excerpt: 'Polish Network Operators Group 13th Edition, October 2014, Poland.'
+tags:
+  - segment-routing
 ---
 
 **Jeff Tantsura's (Head of Technology Strategy Routing, Ericsson) session covers the topic of controlling and managing IP / MPLS architecture using SDN. The concept of Segment Routing (SR) is currently a subject of IETF standardization. The Segment Routing protocol extends the existing set of IP / MPLS-oriented mechanisms to control network using the SDN controller. In this session, the concept of support for Segment Routing based on Open Daylight architecture is shown. Jeff presents examples of Segment Routing applications such as: optimization of the network in near real-time, network applications optimized angle and multi-tenant environment, segment routing and packet optical networks. Jeff Tantsura (speaker) is the co-author of emerging standardization documents relating to Segment Routing. **

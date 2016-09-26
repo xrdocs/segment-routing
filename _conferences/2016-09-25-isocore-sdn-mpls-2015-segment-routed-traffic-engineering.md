@@ -7,8 +7,8 @@ excerpt: 'Isocore SDN/MPLS 2015: Segment Routed Traffic Engineering '
 tags:
   - segment-routing
   - cisco
+teaser: 'http://www.isocore.com/2015/images/logo/MPLS_SDN_logo.bmp'
 ---
 
 
-<iframe src="https://app.box.com/embed/preview/7vgf94iert9v9jni6dylhj0zr2440twe?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>    
-  
+<iframe src="https://app.box.com/embed/preview/7vgf94iert9v9jni6dylhj0zr2440twe?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>

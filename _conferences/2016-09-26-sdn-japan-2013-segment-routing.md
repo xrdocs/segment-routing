@@ -13,14 +13,5 @@ tags:
 **Miya Kohno, Cisco.**  
 {: .notice--info}
 
-{% capture "pdf1-link" %}
-http://www.sdnjapan.org/images/2013spdf/0918_08cisco2.pdf
-{% endcapture %}
-
-<div id="pdf1"></div>
-<script>
-        PDFObject.embed("{{ pdf1-link }}",
-                        "#pdf1",
-                        {height: "500px"});
-</script>
-
+>
+<http://www.sdnjapan.org/images/2013spdf/0918_08cisco2.pdf>

@@ -17,7 +17,7 @@ tags:
 {: .notice--info}  
  
 
-<iframe width="100%" height="315" class="fitvidsignore" src="https://www.youtube.com/embed/0IVk3WnrROs" frameborder="0" allowfullscreen></iframe>    
+<iframe width="400" height="315" class="fitvidsignore" src="https://www.youtube.com/embed/0IVk3WnrROs" frameborder="0" allowfullscreen></iframe>    
 
   
 ## Microsoft MPLS MPLS SDN World Congress 2015     

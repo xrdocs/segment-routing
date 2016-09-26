@@ -19,6 +19,8 @@
           <img src=
             {% if teaser contains "http" %}
               "{{ teaser }}"
+            {% elseif teaser contains "https" %}
+              "{{ teaser }}"   
             {% else %}
               "{{ teaser | prepend: "/images/" | prepend: base_path }}"
             {% endif %}

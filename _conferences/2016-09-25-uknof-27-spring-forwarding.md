@@ -11,7 +11,7 @@ excerpt: SPRING FORWARD(ING). Evolving IP/MPLS networks with Segment Routing
 
 ## Segment Routing Overview  
 
-**ROB SHAKIR, END-TO-END NETWORK ARCHITECT. BT TSO**
+**ROB SHAKIR, End-to-End Network Architect, BT TSO**
 {: .notice--info}
 
 {% capture "pdf1-link" %}

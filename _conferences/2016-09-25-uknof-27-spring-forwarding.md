@@ -7,6 +7,7 @@ tags:
   - segment-routing
   - cisco
 excerpt: SPRING FORWARD(ING). Evolving IP/MPLS networks with Segment Routing
+teaser: uknof27-teaser.png
 ---
 
 ## Segment Routing Overview  
@@ -24,4 +25,3 @@ https://indico.uknof.org.uk/event/29/material/slides/0?contribId=8
                         "#pdf1",
                         {height: "500px"});
 </script>
-

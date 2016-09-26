@@ -9,7 +9,7 @@ excerpt: >-
 tags:
   - segment-routing
   - cisco
-teaser: teaser-srv6.jpg
+teaser: 'https://img.youtube.com/vi/e6wEhJOJ4Vw/1.jpg'
 ---
 ## “Spray” use case demonstration   
 

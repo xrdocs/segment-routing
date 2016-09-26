@@ -16,4 +16,4 @@ tags:
 {: .notice--info}  
 
 
-<iframe src="https://docs.google.com/file/d/0B8Ws5Hhj8UoOVnlRYWNKYk02dFE/preview" width="640" height="480"></iframe>
+<iframe src="https://docs.google.com/file/d/0B8Ws5Hhj8UoOVnlRYWNKYk02dFE/preview" width="720" height="400"></iframe>

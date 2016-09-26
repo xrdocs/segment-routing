@@ -3,6 +3,10 @@ author: Segment Routing Team
 published: true
 date: '2016-09-26 01:26 -0700'
 title: InterOp Tokyo "Leading-edge Trends in Routing"
+excerpt: 'InterOp Tokyo: 12-14 JUNE,2013 MAKUHARIMESSE'
+tags:
+  - segment-routing
+  - cisco
 ---
 
 ## Leading-edge Trends in Routing

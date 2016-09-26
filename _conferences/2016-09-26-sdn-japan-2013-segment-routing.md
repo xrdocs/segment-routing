@@ -13,4 +13,4 @@ tags:
 **Miya Kohno, Cisco.**  
 {: .notice--info}
 
-><http://www.sdnjapan.org/images/2013spdf/0918_08cisco2.pdf>
+> <http://www.sdnjapan.org/images/2013spdf/0918_08cisco2.pdf>

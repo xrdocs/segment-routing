@@ -7,7 +7,9 @@ tags:
   - segment-routing
   - cisco
 ---
-{% include toc icon="table" title="MPLS/SDN World Congress 2016" %}{: .align-center}  
+{% include toc icon="table" title="MPLS/SDN World Congress 2016" %}
+&nbsp;
+&nbsp;
 
 ## Segment Routing Use Cases and Deployment Status    
 
@@ -16,9 +18,7 @@ tags:
 **Clarence filsfils**
 {: .notice--info}  
    
-      
-      
-  
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0IVk3WnrROs" frameborder="0" allowfullscreen></iframe>    
 
   

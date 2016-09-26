@@ -372,11 +372,11 @@ prose:
             element: "text"
             help: "Brief description of the tutorial"
             label: "Excerpt"
-      - name: "teaser-image"
+      - name: "teaser"
         field:
             element: "text"
             help: "Provide a url for a teaser image for this conference/event"
-            label: "teaser"
+            label: "teaser image"
             value: ""            
       - name: "tags"
         field:

@@ -7,6 +7,7 @@ excerpt: 'MPLS Ethernet World Congress, 2013'
 tags:
   - segment-routing
   - cisco
+teaser: 'https://img.youtube.com/vi/iHqISXXqexg/0.jpg'
 ---
 ## Interview with Clarence Filsfils at MPLS WC 2013
 

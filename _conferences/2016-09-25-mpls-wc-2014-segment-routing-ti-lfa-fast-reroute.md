@@ -9,6 +9,8 @@ tags:
 excerpt: >-
   MPLS/SDN world congress 2014, Paris. TILFA FRR with SR (Bruno Decraene and
   Stephane Litkowski, Orange)
+teaser: >-
+  http://image.slidesharecdn.com/mplswc2014-segmentroutingtilfa-151216192029/95/mpls-wc-2014-segment-routing-tilfa-fast-reroute-1-638.jpg
 ---
 
 # TILFA FRR with SR 

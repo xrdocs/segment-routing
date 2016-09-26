@@ -7,6 +7,7 @@ excerpt: ' SR Tech Field Day: SR strategy and deployment experiences from Walmar
 tags:
   - segment-routing
   - cisco
+teaser: 'https://img.youtube.com/vi/OlohcviMvoE/0.jpg'
 ---
    
 {% include toc icon="table" title="SR Strategy and Deployment Experiences" %}  

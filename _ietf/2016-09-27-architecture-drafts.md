@@ -8,6 +8,7 @@ tags:
   - cisco
   - rfc
   - drafts
+  - ietf
 excerpt: >-
   Current working drafts for the Segment Routing architecture and related
   solutions/technologies.
@@ -62,5 +63,4 @@ excerpt: >-
 | Segment Routing Recursive Information   |  [Draft][draft-rfc-4-link]  |  [ pdf][draft-rfc-4-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-4-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-4-html]{: .btn .btn--success .fa .fa-file-code-o}                     | 
 | Segment Routing Conflict Resolution  |   [Draft][draft-rfc-5-link]  |  [ pdf][draft-rfc-5-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-5-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-5-html]{: .btn .btn--success .fa .fa-file-code-o}                             | 
 | Anycast Segments in MPLS based Segment Routing  |       [Draft][draft-rfc-6-link]  |  [ pdf][draft-rfc-6-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-6-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-6-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
-| Topology Independent Fast Reroute using Segment Routing  |[Draft][draft-rfc-7-link]|[ pdf][draft-rfc-7-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-7-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-7-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
-
+| Topology Independent Fast Reroute using Segment Routing  |[Draft][draft-rfc-7-link]|[ pdf][draft-rfc-7-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-7-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-7-html]{: .btn .btn--success .fa .fa-file-code-o}        |

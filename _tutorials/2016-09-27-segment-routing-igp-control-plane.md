@@ -1,5 +1,5 @@
 ---
-author: Segment Routing Team
+author: Jose Liste
 published: true
 date: '2016-09-27 07:55 -0700'
 title: Segment Routing IGP Control plane

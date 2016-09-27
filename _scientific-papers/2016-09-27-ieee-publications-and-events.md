@@ -18,7 +18,9 @@ tags:
 
 ><http://infocom2016.ieee-infocom.org/program/main-technical-program>  
 
-
+    
+    
+    
 
 ## Optimizing Restoration with Segment Routing
 
@@ -27,7 +29,10 @@ tags:
 
 ><http://infocom2016.ieee-infocom.org/program/main-technical-program>  
 
-
+    
+    
+    
+    
 ## Segment Routing Architecture  
 
 ### Abstract

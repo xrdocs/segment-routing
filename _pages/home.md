@@ -11,7 +11,7 @@ header:
   cta_url: "/tutorials/"
   caption: 
 excerpt: '<br><q><b>The de-facto SDN network architecture</b></q><br/><br/><q><b> Enables End-to-End SLA from DC to metro to backbone at scale </b> </q><br/><br/><q><b>Enables applications to use the network in innovative ways</b></q><br/><br><a href="https://www.linkedin.com/groups/8266623" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label }} LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a><br/>'
-feature_row:
+feature_row1:
   - image_path: tutorial-board.jpg
     alt: "fully responsive"
     title: "Tutorials"
@@ -34,7 +34,20 @@ feature_row:
 
 intro:
   - excerpt: '**Follow us on Twitter!** &nbsp;{::nomarkdown}<a href="https://twitter.com/segmentrouting" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @segmentrouting</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "twitter-wjs");</script>{:/nomarkdown}'
+  
+feature_row2:
+  - image_path: https://images-na.ssl-images-amazon.com/images/I/51SWVLV0snL.jpg
+    alt: "fully responsive"
+    title: "Segment Routing, Part 1"
+    excerpt: 'Check out Segment Routing, Part I, exclusively on Amazon and Kindle by Clarence Filsfils, Kris Michielsen and Ketan Talaulikar '
+    url: "https://amzn.com/B01I58LSUO"
+    btn_label: "Check out the Segment Routing book!"
+    btn_class: "btn--inverse"  
+  
 ---
 
 {% include feature_row id="intro" type="center" %}
-{% include feature_row %}
+{% include feature_row id="feature_row1" %}
+
+
+https://amzn.com/B01I58LSUO

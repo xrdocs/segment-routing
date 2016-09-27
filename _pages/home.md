@@ -12,7 +12,7 @@ header:
   caption: 
 excerpt: '<br><q><b>The de-facto SDN network architecture</b></q><br/><br/><q><b> Enables End-to-End SLA from DC to metro to backbone at scale </b> </q><br/><br/><q><b>Enables applications to use the network in innovative ways</b></q><br/><br><a href="https://www.linkedin.com/groups/8266623" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label }} LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a><br/>'
 feature_row:
-  - image_path: https://raw.githubusercontent.com/xrdocs/application-hosting/gh-pages/images/tutorial-board.jpg
+  - image_path: tutorial-board.jpg
     alt: "fully responsive"
     title: "Streaming Telemetry"
     excerpt: "Stream Operational and Configuration data off the box in Real-Time!  "

@@ -11,7 +11,7 @@ header:
   cta_url: "/getting-started"
   caption:
 excerpt: 'Documentation, Blogs and Tutorials on IOS-XR <br/> An Open, Extensible and Stable Cloud-Scale Network Operating System<br /> 
-<button type="button" class="btn btn-li"><i class="fa fa-linkedin left"></i> Linkedin</button>'
+<a href="https://www.linkedin.com/shareArticle?mini=true&url={{ base_path }}{{ page.url }}" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label }} LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>'
 feature_row:
   - image_path: telemetry-icon.png
     alt: "fully responsive"

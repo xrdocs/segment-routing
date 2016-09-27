@@ -46,6 +46,9 @@
       {% if author.linkedin %}
         <li><a href="http://linkedin.com/in/{{ author.linkedin }}"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
       {% endif %}
+      {% if author.linkedin-group %}
+        <li><a href="http://linkedin.com/groups/{{ author.linkedin-group }}"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn Group</a></li>
+      {% endif %}      
       {% if author.xing %}
         <li><a href="http://www.xing.com/profile/{{ author.xing }}"><i class="fa fa-fw fa-xing-square" aria-hidden="true"></i> XING</a></li>
       {% endif %}

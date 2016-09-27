@@ -58,7 +58,7 @@ feature_row3:
 {% include feature_row id="feature_row2" type="left" %}
 
 <div class="feature__wrapper">
-  <div class="feature__item--left">
+  <div class="feature__item--right">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
         <iframe width="400" height="280" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen></iframe>

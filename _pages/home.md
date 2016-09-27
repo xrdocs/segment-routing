@@ -24,14 +24,14 @@ feature_row:
     excerpt: "Data models to manage IOS-XR. Check out our APIs!"
     url: https://xrdocs.github.io/programmability
     btn_label: "Learn More"
-  - image_path: app-hosting-gear.jpg
+  - image_path: ietf_logo.jpg
     alt: "fully responsive"
     title: "Application-Hosting"
     excerpt: "Host Linux Applications on your router. Containers too!"
     url: https://xrdocs.github.io/application-hosting
     btn_label: "Learn More"
 new_line:
-  - image_path: packaging.png
+  - image_path: ietf_logo.jpg
     alt: "fully responsive"
     title: "Software Packaging and Management"
     excerpt: "RPMs for package Management, iPXE for zero touch Deployment and more!"

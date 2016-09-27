@@ -33,7 +33,7 @@ tags:
 [draft-rfc-5-link]: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-msdc/
 [draft-rfc-5-pdf]:  https://tools.ietf.org/pdf/draft-ietf-spring-segment-routing-msdc-01.pdf
 [draft-rfc-5-html]: https://tools.ietf.org/html/draft-ietf-spring-segment-routing-msdc-01
-[draft-rfc-5-text]: https://tools.ietf.org/html/draft-ietf-spring-segment-routing-msdc-01.txt
+[draft-rfc-5-text]: https://www.ietf.org/id/draft-ietf-spring-segment-routing-msdc-01.txt
 
 [draft-rfc-6-link]: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-central-epe/
 [draft-rfc-6-pdf]:  https://tools.ietf.org/pdf/draft-ietf-spring-segment-routing-central-epe-02.pdf

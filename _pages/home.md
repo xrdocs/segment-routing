@@ -16,19 +16,19 @@ feature_row1:
     alt: "fully responsive"
     title: "Tutorials"
     excerpt: "Demo Videos, quick snapshot presentations to get you going!"
-    url: "{{ base_path }}/tutorials/"
+    url: "https://xrdocs.github.io/segment-routing/tutorials/"
     btn_label: "Learn More"
   - image_path: conference-icon.jpg
     alt: "fully responsive"
     title: "Conferences and events"
     excerpt: "Latest updates from Conferences and events as we highlight SR solutions and use cases"
-    url: "{{ base_path }}/conferences/"
+    url: "https://xrdocs.github.io/segment-routing/conferences/"
     btn_label: "Learn More"
   - image_path: ietf_logo.jpg
     alt: "fully responsive"
     title: "IETF"
     excerpt: "Immerse yourself in the latest Segment Routing Drafts and RFCs"
-    url: "{{ base_path }}/ietf/"
+    url: "https://xrdocs.github.io/segment-routing/ietf/"
     btn_label: "Learn More"
 
 

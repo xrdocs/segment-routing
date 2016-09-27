@@ -6,7 +6,7 @@ sitemap: true
 date:
 header:
   overlay_color: "#5e616c"
-  overlay_image: sr-background.png
+  overlay_image: https://pbs.twimg.com/profile_banners/752799283670384640/1468401713/1500x500
   cta_label: "<i class='fa fa-step-forward'></i> Get Started!"
   cta_url: "/getting-started"
   caption:

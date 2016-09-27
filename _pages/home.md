@@ -61,7 +61,7 @@ feature_row3:
   <div class="feature__item--left">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
-        <iframe width="400" height="280" class="fitvidsignore" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen></iframe>
+        <iframe width="400" height="280" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen></iframe>
        </div>
        <div class="archive__item-body">
          <h2 class="archive__item-title">SR is the de-facto SDN network architecture</h2>

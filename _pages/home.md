@@ -56,4 +56,19 @@ feature_row3:
 {% include feature_row id="intro" type="center" %}
 {% include feature_row id="feature_row1" %}
 {% include feature_row id="feature_row2" type="left" %}
-{% include feature_row id="feature_row3" type="left" %}
+
+<div class="feature__wrapper">
+  <div class="feature__item--left">
+    <div class="archive__item">
+      <div class="archive__item-teaser"> 
+        <iframe width="280" height="156" class="fitvidsignore" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen></iframe>
+       </div>
+       <div class="archive__item-body">
+         <h2 class="archive__item-title">SR is the de-facto SDN network architecture</h2>
+       <div class="archive__item-excerpt">
+         <p>Watch Paul Mattes’ analysis of SR benefits for SWAN, presented at TechField day June, 2016.</p>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -43,17 +43,17 @@ feature_row2:
     url: "https://amzn.com/B01I58LSUO"
     btn_label: "Check out the Segment Routing book!"
     btn_class: "btn--inverse"  
-  
+
+feature_row3:
+  - image_path: https://img.youtube.com/vi/CDtoPGCZu3Y/0.jpg
+    alt: "fully responsive"
+    title: SR is the de-facto SDN network architecture
+    excerpt: 'Watch Paul Mattes’ analysis of SR benefits for SWAN, presented at TechField day June, 2016.'
+    url: "https://www.youtube.com/embed/CDtoPGCZu3Y"
+
 ---
 
 {% include feature_row id="intro" type="center" %}
 {% include feature_row id="feature_row1" %}
 {% include feature_row id="feature_row2" type="left" %}
-
-<p>
-<blockquote>SR is the de-facto SDN network architecture</blockquote>
-Watch Paul Mattes’ analysis of SR benefits for SWAN, presented at TechField day June, 2016.
-<iframe width="560" height="315" class="fitvidsignore" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen align="left"></iframe>
-</p>
-
-Watch Paul Mattes' analysis of SR benefits for SWAN, presented at TechField day June, 2016.
+{% include feature_row id="feature_row3" type="left" %}

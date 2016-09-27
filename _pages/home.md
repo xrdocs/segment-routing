@@ -38,7 +38,7 @@ intro:
 feature_row2:
   - image_path: sr-book-amazon.jpg
     alt: "fully responsive"
-    title: <a href="https://amzn.com/B01I58LSUOSegment">Segment Routing, Part 1</a>
+    title: <a href="https://amzn.com/B01I58LSUO"><h2 class="archive__item-title" itemprop="headline">Segment Routing, Part 1</h2></a>
     excerpt: 'Check out <b>Segment Routing, Part I</b>, exclusively on Amazon and Kindle by Clarence Filsfils, Kris Michielsen and Ketan Talaulikar '
     url: "https://amzn.com/B01I58LSUO"
     btn_label: "Check out the Segment Routing book!"

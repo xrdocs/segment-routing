@@ -64,8 +64,8 @@ tags:
 
 [draft-rfc-11-link]: https://datatracker.ietf.org/doc/draft-gredler-idr-bgplu-epe/
 [draft-rfc-11-pdf]: https://tools.ietf.org/pdf/draft-gredler-idr-bgplu-epe-06.pdf
-[draft-rfc-11-html]: https://tools.ietf.org/html/draft-ietf-mpls-spring-lsp-ping-00
-[draft-rfc-11-text]: https://www.ietf.org/id/draft-ietf-mpls-spring-lsp-ping-00.txt
+[draft-rfc-11-html]: https://tools.ietf.org/html/draft-gredler-idr-bgplu-epe-06
+[draft-rfc-11-text]: https://www.ietf.org/id/draft-gredler-idr-bgplu-epe-06.txt
 
 [draft-rfc-12-link]: https://datatracker.ietf.org/doc/draft-ietf-mpls-spring-lsp-ping/
 [draft-rfc-12-pdf]: https://tools.ietf.org/pdf/draft-ietf-mpls-spring-lsp-ping-00.pdf

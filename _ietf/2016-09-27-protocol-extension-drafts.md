@@ -22,15 +22,15 @@ excerpt: Draf
 [draft-rfc-3-html]: https://tools.ietf.org/html/draft-ietf-isis-l2bundles-02
 [draft-rfc-3-text]: https://www.ietf.org/id/draft-ietf-isis-l2bundles-02.txt
 
-[draft-rfc-4-link]: https://datatracker.ietf.org/doc/draft-ietf-spring-oam-usecase/
-[draft-rfc-4-pdf]: https://tools.ietf.org/pdf/draft-ietf-spring-oam-usecase-03.pdf
+[draft-rfc-4-link]: https://datatracker.ietf.org/doc/draft-previdi-isis-ipv6-prefix-sid/
+[draft-rfc-4-pdf]: https://tools.ietf.org/pdf/draft-previdi-isis-ipv6-prefix-sid-02.pdf
 [draft-rfc-4-html]: https://tools.ietf.org/html/draft-ietf-spring-oam-usecase-03
 [draft-rfc-4-text]: https://www.ietf.org/id/draft-ietf-spring-oam-usecase-03.txt
 
 [draft-rfc-5-link]: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-msdc/
 [draft-rfc-5-pdf]:  https://tools.ietf.org/pdf/draft-ietf-spring-segment-routing-msdc-01.pdf
-[draft-rfc-5-html]: https://tools.ietf.org/html/draft-ietf-spring-segment-routing-msdc-01
-[draft-rfc-5-text]: https://www.ietf.org/id/draft-ietf-spring-segment-routing-msdc-01.txt
+[draft-rfc-5-html]: https://tools.ietf.org/html/draft-previdi-isis-ipv6-prefix-sid-02
+[draft-rfc-5-text]: https://www.ietf.org/id/draft-previdi-isis-ipv6-prefix-sid-02.txt
 
 [draft-rfc-6-link]: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-central-epe/
 [draft-rfc-6-pdf]:  https://tools.ietf.org/pdf/draft-ietf-spring-segment-routing-central-epe-02.pdf
@@ -90,7 +90,7 @@ excerpt: Draf
 | IS-IS Extensions for Segment Routing  |[Draft][draft-rfc-1-link]  |  [ pdf][draft-rfc-1-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-1-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-1-html]{: .btn .btn--success .fa .fa-file-code-o}                             | 
 | IS-IS Prefix Attributes for Extended IPv4 and IPv6 Reachability  |   [RFC][draft-rfc-2-link]  |  [ pdf][draft-rfc-2-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-2-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-2-html]{: .btn .btn--success .fa .fa-file-code-o}  |
 | Advertising L2 Bundle Member Link Attributes in IS-IS   |   [Draft][draft-rfc-3-link]  |  [ pdf][draft-rfc-3-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-3-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-3-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
-|A Scalable and Topology-Aware MPLS Dataplane Monitoring System   |  [Draft][draft-rfc-4-link]  |  [ pdf][draft-rfc-4-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-4-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-4-html]{: .btn .btn--success .fa .fa-file-code-o}  | 
+| Segment Routing IPv6 Prefix-SID  |  [Draft][draft-rfc-4-link]  |  [ pdf][draft-rfc-4-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-4-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-4-html]{: .btn .btn--success .fa .fa-file-code-o}                               | 
 | BGP-Prefix Segment in large-scale data centers  |   [Draft][draft-rfc-5-link]  |  [ pdf][draft-rfc-5-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-5-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-5-html]{: .btn .btn--success .fa .fa-file-code-o}            | 
 | Segment Routing Centralized BGP Peer Engineering  |       [Draft][draft-rfc-6-link]  |  [ pdf][draft-rfc-6-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-6-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-6-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
 | Interconnecting Millions Of Endpoints With Segment Routing  |[Draft][draft-rfc-7-link]|[ pdf][draft-rfc-7-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-7-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-7-html]{: .btn .btn--success .fa .fa-file-code-o}        | 

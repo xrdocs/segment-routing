@@ -42,7 +42,6 @@ feature_row2:
     excerpt: 'Check out <b>Segment Routing, Part I</b>, exclusively on Amazon and Kindle by Clarence Filsfils, Kris Michielsen and Ketan Talaulikar '
     url: "https://amzn.com/B01I58LSUO"
     btn_label: "Check out the Segment Routing book!"
-    btn_class: "btn--inverse"  
 
 feature_row3:
   - image_path: https://img.youtube.com/vi/CDtoPGCZu3Y/0.jpg

@@ -6,7 +6,7 @@ sitemap: true
 date:
 header:
   overlay_color: "#5e616c"
-  overlay_image: data-center.png
+  overlay_image: sr-background.jpg
   cta_label: "<i class='fa fa-step-forward'></i> Get Started!"
   cta_url: "/getting-started"
   caption:

@@ -2,11 +2,14 @@
 author: Segment Routing Team
 published: true
 date: '2016-09-26 03:32 -0700'
-title: Use-Case/Requirement/Problem Statement drafts/RFCs
+title: Use-Case/Requirement drafts/RFCs
 tags:
   - segment-routing
   - rfc
   - drafts
+excerpt: >-
+  Drafts and RFCs that describe Segment Routing use cases, requirements and
+  problem statements.
 ---
 <h3 class="archive-subtitle"></h3>
   

@@ -82,10 +82,10 @@ tags:
 [draft-rfc-14-html]: https://tools.ietf.org/html/draft-ietf-6man-segment-routing-header-02
 [draft-rfc-14-text]: https://www.ietf.org/id/draft-ietf-6man-segment-routing-header-02.txt
 
-[draft-rfc-15-link]: https://datatracker.ietf.org/doc/draft-ietf-mpls-spring-lsp-ping/
-[draft-rfc-15-pdf]: https://tools.ietf.org/pdf/draft-ietf-mpls-spring-lsp-ping-00.pdf
-[draft-rfc-15-html]: https://tools.ietf.org/html/draft-ietf-mpls-spring-lsp-ping-00
-[draft-rfc-15-text]: https://www.ietf.org/id/draft-ietf-mpls-spring-lsp-ping-00.txt
+[draft-rfc-15-link]: https://datatracker.ietf.org/doc/draft-akiya-bfd-seamless-sr/
+[draft-rfc-15-pdf]: https://tools.ietf.org/pdf/draft-akiya-bfd-seamless-sr-04.pdf
+[draft-rfc-15-html]: https://tools.ietf.org/html/draft-akiya-bfd-seamless-sr-04
+[draft-rfc-15-text]: https://www.ietf.org/archive/id/draft-akiya-bfd-seamless-sr-04.txt
 
 
 
@@ -106,4 +106,4 @@ tags:
 | PCEP Extensions for Segment Routing | [Draft][draft-rfc-12-link] | [ pdf][draft-rfc-12-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-12-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-12-html]{: .btn .btn--success .fa .fa-file-code-o}                         |
 | Carrying Binding Label/Segment-ID in PCE-based Networks | [Draft][draft-rfc-13-link] | [ pdf][draft-rfc-13-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-13-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-13-html]{: .btn .btn--success .fa .fa-file-code-o}  |
 | IPv6 Segment Routing Header (SRH) |  [Draft][draft-rfc-14-link]  |  [ pdf][draft-rfc-14-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-14-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-14-html]{: .btn .btn--success .fa .fa-file-code-o}                         |
-| Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane|[Draft][draft-rfc-15-link]|[ pdf][draft-rfc-15-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-15-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-15-html]{: .btn .btn--success .fa .fa-file-code-o}                                                                   |
+| Seamless Bidirectional Forwarding Detection (S-BFD) for Segment Routing |  [Draft][draft-rfc-15-link]  |  [ pdf][draft-rfc-15-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-15-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-15-html]{: .btn .btn--success .fa .fa-file-code-o}                                                                                    |

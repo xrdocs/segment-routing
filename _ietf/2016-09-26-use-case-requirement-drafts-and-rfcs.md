@@ -7,6 +7,7 @@ tags:
   - segment-routing
   - rfc
   - drafts
+  - ietf
 excerpt: >-
   Drafts and RFCs that describe Segment Routing use cases, requirements and
   problem statements.

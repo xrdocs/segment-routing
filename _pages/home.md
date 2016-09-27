@@ -50,6 +50,10 @@ feature_row2:
 {% include feature_row id="feature_row1" %}
 {% include feature_row id="feature_row2" type="left" %}
 
->SR is the de-facto SDN network architecture 
-Watch Paul Mattes' analysis of SR benefits for SWAN, presented at TechField day June, 2016.
+<p>
+<blockquote>SR is the de-facto SDN network architecture</blockquote>
+Watch Paul Mattes’ analysis of SR benefits for SWAN, presented at TechField day June, 2016.
 <iframe width="560" height="315" class="fitvidsignore" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen align="left"></iframe>
+</p>
+
+Watch Paul Mattes' analysis of SR benefits for SWAN, presented at TechField day June, 2016.

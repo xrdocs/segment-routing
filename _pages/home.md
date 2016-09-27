@@ -11,7 +11,7 @@ header:
   cta_url: "/getting-started"
   caption:
 excerpt: 'Documentation, Blogs and Tutorials on IOS-XR <br/> An Open, Extensible and Stable Cloud-Scale Network Operating System<br /> 
-<button type="button" class="btn btn-li"><i class="fa fa-linkedin left"></i> Linkedin</button>
+<button type="button" class="btn btn-li"><i class="fa fa-linkedin left"></i> Linkedin</button>'
 feature_row:
   - image_path: telemetry-icon.png
     alt: "fully responsive"

@@ -13,8 +13,12 @@ teaser: 'https://img.youtube.com/vi/lujkWfdB4NM/0.jpg'
 **Daniel Ginsburg, Yandex (EN)**
 {: .notice--info}
 
+## Video  
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lujkWfdB4NM" frameborder="0" allowfullscreen></iframe>
 
+
+## Slides  
 
 {% capture "pdf1-link" %}
 https://www.enog.org/presentations/enog-7/263-EPE-ENOG7.pdf

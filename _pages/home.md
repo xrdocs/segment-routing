@@ -38,7 +38,7 @@ intro:
 feature_row2:
   - image_path: sr-book-amazon.jpg
     alt: "fully responsive"
-    title: <a href="https://amzn.com/B01I58LSUO"><h2 class="archive__item-title" itemprop="headline">Segment Routing, Part 1</h2></a>
+    title: <a href="https://amzn.com/B01I58LSUO">Segment Routing, Part 1</a>
     excerpt: 'Check out <b>Segment Routing, Part I</b>, exclusively on Amazon and Kindle by Clarence Filsfils, Kris Michielsen and Ketan Talaulikar '
     url: "https://amzn.com/B01I58LSUO"
     btn_label: "Check out the Segment Routing book!"
@@ -50,3 +50,6 @@ feature_row2:
 {% include feature_row id="feature_row1" %}
 {% include feature_row id="feature_row2" type="left" %}
 
+>SR is the de-facto SDN network architecture 
+Watch Paul Mattes' analysis of SR benefits for SWAN, presented at TechField day June, 2016.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen align="left"></iframe>

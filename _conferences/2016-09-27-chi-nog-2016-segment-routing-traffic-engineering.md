@@ -14,7 +14,11 @@ excerpt: >-
 
 ## Abstract  
 
-In this talk, we would look at Segment Routing traffic engineering primarily focused around inter-area/multi-domain traffic engineering. We will look at how certain approaches with Segment Routing can help in solving the challenges associated with multi-domain traffic engineering in a simple and scalable manner. We will look into various components associated with multi-domain traffic engineering and approaches to solve multi-domain traffic engineering.  
+In this talk, we would look at Segment Routing traffic engineering primarily focused around inter-area/multi-domain traffic engineering. We will look at how certain approaches with Segment Routing can help in solving the challenges associated with multi-domain traffic engineering in a simple and scalable manner. 
+  
+    
+    
+We will look into various components associated with multi-domain traffic engineering and approaches to solve multi-domain traffic engineering.  
 
 * PCE
 * PCEP

@@ -10,5 +10,5 @@ author: "Segment Routing Team"
 {% capture written_year %}'None'{% endcapture %}
 {% assign sorted = (site.open-software | sort: 'date') %}
 {% for post in sorted %}
-  {% include archive-techdocs.html %}
+  {% include archive-techdocs.html type="grid" %}
 {% endfor %}

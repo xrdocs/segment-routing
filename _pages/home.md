@@ -16,19 +16,19 @@ feature_row:
     alt: "fully responsive"
     title: "Tutorials"
     excerpt: "Demo Videos, quick snapshot presentations to get you going!"
-    url: {{ base_path }}/tutorials/
+    url: "{{ base_path }}/tutorials/"
     btn_label: "Learn More"
   - image_path: conference-icon.jpg
     alt: "fully responsive"
     title: "Conferences and events"
     excerpt: "Latest updates from Conferences and events as we highlight Segment Routing solutions and use cases"
-    url: {{ base_path }}/conferences/
+    url: "{{ base_path }}/conferences/"
     btn_label: "Learn More"
   - image_path: ietf_logo.jpg
     alt: "fully responsive"
     title: "IETF"
     excerpt: "Immerse yourself in the latest Segment Routing Drafts and RFCs"
-    url: {{ base_path }}/ietf/
+    url: "{{ base_path }}/ietf/"
     btn_label: "Learn More"
 
 

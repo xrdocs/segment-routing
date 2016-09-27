@@ -21,7 +21,7 @@ feature_row1:
   - image_path: conference-icon.jpg
     alt: "fully responsive"
     title: "Conferences and events"
-    excerpt: "Latest updates from Conferences and events as we highlight Segment Routing solutions and use cases"
+    excerpt: "Latest updates from Conferences and events as we highlight SR solutions and use cases"
     url: "{{ base_path }}/conferences/"
     btn_label: "Learn More"
   - image_path: ietf_logo.jpg
@@ -67,6 +67,22 @@ feature_row3:
          <h2 class="archive__item-title">SR is the de-facto SDN network architecture</h2>
        <div class="archive__item-excerpt">
          <p>Watch Paul Mattes’ analysis of SR benefits for SWAN, presented at TechField day June, 2016.</p>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="feature__wrapper">
+  <div class="feature__item--left">
+    <div class="archive__item">
+      <div class="archive__item-teaser"> 
+        <iframe width="400" height="280" src="https://www.youtube.com/embed/pDIRXLajRXo" frameborder="0" allowfullscreen></iframe>
+       </div>
+       <div class="archive__item-body">
+         <h2 class="archive__item-title">Application-Engineered Routing</h2>
+       <div class="archive__item-excerpt">
+         <p>Take an inside look at application-engineered routing, which gives applications the ability to communicate their requirements directly to your network. And that means greater availability, end-to-end control, and a vastly improved customer experience. Clarence Filsfils and Bertrand Duvivier from Cisco give their perspective and show how your business can become more competitive and successful than ever.</p>
        </div>
       </div>
     </div>

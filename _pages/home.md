@@ -9,16 +9,16 @@ header:
   overlay_image: sr-background.png
   cta_label: "<i class='fa fa-step-forward'></i> Get Started!"
   cta_url: "/tutorials/"
-  caption: "The de-facto SDN network architecture"
+  caption: 
 excerpt: '<br><q><b>The de-facto SDN network architecture</b></q><br/><br/><q><b> Enables End-to-End SLA from DC to metro to backbone at scale </b> </q><br/><br/><q><b>Enables applications to use the network in innovative ways</b></q><br/><br><a href="https://www.linkedin.com/groups/8266623" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label }} LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a><br/>'
 feature_row:
-  - image_path: telemetry-icon.png
+  - image_path: tutorial-board.jpg
     alt: "fully responsive"
     title: "Streaming Telemetry"
     excerpt: "Stream Operational and Configuration data off the box in Real-Time!  "
     url: https://xrdocs.github.io/telemetry
     btn_label: "Learn More"
-  - image_path: api-icon.png
+  - image_path: conference-icon.jpg
     alt: "fully responsive"
     title: "Model Driven Programmability"
     excerpt: "Data models to manage IOS-XR. Check out our APIs!"
@@ -46,7 +46,7 @@ new_line:
 
 
 intro:
-  - excerpt: '**Follow us on Twitter?** &nbsp;{::nomarkdown}<a href="https://twitter.com/segmentrouting" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @segmentrouting</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "twitter-wjs");</script>{:/nomarkdown}'
+  - excerpt: '**Follow us on Twitter!** &nbsp;{::nomarkdown}<a href="https://twitter.com/segmentrouting" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @segmentrouting</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "twitter-wjs");</script>{:/nomarkdown}'
 ---
 
 {% include feature_row id="intro" type="center" %}

@@ -8,7 +8,6 @@ tags:
   - rfc
   - drafts
 ---
-&nbsp;  
 <h3 class="archive-subtitle"></h3>
   
 [draft-rfc-1-link]: https://datatracker.ietf.org/doc/rfc7855/

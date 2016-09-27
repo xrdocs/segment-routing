@@ -22,14 +22,3 @@ https://www.nanog.org/sites/default/files/tuesday_lightning_filsfils_segment.pdf
                         {height: "500px"});
 </script>
 
-
-{% capture "pdf2-link" %}
-https://www.nanog.org/sites/default/files/tuesday_lightning_filsfils_segment.pdf
-{% endcapture %}
-
-<div id="pdf2"></div>
-<script>
-        PDFObject.embed("{{ pdf2-link }}",
-                        "#pdf2",
-                        {height: "500px"});
-</script>

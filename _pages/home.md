@@ -10,7 +10,8 @@ header:
   cta_label: "<i class='fa fa-step-forward'></i> Get Started!"
   cta_url: "/getting-started"
   caption:
-excerpt: 'Documentation, Blogs and Tutorials on IOS-XR <br/> An Open, Extensible and Stable Cloud-Scale Network Operating System<br /> <small>Current Release: 6.0.0<br><br>{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=xrdocs&type=follow&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>&nbsp;&nbsp;<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=ios-xr&type=follow&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>{:/nomarkdown}</small><br /><br />'
+excerpt: 'Documentation, Blogs and Tutorials on IOS-XR <br/> An Open, Extensible and Stable Cloud-Scale Network Operating System<br /> 
+<button type="button" class="btn btn-li"><i class="fa fa-linkedin left"></i> Linkedin</button>
 feature_row:
   - image_path: telemetry-icon.png
     alt: "fully responsive"

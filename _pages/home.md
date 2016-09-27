@@ -10,7 +10,7 @@ header:
   cta_label: "<i class='fa fa-step-forward'></i> Get Started!"
   cta_url: "/getting-started"
   caption:
-excerpt: 'Documentation, Blogs and Tutorials on IOS-XR <br/> An Open, Extensible and Stable Cloud-Scale Network Operating System<br /> <small>Current Release: 6.0.0<br><br>{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=xrdocs&type=follow&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>&nbsp;&nbsp;<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=ios-xr&type=follow&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>{:/nomarkdown}</small><br /><br />'
+excerpt: '<q><b>The de-facto SDN network architecture</b></q><br/><br/><q><b> Enables End-to-End SLA from DC to metro to backbone at scale </b> </q><br/><br/><q><b>Enables applications to use the network in innovative ways</b></q><br /><a href="https://www.linkedin.com/groups/8266623" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label }} LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a><br/>{::nomarkdown}<a href="https://twitter.com/segmentrouting" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @segmentrouting</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "twitter-wjs");</script>{:/nomarkdown}'
 feature_row:
   - image_path: telemetry-icon.png
     alt: "fully responsive"

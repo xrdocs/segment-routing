@@ -13,5 +13,7 @@ tags:
   - srgb
 ---
 
+**See what the Segment Routing Global Block is. Learn about the best practices to use the same SRGB on all segment routing nodes. Further, learn how to modify the Segment Routing Global Block.**
+{: .notice--info}
 
-<iframe src="https://app.box.com/embed/preview/9m1a3uizlcgbgh31si3vdn2oy68v274t?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>    
+<iframe src="https://app.box.com/embed/preview/9m1a3uizlcgbgh31si3vdn2oy68v274t?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>

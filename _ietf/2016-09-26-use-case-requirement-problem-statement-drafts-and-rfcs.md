@@ -37,8 +37,8 @@ tags:
 
 [draft-rfc-6-link]: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-central-epe/
 [draft-rfc-6-pdf]:  https://tools.ietf.org/pdf/draft-ietf-spring-segment-routing-central-epe-02.pdf
-[draft-rfc-6-html]: https://tools.ietf.org/pdf/draft-ietf-spring-segment-routing-central-epe-02
-[draft-rfc-6-text]: https://tools.ietf.org/pdf/draft-ietf-spring-segment-routing-central-epe-02.txt
+[draft-rfc-6-html]: https://tools.ietf.org/html/draft-ietf-spring-segment-routing-central-epe-02
+[draft-rfc-6-text]: https://tools.ietf.org/id/draft-ietf-spring-segment-routing-central-epe-02.txt
 
 [draft-rfc-7-link]: https://datatracker.ietf.org/doc/draft-filsfils-spring-large-scale-interconnect/
 [draft-rfc-7-pdf]: https://tools.ietf.org/pdf/draft-filsfils-spring-large-scale-interconnect-02.pdf

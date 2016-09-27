@@ -1,17 +1,16 @@
 ---
 layout: splash
-title: "@xrdocs"
+title: "Segment Routing"
 permalink: /
 sitemap: true
 date:
 header:
   overlay_color: "#5e616c"
-  overlay_image: https://pbs.twimg.com/profile_banners/752799283670384640/1468401713/1500x500
+  overlay_image: sr-background.png
   cta_label: "<i class='fa fa-step-forward'></i> Get Started!"
   cta_url: "/getting-started"
   caption:
-excerpt: 'Documentation, Blogs and Tutorials on IOS-XR <br/> An Open, Extensible and Stable Cloud-Scale Network Operating System<br /> 
-<a href="https://www.linkedin.com/groups/8266623" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label }} LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a><br/>{::nomarkdown}<a href="https://twitter.com/segmentrouting" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @segmentrouting</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "twitter-wjs");</script>{:/nomarkdown}'
+excerpt: '<q>The de-facto SDN network architecture</q><br/><q> Enables End-to-End SLA from DC to metro to backbone at scale </q><br /><q>Enables applications to use the network in innovative ways</q><br /><a href="https://www.linkedin.com/groups/8266623" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label }} LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a><br/>{::nomarkdown}<a href="https://twitter.com/segmentrouting" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @segmentrouting</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document, "script", "twitter-wjs");</script>{:/nomarkdown}'
 feature_row:
   - image_path: telemetry-icon.png
     alt: "fully responsive"

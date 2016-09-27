@@ -52,10 +52,10 @@ tags:
 [draft-rfc-8-html]: https://tools.ietf.org/html/draft-ietf-idr-bgp-prefix-sid-03
 [draft-rfc-8-text]: https://www.ietf.org/id/draft-ietf-idr-bgp-prefix-sid-03.txt
 
-[draft-rfc-9-link]: https://datatracker.ietf.org/doc/draft-ietf-mpls-spring-lsp-ping/
-[draft-rfc-9-pdf]: https://tools.ietf.org/pdf/draft-ietf-mpls-spring-lsp-ping-00.pdf
-[draft-rfc-9-html]: https://tools.ietf.org/html/draft-ietf-mpls-spring-lsp-ping-00
-[draft-rfc-9-text]: https://www.ietf.org/id/draft-ietf-mpls-spring-lsp-ping-00.txt
+[draft-rfc-9-link]: https://datatracker.ietf.org/doc/draft-previdi-idr-segment-routing-te-policy/
+[draft-rfc-9-pdf]: https://tools.ietf.org/pdf/draft-previdi-idr-segment-routing-te-policy-01.pdf
+[draft-rfc-9-html]: https://tools.ietf.org/html/draft-previdi-idr-segment-routing-te-policy-01
+[draft-rfc-9-text]: https://www.ietf.org/id/draft-previdi-idr-segment-routing-te-policy-01.txt
 
 [draft-rfc-10-link]: https://datatracker.ietf.org/doc/draft-ietf-mpls-spring-lsp-ping/
 [draft-rfc-10-pdf]: https://tools.ietf.org/pdf/draft-ietf-mpls-spring-lsp-ping-00.pdf
@@ -100,7 +100,7 @@ tags:
 | OSPFv3 Extensions for Segment Routing  |       [Draft][draft-rfc-6-link]  |  [ pdf][draft-rfc-6-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-6-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-6-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
 | Segment Routing BGP Egress Peer Engineering BGP-LS Extensions  |[Draft][draft-rfc-7-link]|[ pdf][draft-rfc-7-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-7-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-7-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
 | Segment Routing Prefix SID extensions for BGP |  [Draft][draft-rfc-8-link]|[ pdf][draft-rfc-8-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-8-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-8-html]{: .btn .btn--success .fa .fa-file-code-o}                     |
-| Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane|[Draft][draft-rfc-9-link]|[ pdf][draft-rfc-9-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-9-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-9-html]{: .btn .btn--success .fa .fa-file-code-o}                                                                                |
+| Advertising Segment Routing Traffic Engineering Policies in BGP | [Draft][draft-rfc-9-link]|[ pdf][draft-rfc-9-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-9-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-9-html]{: .btn .btn--success .fa .fa-file-code-o}   |
 | Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane|[Draft][draft-rfc-10-link]|[ pdf][draft-rfc-10-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-10-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-10-html]{: .btn .btn--success .fa .fa-file-code-o}                                                                    |
 | Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane|[Draft][draft-rfc-11-link]|[ pdf][draft-rfc-11-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-11-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-11-html]{: .btn .btn--success .fa .fa-file-code-o}                                                                    |
 | Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane|[Draft][draft-rfc-12-link]|[ pdf][draft-rfc-12-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-12-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-12-html]{: .btn .btn--success .fa .fa-file-code-o}                                                                    |

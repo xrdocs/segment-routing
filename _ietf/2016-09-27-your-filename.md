@@ -11,10 +11,10 @@ title: Untitled
 [draft-rfc-1-html]: https://tools.ietf.org/html/draft-ietf-isis-segment-routing-extensions-07
 [draft-rfc-1-text]: https://www.ietf.org/id/draft-ietf-isis-segment-routing-extensions-07.txt
 
-[draft-rfc-2-link]: 
-[draft-rfc-2-pdf]: https://tools.ietf.org/pdf/draft-ietf-spring-resiliency-use-cases-06.pdf
-[draft-rfc-2-html]: https://tools.ietf.org/html/draft-ietf-spring-resiliency-use-cases-06
-[draft-rfc-2-text]: https://www.ietf.org/id/draft-ietf-spring-resiliency-use-cases-06.txt
+[draft-rfc-2-link]: https://datatracker.ietf.org/doc/rfc7794/
+[draft-rfc-2-pdf]: https://www.rfc-editor.org/rfc/pdfrfc/rfc7794.txt.pdf
+[draft-rfc-2-html]: https://tools.ietf.org/html/rfc7794
+[draft-rfc-2-text]: https://www.rfc-editor.org/rfc/rfc7794.txt
 
 [draft-rfc-3-link]: https://datatracker.ietf.org/doc/draft-ietf-spring-ipv6-use-cases/
 [draft-rfc-3-pdf]: https://tools.ietf.org/pdf/draft-ietf-spring-ipv6-use-cases-07.pdf
@@ -87,7 +87,7 @@ title: Untitled
 | Draft/RFC            | Datatracker Link   | Direct link                                       |
 | --------             | ---------          | -----------                                       |
 | IS-IS Extensions for Segment Routing  |[Draft][draft-rfc-1-link]  |  [ pdf][draft-rfc-1-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-1-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-1-html]{: .btn .btn--success .fa .fa-file-code-o}                             | 
-| Use-cases for Resiliency in SPRING  |   [Draft][draft-rfc-2-link]  |  [ pdf][draft-rfc-2-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-2-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-2-html]{: .btn .btn--success .fa .fa-file-code-o}                             |
+| IS-IS Prefix Attributes for Extended IPv4 and IPv6 Reachability  |   [RFC][draft-rfc-2-link]  |  [ pdf][draft-rfc-2-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-2-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-2-html]{: .btn .btn--success .fa .fa-file-code-o}  |
 | IPv6 SPRING Use Cases   |   [Draft][draft-rfc-3-link]  |  [ pdf][draft-rfc-3-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-3-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-3-html]{: .btn .btn--success .fa .fa-file-code-o}                                    | 
 |A Scalable and Topology-Aware MPLS Dataplane Monitoring System   |  [Draft][draft-rfc-4-link]  |  [ pdf][draft-rfc-4-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-4-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-4-html]{: .btn .btn--success .fa .fa-file-code-o}  | 
 | BGP-Prefix Segment in large-scale data centers  |   [Draft][draft-rfc-5-link]  |  [ pdf][draft-rfc-5-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-5-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-5-html]{: .btn .btn--success .fa .fa-file-code-o}            | 

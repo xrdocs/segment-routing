@@ -14,35 +14,22 @@ excerpt: '<br><q><b>The de-facto SDN network architecture</b></q><br/><br/><q><b
 feature_row:
   - image_path: tutorial-board.jpg
     alt: "fully responsive"
-    title: "Streaming Telemetry"
-    excerpt: "Stream Operational and Configuration data off the box in Real-Time!  "
-    url: https://xrdocs.github.io/telemetry
+    title: "Tutorials"
+    excerpt: "Demo Videos, quick snapshot presentations to get you going!"
+    url: {{ base_path }}/tutorials/
     btn_label: "Learn More"
   - image_path: conference-icon.jpg
     alt: "fully responsive"
-    title: "Model Driven Programmability"
-    excerpt: "Data models to manage IOS-XR. Check out our APIs!"
-    url: https://xrdocs.github.io/programmability
+    title: "Conferences and events"
+    excerpt: "Latest updates from Conferences and events as we highlight Segment Routing solutions and use cases"
+    url: {{ base_path }}/conferences/
     btn_label: "Learn More"
   - image_path: ietf_logo.jpg
     alt: "fully responsive"
-    title: "Application-Hosting"
-    excerpt: "Host Linux Applications on your router. Containers too!"
-    url: https://xrdocs.github.io/application-hosting
+    title: "IETF"
+    excerpt: "Immerse yourself in the latest Segment Routing Drafts and RFCs"
+    url: {{ base_path }}/ietf/
     btn_label: "Learn More"
-new_line:
-  - image_path: ietf_logo.jpg
-    alt: "fully responsive"
-    title: "Software Packaging and Management"
-    excerpt: "RPMs for package Management, iPXE for zero touch Deployment and more!"
-    url: https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5500/system-setup/60x/b-ncs5500-system-setup-guide-60x.html
-    btn_label: "Learn More!"
-  - image_path: cloud-scale-networking.png
-    alt: "fully responsive"
-    title: "Cloud Scale Networking"      
-    excerpt: "Architectures and features to support networking for Cloud-Scale Deployments!"
-    url: https://xrdocs.github.io/cloud-scale-networking
-    btn_label: "Learn More!"
 
 
 intro:
@@ -51,4 +38,3 @@ intro:
 
 {% include feature_row id="intro" type="center" %}
 {% include feature_row %}
-{% include feature_row id="new_line"%}

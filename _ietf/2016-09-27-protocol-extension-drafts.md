@@ -24,8 +24,8 @@ excerpt: Draf
 
 [draft-rfc-4-link]: https://datatracker.ietf.org/doc/draft-previdi-isis-ipv6-prefix-sid/
 [draft-rfc-4-pdf]: https://tools.ietf.org/pdf/draft-previdi-isis-ipv6-prefix-sid-02.pdf
-[draft-rfc-4-html]: https://tools.ietf.org/html/draft-ietf-spring-oam-usecase-03
-[draft-rfc-4-text]: https://www.ietf.org/id/draft-ietf-spring-oam-usecase-03.txt
+[draft-rfc-4-html]: https://tools.ietf.org/html/draft-previdi-isis-ipv6-prefix-sid-02
+[draft-rfc-4-text]: https://www.ietf.org/id/draft-previdi-isis-ipv6-prefix-sid-02.txt
 
 [draft-rfc-5-link]: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-msdc/
 [draft-rfc-5-pdf]:  https://tools.ietf.org/pdf/draft-ietf-spring-segment-routing-msdc-01.pdf

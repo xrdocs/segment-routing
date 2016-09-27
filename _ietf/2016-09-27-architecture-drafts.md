@@ -45,15 +45,11 @@ excerpt: >-
 [draft-rfc-6-html]: https://tools.ietf.org/html/draft-psarkar-spring-mpls-anycast-segments-02
 [draft-rfc-6-text]: https://www.ietf.org/id/draft-psarkar-spring-mpls-anycast-segments-02.txt
 
-[draft-rfc-7-link]: https://datatracker.ietf.org/doc/draft-filsfils-spring-large-scale-interconnect/
-[draft-rfc-7-pdf]: https://tools.ietf.org/pdf/draft-filsfils-spring-large-scale-interconnect-02.pdf
-[draft-rfc-7-html]: https://tools.ietf.org/html/draft-filsfils-spring-large-scale-interconnect-02
-[draft-rfc-7-text]: https://www.ietf.org/id/draft-filsfils-spring-large-scale-interconnect-02.txt
+[draft-rfc-7-link]: https://datatracker.ietf.org/doc/draft-francois-rtgwg-segment-routing-ti-lfa/
+[draft-rfc-7-pdf]: https://tools.ietf.org/pdf/draft-francois-rtgwg-segment-routing-ti-lfa-01.pdf
+[draft-rfc-7-html]: https://tools.ietf.org/html/draft-francois-rtgwg-segment-routing-ti-lfa-01
+[draft-rfc-7-text]: https://www.ietf.org/id/draft-francois-rtgwg-segment-routing-ti-lfa-01.txt
 
-[draft-rfc-8-link]: https://datatracker.ietf.org/doc/draft-ietf-mpls-spring-lsp-ping/
-[draft-rfc-8-pdf]: https://tools.ietf.org/pdf/draft-ietf-mpls-spring-lsp-ping-00.pdf
-[draft-rfc-8-html]: https://tools.ietf.org/html/draft-ietf-mpls-spring-lsp-ping-00
-[draft-rfc-8-text]: https://www.ietf.org/id/draft-ietf-mpls-spring-lsp-ping-00.txt
 
 
 
@@ -64,7 +60,7 @@ excerpt: >-
 | Segment Routing with MPLS data plane  |   [Draft][draft-rfc-2-link]  |  [ pdf][draft-rfc-2-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-2-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-2-html]{: .btn .btn--success .fa .fa-file-code-o}                     |
 | Segment Routing interworking with LDP   |   [Draft][draft-rfc-3-link]  |  [ pdf][draft-rfc-3-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-3-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-3-html]{: .btn .btn--success .fa .fa-file-code-o}                     | 
 | Segment Routing Recursive Information   |  [Draft][draft-rfc-4-link]  |  [ pdf][draft-rfc-4-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-4-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-4-html]{: .btn .btn--success .fa .fa-file-code-o}                     | 
-| Segment Routing Conflict Resolution  |   [RFC][draft-rfc-5-link]  |  [ pdf][draft-rfc-5-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-5-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-5-html]{: .btn .btn--success .fa .fa-file-code-o}            | 
+| Segment Routing Conflict Resolution  |   [RFC][draft-rfc-5-link]  |  [ pdf][draft-rfc-5-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-5-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-5-html]{: .btn .btn--success .fa .fa-file-code-o}                             | 
 | Anycast Segments in MPLS based Segment Routing  |       [RFC][draft-rfc-6-link]  |  [ pdf][draft-rfc-6-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-6-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-6-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
-| Interconnecting Millions Of Endpoints With Segment Routing  |[RFC][draft-rfc-7-link]|[ pdf][draft-rfc-7-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-7-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-7-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
-| Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane|[RFC][draft-rfc-8-link]|[ pdf][draft-rfc-8-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-8-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-8-html]{: .btn .btn--success .fa .fa-file-code-o}                                                                                |
+| Topology Independent Fast Reroute using Segment Routing  |[RFC][draft-rfc-7-link]|[ pdf][draft-rfc-7-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-7-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-7-html]{: .btn .btn--success .fa .fa-file-code-o}            | 
+

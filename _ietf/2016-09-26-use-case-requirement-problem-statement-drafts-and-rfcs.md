@@ -63,5 +63,5 @@ tags:
 | Segment Routing Centralized BGP Peer Engineering  |       [RFC][draft-rfc-6-link]  |  [ pdf][draft-rfc-6-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-6-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-6-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
 | Interconnecting Millions Of Endpoints With Segment Routing  |[RFC][draft-rfc-7-link]|[ pdf][draft-rfc-7-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-7-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-7-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
 | Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane|[RFC][draft-rfc-8-link]|[ pdf][draft-rfc-8-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-8-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-8-html]{: .btn .btn--success .fa .fa-file-code-o}                                                                                | 
-| _pages/home.md       | `permalink: /`                     |                        |
-| _pages/contact.md    | `permalink: /contact/`             |                        |
+
+

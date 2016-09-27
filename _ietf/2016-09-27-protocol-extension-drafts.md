@@ -2,8 +2,13 @@
 author: Segment Routing Team
 published: true
 date: '2016-09-27 02:33 -0700'
-title: Protocol Extensions Drafts
-excerpt: Draf
+title: Protocol Extensions Drafts/RFCs
+excerpt: IETF drafts/RFCs on protocol extensions for Segment Routing Enablement.
+tags:
+  - segment-routing
+  - cisco
+  - rfc
+  - drafts
 ---
 <h3 class="archive-subtitle"></h3>
   
@@ -32,15 +37,15 @@ excerpt: Draf
 [draft-rfc-5-html]: https://tools.ietf.org/html/draft-ietf-ospf-segment-routing-extensions-09
 [draft-rfc-5-text]: https://www.ietf.org/id/draft-ietf-ospf-segment-routing-extensions-09.txt
 
-[draft-rfc-6-link]: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-central-epe/
-[draft-rfc-6-pdf]:  https://tools.ietf.org/pdf/draft-ietf-spring-segment-routing-central-epe-02.pdf
-[draft-rfc-6-html]: https://tools.ietf.org/html/draft-ietf-spring-segment-routing-central-epe-02
-[draft-rfc-6-text]: https://tools.ietf.org/id/draft-ietf-spring-segment-routing-central-epe-02.txt
+[draft-rfc-6-link]: https://datatracker.ietf.org/doc/draft-ietf-ospf-ospfv3-segment-routing-extensions/
+[draft-rfc-6-pdf]:  https://tools.ietf.org/pdf/draft-ietf-ospf-ospfv3-segment-routing-extensions-06.pdf
+[draft-rfc-6-html]: https://tools.ietf.org/html/draft-ietf-ospf-ospfv3-segment-routing-extensions-06
+[draft-rfc-6-text]: https://www.ietf.org/id/draft-ietf-ospf-ospfv3-segment-routing-extensions-06.txt
 
-[draft-rfc-7-link]: https://datatracker.ietf.org/doc/draft-filsfils-spring-large-scale-interconnect/
-[draft-rfc-7-pdf]: https://tools.ietf.org/pdf/draft-filsfils-spring-large-scale-interconnect-02.pdf
-[draft-rfc-7-html]: https://tools.ietf.org/html/draft-filsfils-spring-large-scale-interconnect-02
-[draft-rfc-7-text]: https://www.ietf.org/id/draft-filsfils-spring-large-scale-interconnect-02.txt
+[draft-rfc-7-link]: https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-segment-routing-epe/
+[draft-rfc-7-pdf]: https://tools.ietf.org/pdf/draft-ietf-idr-bgpls-segment-routing-epe-05.pdf
+[draft-rfc-7-html]: https://tools.ietf.org/html/draft-ietf-idr-bgpls-segment-routing-epe-05
+[draft-rfc-7-text]: https://www.ietf.org/id/draft-ietf-idr-bgpls-segment-routing-epe-05.txt
 
 [draft-rfc-8-link]: https://datatracker.ietf.org/doc/draft-ietf-mpls-spring-lsp-ping/
 [draft-rfc-8-pdf]: https://tools.ietf.org/pdf/draft-ietf-mpls-spring-lsp-ping-00.pdf
@@ -92,8 +97,8 @@ excerpt: Draf
 | Advertising L2 Bundle Member Link Attributes in IS-IS   |   [Draft][draft-rfc-3-link]  |  [ pdf][draft-rfc-3-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-3-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-3-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
 | Segment Routing IPv6 Prefix-SID  |  [Draft][draft-rfc-4-link]  |  [ pdf][draft-rfc-4-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-4-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-4-html]{: .btn .btn--success .fa .fa-file-code-o}                               | 
 | OSPF Extensions for Segment Routing  |   [Draft][draft-rfc-5-link]  |  [ pdf][draft-rfc-5-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-5-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-5-html]{: .btn .btn--success .fa .fa-file-code-o}                             | 
-| Segment Routing Centralized BGP Peer Engineering  |       [Draft][draft-rfc-6-link]  |  [ pdf][draft-rfc-6-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-6-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-6-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
-| Interconnecting Millions Of Endpoints With Segment Routing  |[Draft][draft-rfc-7-link]|[ pdf][draft-rfc-7-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-7-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-7-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
+| OSPFv3 Extensions for Segment Routing  |       [Draft][draft-rfc-6-link]  |  [ pdf][draft-rfc-6-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-6-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-6-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
+| Segment Routing BGP Egress Peer Engineering BGP-LS Extensions  |[Draft][draft-rfc-7-link]|[ pdf][draft-rfc-7-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-7-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-7-html]{: .btn .btn--success .fa .fa-file-code-o}        | 
 | Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane|[Draft][draft-rfc-8-link]|[ pdf][draft-rfc-8-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-8-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-8-html]{: .btn .btn--success .fa .fa-file-code-o}                                                                                |
 | Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane|[Draft][draft-rfc-9-link]|[ pdf][draft-rfc-9-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-9-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-9-html]{: .btn .btn--success .fa .fa-file-code-o}                                                                                |
 | Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane|[Draft][draft-rfc-10-link]|[ pdf][draft-rfc-10-pdf]{: .btn .fa .fa-bold .fa-file-pdf-o} [ text][draft-rfc-10-text]{: .btn .btn--info .fa .fa-file-text-o} [ html][draft-rfc-10-html]{: .btn .btn--success .fa .fa-file-code-o}                                                                    |

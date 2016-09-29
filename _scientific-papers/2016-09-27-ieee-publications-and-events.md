@@ -43,5 +43,4 @@ Date of Conference: 6-10 Dec. 2015**
 {: .notice--info}
 
 
-><http://ieeexplore.ieee.org/document/7417124/?arnumber=7417124&filter%3DAND(p_IS_Number:7416057)%26pageNumber%3D2%26rowsPerPage%3D100>
-
+><http://ieeexplore.ieee.org/document/7417124/>

@@ -1,13 +1,5 @@
 # Authors
 
-Akshat Sharma:
-  name        : "Akshat Sharma"
-  github      : "akshshar"
-  email       : "akshshar@cisco.com"
-  bio         : "Evangelist, tinkerer, dog-lover and Technical Marketing Engineer, Web Solutions, Cisco."
-  avatar      : "akshat.jpg"
-  twitter     : "irakshat"
-  
 Segment Routing Team:
   name            : "Segment-Routing Team"
   bio             : "Segment Routing, Cisco"
@@ -16,24 +8,38 @@ Segment Routing Team:
   linkedin-group  : "8266623"
   avatar          : "sr-web-team.jpg"
   twitter         : "segmentrouting"
+  
+Clarence Filsfils:
+  name        : "Clarence Filsfils"
+  github      : "tba"
+  email       : "cfilsfil@cisco.com"
+  avatar      : "sr-web-team.jpg"
+  bio         : "Cisco Fellow"
+  twitter     : "tba"
 
-Jose Palafox:
-  name        : "Jose Palafox"
-  github      : "josepalafox"
-  email       : "jopalafo@cisco.com"
-  twitter     : "cruzfox"
-  bio         : "Business Development Manager, Web Solutions, Cisco"
-  avatar      : "josep_bio.jpeg"
+Kris Michielsen:
+  name        : "Kris Michielsen"
+  github      : "tba"
+  email       : "cfilsfil@cisco.com"
+  avatar      : "sr-web-team.jpg"
+  bio         : "Cisco Fellow"
+  twitter     : "tba"
+  
+Clarence Filsfils:
+  name        : "Clarence Filsfils"
+  github      : "tba"
+  email       : "cfilsfil@cisco.com"
+  avatar      : "sr-web-team.jpg"
+  bio         : "Cisco Fellow"
+  twitter     : "tba"  
 
-
-Shelly Cadora:
-  name        : "Shelly Cadora"
-  email       : "scadora@cisco.com"
-  bio         : "Technical Marketing Engineer, Cisco"
-  avatar      : "scadora16.jpeg"
-  twitter     : "scadora"
-  github      : "scadora"
-
+Akshat Sharma:
+  name        : "Akshat Sharma"
+  github      : "akshshar"
+  email       : "akshshar@cisco.com"
+  bio         : "Evangelist, tinkerer, dog-lover and Technical Marketing Engineer, Web Solutions, Cisco."
+  avatar      : "akshat.jpg"
+  twitter     : "irakshat"
 
 Jose Liste:
   name        : "Jose Liste"

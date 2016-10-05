@@ -7,7 +7,7 @@ date:
 header:
   overlay_color: "#5e616c"
   overlay_image: segment-routing-zen.jpeg
-  overlay_filter: rgba(255, 0, 0, 0.5)
+  overlay_filter: rgba(74, 67, 67, 0.3)
   cta_label: "<i class='fa fa-step-forward'></i> Get Started!"
   cta_url: "/tutorials/"
   caption: 

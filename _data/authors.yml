@@ -20,18 +20,50 @@ Clarence Filsfils:
 Kris Michielsen:
   name        : "Kris Michielsen"
   github      : "tba"
-  email       : "cfilsfil@cisco.com"
+  email       : "kmichiel@cisco.com"
   avatar      : "sr-web-team.jpg"
-  bio         : "Cisco Fellow"
+  bio         : "Technical Leader, Cisco"
   twitter     : "tba"
   
-Clarence Filsfils:
-  name        : "Clarence Filsfils"
+Frederic Trate:
+  name        : "Frederic Trate"
   github      : "tba"
-  email       : "cfilsfil@cisco.com"
+  email       : "ftrate@cisco.com"
   avatar      : "sr-web-team.jpg"
-  bio         : "Cisco Fellow"
+  bio         : "Marketing Manager, Cisco"
+  twitter     : "tba"
+  
+Bertrand Duvivier:
+  name        : "Bertrand Duvivier"
+  github      : "bduvivie"
+  email       : "bduvivie@cisco.com"
+  avatar      : "sr-web-team.jpg"
+  bio         : "Principal Engineer, Cisco"
   twitter     : "tba"  
+
+Stefano Previdi:
+  name        : "Stefano Previdi"
+  github      : "tba"
+  email       : "sprevidi@cisco.com"
+  avatar      : "sr-web-team.jpg"
+  bio         : "Distinguished Engineer, Cisco"
+  twitter     : "tba"
+
+Pablo Camarillo:
+  name        : "Pablo Camarillo"
+  github      : "tba"
+  email       : "pcamaril@cisco.com"
+  avatar      : "sr-web-team.jpg"
+  bio         : "Development Engineer, Cisco"
+  twitter     : "tba"
+
+Francois Clad:
+  name        : "Francois Clad"
+  github      : "tba"
+  email       : "fclad@cisco.com"
+  avatar      : "sr-web-team.jpg"
+  bio         : "Development Engineer, Cisco"
+  twitter     : "tba"
 
 Akshat Sharma:
   name        : "Akshat Sharma"

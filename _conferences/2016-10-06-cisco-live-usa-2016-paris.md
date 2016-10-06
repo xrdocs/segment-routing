@@ -2,7 +2,7 @@
 author: Segment Routing Team
 published: true
 date: '2016-10-06 16:48 -0700'
-title: 'Cisco Live USA 2016, Paris'
+title: 'Cisco Live 2016, Las Vegas'
 ---
 {% include toc icon="table" title="Cisco Live USA 2016" %}
 

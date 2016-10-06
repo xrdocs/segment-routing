@@ -18,7 +18,7 @@ teaser: 'https://img.youtube.com/vi/0IVk3WnrROs/0.jpg'
 ## Segment Routing Use Cases and Deployment Status    
 
 
-**Clarence filsfils, Cisco**
+**Clarence Filsfils, Cisco**
 {: .notice--info}  
  
 

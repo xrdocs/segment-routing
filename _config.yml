@@ -296,7 +296,6 @@ prose:
     - /_drafts
     - /_includes
     - /_layouts
-    - /_pages
     - /_pets
     - /_portfolio
     - /_posts

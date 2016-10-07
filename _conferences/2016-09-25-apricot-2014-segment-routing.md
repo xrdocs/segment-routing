@@ -9,6 +9,7 @@ excerpt: 'Apricot 2014, Petaling Jaya, Malaysia 18-28 February 2014'
 tags:
   - segment-routing
   - cisco
+position: hidden
 ---
 
 ## Segment Routing Overview  

@@ -15,9 +15,7 @@ title: 'Cisco Live 2016, Las Vegas'
 
 ### Video
 
-[test](https://www.ciscolive.com/online/connect/sessionDetail.ww?SESSION_ID=90888&backBtn=true)
-
-https://www.ciscolive.com/online/connect/sessionDetail.ww?SESSION_ID=90888&backBtn=true
+[Access vide here](https://www.ciscolive.com/online/connect/sessionDetail.ww?SESSION_ID=90888&backBtn=true)
 
 
 ### Slides

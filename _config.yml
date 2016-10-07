@@ -65,17 +65,17 @@ google_ad_slot           :
 author:
   name             : "Segment Routing Team"
   avatar           : "sr-web-team.jpg"
-  bio              : "A Team of coders and network engineers determined to build the best network operating system for Web-Scale Service Providers"
-  location         : "San jose, California"
-  email            :
-  uri              :
+  bio              : "Segment Routing, Cisco"
+  location         : 
+  email            : "ask-segment-routing@cisco.com"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "xrdocs"
+  github           : "xrdocs/segment-routing"
   google_plus      :
   keybase          :
   instagram        :
@@ -86,11 +86,12 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "segmentrouting"
   vine             :
   weibo            :
   xing             :
   youtube          :
+  linkedin-group   : "8266623"
 
 
 # Reading Files

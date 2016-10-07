@@ -58,6 +58,22 @@ feature_row3:
 {% include feature_row id="feature_row2" type="left" %}
 
 <div class="feature__wrapper">
+  <div class="feature__item--left">
+    <div class="archive__item">
+      <div class="archive__item-teaser"> 
+        <iframe width="400" height="280" src="https://www.youtube.com/embed/pDIRXLajRXo" frameborder="0" allowfullscreen></iframe>
+       </div>
+       <div class="archive__item-body">
+         <h2 class="archive__item-title">Application-Engineered Routing</h2>
+       <div class="archive__item-excerpt">
+         <p>Take an inside look at application-engineered routing, which gives applications the ability to communicate their requirements directly to your network. And that means greater availability, end-to-end control, and a vastly improved customer experience. Clarence Filsfils and Bertrand Duvivier from Cisco give their perspective and show how your business can become more competitive and successful than ever.</p>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="feature__wrapper">
   <div class="feature__item--right">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
@@ -75,18 +91,4 @@ feature_row3:
   </div>
 </div>
 
-<div class="feature__wrapper">
-  <div class="feature__item--left">
-    <div class="archive__item">
-      <div class="archive__item-teaser"> 
-        <iframe width="400" height="280" src="https://www.youtube.com/embed/pDIRXLajRXo" frameborder="0" allowfullscreen></iframe>
-       </div>
-       <div class="archive__item-body">
-         <h2 class="archive__item-title">Application-Engineered Routing</h2>
-       <div class="archive__item-excerpt">
-         <p>Take an inside look at application-engineered routing, which gives applications the ability to communicate their requirements directly to your network. And that means greater availability, end-to-end control, and a vastly improved customer experience. Clarence Filsfils and Bertrand Duvivier from Cisco give their perspective and show how your business can become more competitive and successful than ever.</p>
-       </div>
-      </div>
-    </div>
-  </div>
-</div>
+

@@ -9,7 +9,7 @@ tags:
   - segment-routing
   - cisco
   - Bertrand
-position: hidden
+position: top
 ---
 
 **Bertrand Duvivier, Cisco.**

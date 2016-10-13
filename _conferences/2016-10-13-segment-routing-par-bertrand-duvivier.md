@@ -18,6 +18,6 @@ position: top
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XQzJSBLDnTk" frameborder="0" allowfullscreen></iframe>
 
 
-## Slides
+## Box Slides
 
 <iframe src="https://app.box.com/embed/preview/h9wvw08ru58q5g7hfeqarczrbnthcc1u?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>

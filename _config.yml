@@ -121,7 +121,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - search.html
 keep_files:
   - .git
   - .svn
@@ -315,6 +314,7 @@ prose:
     - CHANGELOG.md
     - README.md
     - feed.xml
+    - search.html
   metadata:
     _tutorials:
       - name: "title"

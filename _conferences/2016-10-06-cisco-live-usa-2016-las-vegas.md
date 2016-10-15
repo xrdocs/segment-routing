@@ -3,7 +3,7 @@ published: true
 date: '2016-10-06 16:48 -0700'
 title: 'Cisco Live 2016, Las Vegas'
 teaser: 'https://www.dns-as.org/wp-content/uploads/2016/05/CiscoLiveLasVegas2016.jpg'
-author: Francois Clad
+author: Segment-Routing Team
 ---
 {% include toc icon="table" title="Cisco Live USA 2016" %}
 

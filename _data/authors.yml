@@ -13,14 +13,14 @@ Clarence Filsfils:
   name        : "Clarence Filsfils"
   github      : "cfilsfil"
   email       : "ask-segment-routing@cisco.com"
-  avatar      : "cfilsfil-2.jpg"
+  avatar      : "pic-cfilsfil.jpg"
   bio         : "Cisco Systems Fellow, has a 20-year expertise leading innovation, productization, marketing and deployment for Cisco Systems"
 
 Kris Michielsen:
   name        : "Kris Michielsen"
   github      : "kmichiel"
   email       : "kmichiel@cisco.com"
-  avatar      : "sr-web-team.jpg"
+  avatar      : "pic-kmichiel.jpg"
   bio         : "Technical Leader @ Cisco"
   twitter     : "segmentrouting"
   
@@ -28,7 +28,7 @@ Frederic Trate:
   name        : "Frederic Trate"
   github      : "fredtrate"
   email       : "ftrate@cisco.com"
-  avatar      : "sr-web-team.jpg"
+  avatar      : "pic-ftrate.jpg"
   bio         : "Marketing Manager @ Cisco"
   twitter     : "segmentrouting"
   
@@ -36,7 +36,7 @@ Bertrand Duvivier:
   name        : "Bertrand Duvivier"
   github      : "bduvivie"
   email       : "bduvivie@cisco.com"
-  avatar      : "sr-web-team.jpg"
+  avatar      : "pic-bduvivier.jpg"
   bio         : "Principal Engineer @ Cisco"
   twitter     : "segmentrouting"  
 
@@ -44,7 +44,7 @@ Stefano Previdi:
   name        : "Stefano Previdi"
   github      : "sprevidi"
   email       : "stefano@previdi.net"
-  avatar      : "sprevidi.jpg"
+  avatar      : "pic-sprevidi.jpg"
   bio         : "Distinguished Engineer @ Cisco"
   twitter     : "segmentrouting"
 
@@ -52,7 +52,7 @@ Pablo Camarillo:
   name        : "Pablo Camarillo"
   github      : "pcamaril"
   email       : "pcamaril@cisco.com"
-  avatar      : "sr-web-team.jpg"
+  avatar      : "pic-pcamarillo.jpg"
   bio         : "Development Engineer @ Cisco"
   twitter     : "segmentrouting"
 
@@ -60,7 +60,7 @@ Francois Clad:
   name        : "Francois Clad"
   github      : "fclad"
   email       : "fclad@cisco.com"
-  avatar      : "sr-web-team.jpg"
+  avatar      : "p-fclad.jpg"
   bio         : "Development Engineer @ Cisco"
   twitter     : "segmentrouting"
 

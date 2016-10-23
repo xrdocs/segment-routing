@@ -66,6 +66,14 @@ feature_row3:
       TechField day June, 2016.
     url: 'https://www.youtube.com/embed/CDtoPGCZu3Y'
 
+feature_row4:
+  - image_path: 'http://images.techhive.com/images/article/2016/06/smarter-network-100668284-primary.idge.png'
+    alt: fully responsive
+    title: '<a href="http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html">How IPv6 lays the foundation for a smarter network</a>'
+    excerpt: >-
+      xxx xxx xxxx
+    url: 'http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html'
+
 published: true
 ---
 
@@ -151,7 +159,7 @@ published: true
         <iframe width="560" height="315" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen></iframe>
        </div>
        <div class="archive__item-body">
-         <h2 class="archive__item-title">xxx</h2>
+         <h2 class="archive__item-title">Traffic Engineering in a Large Netwrk with Segment Routing</h2>
         <div class="align-right">
         <div class="archive__item-excerpt">
          <p>Watch Microsoft Paul Mattes’ analysis of SR benefits for SWAN, presented at TechField day June, 2016.</p>

@@ -49,13 +49,6 @@ feature_row3:
     excerpt: 'Watch Paul Mattes’ analysis of SR benefits for SWAN, presented at TechField day June, 2016.'
     url: "https://www.youtube.com/embed/CDtoPGCZu3Y"
 
-feature_row4:
-  - image_path: https://img.youtube.com/vi/hIb4xESVqyM/0.jpg
-    alt: "fully responsive"
-    title: SR drastically simplifies operation
-    excerpt: 'Watch Mark Paggan's analysis of Walmart's SR deployment, presented at TechField day June, 2016 .'
-    url: "https://www.youtube.com/embed/hIb4xESVqyM"
-
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -100,8 +93,5 @@ feature_row4:
 
 <br>
 {% include feature_row id="feature_row3" type="left" %}
-
-<br>
-{% include feature_row id="feature_row4" type="right" %}
 
 

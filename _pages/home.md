@@ -82,7 +82,9 @@ published: true
 {% include feature_row id="feature_row1" %}
 <br>
 {% include feature_row id="feature_row2" type="left" %}
-
+<br>
+{% include feature_row id="feature_row4" type="left" %}
+<br>
 <div class="feature__wrapper">
   <div class="feature__item--left">
     <div class="archive__item">
@@ -159,7 +161,7 @@ published: true
         <iframe width="560" height="315" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen></iframe>
        </div>
        <div class="archive__item-body">
-         <h2 class="archive__item-title">Traffic Engineering in a Large Netwrk with Segment Routing</h2>
+         <h2 class="archive__item-title">Traffic Engineering in a Large Network with Segment Routing</h2>
         <div class="align-right">
         <div class="archive__item-excerpt">
          <p>Watch Microsoft Paul Mattes’ analysis of SR benefits for SWAN, presented at TechField day June, 2016.</p>

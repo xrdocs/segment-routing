@@ -91,4 +91,7 @@ feature_row3:
   </div>
 </div>
 
+<br>
+{% include feature_row id="feature_row3" type="left" %}
+
 

@@ -100,7 +100,7 @@ published: true
          <h2 class="archive__item-title">SR is the de-facto SDN network architecture</h2>
         <div class="align-right">
         <div class="archive__item-excerpt">
-         <p>Watch Colinnnn Kincaid, Cisco's SP CTO, views on how virtualization is transforming Service Providers and the role played by IPv6 and Segment Routing as the de-facto next-gen architecture.</p>
+         <p>Watch Colin Kincaid, Cisco's SP CTO, views on how virtualization is transforming Service Providers and the role played by IPv6 and Segment Routing as the de-facto next-gen architecture.</p>
        </div>
        </div>
       </div>

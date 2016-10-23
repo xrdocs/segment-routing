@@ -71,7 +71,7 @@ feature_row4:
     alt: fully responsive
     title: '<a href="http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html">How IPv6 lays the foundation for a smarter network</a>'
     excerpt: >-
-      xxx xxx xxxx
+      Read John D. Schanz, chief network officer at Comcast Cable, on his views how IPv6 Segment Routing will make the internet smarter
     url: 'http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html'
 
 published: true
@@ -82,8 +82,6 @@ published: true
 {% include feature_row id="feature_row1" %}
 <br>
 {% include feature_row id="feature_row2" type="left" %}
-<br>
-{% include feature_row id="feature_row4" type="left" %}
 <br>
 <div class="feature__wrapper">
   <div class="feature__item--left">
@@ -108,7 +106,7 @@ published: true
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Ndb3RCIlix8" frameborder="0" allowfullscreen></iframe>
        </div>
        <div class="archive__item-body">
-         <h2 class="archive__item-title">SR is the de-facto SDN network architecture</h2>
+         <h2 class="archive__item-title">SR is the de-facto SDN Network Architecture</h2>
         <div class="align-right">
         <div class="archive__item-excerpt">
          <p>Watch Colin Kincaid, Cisco's SP CTO, views on how virtualization is transforming Service Providers and the role played by IPv6 and Segment Routing as the de-facto next-gen architecture.</p>
@@ -154,8 +152,11 @@ published: true
     </div>
   </div>
 </div>
+<br>
+{% include feature_row id="feature_row4" type="left" %}
+<br>
 <div class="feature__wrapper">
-  <div class="feature__item--left">
+  <div class="feature__item--right">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen></iframe>

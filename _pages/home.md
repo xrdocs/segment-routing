@@ -56,8 +56,6 @@ feature_row3:
 {% include feature_row id="feature_row1" %}
 <br>
 {% include feature_row id="feature_row2" type="left" %}
-<br>
-{% include feature_row id="feature_row3" type="left" %}
 
 <div class="feature__wrapper">
   <div class="feature__item--left">

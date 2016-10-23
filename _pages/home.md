@@ -67,13 +67,12 @@ feature_row3:
     url: 'https://www.youtube.com/embed/CDtoPGCZu3Y'
 
 feature_row4:
-  - image_path: 'https://img.youtube.com/vi/CDtoPGCZu3Y/0.jpg'
+  - image_path: 'https://img.youtube.com/vi/hIb4xESVqyM/0.jpg'
     alt: fully responsive
-    title: SR is the de-facto SDN network architecture
+    title: SR drastically simplifies operation
     excerpt: >-
-      Watch Paul Mattes’ analysis of SR benefits for SWAN, presented at
-      TechField day June, 2016.
-    url: 'https://www.youtube.com/embed/CDtoPGCZu3Y'
+      Watch Mark Paggan's analysis of Walmart's SR deployment, presented at TechField day June, 2016.
+    url: 'https://www.youtube.com/embed/hIb4xESVqyM'
 
 published: true
 ---

@@ -66,14 +66,6 @@ feature_row3:
       TechField day June, 2016.
     url: 'https://www.youtube.com/embed/CDtoPGCZu3Y'
 
-feature_row4:
-  - image_path: 'https://img.youtube.com/vi/hIb4xESVqyM/0.jpg'
-    alt: fully responsive
-    title: SR drastically simplifies operation
-    excerpt: >-
-      Watch Mark Paggan's analysis of Walmart's SR deployment, presented at TechField day June, 2016.
-    url: 'https://www.youtube.com/embed/hIb4xESVqyM'
-
 published: true
 ---
 
@@ -116,7 +108,6 @@ published: true
     </div>
   </div>
 </div>
-
 <br>
 <div class="feature__wrapper">
   <div class="feature__item--left">
@@ -125,10 +116,28 @@ published: true
         <iframe width="560" height="315" src="https://www.youtube.com/embed/hIb4xESVqyM" frameborder="0" allowfullscreen></iframe>
        </div>
        <div class="archive__item-body">
-         <h2 class="archive__item-title">SR drastically simplifies operation</h2>
+         <h2 class="archive__item-title">SR drastically simplifies Network Operations</h2>
         <div class="align-right">
         <div class="archive__item-excerpt">
          <p>Watch Mark Paggan's analysis of Walmart's SR deployment, presented at TechField day June, 2016.</p>
+       </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="feature__wrapper">
+  <div class="feature__item--right">
+    <div class="archive__item">
+      <div class="archive__item-teaser"> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GQkVpfgjiJ0" frameborder="0" allowfullscreen></iframe>
+       </div>
+       <div class="archive__item-body">
+         <h2 class="archive__item-title">SR enables applications to use the network in innovative ways</h2>
+        <div class="align-right">
+        <div class="archive__item-excerpt">
+         <p>Watch John Leddy on Comcast's Smarter Network with SRv6, presented at TechField day June, 2016.</p>
        </div>
        </div>
       </div>

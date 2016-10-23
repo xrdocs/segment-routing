@@ -69,9 +69,9 @@ feature_row3:
 feature_row4:
   - image_path: 'http://images.techhive.com/images/article/2016/06/smarter-network-100668284-primary.idge.png'
     alt: fully responsive
-    title: '<a href="http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html">How IPv6 lays the foundation for a smarter network</a>'
+    title: '<a href="http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html">SRv6 lays the foundation for a smarter network</a>'
     excerpt: >-
-      Read John D. Schanz, chief network officer at Comcast Cable, on his views how IPv6 Segment Routing will make the internet smarter
+      Read John D. Schanz, chief network officer at Comcast Cable, on his views how IPv6 Segment Routing (SRv6) will make the internet smarter
     url: 'http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html'
 
 published: true

@@ -116,3 +116,8 @@ published: true
     </div>
   </div>
 </div>
+
+<br>
+{% include feature_row id="feature_row3" type="left" %}
+<br>
+{% include feature_row id="feature_row4" type="right" %}

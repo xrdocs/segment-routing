@@ -118,6 +118,22 @@ published: true
 </div>
 
 <br>
-{% include feature_row id="feature_row3" type="left" %}
-<br>
-{% include feature_row id="feature_row4" type="right" %}
+<div class="feature__wrapper">
+  <div class="feature__item--left">
+    <div class="archive__item">
+      <div class="archive__item-teaser"> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hIb4xESVqyM" frameborder="0" allowfullscreen></iframe>
+       </div>
+       <div class="archive__item-body">
+         <h2 class="archive__item-title">SR drastically simplifies operation</h2>
+        <div class="align-right">
+        <div class="archive__item-excerpt">
+         <p>Watch Mark Paggan's analysis of Walmart's SR deployment, presented at TechField day June, 2016.</p>
+       </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

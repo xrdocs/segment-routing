@@ -66,13 +66,6 @@ feature_row3:
       TechField day June, 2016.
     url: 'https://www.youtube.com/embed/CDtoPGCZu3Y'
 
-feature_row4:
-  - image_path: https://img.youtube.com/vi/hIb4xESVqyM/0.jpg
-    alt: "fully responsive"
-    title: SR drastically simplifies operation
-    excerpt: 'Watch Mark Paggan's analysis of Walmart's SR deployment, presented at TechField day June, 2016 .'
-    url: "https://www.youtube.com/embed/hIb4xESVqyM"
-
 published: true
 ---
 

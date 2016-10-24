@@ -80,8 +80,7 @@ feature_row5:
     title: '<a href="https://www.forwardingplane.net/2016/10/care-segment-routing/">Why I care about Segment Routing</a>'
     excerpt: >-
       Read Nick Buraglio's blog on his views on SR
-    url: 'https://www.forwardingplane.net'
-    btn_label: Follow Nick at "The Forwarding Plane"
+    url: 'https://www.forwardingplane.net/2016/10/care-segment-routing/'
 
 published: true
 ---

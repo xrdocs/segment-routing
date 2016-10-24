@@ -75,8 +75,8 @@ feature_row4:
     url: 'http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html'
 
 feature_row5:
-  - image_path: 'https://www.forwardingplane.net/wp-content/uploads/2016/10/orange-segments.jpg'
-    alt: fullyy responsive
+  - image_path: 'http://marketingland.com/wp-content/ml-loads/2015/01/orange-segments-ss-1920.jpg'
+    alt: fully responsive
     title: '<a href="https://www.forwardingplane.net/2016/10/care-segment-routing/">Why I care about Segment Routing</a>'
     excerpt: >-
       Read Nick Buraglio's blog on his views on SR

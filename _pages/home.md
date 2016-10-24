@@ -6,7 +6,8 @@ sitemap: true
 date: null
 header:
   overlay_color: '#5e616c'
-  overlay_image: stock-photo-87729343-bamboo-forest-japan-take2.jpg
+  overlay_image: segment-routing-zen.jpeg
+#  overlay_image: stock-photo-87729343-bamboo-forest-japan-take2.jpg
   cta_label: <i class='fa fa-step-forward'></i> Get Started!
   cta_url: /tutorials/
   caption: null

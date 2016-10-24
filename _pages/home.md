@@ -68,7 +68,7 @@ feature_row3:
 
 feature_row4:
   - image_path: 'http://images.techhive.com/images/article/2016/06/smarter-network-100668284-primary.idge.png'
-    alt: fullyy responsive
+    alt: fully responsive
     title: '<a href="http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html">SRv6 lays the foundation for a smarter network</a>'
     excerpt: >-
       Read John D. Schanz, chief network officer at Comcast Cable, on his take of how Segment Routing IPv6 (SRv6) will make the internet smarter
@@ -76,7 +76,7 @@ feature_row4:
 
 feature_row5:
   - image_path: 'https://www.forwardingplane.net/wp-content/uploads/2016/10/orange-segments.jpg'
-    alt: fully responsive
+    alt: fullyy responsive
     title: '<a href="https://www.forwardingplane.net/2016/10/care-segment-routing/">Why I care about Segment Routing</a>'
     excerpt: >-
       Read Nick Buraglio's blog on his views on SR

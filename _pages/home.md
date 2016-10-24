@@ -68,7 +68,7 @@ feature_row3:
 
 feature_row4:
   - image_path: 'http://images.techhive.com/images/article/2016/06/smarter-network-100668284-primary.idge.png'
-    alt: fully responsive
+    alt: fullyy responsive
     title: '<a href="http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html">SRv6 lays the foundation for a smarter network</a>'
     excerpt: >-
       Read John D. Schanz, chief network officer at Comcast Cable, on his take of how Segment Routing IPv6 (SRv6) will make the internet smarter

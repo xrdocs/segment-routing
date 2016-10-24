@@ -126,8 +126,10 @@ published: true
   </div>
 </div>
 <br>
+{% include feature_row id="feature_row5" type="left" %}
+<br>
 <div class="feature__wrapper">
-  <div class="feature__item--left">
+  <div class="feature__item--right">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/hIb4xESVqyM" frameborder="0" allowfullscreen></iframe>
@@ -145,7 +147,7 @@ published: true
 </div>
 <br>
 <div class="feature__wrapper">
-  <div class="feature__item--right">
+  <div class="feature__item--left">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/GQkVpfgjiJ0" frameborder="0" allowfullscreen></iframe>
@@ -162,10 +164,10 @@ published: true
   </div>
 </div>
 <br>
-{% include feature_row id="feature_row4" type="left" %}
+{% include feature_row id="feature_row4" type="right" %}
 <br>
 <div class="feature__wrapper">
-  <div class="feature__item--right">
+  <div class="feature__item--left">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen></iframe>
@@ -183,7 +185,7 @@ published: true
 </div>
 <br>
 <div class="feature__wrapper">
-  <div class="feature__item--left">
+  <div class="feature__item--right">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dttw2nc5FrA" frameborder="0" allowfullscreen></iframe>
@@ -201,7 +203,7 @@ published: true
 </div>
 <br>
 <div class="feature__wrapper">
-  <div class="feature__item--right">
+  <div class="feature__item--left">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/7nfnp-dnUHk" frameborder="0" allowfullscreen></iframe>
@@ -219,7 +221,7 @@ published: true
 </div>
 <br>
 <div class="feature__wrapper">
-  <div class="feature__item--left">
+  <div class="feature__item--right">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/0xtysG86Fik" frameborder="0" allowfullscreen></iframe>
@@ -237,7 +239,7 @@ published: true
 </div>
 <br>
 <div class="feature__wrapper">
-  <div class="feature__item--right">
+  <div class="feature__item--left">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/W-q4T-vN0Q4" frameborder="0" allowfullscreen></iframe>

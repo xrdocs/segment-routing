@@ -74,6 +74,14 @@ feature_row4:
       Read John D. Schanz, chief network officer at Comcast Cable, on his take of how Segment Routing IPv6 (SRv6) will make the internet smarter
     url: 'http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html'
 
+feature_row5:
+  - image_path: 'http://images.techhive.com/images/article/2016/06/smarter-network-100668284-primary.idge.png'
+    alt: fully responsive
+    title: '<a href="https://www.forwardingplane.net/2016/10/care-segment-routing/">Why I care about Segment Routing</a>'
+    excerpt: >-
+      Read Nick Buraglio's blog on xxx , chief network officer at Comcast Cable, on his take of how Segment Routing IPv6 (SRv6) will make the internet smarter
+    url: 'https://www.forwardingplane.net/2016/10/care-segment-routing/'
+
 published: true
 ---
 

@@ -6,7 +6,7 @@ sitemap: true
 date: null
 header:
   overlay_color: '#5e616c'
-  overlay_image: segment-routing-zen.jpeg
+  overlay_image: zen-465693258.jpg
   cta_label: <i class='fa fa-step-forward'></i> Get Started!
   cta_url: /tutorials/
   caption: null

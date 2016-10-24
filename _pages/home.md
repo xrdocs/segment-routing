@@ -71,7 +71,7 @@ feature_row4:
     alt: fully responsive
     title: '<a href="http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html">SRv6 lays the foundation for a smarter network</a>'
     excerpt: >-
-      Read John D. Schanz, chief network officer at Comcast Cable, on his take of how IPv6 Segment Routing (SRv6) will make the internet smarter
+      Read John D. Schanz, chief network officer at Comcast Cable, on his take of how Segment Routing IPv6 (SRv6) will make the internet smarter
     url: 'http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html'
 
 published: true
@@ -231,13 +231,13 @@ published: true
   <div class="feature__item--right">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dttw2nc5FrA" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/W-q4T-vN0Q4" frameborder="0" allowfullscreen></iframe>
        </div>
        <div class="archive__item-body">
-         <h2 class="archive__item-title">Demonstration - Topology Independent - Loop Free Alternate (TI-LFA)</h2>
+         <h2 class="archive__item-title">Demonstration - SRv6 "Spray" Multicast use case </h2>
         <div class="align-right">
         <div class="archive__item-excerpt">
-         <p>Watch Jose Liste's demonstration of TI-LFA. TI-LFA provides automated sub-50msec FRR in any topology, along the optimum backup path, against link, node or SRLG failure.</p>
+         <p>Watch Jose Liste's demonstration of the SRv6 "spray" multicast use case. Learn how to leverage SRv6 to transport multicast traffic on an IPv6 unicast-only network.</p>
        </div>
        </div>
       </div>

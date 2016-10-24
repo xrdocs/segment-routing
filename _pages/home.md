@@ -71,7 +71,7 @@ feature_row4:
     alt: fully responsive
     title: '<a href="http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html">SRv6 lays the foundation for a smarter network</a>'
     excerpt: >-
-      Read John D. Schanz, chief network officer at Comcast Cable, on his views how IPv6 Segment Routing (SRv6) will make the internet smarter
+      Read John D. Schanz, chief network officer at Comcast Cable, on his take of how IPv6 Segment Routing (SRv6) will make the internet smarter
     url: 'http://www.networkworld.com/article/3088322/internet/how-ipv6-lays-the-foundation-for-a-smarter-network.html'
 
 published: true
@@ -166,6 +166,24 @@ published: true
         <div class="align-right">
         <div class="archive__item-excerpt">
          <p>Watch Microsoft Paul Mattes’ analysis of SR benefits for SWAN, presented at TechField day June, 2016.</p>
+       </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="feature__wrapper">
+  <div class="feature__item--left">
+    <div class="archive__item">
+      <div class="archive__item-teaser"> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dttw2nc5FrA" frameborder="0" allowfullscreen></iframe>
+       </div>
+       <div class="archive__item-body">
+         <h2 class="archive__item-title">Demonstration - Topology Independent - Loop Free Alternate (TI-LFA)</h2>
+        <div class="align-right">
+        <div class="archive__item-excerpt">
+         <p>Watch Kris Michielsen's demonstration of TI-LFA. TI-LFA provides automated sub-50msec FRR in any topology, along the optimum backup path, against link, node or SRLG failure.</p>
        </div>
        </div>
       </div>

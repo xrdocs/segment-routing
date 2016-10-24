@@ -165,7 +165,7 @@ published: true
          <h2 class="archive__item-title">Traffic Engineering in a Large Network with Segment Routing</h2>
         <div class="align-right">
         <div class="archive__item-excerpt">
-         <p>Watch Microsoft Paul Mattes’ analysis of SR benefits for SWAN, presented at TechField day June, 2016.</p>
+         <p>Watch Paul Mattes’ analysis of SR benefits for Microsoft's SWAN, presented at TechField day June, 2016.</p>
        </div>
        </div>
       </div>
@@ -190,5 +190,60 @@ published: true
     </div>
   </div>
 </div>
+<br>
+<div class="feature__wrapper">
+  <div class="feature__item--right">
+    <div class="archive__item">
+      <div class="archive__item-teaser"> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7nfnp-dnUHk" frameborder="0" allowfullscreen></iframe>
+       </div>
+       <div class="archive__item-body">
+         <h2 class="archive__item-title">Demonstration - Microloop Avoidance</h2>
+        <div class="align-right">
+        <div class="archive__item-excerpt">
+         <p>Watch Kris Michielsen's demonstration of Microloop Avoidance. Experience first hand how SR eliminates microloops, a day-1 problem of IP networks.</p>
+       </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="feature__wrapper">
+  <div class="feature__item--left">
+    <div class="archive__item">
+      <div class="archive__item-teaser"> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dttw2nc5FrA" frameborder="0" allowfullscreen></iframe>
+       </div>
+       <div class="archive__item-body">
+         <h2 class="archive__item-title">Demonstration - Topology Independent - Loop Free Alternate (TI-LFA)</h2>
+        <div class="align-right">
+        <div class="archive__item-excerpt">
+         <p>Watch Jose Liste's demonstration of TI-LFA. TI-LFA provides automated sub-50msec FRR in any topology, along the optimum backup path, against link, node or SRLG failure.</p>
+       </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="feature__wrapper">
+  <div class="feature__item--right">
+    <div class="archive__item">
+      <div class="archive__item-teaser"> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dttw2nc5FrA" frameborder="0" allowfullscreen></iframe>
+       </div>
+       <div class="archive__item-body">
+         <h2 class="archive__item-title">Demonstration - Topology Independent - Loop Free Alternate (TI-LFA)</h2>
+        <div class="align-right">
+        <div class="archive__item-excerpt">
+         <p>Watch Jose Liste's demonstration of TI-LFA. TI-LFA provides automated sub-50msec FRR in any topology, along the optimum backup path, against link, node or SRLG failure.</p>
+       </div>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 

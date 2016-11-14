@@ -153,7 +153,7 @@ published: true
         <iframe width="560" height="315" src="https://www.youtube.com/embed/XQzJSBLDnTk" frameborder="0" allowfullscreen></iframe>
        </div>
        <div class="archive__item-body">
-         <h2 class="archive__item-title">FRENCH - SR Now and into the Future</h2>
+         <h2 class="archive__item-title">(FRENCH) - SR Now and into the Future</h2>
         <div class="align-right">
         <div class="archive__item-excerpt">
          <p>Watch Bertrand Duvivier, Cisco's Principal Engineer, on the genesis and future for Segment Routing</p>

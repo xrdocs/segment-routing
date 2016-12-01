@@ -206,7 +206,7 @@ published: true
   <div class="feature__item--left">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
-<div onclick="play();" id="vidwrap" style="height:315px;width:560px;background: black url('http://img.youtube.com/vi/ueP-sPcgooI/maxresdefault.jpg') no-repeat center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;overflow:hidden;cursor:pointer;"></div><script type="text/javascript">function play(){document.getElementById('vidwrap').innerHTML = '<iframe width="560" height="315" src="http://www.youtube.com/embed/Ndb3RCIlix8?autoplay=1" frameborder="0"></iframe>';}</script>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen></iframe>
        </div>
        <div class="archive__item-body">
          <h2 class="archive__item-title">Traffic Engineering in a Large Network with Segment Routing</h2>

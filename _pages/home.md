@@ -206,8 +206,7 @@ published: true
   <div class="feature__item--left">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
-       <div class='youtube_codegena' id='GQkVpfgjiJ0' data-params='?&theme=dark&autoplay=1&autohide=2' src='https://www.petdrugsonline.co.uk/images/page-headers/cats-master-header'style='width:200; height:118;'></div><script src='https://rawgit.com/shaneapen/Async-Youtube-Player/master/async_youtube_player.js'></script><div style='font-size: 0.8em'><a href='http://codegena.com/generator/Youtube-Embed-Code-Generator.html'>Created by Codegena.</a>
-       </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CDtoPGCZu3Y" frameborder="0" allowfullscreen></iframe>
        </div>
        <div class="archive__item-body">
          <h2 class="archive__item-title">Traffic Engineering in a Large Network with Segment Routing</h2>

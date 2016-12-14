@@ -186,7 +186,7 @@ published: true
   <div class="feature__item--left">
     <div class="archive__item">
       <div class="archive__item-teaser"> 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/GQkVpfgjiJ0" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GQkVpfgjiJ0?t=12s" frameborder="0" allowfullscreen></iframe>
        </div>
        <div class="archive__item-body">
          <h2 class="archive__item-title">SR enables applications to use the network in innovative ways</h2>

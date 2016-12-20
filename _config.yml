@@ -15,7 +15,7 @@ description              : &description "Documentation, Blogs and Tutorials for 
 url                      : "https://xrdocs.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/segment-routing" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/xrdocs/segment-routing"
-teaser                   : "sr-teaser-icon.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "sr-logo-blue.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -64,7 +64,7 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Segment Routing Team"
-  avatar           : "sr-web-team.jpg"
+  avatar           : "sr-logo-blue.png"
   bio              : "Segment Routing, Cisco"
   location         : 
   email            : "ask-segment-routing@cisco.com"

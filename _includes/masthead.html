@@ -2,6 +2,9 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
+    {% if site.teaser %}
+      <img src="/images/{{ site.teaser }}" class="author__avatar" alt="Segment-Routing logo">
+    {% endif %}
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>

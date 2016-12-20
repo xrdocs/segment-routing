@@ -5,13 +5,13 @@
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
-    {% if site.email.username %}
+    {% if site.author.email %}
       <li><a href="{{ site.author.email }}"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
     {% endif %}
-    {% if site.twitter.username %}
+    {% if site.author.twitter %}
       <li><a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
     {% endif %}
-    {% if site.linkedin.username %}
+    {% if site.author.linkedin-group %}
       <li><a href="https://www.linkedin.com/groups/{{ site.author.linkedin-group }}"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
     {% endif %}
   </ul>

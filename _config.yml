@@ -18,15 +18,6 @@ gh_repo                  : "https://github.com/xrdocs/segment-routing"
 teaser                   : "sr-teaser-icon.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-comments:
-  provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
-  disqus:
-    shortname            : "xrdocs" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
 
 # SEO Related
 google_site_verification :
@@ -177,7 +168,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: true
       share: true
       related: true
       position: "top"
@@ -189,7 +179,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: true
       share: true
       related: true
       position: "top"
@@ -200,7 +189,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      comments: true
       share: true
       related: true
       position: "top"
@@ -211,7 +199,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      comments: true
       share: true
       related: true
       position: "top"
@@ -222,7 +209,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      comments: true
       share: true
       related: true
       position: "top"

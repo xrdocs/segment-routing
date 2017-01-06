@@ -66,9 +66,9 @@ author:
   name             : "Segment Routing Team"
   avatar           : "sr-web-team.jpg"
   bio              : "Segment Routing, Cisco"
-  location         : 
+  location         :
   email            : "ask-segment-routing@cisco.com"
-  uri              : 
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
@@ -172,11 +172,11 @@ defaults:
 # _tutorials
   - scope:
       path: ""
-      type: tutorials 
+      type: tutorials
     values:
       layout: single
       author_profile: true
-      read_time: false 
+      read_time: false
       comments: true
       share: true
       related: true
@@ -184,7 +184,7 @@ defaults:
 # _conferences
   - scope:
       path: ""
-      type: conferences 
+      type: conferences
     values:
       layout: single
       author_profile: true
@@ -218,7 +218,7 @@ defaults:
 # _scientific-papers
   - scope:
       path: ""
-      type: scientific-papers 
+      type: scientific-papers
     values:
       layout: single
       author_profile: true
@@ -378,7 +378,7 @@ prose:
             element: "text"
             help: "Provide a url for a teaser image for this conference/event"
             label: "teaser image"
-            value: ""            
+            value: ""
       - name: "tags"
         field:
             element: "multiselect"

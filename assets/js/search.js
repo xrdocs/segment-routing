@@ -9,9 +9,9 @@ jQuery(function() {
     this.field('tags');
   });
 
- var base_url =  document.getElementById('base_url').getAttribute("value")
+ //var base_url =  document.getElementById('base_url').getAttribute("value")
   // Get the generated search_data.json file so lunr.js can search it locally.
-  window.data = $.getJSON(base_url + '/search_data/index.html');
+  window.data = $.getJSON('/search_data/index.html');
 
   // Wait for the data to load and add it to lunr
   window.data.then(function(loaded_data){

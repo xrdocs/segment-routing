@@ -12,10 +12,10 @@ title_short              : "Segment Routing"
 title_separator          : "|"
 name                     : &name "Cisco Systems Inc"
 description              : &description "Documentation, Blogs and Tutorials for all things Segment Routing "
-url                      : "http://localhost:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://localhost:4000 #"https://xrdocs.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/segment-routing" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/xrdocs/segment-routing"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "sr-logo-blue.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -36,12 +36,12 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "xrdocs"
+  username               : &twitter "segmentrouting"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "xrdocs_twitter.png" # Open Graph/Twitter default site image
+og_image                 : "sr-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -63,19 +63,19 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Cisco Web Team"
-  avatar           : "cisco-web-team.jpg"
-  bio              : "A Team of coders and network engineers determined to build the best network operating system for Web-Scale Service Providers"
-  location         : "San jose, California"
-  email            :
-  uri              :
+  name             : "Segment Routing Team"
+  avatar           : "sr-logo-blue.png"
+  bio              : "Segment Routing, Cisco"
+  location         : 
+  email            : "ask-segment-routing@cisco.com"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "xrdocs"
+  github           : "xrdocs/segment-routing"
   google_plus      :
   keybase          :
   instagram        :
@@ -86,11 +86,12 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "segmentrouting"
   vine             :
   weibo            :
   xing             :
   youtube          :
+  linkedin-group   : "8266623"
 
 
 # Reading Files
@@ -295,7 +296,6 @@ prose:
     - /_drafts
     - /_includes
     - /_layouts
-    - /_pages
     - /_pets
     - /_portfolio
     - /_posts
@@ -314,26 +314,23 @@ prose:
     - CHANGELOG.md
     - README.md
     - feed.xml
+    - search.html
   metadata:
-    _getting-started:
+    _tutorials:
       - name: "title"
         field:
             element: "text"
             label: "Title"
             value: ""
-      - name: "permalink"
-        field:
-            element: "text"
-            label: "Relative URL"
-            help: "provide a url relative to site url, for eg. /getting-started/blog1"
       - name: "author"
         field:
             element: "text"
             label: "Author"
+            value: "Segment Routing Team"
       - name: "excerpt"
         field:
             element: "text"
-            help: "Brief description of the blog"
+            help: "Brief description of the tutorial"
             label: "Excerpt"
       - name: "tags"
         field:
@@ -342,43 +339,86 @@ prose:
             placeholder: "Choose Tags"
             alterable: true
             options:
-             - name: "Vagrant"
-               value: "vagrant"
+             - name: "Segment-Routing"
+               value: "segment-routing"
              - name: "IOS-XR"
                value: "iosxr"
              - name: "Cisco"
                value: "cisco"
-             - name: "Linux"
-               value: "linux"
+             - name: "MPLS"
+               value: "mpls"
       - name: "published"
         field:
             label: "Published"
             element: "checkbox"
-            value: false
+            value: true
       - name: "date"
         field:
             element: "text"
             label: "Date"
             value: "CURRENT_DATETIME"
-    _helpdocs:
+    _conferences:
       - name: "title"
         field:
             element: "text"
             label: "Title"
             value: ""
-      - name: "permalink"
-        field:
-            element: "text"
-            label: "Relative URL"
-            help: "provide a url relative to site url, for eg. /helpdocs/docname"
       - name: "author"
         field:
             element: "text"
             label: "Author"
+            value: "Segment Routing Team"
       - name: "excerpt"
         field:
             element: "text"
-            help: "Brief description of the helpdoc"
+            help: "Brief description of the tutorial"
+            label: "Excerpt"
+      - name: "teaser"
+        field:
+            element: "text"
+            help: "Provide a url for a teaser image for this conference/event"
+            label: "teaser image"
+            value: ""            
+      - name: "tags"
+        field:
+            element: "multiselect"
+            label: "Add Tags"
+            placeholder: "Choose Tags"
+            alterable: true
+            options:
+             - name: "Segment-Routing"
+               value: "segment-routing"
+             - name: "IOS-XR"
+               value: "iosxr"
+             - name: "Cisco"
+               value: "cisco"
+             - name: "MPLS"
+               value: "mpls"
+      - name: "published"
+        field:
+            label: "Published"
+            element: "checkbox"
+            value: true
+      - name: "date"
+        field:
+            element: "text"
+            label: "Date"
+            value: "CURRENT_DATETIME"
+    _ietf:
+      - name: "title"
+        field:
+            element: "text"
+            label: "Title"
+            value: ""
+      - name: "author"
+        field:
+            element: "text"
+            label: "Author"
+            value: "Segment Routing Team"
+      - name: "excerpt"
+        field:
+            element: "text"
+            help: "Brief description of the tutorial"
             label: "Excerpt"
       - name: "tags"
         field:
@@ -387,24 +427,107 @@ prose:
             placeholder: "Choose Tags"
             alterable: true
             options:
-             - name: "Vagrant"
-               value: "vagrant"
+             - name: "Segment-Routing"
+               value: "segment-routing"
              - name: "IOS-XR"
                value: "iosxr"
              - name: "Cisco"
                value: "cisco"
-             - name: "Linux"
-               value: "linux"
+             - name: "MPLS"
+               value: "mpls"
       - name: "published"
         field:
             label: "Published"
             element: "checkbox"
-            value: false
+            value: true
       - name: "date"
         field:
             element: "text"
             label: "Date"
             value: "CURRENT_DATETIME"
+    _open-software:
+      - name: "title"
+        field:
+            element: "text"
+            label: "Title"
+            value: ""
+      - name: "author"
+        field:
+            element: "text"
+            label: "Author"
+            value: "Segment Routing Team"
+      - name: "excerpt"
+        field:
+            element: "text"
+            help: "Brief description of the tutorial"
+            label: "Excerpt"
+      - name: "tags"
+        field:
+            element: "multiselect"
+            label: "Add Tags"
+            placeholder: "Choose Tags"
+            alterable: true
+            options:
+             - name: "Segment-Routing"
+               value: "segment-routing"
+             - name: "IOS-XR"
+               value: "iosxr"
+             - name: "Cisco"
+               value: "cisco"
+             - name: "MPLS"
+               value: "mpls"
+      - name: "published"
+        field:
+            label: "Published"
+            element: "checkbox"
+            value: true
+      - name: "date"
+        field:
+            element: "text"
+            label: "Date"
+            value: "CURRENT_DATETIME"
+    _scientific-papers:
+      - name: "title"
+        field:
+            element: "text"
+            label: "Title"
+            value: ""
+      - name: "author"
+        field:
+            element: "text"
+            label: "Author"
+            value: "Segment Routing Team"
+      - name: "excerpt"
+        field:
+            element: "text"
+            help: "Brief description of the tutorial"
+            label: "Excerpt"
+      - name: "tags"
+        field:
+            element: "multiselect"
+            label: "Add Tags"
+            placeholder: "Choose Tags"
+            alterable: true
+            options:
+             - name: "Segment-Routing"
+               value: "segment-routing"
+             - name: "IOS-XR"
+               value: "iosxr"
+             - name: "Cisco"
+               value: "cisco"
+             - name: "MPLS"
+               value: "mpls"
+      - name: "published"
+        field:
+            label: "Published"
+            element: "checkbox"
+            value: true
+      - name: "date"
+        field:
+            element: "text"
+            label: "Date"
+            value: "CURRENT_DATETIME"
+
 
 
 sass:

@@ -7,7 +7,8 @@ excerpt: 'SDN Japan 2013: September 18-20, 2013, Ebisu Garden Hall. '
 tags:
   - segment-routing
   - cisco
-teaser: 'https://img.youtube.com/vi/FiK58HURdHo/0.jpg'
+header:
+  teaser: 'https://img.youtube.com/vi/FiK58HURdHo/0.jpg'
 ---
 ## Segment Routing - Path/Flow Programmability  
 

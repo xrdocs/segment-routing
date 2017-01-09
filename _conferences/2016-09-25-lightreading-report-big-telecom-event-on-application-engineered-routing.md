@@ -9,7 +9,8 @@ tags:
   - cisco
   - lightreading
   - BTE
-teaser: lightreading_bte.png
+header:
+  teaser: images/lightreading_bte.png
 ---
 &nbsp;
   

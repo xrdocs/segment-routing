@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% if (page.header.overlay_color or page.header.overlay_image) or page.header.image %}
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
 
@@ -14,6 +14,7 @@ layout: default
 
 <div id="main" role="main">
   {% include sidebar.html %}
+
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>

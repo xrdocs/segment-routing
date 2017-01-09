@@ -3,7 +3,8 @@ author: Segment Routing Team
 published: true
 date: '2016-09-27 08:52 -0700'
 title: The Fast Data Project (FD.io)
-teaser: 'https://fd.io/sites/cpstandard/files/fd-logo.png'
+header:
+  teaser: 'https://fd.io/sites/cpstandard/files/fd-logo.png'
 tags:
   - segment-routing
   - fd.io

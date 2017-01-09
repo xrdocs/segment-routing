@@ -9,7 +9,8 @@ excerpt: >-
 tags:
   - segment-routing
   - mpls
-teaser: 'https://img.youtube.com/vi/371DUGHjPwk/0.jpg'
+header:
+  teaser: 'https://img.youtube.com/vi/371DUGHjPwk/0.jpg'
 ---
 
 ## Segment Routing - Simplifying the Network

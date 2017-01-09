@@ -6,7 +6,7 @@ sitemap: true
 date: null
 header:
   overlay_color: '#5e616c'
-  overlay_image: segment-routing-zen.jpeg
+  overlay_image: images/segment-routing-zen.jpeg
 #  overlay_image: stock-photo-87729343-bamboo-forest-japan-take2.jpg
   cta_label: <i class='fa fa-step-forward'></i> Get Started!
   cta_url: /tutorials/
@@ -21,13 +21,13 @@ excerpt: >-
   class="fa fa-fw fa-linkedin"
   aria-hidden="true"></i><span>LinkedIn</span></a><br/>
 feature_row1:
-  - image_path: tutorial-board.jpg
+  - image_path: images/tutorial-board.jpg
     alt: fully responsive
     title: Tutorials
     excerpt: 'Demo Videos, quick snapshot presentations to get you going!'
     url: 'https://xrdocs.github.io/segment-routing/tutorials/'
     btn_label: Learn More
-  - image_path: conference-icon.jpg
+  - image_path: images/conference-icon.jpg
     alt: fully responsive
     title: Conferences and events
     excerpt: >-
@@ -35,7 +35,7 @@ feature_row1:
       and use cases
     url: 'https://xrdocs.github.io/segment-routing/conferences/'
     btn_label: Learn More
-  - image_path: ietf_logo.jpg
+  - image_path: images/ietf_logo.jpg
     alt: fully responsive
     title: IETF
     excerpt: Immerse yourself in the latest Segment Routing Drafts and RFCs
@@ -50,7 +50,7 @@ intro:
       js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,
       "script", "twitter-wjs");</script>{:/nomarkdown}
 feature_row2:
-  - image_path: sr-book-amazon.jpg
+  - image_path: images/sr-book-amazon.jpg
     alt: fully responsive
     title: '<a href="https://amzn.com/B01I58LSUO">Segment Routing, Part 1</a>'
     excerpt: >-

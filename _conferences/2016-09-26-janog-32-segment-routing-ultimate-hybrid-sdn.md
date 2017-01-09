@@ -7,7 +7,8 @@ excerpt: Janog (Japan Network Operators' Group) 32 - 4 July 2013
 tags:
   - segment-routing
   - cisco
-teaser: janog32.png
+header:
+  teaser: images/janog32.png
 ---
 
 ## Segment Routing - Ultimate Hybrid SDN"

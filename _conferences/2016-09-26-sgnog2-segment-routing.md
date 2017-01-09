@@ -7,7 +7,8 @@ excerpt: 'SGNOG2 (Singapore Network Operator''s Group): Segment Routing Overview
 tags:
   - segment-routing
   - cisco
-teaser: sgnog.png
+header:
+  teaser: images/sgnog.png
 ---
 
 ## Segment Routing Overview  

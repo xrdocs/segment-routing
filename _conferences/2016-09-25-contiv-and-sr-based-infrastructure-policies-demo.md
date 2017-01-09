@@ -10,7 +10,8 @@ tags:
   - segment-routing
   - cisco
   - mpls
-teaser: 'https://img.youtube.com/vi/rLUHFfx3i64/0.jpg'
+header:
+  teaser: 'https://img.youtube.com/vi/rLUHFfx3i64/0.jpg'
 ---
 
 ## Segment Routing with Contiv for Infrastructure Policy Enforcement

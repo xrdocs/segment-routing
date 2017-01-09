@@ -7,7 +7,8 @@ tags:
   - segment-routing
   - cisco
 excerpt: SPRING FORWARD(ING). Evolving IP/MPLS networks with Segment Routing
-teaser: uknof27-teaser.png
+header:
+  teaser: images/uknof27-teaser.png
 ---
 
 ## Segment Routing Overview  

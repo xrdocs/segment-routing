@@ -3,8 +3,9 @@ author: Segment Routing Team
 published: true
 date: '2016-09-25 22:21 -0700'
 title: 'Apricot 2014:  Segment Routing'
-teaser: >-
-  http://www.apnic.net/emails/apster/media/APRICOT2014-Apster-bulletin-button-01_Artboard-3.png
+header:
+  teaser: >-
+    http://www.apnic.net/emails/apster/media/APRICOT2014-Apster-bulletin-button-01_Artboard-3.png
 excerpt: 'Apricot 2014, Petaling Jaya, Malaysia 18-28 February 2014'
 tags:
   - segment-routing

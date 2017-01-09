@@ -7,7 +7,8 @@ excerpt: ENOG 7 / RIPE NCC Regional Meeting took place in Moscow from 26-27 May 
 tags:
   - segment-routing
   - cisco
-teaser: 'https://img.youtube.com/vi/lujkWfdB4NM/0.jpg'
+header:
+  teaser: 'https://img.youtube.com/vi/lujkWfdB4NM/0.jpg'
 ---
 
 **Daniel Ginsburg, Yandex (EN)**

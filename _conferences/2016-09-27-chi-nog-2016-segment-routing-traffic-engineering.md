@@ -3,7 +3,8 @@ author: Segment Routing Team
 published: true
 date: '2016-09-27 11:18 -0700'
 title: 'CHI-NOG 2016:  Segment Routing – Traffic Engineering'
-teaser: 'https://img.youtube.com/vi/6Mnx6Y3MZMo/0.jpg'
+header:
+  teaser: 'https://img.youtube.com/vi/6Mnx6Y3MZMo/0.jpg'
 tags:
   - segment-routing
   - cisco

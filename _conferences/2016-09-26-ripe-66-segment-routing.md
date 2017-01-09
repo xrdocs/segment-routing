@@ -8,8 +8,9 @@ tags:
   - segment-routing
   - cisco
   - ripe
-teaser: >-
-  https://ripe66.ripe.net/wp-content/uploads/2013/04/RIPE-66-Guide-to-Dublin_thumbnail.png
+header:
+  teaser: >-
+    https://ripe66.ripe.net/wp-content/uploads/2013/04/RIPE-66-Guide-to-Dublin_thumbnail.png
 ---
 
 ## Segment Routing - Technology and Use Cases

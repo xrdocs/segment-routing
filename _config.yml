@@ -161,13 +161,13 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: single-full
 # _tutorials
   - scope:
       path: ""
       type: tutorials
     values:
-      layout: single
+      layout: single-full
       read_time: false
       related: true
       position: "top"
@@ -176,7 +176,7 @@ defaults:
       path: ""
       type: conferences
     values:
-      layout: single
+      layout: single-full
       read_time: false
       related: true
       position: "top"
@@ -185,7 +185,7 @@ defaults:
       path: ""
       type: open-software
     values:
-      layout: single
+      layout: single-full
       related: true
       position: "top"
 # _scientific-papers
@@ -193,7 +193,7 @@ defaults:
       path: ""
       type: scientific-papers
     values:
-      layout: single
+      layout: single-full
       related: true
       position: "top"
 

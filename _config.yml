@@ -39,6 +39,7 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://twitter.com/xrdocs"
+rss_feed                 : false
 
 # Analytics
 analytics:
@@ -65,7 +66,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "xrdocs/segment-routing"
+  github           :
   google_plus      :
   keybase          :
   instagram        :

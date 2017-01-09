@@ -23,6 +23,7 @@ en: &DEFAULT_EN
   coming_soon_label     : "Documentation Coming Soon!"
   related_label         : "You May Also Enjoy"
   follow_label          : "Follow:"
+  contact_label         : "Contact us:"
   feed_label            : "Feed"
   powered_by            : "Powered by"
   website_label         : "Website"

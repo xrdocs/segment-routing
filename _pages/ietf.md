@@ -3,11 +3,11 @@ title: "IETF Proceedings"
 permalink: /ietf/
 ---
 
-Segment Routing is being standardized by the IETF.
-
-The architecture and use-cases are handled in the SPRING working group.
-
+<div class="notice--info">
+Segment Routing is being standardized by the IETF.<br/>
+<b>The architecture and use-cases are handled in the SPRING working group.</b><br/>
 Protocol extensions are handled in their specific protocol working group (ISIS, OSPF, IDR, PCEP, 6MAN).
+</div>
 
 ## Use-Cases and Requirement
 

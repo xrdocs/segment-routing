@@ -10,6 +10,12 @@
   {% capture cta_path %}{{ page.header.cta_url | absolute_url }}{% endcapture %}
 {% endif %}
 
+{% if page.header.vid_url contains "://" %}
+  {% capture vid_path %}{{ page.header.vid_url }}{% endcapture %}
+{% else %}
+  {% capture vid_path %}{{ page.header.vid_url | absolute_url }}{% endcapture %}
+{% endif %}
+
 {% if page.header.overlay_image contains "://" %}
   {% capture overlay_img_path %}{{ page.header.overlay_image }}{% endcapture %}
 {% elsif page.header.overlay_image %}
@@ -41,7 +47,12 @@
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
       {% if page.header.cta_url %}
-        <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+        <p>
+          <a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          {% if page.header.vid_url %}
+            <a href="{{ vid_path }}" class="btn btn--light-outline btn--large" data-lity>{{ page.header.vid_label | default: site.data.ui-text[site.locale].more_label | default: "Watch Video" }}</a>
+          {% endif %}
+        </p>
       {% endif %}
     </div>
   {% else %}

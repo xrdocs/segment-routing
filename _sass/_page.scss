@@ -143,7 +143,13 @@
     .page__lead,
     .btn {
       color: #fff;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      text-shadow: 1px 1px 4px rgba(#000, 1);
+    }
+    .btn:hover {
+      background-color: #02344f;
+    }
+    .btn:focus {
+      outline: 5px auto #02344f;
     }
 
     .page__lead {

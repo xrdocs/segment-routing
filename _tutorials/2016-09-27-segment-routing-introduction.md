@@ -12,4 +12,4 @@ tags:
 **An introduction to Segment Routing and its concepts.**
 {: .notice--info}
 
-<iframe src="https://app.box.com/embed/preview/o4n1j5tuog9vjquvl0pdtvkjjtfka3nd?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+<iframe src="https://app.box.com/embed/preview/vgy2xb3jvg0rurtxql5dtoox9t4j5ry0?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>

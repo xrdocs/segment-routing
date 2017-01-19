@@ -1,13 +1,11 @@
 ---
 author: Segment Routing Team
 published: true
+breadnav: true
 date: '2016-09-27 08:52 -0700'
 title: The Fast Data Project (FD.io)
 header:
   teaser: 'https://fd.io/sites/cpstandard/files/fd-logo.png'
-tags:
-  - segment-routing
-  - fd.io
 excerpt: >-
   "Relentlessly focused on data IO speed and efficiency for more flexible and
   scalable networks and storage", supports MPLS Segment Routing encapsulation

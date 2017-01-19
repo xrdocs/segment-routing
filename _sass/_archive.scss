@@ -52,8 +52,8 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-4;
   text-align: justify;
+  font-size: $type-size-4;
 
   & + p {
     text-indent: 0;
@@ -90,6 +90,13 @@
   .page__meta {
     margin: 0 0 4px;
   }
+}
+
+.list__title {
+  border-bottom: 1px solid $border-color;
+  margin-top: 2em;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 

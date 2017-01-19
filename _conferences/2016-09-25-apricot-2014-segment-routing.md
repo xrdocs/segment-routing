@@ -1,6 +1,7 @@
 ---
 author: Segment Routing Team
 published: true
+breadnav: true
 date: '2016-09-25 22:21 -0700'
 title: 'Apricot 2014:  Segment Routing'
 header:

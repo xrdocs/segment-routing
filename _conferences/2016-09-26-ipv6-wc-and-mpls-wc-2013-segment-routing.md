@@ -1,6 +1,7 @@
 ---
 author: Segment Routing Team
 published: true
+breadnav: true
 date: '2016-09-26 03:06 -0700'
 title: 'IPv6 WC and MPLS WC 2013: Segment Routing'
 tags:

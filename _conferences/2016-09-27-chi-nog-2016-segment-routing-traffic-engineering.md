@@ -1,6 +1,7 @@
 ---
 author: Segment Routing Team
 published: true
+breadnav: true
 date: '2016-09-27 11:18 -0700'
 title: 'CHI-NOG 2016:  Segment Routing – Traffic Engineering'
 header:

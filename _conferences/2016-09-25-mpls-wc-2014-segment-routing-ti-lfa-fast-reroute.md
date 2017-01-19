@@ -1,6 +1,7 @@
 ---
 author: Segment Routing Team
 published: true
+breadnav: true
 date: '2016-09-25 22:16 -0700'
 title: 'MPLS WC 2014:  Segment Routing TI-LFA Fast ReRoute'
 tags:

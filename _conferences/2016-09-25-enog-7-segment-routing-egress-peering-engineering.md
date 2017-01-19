@@ -1,6 +1,7 @@
 ---
 author: Segment Routing Team
 published: true
+breadnav: true
 date: '2016-09-25 20:51 -0700'
 title: 'ENOG 7: Segment Routing - Egress Peering Engineering'
 excerpt: ENOG 7 / RIPE NCC Regional Meeting took place in Moscow from 26-27 May 2014.

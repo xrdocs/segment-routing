@@ -1,5 +1,6 @@
 ---
 published: true
+breadnav: true
 date: '2016-09-25 02:15 -0700'
 title: Contiv and SR-based infrastructure Policies Demo
 author: Segment Routing Team

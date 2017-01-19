@@ -1,5 +1,6 @@
 ---
 published: true
+breadnav: true
 date: '2016-09-25 07:57 -0700'
 title: 'Isocore SDN/MPLS 2015: Segment Routed Traffic Engineering '
 author: Segment Routing Team

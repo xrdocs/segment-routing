@@ -11,12 +11,12 @@ title                    : "Segment Routing"
 title_separator          : "-"
 name                     : &name "Cisco Systems Inc"
 description              : &description "Documentation, Blogs and Tutorials for all things Segment Routing "
-url                      : "http://0.0.0.0:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://localhost:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/xrdocs/segment-routing"
 teaser                   : "/images/sr-teaser-icon.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 logo                     : "/images/sr-logo-blue.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 
 # SEO Related
@@ -28,19 +28,7 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : &twitter "segmentrouting"
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : "sr-logo.png" # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-    - "https://twitter.com/xrdocs"
-rss_feed                 : false
+og_image                 : "sr-logo-blue.png" # Open Graph/Twitter default site image
 
 # Analytics
 analytics:
@@ -48,41 +36,12 @@ analytics:
   google:
     tracking_id          : "UA-78256516-1"
 
-# Google AdSense
-google_ad_client         :
-google_ad_slot           :
-
-
 # Site Author
 author:
   name             : "Segment Routing Team"
-  avatar           : "sr-web-team.jpg"
   bio              : "Segment Routing, Cisco"
-  location         :
   email            : "ask-segment-routing@cisco.com"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
   twitter          : "segmentrouting"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
   linkedin-group   : "8266623"
 
 
@@ -304,24 +263,14 @@ prose:
             element: "text"
             help: "Brief description of the tutorial"
             label: "Excerpt"
-      - name: "tags"
-        field:
-            element: "multiselect"
-            label: "Add Tags"
-            placeholder: "Choose Tags"
-            alterable: true
-            options:
-             - name: "Segment-Routing"
-               value: "segment-routing"
-             - name: "IOS-XR"
-               value: "iosxr"
-             - name: "Cisco"
-               value: "cisco"
-             - name: "MPLS"
-               value: "mpls"
       - name: "published"
         field:
             label: "Published"
+            element: "checkbox"
+            value: true
+      - name: "breadnav"
+        field:
+            label: "breadnav"
             element: "checkbox"
             value: true
       - name: "date"
@@ -329,6 +278,11 @@ prose:
             element: "text"
             label: "Date"
             value: "CURRENT_DATETIME"
+      - name: "order"
+        field:
+            element: "number"
+            label: "order"
+            value: "99"
     _conferences:
       - name: "title"
         field:
@@ -351,24 +305,14 @@ prose:
             help: "Provide a url for a teaser image for this conference/event"
             label: "teaser image"
             value: ""
-      - name: "tags"
-        field:
-            element: "multiselect"
-            label: "Add Tags"
-            placeholder: "Choose Tags"
-            alterable: true
-            options:
-             - name: "Segment-Routing"
-               value: "segment-routing"
-             - name: "IOS-XR"
-               value: "iosxr"
-             - name: "Cisco"
-               value: "cisco"
-             - name: "MPLS"
-               value: "mpls"
       - name: "published"
         field:
             label: "Published"
+            element: "checkbox"
+            value: true
+      - name: "breadnav"
+        field:
+            label: "breadnav"
             element: "checkbox"
             value: true
       - name: "date"
@@ -392,21 +336,6 @@ prose:
             element: "text"
             help: "Brief description of the tutorial"
             label: "Excerpt"
-      - name: "tags"
-        field:
-            element: "multiselect"
-            label: "Add Tags"
-            placeholder: "Choose Tags"
-            alterable: true
-            options:
-             - name: "Segment-Routing"
-               value: "segment-routing"
-             - name: "IOS-XR"
-               value: "iosxr"
-             - name: "Cisco"
-               value: "cisco"
-             - name: "MPLS"
-               value: "mpls"
       - name: "published"
         field:
             label: "Published"
@@ -433,21 +362,6 @@ prose:
             element: "text"
             help: "Brief description of the tutorial"
             label: "Excerpt"
-      - name: "tags"
-        field:
-            element: "multiselect"
-            label: "Add Tags"
-            placeholder: "Choose Tags"
-            alterable: true
-            options:
-             - name: "Segment-Routing"
-               value: "segment-routing"
-             - name: "IOS-XR"
-               value: "iosxr"
-             - name: "Cisco"
-               value: "cisco"
-             - name: "MPLS"
-               value: "mpls"
       - name: "published"
         field:
             label: "Published"
@@ -458,8 +372,6 @@ prose:
             element: "text"
             label: "Date"
             value: "CURRENT_DATETIME"
-
-
 
 sass:
   sass_dir: _sass

@@ -1,5 +1,6 @@
 ---
 published: true
+breadnav: true
 date: '2016-09-25 01:08 -0700'
 title: 'IPv6 Segment Routing (SRv6) '
 author: Segment Routing Team

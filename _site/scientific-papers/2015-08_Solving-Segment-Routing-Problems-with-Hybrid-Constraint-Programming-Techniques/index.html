@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Segment Routing - Solving Segment Routing Problems with Hybrid Constraint Programming Techniques</title>
+
+
+
+
+<meta name="description" content="">
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Segment Routing">
+<meta property="og:title" content="Solving Segment Routing Problems with Hybrid Constraint Programming Techniques">
+
+
+  <link rel="canonical" href="http://localhost:4000/scientific-papers/2015-08_Solving-Segment-Routing-Problems-with-Hybrid-Constraint-Programming-Techniques/">
+  <meta property="og:url" content="http://localhost:4000/scientific-papers/2015-08_Solving-Segment-Routing-Problems-with-Hybrid-Constraint-Programming-Techniques/">
+
+
+
+  <meta property="og:description" content="">
+
+
+
+  <meta name="twitter:site" content="@segmentrouting">
+  <meta name="twitter:title" content="Solving Segment Routing Problems with Hybrid Constraint Programming Techniques">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:url" content="http://localhost:4000/scientific-papers/2015-08_Solving-Segment-Routing-Problems-with-Hybrid-Constraint-Programming-Techniques/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="sr-logo-blue.png">
+    
+  
+
+  
+
+
+
+
+
+  <meta property="og:image" content="sr-logo-blue.png">
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2017-01-19T23:24:01+00:00">
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "http://localhost:4000",
+      "logo": "sr-logo-blue.png"
+    }
+  </script>
+
+
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Segment Routing Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+
+<link href="/assets/css/lity.min.css" rel="stylesheet">
+<link href="/assets/css/cisco-sans.min.css" rel="stylesheet">
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/favicon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/images/favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/images/favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/images/favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/images/favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/images/favicon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/images/favicon/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="http://localhost:4000/images/favicon/manifest.json">
+<link rel="mask-icon" href="http://localhost:4000/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="http://localhost:4000/images/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="http://localhost:4000/images/favicon/mstile-144x144.png">
+<meta name="msapplication-config" content="http://localhost:4000/images/favicon/browserconfig.xml">
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single-full">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <img src="/images/sr-logo-blue.png" width="45px" height="45px" alt="Segment-Routing logo" style="float:left;">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Segment Routing</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/tutorials/">Tutorials</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/conferences/">Conferences</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/ietf/">IETF</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/open-software/">Open Software</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/scientific-papers/">Scientific Papers</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Solving Segment Routing Problems with Hybrid Constraint Programming Techniques">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="January 19, 2017">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Solving Segment Routing Problems with Hybrid Constraint Programming Techniques
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2017-01-19T23:24:01+00:00">January 19, 2017</time></p>
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+          <div style="width:40%;float:left">
+    <img src="/images/logos/cisco.png" width="150px" style="float:right"/>
+  </div>
+  <div style="width:55%;float:right;height:104px;">
+    <div class="page__footer-follow" style="padding-top:1em;">
+      <ul class="social-icons">
+        
+          <li><strong>Contact us:</strong></li>
+        
+        
+          <li><a href="mailto:ask-segment-routing@cisco.com"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+        
+          <li><a href="https://twitter.com/segmentrouting"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+        
+        
+        
+        
+          <li><a href="https://www.linkedin.com/groups/8266623"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
+        
+        
+      </ul>
+    </div>
+
+    <div class="page__footer-copyright">&copy; 2017 Cisco Systems Inc.</div>
+  </div>
+
+      </footer>
+    </div>
+
+    <script src="/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78256516-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+<script src="/assets/js/lity.min.js"></script>
+
+
+  </body>
+</html>

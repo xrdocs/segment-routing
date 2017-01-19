@@ -1,6 +1,7 @@
 ---
 title: "IETF Proceedings"
 permalink: /ietf/
+breadnav: false
 
 list_usecases:
   - title: Source Packet Routing in Networking (SPRING) Problem Statement and Requirements

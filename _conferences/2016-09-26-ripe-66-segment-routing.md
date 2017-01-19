@@ -1,6 +1,7 @@
 ---
 author: Segment Routing Team
 published: true
+breadnav: true
 date: '2016-09-26 02:56 -0700'
 title: 'RIPE 66: Segment Routing'
 excerpt: 'RIPE 66: Segment Routing Technology and Use Cases'

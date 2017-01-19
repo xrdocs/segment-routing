@@ -1,6 +1,7 @@
 ---
 author: Segment Routing Team
 published: true
+breadnav: true
 date: '2016-09-26 01:06 -0700'
 title: 'SGNOG2: Segment Routing'
 excerpt: 'SGNOG2 (Singapore Network Operator''s Group): Segment Routing Overview'

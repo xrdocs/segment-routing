@@ -1,5 +1,6 @@
 ---
 published: true
+breadnav: true
 date: '2016-09-25 04:29 -0700'
 title: 'MPLS/SDN World Congress 2016, Paris'
 author: Segment Routing Team

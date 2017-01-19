@@ -6,7 +6,13 @@ title: "Scientific Papers and Research Publications"
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
-{% assign sorted = (site.scientific-papers | sort: 'date') %}
+
+{% assign sorted = (site.scientific-papers | reverse) %}
 {% for post in sorted %}
-  {% include archive-single.html %}
+  {% capture year %}{{ post.year }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 class="list__title" id="{{ year | slugify }}">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  {% include papers-list %}
 {% endfor %}

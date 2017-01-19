@@ -2,6 +2,7 @@
 author: Segment Routing Team
 published: true
 date: '2016-09-27 07:58 -0700'
+order: 5
 title: Segment Routing and LDP co-existence
 excerpt: >-
   See how segment routing can co-exist with LDP and other MPLS protocols, both

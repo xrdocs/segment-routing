@@ -2,6 +2,7 @@
 author: Segment Routing Team
 published: true
 date: '2016-09-27 07:47 -0700'
+order: 1
 title: Segment Routing Introduction
 excerpt: An introduction to Segment Routing and its concepts.
 tags:

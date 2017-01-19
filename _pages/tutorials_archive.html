@@ -1,18 +1,13 @@
 ---
 layout: archive-full
 permalink: /tutorials/
-title: "Segment Routing Tutorials"
+title: "Tutorials"
 ---
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 
-{% assign sorted = (site.tutorials | sort: 'date') %}
+{% assign sorted = (site.tutorials | sort: 'order') %}
 {% for post in sorted %}
-  {% capture year %}{{ post.date | date: '%B %Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
   {% include archive-single.html %}
 {% endfor %}

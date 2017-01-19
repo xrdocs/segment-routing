@@ -10,7 +10,7 @@ tags:
   - segment-routing
   - cisco
 header:
-  teaser: 'https://img.youtube.com/vi/e6wEhJOJ4Vw/0.jpg'
+  teaser: 'https://img.youtube.com/vi/e6wEhJOJ4Vw/mqdefault.jpg'
 ---
 ## “Spray” use case demonstration   
 

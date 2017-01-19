@@ -11,7 +11,7 @@ tags:
   - cisco
   - mpls
 header:
-  teaser: 'https://img.youtube.com/vi/rLUHFfx3i64/0.jpg'
+  teaser: 'https://img.youtube.com/vi/rLUHFfx3i64/mqdefault.jpg'
 ---
 
 ## Segment Routing with Contiv for Infrastructure Policy Enforcement

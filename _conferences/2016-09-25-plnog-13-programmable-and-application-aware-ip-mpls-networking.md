@@ -7,7 +7,7 @@ excerpt: 'Polish Network Operators Group 13th Edition, October 2014, Poland.'
 tags:
   - segment-routing
 header:
-  teaser: 'https://img.youtube.com/vi/2jjgrq805VU/0.jpg'
+  teaser: 'https://img.youtube.com/vi/2jjgrq805VU/mqdefault.jpg'
 ---
 
 {% capture "info-text" %}

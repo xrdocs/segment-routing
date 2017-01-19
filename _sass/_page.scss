@@ -6,8 +6,8 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
@@ -56,7 +56,8 @@
   }
 
   p, li, dl {
-    font-size: 1em;
+    font-size: $type-size-4;
+    text-align: justify;
   }
 
   /* paragraph indents */
@@ -76,11 +77,10 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
-
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
+      color: $link-color-hover;
     }
   }
 
@@ -117,7 +117,7 @@
   &--overlay {
     position: relative;
     margin-bottom: 2em;
-    padding: 3em 0;
+    padding: 3.5em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -140,8 +140,7 @@
 
     .page__title,
     .page__meta,
-    .page__lead,
-    .btn {
+    .page__lead {
       color: #fff;
       text-shadow: 1px 1px 4px rgba(#000, 1);
     }
@@ -153,7 +152,7 @@
     }
 
     .page__lead {
-      max-width: $medium;
+      max-width: 100%;
     }
 
     .page__title {

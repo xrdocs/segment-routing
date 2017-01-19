@@ -2,6 +2,7 @@
 author: Segment Routing Team
 published: true
 date: '2016-09-27 08:08 -0700'
+order: 7
 title: Segment Routing and LDP interworking
 excerpt: >-
   Learn about the simple, automatic and seamless interworking between segment

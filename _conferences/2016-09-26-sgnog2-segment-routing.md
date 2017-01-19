@@ -8,7 +8,7 @@ tags:
   - segment-routing
   - cisco
 header:
-  teaser: images/sgnog.png
+  teaser: /images/sgnog.png
 ---
 
 ## Segment Routing Overview  

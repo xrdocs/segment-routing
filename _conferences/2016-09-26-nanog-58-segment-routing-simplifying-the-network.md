@@ -10,7 +10,7 @@ tags:
   - segment-routing
   - mpls
 header:
-  teaser: 'https://img.youtube.com/vi/371DUGHjPwk/0.jpg'
+  teaser: 'https://img.youtube.com/vi/371DUGHjPwk/mqdefault.jpg'
 ---
 
 ## Segment Routing - Simplifying the Network

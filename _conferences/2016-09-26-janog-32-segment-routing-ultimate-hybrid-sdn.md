@@ -8,7 +8,7 @@ tags:
   - segment-routing
   - cisco
 header:
-  teaser: images/janog32.png
+  teaser: /images/janog32.png
 ---
 
 ## Segment Routing - Ultimate Hybrid SDN"

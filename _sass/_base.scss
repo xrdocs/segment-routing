@@ -13,6 +13,7 @@ body {
   padding: 0;
   color: $text-color;
   font-family: $global-font-family;
+  font-weight: 100;
   line-height: 1.5;
 
   &.overflow--hidden {
@@ -25,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 h1 {
@@ -112,13 +113,15 @@ blockquote {
 /* links */
 
 a {
+  color: $link-color;
   &:focus {
     @extend %tab-focus;
   }
-
+  text-decoration: none;
   &:hover,
   &:active {
     outline: 0;
+    color: $link-color-hover,
   }
 }
 

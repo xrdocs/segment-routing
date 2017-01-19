@@ -1,30 +1,35 @@
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].contact_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].contact_label }}</strong></li>
-    {% endif %}
-    {% if site.author.email %}
-      <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
-    {% endif %}
-    {% if site.author.twitter %}
-      <li><a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-    {% endif %}
-    {% if site.facebook.username %}
-      <li><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-    {% endif %}
-    {% if site.author.github %}
-      <li><a href="http://github.com/{{ site.author.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fa fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-    {% endif %}
-    {% if site.author.linkedin-group %}
-      <li><a href="https://www.linkedin.com/groups/{{ site.author.linkedin-group }}"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
-    {% endif %}
-    {% if site.rss_feed %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endif %}
-  </ul>
-</div>
+  <div style="width:40%;float:left">
+    <img src="/images/logos/cisco.png" width="150px" style="float:right"/>
+  </div>
+  <div style="width:55%;float:right;height:104px;">
+    <div class="page__footer-follow" style="padding-top:1em;">
+      <ul class="social-icons">
+        {% if site.data.ui-text[site.locale].contact_label %}
+          <li><strong>{{ site.data.ui-text[site.locale].contact_label }}</strong></li>
+        {% endif %}
+        {% if site.author.email %}
+          <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        {% endif %}
+        {% if site.author.twitter %}
+          <li><a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        {% endif %}
+        {% if site.facebook.username %}
+          <li><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        {% endif %}
+        {% if site.author.github %}
+          <li><a href="http://github.com/{{ site.author.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        {% endif %}
+        {% if site.author.bitbucket %}
+          <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fa fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+        {% endif %}
+        {% if site.author.linkedin-group %}
+          <li><a href="https://www.linkedin.com/groups/{{ site.author.linkedin-group }}"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
+        {% endif %}
+        {% if site.rss_feed %}
+        <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+        {% endif %}
+      </ul>
+    </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+    <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.</div>
+  </div>

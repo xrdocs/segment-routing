@@ -8,7 +8,7 @@ tags:
   - segment-routing
   - cisco
 header:
-  teaser: 'https://img.youtube.com/vi/OlohcviMvoE/0.jpg'
+  teaser: 'https://img.youtube.com/vi/hIb4xESVqyM/mqdefault.jpg'
 ---
    
 {% include toc icon="table" title="SR Strategy and Deployment Experiences" %}  

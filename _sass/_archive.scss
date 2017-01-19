@@ -34,7 +34,7 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $global-font-family;
 
   a + a {
     opacity: 0.5;
@@ -52,7 +52,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-4;
   text-align: justify;
 
   & + p {
@@ -63,6 +63,7 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+  text-align: center;
   img {
     width: 100%;
   }
@@ -104,7 +105,7 @@
   }
 
   .archive__item-title {
-    margin-top: 0.5em;
+    margin-top: 1em;
     font-size: $type-size-5;
   }
 
@@ -122,15 +123,16 @@
   @include breakpoint($medium) {
     margin-left: 0; /* reset before mixin does its thing*/
     margin-right: 0; /* reset before mixin does its thing*/
-    @include gallery(2.5 of 10);
+    @include gallery(2 of 10);
 
     .archive__item-teaser {
-      max-height: 120px;
+      max-height: 150px;
     }
 
     .archive__item-excerpt {
       display: block;
       font-size: $type-size-6;
+      margin-top: 0.5em;
     }
   }
 }

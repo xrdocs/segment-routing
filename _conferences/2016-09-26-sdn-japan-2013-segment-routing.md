@@ -8,7 +8,7 @@ tags:
   - segment-routing
   - cisco
 header:
-  teaser: 'https://img.youtube.com/vi/FiK58HURdHo/0.jpg'
+  teaser: 'https://img.youtube.com/vi/FiK58HURdHo/mqdefault.jpg'
 ---
 ## Segment Routing - Path/Flow Programmability  
 

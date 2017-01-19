@@ -10,7 +10,7 @@ tags:
   - segment-routing
   - mpls-sdn-world-congress
 header:
-  teaser: 'https://img.youtube.com/vi/8qGVmrArU7o/0.jpg'
+  teaser: 'https://img.youtube.com/vi/8qGVmrArU7o/mqdefault.jpg'
 ---
 
 ##  Tactical Centralized SR-based Traffic Enginering

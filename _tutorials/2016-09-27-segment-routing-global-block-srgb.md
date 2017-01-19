@@ -2,6 +2,7 @@
 author: Segment Routing Team
 published: true
 date: '2016-09-27 07:53 -0700'
+order: 3
 title: Segment Routing Global Block (SRGB)
 excerpt: >-
   See what the Segment Routing Global Block is. Learn about the best practices

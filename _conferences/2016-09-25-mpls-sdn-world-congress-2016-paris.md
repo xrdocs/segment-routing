@@ -11,7 +11,7 @@ excerpt: >-
   MPLS/SDN world congress, 2016 held in Paris:  Segment Routing: Deployment
   Experience and Technology Update
 header:
-  teaser: 'https://img.youtube.com/vi/VORGW0bBHLs/0.jpg'
+  teaser: 'https://img.youtube.com/vi/VORGW0bBHLs/mqdefault.jpg'
 ---
 
 {% include toc icon="table" title="MPLS/SDN World Congress 2016" %}

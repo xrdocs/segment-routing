@@ -8,7 +8,7 @@ tags:
   - segment-routing
   - cisco
 header:
-  teaser: 'https://img.youtube.com/vi/lujkWfdB4NM/0.jpg'
+  teaser: 'https://img.youtube.com/vi/lujkWfdB4NM/mqdefault.jpg'
 ---
 
 **Daniel Ginsburg, Yandex (EN)**

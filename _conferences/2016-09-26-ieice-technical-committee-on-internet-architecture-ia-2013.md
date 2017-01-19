@@ -8,7 +8,7 @@ tags:
   - segment-routing
   - cisco
 header:
-  teaser: images/ieice_2013_sdn.png
+  teaser: /images/ieice_2013_sdn.png
 ---
 
 ## Moving towards a Software Defined Network with Segment Routing

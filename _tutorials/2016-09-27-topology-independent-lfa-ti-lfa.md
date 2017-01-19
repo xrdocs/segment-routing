@@ -2,13 +2,14 @@
 author: Segment Routing Team
 published: true
 date: '2016-09-27 08:10 -0700'
+order: 8
 title: Topology Independent LFA (TI-LFA)
 excerpt: >-
-  An introduction to the Topology Independent LFA technology.See how Topology
+  An introduction to the Topology Independent LFA technology. See how Topology
   Independent LFA provides a simple, automatic, optimal and topology independent
   sub-50ms per-prefix protection to the network. Further, see how TI-LFA
   protects Segment Routing, LDP and eventually IP traffic. In the end, learn how
-  to verify TI-LFA using some examples
+  to verify TI-LFA using some examples.
 tags:
   - segment-routing
   - cisco
@@ -16,7 +17,7 @@ tags:
   - LFA
 ---
 
-**An introduction to the Topology Independent LFA technology.See how Topology Independent LFA provides a simple, automatic, optimal and topology independent sub-50ms per-prefix protection to the network. Further, see how TI-LFA protects Segment Routing, LDP and eventually IP traffic.
+**An introduction to the Topology Independent LFA technology. See how Topology Independent LFA provides a simple, automatic, optimal and topology independent sub-50ms per-prefix protection to the network. Further, see how TI-LFA protects Segment Routing, LDP and eventually IP traffic.
 In the end, learn how to verify TI-LFA using some examples.**  
 {: .notice--info}  
 

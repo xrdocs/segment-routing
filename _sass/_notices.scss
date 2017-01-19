@@ -59,6 +59,9 @@
     &:last-child {
       margin-bottom: 0; /* override*/
     }
+    list-style: none;
+    font-weight: 300;
+    font-size: type-size-3;
   }
 }
 

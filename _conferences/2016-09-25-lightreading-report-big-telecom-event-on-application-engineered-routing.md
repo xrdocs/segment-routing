@@ -10,7 +10,7 @@ tags:
   - lightreading
   - BTE
 header:
-  teaser: images/lightreading_bte.png
+  teaser: /images/lightreading_bte.png
 ---
 &nbsp;
   

@@ -2,6 +2,7 @@
 author: Segment Routing Team
 published: true
 date: '2016-09-27 07:55 -0700'
+order: 4
 title: Segment Routing IGP Control plane
 excerpt: >-
   Learn how to use IS-IS or OSPF to distribute segments, how to configure

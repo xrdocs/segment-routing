@@ -7,15 +7,15 @@
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
-  -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
   z-index: 20;
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
-    font-family: $sans-serif-narrow;
+    padding: 0.5em 2em 0.5em;
+    font-family: $header-font-family;
+    font-weight: 300;
+    text-transform: uppercase;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -44,10 +44,11 @@
 .masthead__menu-item {
   display: block;
   list-style-type: none;
+  font-size: $type-size-5;
   white-space: nowrap;
 
   &--lg {
-    padding-right: 2em;
-    font-weight: 700;
+    padding-right: 5em;
+    font-weight: 400;
   }
 }

@@ -8,7 +8,7 @@ tags:
   - cisco
 excerpt: 'UK Network Operators'' Forum, 30th Edition, London.'
 header:
-  teaser: 'https://img.youtube.com/vi/K0Lz7_3I2ZA/0.jpg'
+  teaser: 'https://img.youtube.com/vi/K0Lz7_3I2ZA/mqdefault.jpg'
 ---
 
 **For more information on the UK network operator's forum, head over to <https://www.uknof.org.uk/>.  

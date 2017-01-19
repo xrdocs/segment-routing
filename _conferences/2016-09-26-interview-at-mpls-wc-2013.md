@@ -8,7 +8,7 @@ tags:
   - segment-routing
   - cisco
 header:
-  teaser: 'https://img.youtube.com/vi/iHqISXXqexg/0.jpg'
+  teaser: 'https://img.youtube.com/vi/iHqISXXqexg/mqdefault.jpg'
 ---
 ## Interview with Clarence Filsfils at MPLS WC 2013
 

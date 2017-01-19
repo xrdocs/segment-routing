@@ -8,7 +8,7 @@ tags:
   - segment-routing
   - cisco
 header:
-  teaser: images/interop_tokyo_2013.png
+  teaser: /images/interop_tokyo_2013.png
 ---
 ## Leading-edge Trends in Routing
 

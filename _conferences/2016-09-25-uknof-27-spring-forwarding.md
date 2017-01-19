@@ -8,7 +8,7 @@ tags:
   - cisco
 excerpt: SPRING FORWARD(ING). Evolving IP/MPLS networks with Segment Routing
 header:
-  teaser: images/uknof27-teaser.png
+  teaser: /images/uknof27-teaser.png
 ---
 
 ## Segment Routing Overview  

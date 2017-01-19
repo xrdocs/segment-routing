@@ -11,7 +11,7 @@ excerpt: >-
   MPLS/SDN World Congress 2015, Paris. Segment Routing Use Cases and Deployment
   Status
 header:
-  teaser: 'https://img.youtube.com/vi/0IVk3WnrROs/0.jpg'
+  teaser: 'https://img.youtube.com/vi/0IVk3WnrROs/mqdefault.jpg'
 ---
 {% include toc icon="table" title="MPLS/SDN World Congress 2016" %}
 

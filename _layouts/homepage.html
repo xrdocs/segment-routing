@@ -1,0 +1,68 @@
+---
+---
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div class="page__hero--overlay" style="background-image: url('images/home/hero.jpg');">
+      <div class="wrapper" style="text-align:center;">
+        <h1 class="page__title" itemprop="headline" style="">
+            Segment Routing   
+        </h1>
+          <p class="page__lead" style="text-align:center;">The application steers its packets through an ordered list of instructions and realizes end-to-end policy without creating any per-flow state in the network. </p>
+          <p>
+            <a href="/tutorials/" class="btn btn--large"><i class='fa fa-step-forward'></i> Get Started!</a>
+            <a href="https://www.youtube.com/watch?v=pDIRXLajRXo" class="btn btn--large" data-lity><i class='fa fa-play-circle-o'></i> Watch Video</a>  
+          </p>
+      </div>
+    </div>
+
+    <div id="main" role="main">
+      <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+
+        <section class="page__content" itemprop="text">
+          {{ content }}
+          <!--Network operator logo slider section-->
+          <h2 style="text-align:center;border-bottom:0">SEGMENT ROUTING IS RUNNING LIVE ON:</h2>
+          <div id="networks_slider">
+            <ul>
+              <li><img src="images/logos/att.png" /></li>
+              <li><img src="images/logos/orange.png" /></li>
+              <li><img src="images/logos/comcast.png" /></li>
+              <li><img src="images/logos/microsoft.png" /></li>
+              <li><img src="images/logos/dt.png" /></li>
+              <li><img src="images/logos/bell.png" /></li>
+              <li><img src="images/logos/vodafone.png" /></li>
+              <li><img src="images/logos/walmart.png" /></li>
+              <li><img src="images/logos/verizon.png" /></li>
+              <li><img src="images/logos/tencent.png" /></li>
+              <li><img src="images/logos/sfr.png" /></li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </div>
+
+    <div class="page__footer">
+      <footer>
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+    <script src="assets/js/networks.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/networks.css" media="screen" />
+
+  </body>
+</html>

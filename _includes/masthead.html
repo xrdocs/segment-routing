@@ -4,8 +4,8 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <img src="{{ site.logo | absolute_url }}" width="45px" height="45px" alt="Segment-Routing logo" style="float:left;">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ '/' | absolute_url }}">{{ site.title }}</a></li>
+          <img src="{{ site.logo | relative_url }}" width="45px" height="45px" alt="Segment-Routing logo" style="float:left;">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}

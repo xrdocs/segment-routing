@@ -1,25 +1,25 @@
 {% if page.header.image contains "://" %}
   {% capture img_path %}{{ page.header.image }}{% endcapture %}
 {% else %}
-  {% capture img_path %}{{ page.header.image | absolute_url }}{% endcapture %}
+  {% capture img_path %}{{ page.header.image | relative_url }}{% endcapture %}
 {% endif %}
 
 {% if page.header.cta_url contains "://" %}
   {% capture cta_path %}{{ page.header.cta_url }}{% endcapture %}
 {% else %}
-  {% capture cta_path %}{{ page.header.cta_url | absolute_url }}{% endcapture %}
+  {% capture cta_path %}{{ page.header.cta_url | relative_url }}{% endcapture %}
 {% endif %}
 
 {% if page.header.vid_url contains "://" %}
   {% capture vid_path %}{{ page.header.vid_url }}{% endcapture %}
 {% else %}
-  {% capture vid_path %}{{ page.header.vid_url | absolute_url }}{% endcapture %}
+  {% capture vid_path %}{{ page.header.vid_url | relative_url }}{% endcapture %}
 {% endif %}
 
 {% if page.header.overlay_image contains "://" %}
   {% capture overlay_img_path %}{{ page.header.overlay_image }}{% endcapture %}
 {% elsif page.header.overlay_image %}
-  {% capture overlay_img_path %}{{ page.header.overlay_image | absolute_url }}{% endcapture %}
+  {% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
 {% endif %}
 
 {% if page.header.overlay_filter contains "rgba" %}

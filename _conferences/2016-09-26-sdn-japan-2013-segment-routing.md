@@ -5,9 +5,6 @@ breadnav: true
 date: '2016-09-26 00:34 -0700'
 title: 'SDN Japan 2013: Segment Routing'
 excerpt: 'SDN Japan 2013: September 18-20, 2013, Ebisu Garden Hall. '
-tags:
-  - segment-routing
-  - cisco
 header:
   teaser: 'https://img.youtube.com/vi/FiK58HURdHo/mqdefault.jpg'
 ---

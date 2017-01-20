@@ -6,9 +6,6 @@ date: '2016-09-27 11:18 -0700'
 title: 'CHI-NOG 2016:  Segment Routing – Traffic Engineering'
 header:
   teaser: 'https://img.youtube.com/vi/6Mnx6Y3MZMo/mqdefault.jpg'
-tags:
-  - segment-routing
-  - cisco
 excerpt: >-
   CHI-NOG (Chicago Network Operator's Group):  Segment Routing - Traffic
   Engineering

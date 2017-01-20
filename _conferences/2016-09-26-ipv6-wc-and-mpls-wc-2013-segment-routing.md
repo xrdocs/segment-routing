@@ -4,9 +4,6 @@ published: true
 breadnav: true
 date: '2016-09-26 03:06 -0700'
 title: 'IPv6 WC and MPLS WC 2013: Segment Routing'
-tags:
-  - segment-routing
-  - cisco
 excerpt: 'MPLS World Congress, Ethernet World Congress and IPv6 World Congress 2013'
 header:
   teaser: >-

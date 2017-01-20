@@ -8,9 +8,6 @@ header:
   teaser: >-
     http://www.apnic.net/emails/apster/media/APRICOT2014-Apster-bulletin-button-01_Artboard-3.png
 excerpt: 'Apricot 2014, Petaling Jaya, Malaysia 18-28 February 2014'
-tags:
-  - segment-routing
-  - cisco
 position: hidden
 ---
 
@@ -19,13 +16,8 @@ position: hidden
 **Shantanu Dasgupta, Consulting Engineer, Cisco**
 {: .notice--info}
 
-{% capture "pdf1-link" %}
-https://conference.apnic.net/data/37/apnic2014-segment-routing_santanu_v5_1393404956.pdf
-{% endcapture %}
+{% capture "pdf-link" %}https://conference.apnic.net/data/37/apnic2014-segment-routing_santanu_v5_1393404956.pdf{% endcapture %}
 
-<div id="pdf1"></div>
-<script>
-        PDFObject.embed("{{ pdf1-link }}",
-                        "#pdf1",
-                        {height: "500px"});
-</script>
+<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<div class="fitvidsignore" id="pdf"></div>
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

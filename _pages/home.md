@@ -32,16 +32,16 @@ feature_row_e2e:
   - image_path: images/home/end2end.png
     title: 'Unified Forwarding Plane'
     excerpt: >-
-      Segment Routing is capable of creating cross-domain policies. This way you can take advantage of the path-expressivity while keeping your DC, Metro and WAN domains independent.
+      Segment Routing is capable of creating inter-domain policies. This way you can take advantage of the path-expressivity while keeping your DC, Metro and WAN domains independent.
 
 feature_row_odn:
   - image_path: images/home/odn.png
     title: 'On-Demand Next Hop'
     excerpt: >-
-      Segment Routing PCE (Path Computation Engine) provides reachability and inter-domain end-to-end optimized path computation. 
+      An edge router upon service configuration automatically request to the Segment Routing PCE an inter-domain path to the remote service endpoint. The path can either be for simple best effort inter-domain reachability or for reachability with SLA contract. 
 
 
-      Any router, upon request, can get a inter-domain path expressed uniquely as a list of segments. There is no need for BGP route injection. This architecture is scalable since the node will only get the exact path it needs.
+      The path is expressed uniquely as a list of segments. There is no need for BGP route injection. This architecture is scalable since the node will only get the exact path it needs.
 
 feature_row_frr:
   - image_path: images/home/ti-lfa.png

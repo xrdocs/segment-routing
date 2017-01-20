@@ -1,8 +1,7 @@
 ---
-author: Segment Routing Team
 published: true
 breadnav: true
-date: '2016-09-27 08:52 -0700'
+date: '2017-01-20 08:52 -0700'
 title: The Fast Data Project (FD.io)
 header:
   teaser: 'https://fd.io/sites/cpstandard/files/fd-logo.png'

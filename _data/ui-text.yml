@@ -24,6 +24,7 @@ en: &DEFAULT_EN
   related_label         : "You May Also Enjoy"
   follow_label          : "Follow:"
   contact_us            : "Contact us:"
+  contact_label         : "Contact us:"
   feed_label            : "Feed"
   powered_by            : "Powered by"
   website_label         : "Website"

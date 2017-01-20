@@ -1,0 +1,49 @@
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{% if post.month %}
+  {% capture month %}{% case post.month %}
+    {% when 1 %}January
+    {% when 2 %}February
+    {% when 3 %}March
+    {% when 4 %}April
+    {% when 5 %}May
+    {% when 6 %}June
+    {% when 7 %}July
+    {% when 8 %}August
+    {% when 9 %}September
+    {% when 10 %}October
+    {% when 11 %}November
+    {% when 12 %}December
+  {% endcase %}{% endcapture %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+      <h2 class="archive__item-title" itemprop="headline">
+        {% if post.doi %}
+          <a href="https://doi.org/{{ post.doi }}" rel="external">{{ title }}</a>
+        {% else %}
+          <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+      </h2>
+      {% if post.authors %}
+        <p class="archive__item-excerpt">
+          {{ post.authors }}<br />
+          {% if post.publisher %}<em>{{ post.publisher }}</em>,{% endif %}
+          {% if post.location %}{{ post.location }},{% endif %}
+          {% if month %}{{ month }}{% endif %}
+          {{ post.year }}.
+        </p>
+      {% endif %}
+  </article>
+</div>

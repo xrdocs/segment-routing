@@ -1,13 +1,12 @@
 ---
 author: Segment Routing Team
 published: true
+breadnav: true
 date: '2016-09-25 19:15 -0700'
 title: 'UKNOF30: Segment Routing intro and EPE use-case'
-tags:
-  - segment-routing
-  - cisco
 excerpt: 'UK Network Operators'' Forum, 30th Edition, London.'
-teaser: 'https://img.youtube.com/vi/K0Lz7_3I2ZA/0.jpg'
+header:
+  teaser: 'https://img.youtube.com/vi/K0Lz7_3I2ZA/mqdefault.jpg'
 ---
 
 **For more information on the UK network operator's forum, head over to <https://www.uknof.org.uk/>.  

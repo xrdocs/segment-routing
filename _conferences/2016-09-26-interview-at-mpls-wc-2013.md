@@ -1,13 +1,12 @@
 ---
 author: Segment Routing Team
 published: true
+breadnav: true
 date: '2016-09-26 03:28 -0700'
 title: 'Interview at MPLS WC 2013 '
 excerpt: 'MPLS Ethernet World Congress, 2013'
-tags:
-  - segment-routing
-  - cisco
-teaser: 'https://img.youtube.com/vi/iHqISXXqexg/0.jpg'
+header:
+  teaser: 'https://img.youtube.com/vi/iHqISXXqexg/mqdefault.jpg'
 ---
 ## Interview with Clarence Filsfils at MPLS WC 2013
 

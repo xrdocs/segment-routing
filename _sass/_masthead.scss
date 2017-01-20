@@ -1,0 +1,52 @@
+/* ==========================================================================
+   MASTHEAD
+   ========================================================================== */
+
+.masthead {
+  position: relative;
+  border-bottom: 1px solid $border-color;
+  z-index: 20;
+
+  &__inner-wrap {
+    @include container;
+    @include clearfix;
+    padding: 0.5em 2em 0.5em;
+    font-family: $header-font-family;
+    font-weight: 300;
+    text-transform: uppercase;
+
+    @include breakpoint($x-large) {
+      max-width: $x-large;
+    }
+
+    nav {
+      z-index: 10;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.masthead__menu {
+
+  ul {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    list-style-type: none;
+  }
+}
+
+.masthead__menu-item {
+  display: block;
+  list-style-type: none;
+  font-size: $type-size-5;
+  white-space: nowrap;
+
+  &--lg {
+    padding-right: 5em;
+    font-weight: 400;
+  }
+}

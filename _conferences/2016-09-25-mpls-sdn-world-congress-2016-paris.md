@@ -1,16 +1,14 @@
 ---
 published: true
+breadnav: true
 date: '2016-09-25 04:29 -0700'
 title: 'MPLS/SDN World Congress 2016, Paris'
 author: Segment Routing Team
-tags:
-  - segment-routing
-  - cisco
-  - mpls sdn world congress
 excerpt: >-
   MPLS/SDN world congress, 2016 held in Paris:  Segment Routing: Deployment
   Experience and Technology Update
-teaser: 'https://img.youtube.com/vi/VORGW0bBHLs/0.jpg'
+header:
+  teaser: 'https://img.youtube.com/vi/VORGW0bBHLs/mqdefault.jpg'
 ---
 
 {% include toc icon="table" title="MPLS/SDN World Congress 2016" %}

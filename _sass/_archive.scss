@@ -122,8 +122,11 @@
 
   @include breakpoint($small) {
     @include gallery(5 of 10);
+    img,
     .archive__item-teaser {
       max-height: 200px;
+      width: auto;
+      height: 200px;
     }
   }
 
@@ -132,8 +135,10 @@
     margin-right: 0; /* reset before mixin does its thing*/
     @include gallery(2 of 10);
 
+    img,
     .archive__item-teaser {
-      max-height: 150px;
+      width: auto;
+      height: 130px;
     }
 
     .archive__item-excerpt {

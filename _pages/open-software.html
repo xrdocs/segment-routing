@@ -4,7 +4,7 @@ permalink: /open-software/
 title: "Open Software Projects"
 ---
 <div class="grid__wrapper">
-  {% assign sorted = (site.open-software | sort: 'date') %}
+  {% assign sorted = (site.open-software | sort: 'title') %}
   {% for post in sorted %}
     {% include archive-single.html type="grid" %}
   {% endfor %}

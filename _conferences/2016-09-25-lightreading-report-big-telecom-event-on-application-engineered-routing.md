@@ -4,7 +4,7 @@ published: true
 breadnav: true
 date: '2016-09-25 15:47 -0700'
 title: Lightreading report Big telecom event on Application Engineered Routing
-excerpt: 'Lightreading''s Big Telecom Event, Austin, MAY 24 & 25, 2016 '
+excerpt: 'Lightreading''s Big Telecom Event, Austin, May 24 & 25, 2016 '
 header:
   teaser: /images/lightreading_bte.png
 ---

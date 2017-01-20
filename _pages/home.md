@@ -38,7 +38,7 @@ feature_row_odn:
   - image_path: images/home/odn.png
     title: 'On-Demand Next Hop'
     excerpt: >-
-      Segment Routing PCE (Path Computation Engine) provides reachability and end-to-end optimized inter-domain path computation. 
+      Segment Routing PCE (Path Computation Engine) provides reachability and inter-domain end-to-end optimized path computation. 
 
 
       Any router, upon request, can get a inter-domain path expressed uniquely as a list of segments. There is no need for BGP route injection. This architecture is scalable since the node will only get the exact path it needs.

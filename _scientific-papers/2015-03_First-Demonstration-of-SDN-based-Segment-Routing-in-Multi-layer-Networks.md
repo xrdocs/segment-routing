@@ -5,5 +5,5 @@ publisher: Optical Fiber Communication Conference 2015
 location: Los Angeles, California United States
 month: 3
 year: 2015
-doi: https://doi.org/10.1364/OFC.2015.Th1A.5
+doi: 10.1364/OFC.2015.Th1A.5
 ---

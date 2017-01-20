@@ -5,5 +5,5 @@ publisher: European Conference on Optical Communication (ECOC)
 location: Dusseldorf, Germany
 month: 9
 year: 2016
-doi:
+url: http://www.vlopezalvarez.com/Profesional/Publications/Conferences/2016_ECOC_5.pdf
 ---

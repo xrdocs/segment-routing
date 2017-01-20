@@ -5,5 +5,5 @@ publisher: Journal of Optical Communications and Networking
 location:
 month: 5
 year: 2015
-doi: https://doi.org/10.1364/JOCN.7.000445
+doi: 10.1364/JOCN.7.000445
 ---

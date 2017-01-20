@@ -1,0 +1,49 @@
+---
+---
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div class="page__hero--overlay" style="background-image: url('images/home/hero.jpg');">
+      <div class="wrapper" style="text-align:center;">
+        <h1 class="page__title" itemprop="headline" style="">
+            Segment Routing   
+        </h1>
+          <p class="page__lead" style="text-align:center;">An IP/MPLS source-routing architecture that seeks the right balance between distributed intelligence and centralized optimization.</br>The application steers its packets through an ordered list of instructions and realizes end-to-end policy without creating any per-flow state in the network. </p>
+          <p>
+            <a href="/tutorials/" class="btn btn--large"><i class='fa fa-step-forward'></i> Get Started!</a>
+            <a href="https://www.youtube.com/watch?v=ZpUnsYjMBEA" class="btn btn--large" data-lity><i class='fa fa-play-circle-o'></i> Watch Video</a>  
+          </p>
+      </div>
+    </div>
+
+    <div id="main" role="main">
+      <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+
+        <section class="page__content" itemprop="text">
+          {{ content }}
+        </section>
+      </article>
+    </div>
+
+    <div class="page__footer">
+      <footer>
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

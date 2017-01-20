@@ -1,0 +1,21 @@
+{% if include.id %}
+  {% assign rfc_list = page.[include.id] %}
+{% else %}
+  {% assign rfc_list = page.rfc_list %}
+{% endif %}
+
+<div class="rfclist">
+  <ul>
+  {% for f in rfc_list %}
+    <li>
+      <a href="{{ f.url }}" >{{f.title}}
+        {% if f.status contains "RFC" %}
+          <span class="tag tag--large tag--bold">{{f.status}}</span>
+        {% else %}
+          <span class="tag tag--large">{{f.status}}</span>
+        {% endif %}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>

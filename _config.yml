@@ -7,26 +7,17 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Segment Routing Documentation"
-title_short              : "Segment Routing"
-title_separator          : "|"
+title                    : "Segment Routing"
+title_separator          : "-"
 name                     : &name "Cisco Systems Inc"
 description              : &description "Documentation, Blogs and Tutorials for all things Segment Routing "
-url                      : "https://xrdocs.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/segment-routing" # the subpath of your site, e.g. "/blog"
+url                      : "http://www.segment-routing.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/xrdocs/segment-routing"
-teaser                   : "sr-logo-blue.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-# breadcrumbs            : false # true, false (default)
+teaser                   : "/images/sr-teaser-icon.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+logo                     : "/images/sr-logo-blue.png"
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
-comments:
-  provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
-  disqus:
-    shortname            : "xrdocs" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
 
 # SEO Related
 google_site_verification :
@@ -37,18 +28,7 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : &twitter "segmentrouting"
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : "sr-logo.png" # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-    - "https://twitter.com/xrdocs"
+og_image                 : "sr-logo-blue.png" # Open Graph/Twitter default site image
 
 # Analytics
 analytics:
@@ -56,41 +36,12 @@ analytics:
   google:
     tracking_id          : "UA-78256516-1"
 
-# Google AdSense
-google_ad_client         :
-google_ad_slot           :
-
-
 # Site Author
 author:
   name             : "Segment Routing Team"
-  avatar           : "sr-logo-blue.png"
   bio              : "Segment Routing, Cisco"
-  location         : 
   email            : "ask-segment-routing@cisco.com"
-  uri              : 
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "xrdocs/segment-routing"
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
   twitter          : "segmentrouting"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
   linkedin-group   : "8266623"
 
 
@@ -156,9 +107,6 @@ collections:
   conferences:
     output: true
     permalink: /:collection/:path/
-  ietf:
-    output: true
-    permalink: /:collection/:path/
   open-software:
     output: true
     permalink: /:collection/:path/
@@ -169,39 +117,28 @@ collections:
 
 # Defaults
 defaults:
+# _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single-full
 # _tutorials
   - scope:
       path: ""
-      type: tutorials 
+      type: tutorials
     values:
-      layout: single
-      author_profile: true
-      read_time: false 
-      comments: true
-      share: true
+      layout: single-full
+      read_time: false
       related: true
       position: "top"
 # _conferences
   - scope:
       path: ""
-      type: conferences 
+      type: conferences
     values:
-      layout: single
-      author_profile: true
+      layout: single-full
       read_time: false
-      comments: true
-      share: true
-      related: true
-      position: "top"
-# _ietf
-  - scope:
-      path: ""
-      type: ietf
-    values:
-      layout: single
-      author_profile: true
-      comments: true
-      share: true
       related: true
       position: "top"
 # _open-software
@@ -209,21 +146,15 @@ defaults:
       path: ""
       type: open-software
     values:
-      layout: single
-      author_profile: true
-      comments: true
-      share: true
+      layout: single-full
       related: true
       position: "top"
 # _scientific-papers
   - scope:
       path: ""
-      type: scientific-papers 
+      type: scientific-papers
     values:
-      layout: single
-      author_profile: true
-      comments: true
-      share: true
+      layout: single-full
       related: true
       position: "top"
 
@@ -332,24 +263,14 @@ prose:
             element: "text"
             help: "Brief description of the tutorial"
             label: "Excerpt"
-      - name: "tags"
-        field:
-            element: "multiselect"
-            label: "Add Tags"
-            placeholder: "Choose Tags"
-            alterable: true
-            options:
-             - name: "Segment-Routing"
-               value: "segment-routing"
-             - name: "IOS-XR"
-               value: "iosxr"
-             - name: "Cisco"
-               value: "cisco"
-             - name: "MPLS"
-               value: "mpls"
       - name: "published"
         field:
             label: "Published"
+            element: "checkbox"
+            value: true
+      - name: "breadnav"
+        field:
+            label: "breadnav"
             element: "checkbox"
             value: true
       - name: "date"
@@ -357,6 +278,11 @@ prose:
             element: "text"
             label: "Date"
             value: "CURRENT_DATETIME"
+      - name: "order"
+        field:
+            element: "number"
+            label: "order"
+            value: "99"
     _conferences:
       - name: "title"
         field:
@@ -378,66 +304,15 @@ prose:
             element: "text"
             help: "Provide a url for a teaser image for this conference/event"
             label: "teaser image"
-            value: ""            
-      - name: "tags"
-        field:
-            element: "multiselect"
-            label: "Add Tags"
-            placeholder: "Choose Tags"
-            alterable: true
-            options:
-             - name: "Segment-Routing"
-               value: "segment-routing"
-             - name: "IOS-XR"
-               value: "iosxr"
-             - name: "Cisco"
-               value: "cisco"
-             - name: "MPLS"
-               value: "mpls"
+            value: ""
       - name: "published"
         field:
             label: "Published"
             element: "checkbox"
             value: true
-      - name: "date"
+      - name: "breadnav"
         field:
-            element: "text"
-            label: "Date"
-            value: "CURRENT_DATETIME"
-    _ietf:
-      - name: "title"
-        field:
-            element: "text"
-            label: "Title"
-            value: ""
-      - name: "author"
-        field:
-            element: "text"
-            label: "Author"
-            value: "Segment Routing Team"
-      - name: "excerpt"
-        field:
-            element: "text"
-            help: "Brief description of the tutorial"
-            label: "Excerpt"
-      - name: "tags"
-        field:
-            element: "multiselect"
-            label: "Add Tags"
-            placeholder: "Choose Tags"
-            alterable: true
-            options:
-             - name: "Segment-Routing"
-               value: "segment-routing"
-             - name: "IOS-XR"
-               value: "iosxr"
-             - name: "Cisco"
-               value: "cisco"
-             - name: "MPLS"
-               value: "mpls"
-      - name: "published"
-        field:
-            label: "Published"
+            label: "breadnav"
             element: "checkbox"
             value: true
       - name: "date"
@@ -461,21 +336,6 @@ prose:
             element: "text"
             help: "Brief description of the tutorial"
             label: "Excerpt"
-      - name: "tags"
-        field:
-            element: "multiselect"
-            label: "Add Tags"
-            placeholder: "Choose Tags"
-            alterable: true
-            options:
-             - name: "Segment-Routing"
-               value: "segment-routing"
-             - name: "IOS-XR"
-               value: "iosxr"
-             - name: "Cisco"
-               value: "cisco"
-             - name: "MPLS"
-               value: "mpls"
       - name: "published"
         field:
             label: "Published"
@@ -502,21 +362,6 @@ prose:
             element: "text"
             help: "Brief description of the tutorial"
             label: "Excerpt"
-      - name: "tags"
-        field:
-            element: "multiselect"
-            label: "Add Tags"
-            placeholder: "Choose Tags"
-            alterable: true
-            options:
-             - name: "Segment-Routing"
-               value: "segment-routing"
-             - name: "IOS-XR"
-               value: "iosxr"
-             - name: "Cisco"
-               value: "cisco"
-             - name: "MPLS"
-               value: "mpls"
       - name: "published"
         field:
             label: "Published"
@@ -527,8 +372,6 @@ prose:
             element: "text"
             label: "Date"
             value: "CURRENT_DATETIME"
-
-
 
 sass:
   sass_dir: _sass

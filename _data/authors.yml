@@ -1,5 +1,4 @@
 # Authors
-
 Segment Routing Team:
   name            : "Segment-Routing Team"
   bio             : "Segment Routing, Cisco"
@@ -8,75 +7,3 @@ Segment Routing Team:
   linkedin-group  : "8266623"
   avatar          : "sr-logo-blue.png"
   twitter         : "segmentrouting"
-  
-Clarence Filsfils:
-  name        : "Clarence Filsfils"
-  github      : "cfilsfil"
-  email       : "ask-segment-routing@cisco.com"
-  avatar      : "pic-cfilsfil.jpg"
-  bio         : "Cisco Systems Fellow, has a 20-year expertise leading innovation, productization, marketing and deployment for Cisco Systems"
-  twitter     : "segmentrouting"
-
-Kris Michielsen:
-  name        : "Kris Michielsen"
-  github      : "kmichiel"
-  email       : "kmichiel@cisco.com"
-  avatar      : "pic-kmichiel.jpg"
-  bio         : "Technical Leader @ Cisco"
-  twitter     : "segmentrouting"
-  
-Frederic Trate:
-  name        : "Frederic Trate"
-  github      : "fredtrate"
-  email       : "ftrate@cisco.com"
-  avatar      : "pic-ftrate.jpg"
-  bio         : "Marketing Manager @ Cisco"
-  twitter     : "segmentrouting"
-  
-Bertrand Duvivier:
-  name        : "Bertrand Duvivier"
-  github      : "bduvivie"
-  email       : "bduvivie@cisco.com"
-  avatar      : "pic-bduvivier.jpg"
-  bio         : "Principal Engineer @ Cisco"
-  twitter     : "segmentrouting"  
-
-Stefano Previdi:
-  name        : "Stefano Previdi"
-  github      : "sprevidi"
-  email       : "stefano@previdi.net"
-  avatar      : "pic-sprevidi.jpg"
-  bio         : "Distinguished Engineer @ Cisco"
-  twitter     : "segmentrouting"
-
-Pablo Camarillo:
-  name        : "Pablo Camarillo"
-  github      : "pcamaril"
-  email       : "pcamaril@cisco.com"
-  avatar      : "pic-pcamarillo.jpg"
-  bio         : "Development Engineer @ Cisco"
-  twitter     : "segmentrouting"
-
-Francois Clad:
-  name        : "Francois Clad"
-  github      : "fclad"
-  email       : "fclad@cisco.com"
-  avatar      : "pic-fclad.jpg"
-  bio         : "Development Engineer @ Cisco"
-  twitter     : "segmentrouting"
-
-Akshat Sharma:
-  name        : "Akshat Sharma"
-  github      : "akshshar"
-  email       : "akshshar@cisco.com"
-  bio         : "Evangelist, tinkerer, dog-lover and Technical Marketing Engineer, Web Solutions, Cisco."
-  avatar      : "akshat.jpg"
-  twitter     : "irakshat"
-
-Jose Liste:
-  name        : "Jose Liste"
-  github      : "joseliste"
-  email       : "jliste@cisco.com"
-  avatar      : "jliste_bio.jpg"
-  bio         : "A (blue collar) Technical Marketing Engineer, Web Solutions, Cisco."
-  twitter     : "jliste2002"

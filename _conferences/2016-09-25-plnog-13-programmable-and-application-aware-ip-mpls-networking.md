@@ -1,12 +1,14 @@
 ---
 author: Segment Routing Team
 published: true
+breadnav: true
 date: '2016-09-25 19:40 -0700'
 title: 'PLNOG 13: Programmable and Application aware IP/MPLS networking'
 excerpt: 'Polish Network Operators Group 13th Edition, October 2014, Poland.'
 tags:
   - segment-routing
-teaser: 'https://img.youtube.com/vi/2jjgrq805VU/0.jpg'
+header:
+  teaser: 'https://img.youtube.com/vi/2jjgrq805VU/mqdefault.jpg'
 ---
 
 {% capture "info-text" %}

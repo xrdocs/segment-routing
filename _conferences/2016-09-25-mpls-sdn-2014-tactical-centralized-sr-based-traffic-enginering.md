@@ -1,6 +1,7 @@
 ---
 author: Segment Routing Team
 published: true
+breadnav: true
 date: '2016-09-25 20:54 -0700'
 title: MPLS/SDN World Congress 2014
 excerpt: >-
@@ -9,7 +10,8 @@ excerpt: >-
 tags:
   - segment-routing
   - mpls-sdn-world-congress
-teaser: 'https://img.youtube.com/vi/8qGVmrArU7o/0.jpg'
+header:
+  teaser: 'https://img.youtube.com/vi/8qGVmrArU7o/mqdefault.jpg'
 ---
 
 ##  Tactical Centralized SR-based Traffic Enginering

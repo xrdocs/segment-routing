@@ -70,17 +70,10 @@ feature_row_book:
 
 published: true
 ---
-
 {% include feature_row id="feature_row_benefits" %}
-
 {% include feature_row id="feature_row_te" type="right" %}
-
 {% include feature_row id="feature_row_e2e" type="left" %}
-
 {% include feature_row id="feature_row_odn" type="right" %}
-
 {% include feature_row id="feature_row_frr" type="left" %}
-
 {% include feature_row id="feature_row_np" type="right" %}
-
 {% include feature_row id="feature_row_book" type="left" %}

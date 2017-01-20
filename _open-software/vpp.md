@@ -22,6 +22,8 @@ The key characteristic of VPP is the fact that rather than processing the first 
 
 The Segment Routing team at Cisco has funded an implementation of Segment Routing for IPv6 in VPP. The objective of this implementation is to provide an outstanding open software support for SR with the same behavior specs as the different hardware platforms such as IOS XR and IOS XE. 
 
+
+
 ## Configure IPv6 Segment Routing with VPP
 VPP' wiki contains an example on how to configure SRv6. It includes a sample topology and all the necessary configurations.
 

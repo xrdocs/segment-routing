@@ -7,9 +7,6 @@ title: MPLS/SDN World Congress 2014
 excerpt: >-
   MPLS/SDN world Congress 2014, Paris: Segment Routing based Traffic Engineering
   Introduction.
-tags:
-  - segment-routing
-  - mpls-sdn-world-congress
 header:
   teaser: 'https://img.youtube.com/vi/8qGVmrArU7o/mqdefault.jpg'
 ---

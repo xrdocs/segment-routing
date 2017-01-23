@@ -27,23 +27,5 @@ layout: null
 			</item>
       {% endunless %}
 		{% endfor %}
-    {% for post in site.conferences %}
-      {% unless post.position == "hidden" %}
-      <item>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.author %}
-          <dc:creator>{{ post.author | xml_escape }}</dc:creator>
-        {% endif %}
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ base_path }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ base_path }}{{ post.url }}</guid>
-      </item>
-      {% endunless %}
-    {% endfor %}
 	</channel>
 </rss>

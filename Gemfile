@@ -4,3 +4,5 @@ gem "github-pages"
 # gem "jekyll-archives"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "json", github: "flori/json", branch: "v1.8"
+
+gem 'json', github: 'flori/json', branch: 'v1.8'

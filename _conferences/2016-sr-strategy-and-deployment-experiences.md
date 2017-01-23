@@ -7,10 +7,7 @@ author: Segment Routing Team
 excerpt: ' SR Tech Field Day: SR strategy and deployment experiences from Walmart, Microsoft and Comcast'
 header:
   teaser: 'https://img.youtube.com/vi/hIb4xESVqyM/mqdefault.jpg'
----
-   
-{% include toc icon="table" title="Playlist" %}  
-       
+---    
        
 ### Segment Routing Field Day Roundtable
 Check out the Techfield Day Rountable content from June 21, 2016, that dives into Segment Routing Strategy along with Deployment Experiences with some key Customers: Walmart, Microsoft and Comcast.

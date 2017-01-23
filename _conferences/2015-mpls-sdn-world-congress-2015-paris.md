@@ -2,7 +2,7 @@
 author: Segment Routing Team
 published: true
 breadnav: true
-date: '2016-09-25 18:21 -0700'
+date: '2015-09-25 18:21 -0700'
 title: 'MPLS/SDN World Congress 2015, Paris'
 excerpt: >-
   MPLS/SDN World Congress 2015, Paris. Segment Routing Use Cases and Deployment

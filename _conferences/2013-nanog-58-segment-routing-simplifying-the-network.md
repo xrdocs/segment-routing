@@ -2,7 +2,7 @@
 author: Segment Routing Team
 published: true
 breadnav: true
-date: '2016-09-26 01:35 -0700'
+date: '2013-09-26 01:35 -0700'
 title: 'Nanog 58: Segment Routing - Simplifying the Network'
 excerpt: >-
   NANOG (North American Network Operator's Group) 58, June 2013, New Orleans,

@@ -2,7 +2,7 @@
 author: Segment Routing Team
 published: true
 breadnav: true
-date: '2016-09-26 00:18 -0700'
+date: '2013-09-26 00:18 -0700'
 title: 'IEICE Technical Committee on Internet Architecture(IA)  2013 '
 excerpt: Moving towards an SDN era for the Network with Segment Routing
 header:

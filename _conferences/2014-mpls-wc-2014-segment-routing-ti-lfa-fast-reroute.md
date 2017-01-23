@@ -2,7 +2,7 @@
 author: Segment Routing Team
 published: true
 breadnav: true
-date: '2016-09-25 22:16 -0700'
+date: '2014-09-25 22:16 -0700'
 title: 'MPLS WC 2014:  Segment Routing TI-LFA Fast ReRoute'
 excerpt: >-
   MPLS/SDN world congress 2014, Paris. TILFA FRR with SR (Bruno Decraene and

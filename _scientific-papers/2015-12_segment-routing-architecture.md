@@ -1,7 +1,7 @@
 ---
 title: "The Segment Routing Architecture"
 authors: Clarence Filsfils, Nagendra Kumar Nainar, Carlos Pignataro, Juan Camilo Cardona and Pierre Francois
-publisher: IEEE GLOBECOM 2015
+publisher: IEEE Global Communications Conference (GLOBECOM)
 location: San Diego, CA, USA
 month: 12
 year: 2015

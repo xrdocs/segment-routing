@@ -11,7 +11,7 @@ title: "Scientific Papers and Research Publications"
 {% for post in sorted %}
   {% capture year %}{{ post.year }}{% endcapture %}
   {% if year != written_year %}
-    <h2 class="list__title" id="{{ year | slugify }}">{{ year }}</h2>
+    <h3 class="list__title" id="{{ year | slugify }}">{{ year }}</h3>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
   {% include papers-list %}

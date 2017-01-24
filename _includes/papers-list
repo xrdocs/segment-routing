@@ -29,13 +29,13 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      <h2 class="archive__item-title" itemprop="headline">
+      <h3 class="archive__item-title" itemprop="headline">
         {% if post.doi %}
           <a href="https://doi.org/{{ post.doi }}" rel="external">{{ title }}</a>
         {% else %}
           <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
         {% endif %}
-      </h2>
+      </h3>
       {% if post.authors %}
         <p class="archive__item-excerpt">
           {{ post.authors }}<br />

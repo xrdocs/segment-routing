@@ -1,7 +1,7 @@
 ---
 published: true
 breadnav: true
-date: '2016-11-15 16:48 -0700'
+date: '2016-11-20 16:48 -0700'
 title: 'SR is the de-facto SDN Network Architecture'
 header:
   teaser: 'https://img.youtube.com/vi/Ndb3RCIlix8/mqdefault.jpg'

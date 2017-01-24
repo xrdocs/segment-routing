@@ -1,7 +1,7 @@
 ---
 published: true
 breadnav: true
-date: '2016-09-25 03:06 -0700'
+date: '2016-11-21 03:06 -0700'
 title: 'Techfield Day: SR strategy and deployment experiences'
 author: Segment Routing Team
 excerpt: ' SR Tech Field Day: SR strategy and deployment experiences from Walmart, Microsoft and Comcast'

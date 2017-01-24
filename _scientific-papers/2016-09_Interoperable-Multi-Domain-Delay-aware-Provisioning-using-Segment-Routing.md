@@ -5,5 +5,5 @@ publisher: European Conference on Optical Communication (ECOC)
 location: Dusseldorf, Germany
 month: 9
 year: 2016
-url: http://ieeexplore.ieee.org/document/7767523/
+eurl: http://ieeexplore.ieee.org/document/7767523/
 ---

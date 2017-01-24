@@ -33,7 +33,7 @@
         {% if post.doi %}
           <a href="https://doi.org/{{ post.doi }}" rel="external">{{ title }}</a>
         {% else %}
-          <a href="{{ post.url }}" rel="external">{{ title }}</a>
+          <a href="{{ post.eurl }}" rel="external">{{ title }}</a>
         {% endif %}
       </h3>
       {% if post.authors %}

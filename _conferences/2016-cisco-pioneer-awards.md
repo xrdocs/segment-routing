@@ -14,6 +14,9 @@ Segment Routing is the winner of the Cisco Pioneer Award 2016 in the category "C
 The Pioneer is Cisco’s highest engineering award recognizing the pioneering spirit of innovation.
 
 This is the Segment Routing team:
+
 <img src="/images/sr_team.jpeg">
+
+Event video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9DtgkclKj7c" frameborder="0" allowfullscreen></iframe>

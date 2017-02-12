@@ -4,7 +4,7 @@ published: true
 breadnav: true
 date: '2017-02-10 15:47 -0700'
 title: Making networks SDN-ready with Segment Routing
-excerpt: 'Heavy Reading white-paper on making networks sdn-ready with Segment Routing'
+excerpt: 'Heavy Reading white-paper on making networks sdn-ready with Segment Routing.'
 header:
   teaser: http://img.lightreading.com/heavyreading/heavyreading_logo.gif
 ---

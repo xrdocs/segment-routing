@@ -49,7 +49,7 @@ list_architecture:
     url: https://datatracker.ietf.org/doc/draft-psarkar-spring-mpls-anycast-segments/
     status: Draft
   - title: Topology Independent Fast Reroute using Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-francois-rtgwg-segment-routing-ti-lfa/
+    url: https://datatracker.ietf.org/doc/draft-bashandy-rtgwg-segment-routing-ti-lfa/
     status: Draft
 
 list_extensions:

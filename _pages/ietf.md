@@ -33,6 +33,9 @@ list_architecture:
   - title: Segment Routing Architecture
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing/
     status: WG Document
+  - title: Segment Routing Policy for Traffic Engineering
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-segment-routing-policy/
+    status: Draft
   - title: Segment Routing with MPLS data plane
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-mpls/
     status: WG Document
@@ -42,9 +45,6 @@ list_architecture:
   - title: Segment Routing Conflict Resolution
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-conflict-resolution/
     status: WG Document
-  - title: Segment Routing Policy for Traffic Engineering
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-segment-routing-policy/
-    status: Draft
   - title: Segment Routing Recursive Information
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-recursing-info/
     status: Draft

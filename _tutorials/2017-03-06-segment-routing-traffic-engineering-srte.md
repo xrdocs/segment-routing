@@ -3,16 +3,14 @@ author: Segment Routing Team
 published: true
 breadnav: true
 date: '2017-03-06 11:36 +0100'
-order: 99
+order: 9
 title: Segment Routing Traffic Engineering (SRTE)
 excerpt: >-
   An introduction to the Segment Routing Traffic Engineering (SRTE) technology.
   See how SRTE provides a simple, automated, and scalable architecture to
   engineer traffic flows in a network. Further, see how XR Traffic Controller
   (XTC) (the IOS XR based Path Computation Element (PCE)) fits into this
-  architecture. XTC provides scalable multi-domain SR-optimized path computation
-  capabilities, including multi-domain path disjointness. SRTE provides lots of
-  functionality. It was designed with lead operators, along their use-cases.
+  architecture.
 ---
 An introduction to the Segment Routing Traffic Engineering (SRTE) technology. See how SRTE provides a simple, automated, and scalable architecture to engineer traffic flows in a network. Further, see how XR Traffic Controller (XTC) (the IOS XR based Path Computation Element (PCE)) fits into this architecture. XTC provides scalable multi-domain SR-optimized path computation capabilities, including multi-domain path disjointness.
 SRTE provides lots of functionality. It was designed with lead operators, along their use-cases.

@@ -39,6 +39,9 @@ list_architecture:
   - title: Segment Routing with MPLS data plane
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-mpls/
     status: WG Document
+  - title: SRv6 Network Programming
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-network-programming/
+    status: Draft
   - title: Segment Routing interworking with LDP
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
     status: WG Document

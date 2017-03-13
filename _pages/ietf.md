@@ -42,6 +42,9 @@ list_architecture:
   - title: SRv6 Network Programming
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-network-programming/
     status: Draft
+  - title: BGP Signaling of IPv6-Segment-Routing-based VPN Networks
+    url: https://datatracker.ietf.org/doc/draft-dawra-bgp-srv6-vpn-00/
+    status: Draft
   - title: Segment Routing interworking with LDP
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
     status: WG Document

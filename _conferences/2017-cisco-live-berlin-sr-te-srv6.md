@@ -14,3 +14,7 @@ header:
 <script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
 <script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+
+<video width="31.3em" height="21.5em" controls="controls">
+<source src="http://clnv.s3.amazonaws.com/2017/eur/BRKRST-3122.mp4" type="video/mp4">
+</video>

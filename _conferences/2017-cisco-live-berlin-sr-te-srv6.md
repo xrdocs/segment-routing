@@ -9,12 +9,10 @@ header:
   teaser: http://www.ciscolive.com/emea/wp-content/uploads/logo-.png
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ivsm6WcPSEQ" frameborder="0" allowfullscreen></iframe>
+
 {% capture "pdf-link" %}/images/CL17B-BRKRST-3122.pdf{% endcapture %}
 
 <script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
 <script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
-
-<video width="31.3em" height="21.5em" controls="controls">
-<source src="http://clnv.s3.amazonaws.com/2017/eur/BRKRST-3122.mp4" type="video/mp4">
-</video>

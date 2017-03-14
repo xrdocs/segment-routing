@@ -68,6 +68,9 @@ list_extensions:
   - title: IS-IS Extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ietf-isis-segment-routing-extensions/
     status: WG Document
+  - title: IS-IS Extensions to Support Segment Routing over IPv6 Dataplane
+    url: https://datatracker.ietf.org/doc/draft-bashandy-isis-srv6-extensions-00/
+    status: Draft
   - title: Advertising L2 Bundle Member Link Attributes in IS-IS
     url: https://datatracker.ietf.org/doc/draft-ietf-isis-l2bundles/
     status: WG Document
@@ -89,9 +92,6 @@ list_extensions:
   - title: IPv6 Segment Routing Header (SRH)
     url: https://datatracker.ietf.org/doc/draft-ietf-6man-segment-routing-header/
     status: WG Document
-  - title: Segment Routing IPv6 Prefix-SID
-    url: https://datatracker.ietf.org/doc/draft-previdi-isis-ipv6-prefix-sid/
-    status: Draft
   - title: Advertising Segment Routing Traffic Engineering Policies in BGP
     url: https://datatracker.ietf.org/doc/draft-previdi-idr-segment-routing-te-policy/
     status: Draft

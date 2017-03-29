@@ -25,7 +25,10 @@ The Segment Routing team at Cisco has funded an implementation of Segment Routin
 
 
 ## Configure IPv6 Segment Routing with VPP
-VPP' wiki contains an example on how to configure SRv6. It includes a sample topology and all the necessary configurations.
+VPP' wiki contains an example on how to leverage SRv6 to create an Overlay VPN with Underlay Optimization for both IPv6 and IPv4 traffic. It includes a sample topology and all the necessary configurations.
 
+><https://wiki.fd.io/view/VPP/Segment_Routing_for_IPv6> 
 
-><https://wiki.fd.io/view/VPP/Configure_IPv6_Segment_Routing> 
+VPP' wiki also contains an extensive documentation on the SRv6 code as well as all the different CLI and behaviors.
+
+><https://docs.fd.io/vpp/17.07/srv6_doc.html>

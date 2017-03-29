@@ -34,7 +34,7 @@ og_image                 : "sr-logo-blue.png" # Open Graph/Twitter default site 
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-78256516-1"
+    tracking_id          : "UA-96386965-1"
 
 # Site Author
 author:

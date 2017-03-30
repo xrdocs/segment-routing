@@ -4,7 +4,7 @@ breadnav: true
 date: '2017-01-20 08:52 -0700'
 title: The Fast Data Project (FD.io)
 header:
-  teaser: 'https://fd.io/sites/cpstandard/files/fd-logo.png'
+  teaser: images/fd-logo.png
 excerpt: >-
   Cisco has funded an extensive implementation of SRv6 in open-source project FD.io VPP.
   Find out how to leverage this platform in your network architecture.

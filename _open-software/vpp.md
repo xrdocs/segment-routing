@@ -22,6 +22,45 @@ The key characteristic of VPP is the fact that rather than processing the first 
 
 The Segment Routing team at Cisco has funded an implementation of Segment Routing for IPv6 in VPP. The objective of this implementation is to provide an outstanding open software support for SR with the same behavior specs as the different hardware platforms such as IOS XR and IOS XE. 
 
+### SR behaviors support
+
+The following tables show the availability in VPP of each SRv6 behavior defined in [draft-filsfils-spring-srv6-network-programming](https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-network-programming/).
+
+New entries will be added to these tables as more SRv6 behaviors are defined in IETF documents.
+
+#### Endpoint functions
+
+Endpoint functions are triggered when the IPv6 Destination Address of an incoming packet matches an entry in the _My Local SIDs_ table of an SRv6-enabled node.
+
+| Name | Description | Release |
+| ---- | ----------- | :-----: |
+| End | Endpoint function | <span style="color:green">**17.04** (April 2017)</span> |
+| End.X | Endpoint function with Layer-3 cross-connect | <span style="color:green">**17.04** (April 2017)</span> |
+| End.T | Endpoint function with specific IPv6 table lookup | <span style="color:orange">In development</span> |
+| End.DX2 | Endpoint with decapsulation and Layer-2 cross-connect | <span style="color:green">**17.04** (April 2017)</span> |
+| End.DX6 | Endpoint with decapsulation and IPv6 cross-connect | <span style="color:green">**17.04** (April 2017)</span> |
+| End.DX4 | Endpoint with decapsulation and IPv4 cross-connect | <span style="color:green">**17.04** (April 2017)</span> |
+| End.DT6 | Endpoint with decapsulation and IPv6 table lookup | <span style="color:green">**17.04** (April 2017)</span> |
+| End.DT4 | Endpoint with decapsulation and IPv4 table lookup | <span style="color:green">**17.04** (April 2017)</span> |
+| End.B6 | Endpoint bound to an SRv6 policy | <span style="color:green">**17.04** (April 2017)</span> |
+| End.B6.Encaps | Endpoint bound to an SRv6 encapsulation Policy | <span style="color:green">**17.04** (April 2017)</span> |
+| End.BM | Endpoint bound to an SR-MPLS Policy | <span style="color:orange">In development</span> |
+| End.S | Endpoint in search of a target in table T | <span style="color:orange">In development</span> |
+| End.AS | Endpoint to SR-unaware APP via static proxy | <span style="color:orange">In development</span> |
+| End.AM | Endpoint to SR-unaware APP via masquerading | <span style="color:orange">In development</span> |
+
+#### Transit behaviors
+
+Transit behaviors are triggered when an in-transit packet matches a steering
+rule on an SRv6-enabled node. Examples of steering rules are packets arriving on
+a specific incoming interface or whose Destination Address belongs in a given
+prefix.
+
+| Name | Description | Release |
+| ---- | ----------- | :-----: |
+| T.Insert | Transit behavior with insertion of an SRv6 Policy | <span style="color:green">**17.04** (April 2017)</span> |
+| T.Encaps | Transit behavior with encapsulation in an SRv6 policy | <span style="color:green">**17.04** (April 2017)</span> |
+| T.Encaps.L2 | T.Encaps behavior of the received L2 frame | <span style="color:green">**17.04** (April 2017)</span> |
 
 
 ## Configure IPv6 Segment Routing with VPP

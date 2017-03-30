@@ -64,10 +64,13 @@ prefix.
 
 
 ## Configure IPv6 Segment Routing with VPP
-VPP' wiki contains an example on how to leverage SRv6 to create an Overlay VPN with Underlay Optimization for both IPv6 and IPv4 traffic. It includes a sample topology and all the necessary configurations.
 
-><https://wiki.fd.io/view/VPP/Segment_Routing_for_IPv6> 
+An example of SRv6-based overlay VPN with underlay optimization, for both IPv4
+and IPv6 traffic, is provided on the [Segment Routing page of the FD.io
+wiki](https://wiki.fd.io/view/VPP/Segment_Routing_for_IPv6). This page includes
+a sample topology and all the necessary configurations.
 
-VPP' wiki also contains an extensive documentation on the SRv6 code as well as all the different CLI and behaviors.
+An extensive documentation of the SRv6 code, with all the behaviors and their
+respective CLI commands, is also available on the [dedicated page of the VPP
+manual](https://docs.fd.io/vpp/17.07/srv6_doc.html).
 
-><https://docs.fd.io/vpp/17.07/srv6_doc.html>

@@ -43,7 +43,10 @@ list_architecture:
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-network-programming/
     status: Draft
   - title: BGP Signaling of IPv6-Segment-Routing-based VPN Networks
-    url: https://datatracker.ietf.org/doc/draft-dawra-bgp-srv6-vpn-00/
+    url: https://datatracker.ietf.org/doc/draft-dawra-idr-srv6-vpn/
+    status: Draft
+  - title: Insertion of IPv6 Segment Routing Headers in a Controlled Domain
+    url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion
     status: Draft
   - title: Segment Routing interworking with LDP
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
@@ -69,7 +72,7 @@ list_extensions:
     url: https://datatracker.ietf.org/doc/draft-ietf-isis-segment-routing-extensions/
     status: WG Document
   - title: IS-IS Extensions to Support Segment Routing over IPv6 Dataplane
-    url: https://datatracker.ietf.org/doc/draft-bashandy-isis-srv6-extensions-00/
+    url: https://datatracker.ietf.org/doc/draft-bashandy-isis-srv6-extensions/
     status: Draft
   - title: Advertising L2 Bundle Member Link Attributes in IS-IS
     url: https://datatracker.ietf.org/doc/draft-ietf-isis-l2bundles/

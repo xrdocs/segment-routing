@@ -4,7 +4,7 @@ published: true
 breadnav: true
 date: '2016-05-24 15:47 -0700'
 title: Supercharge Your Network with Segment Routing Innovations!
-excerpt: 'Frederic Trate gives the latest SR updates on Cisco Blogs SP360: Service Provider'
+excerpt: 'Frederic Trate gives the latest SR updates on Cisco Blogs SP360'
 header:
   teaser: http://blogs.cisco.com/wp-content/uploads/mpls-blog-460x230.jpg
 ---

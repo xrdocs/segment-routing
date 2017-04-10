@@ -6,7 +6,7 @@ title: 'MPLS World Congress 2017'
 author: Segment Routing Team
 excerpt: 'Check out the MPLS+SDN+NFV World track on Segment Routing'
 header:
-  teaser: 'http://www.uppersideconferences.com/mpls-sdn-nfv/images/tetieres/logo_mpls-sdn-nfv_2017_white.svg'
+  teaser: 'http://www.uppersideconferences.com/mpls-sdn-nfv/images/tetieres/logo_mpls-sdn-nfv_2017_v_0%20copie.svg'
 ---    
        
 ### Segment Routing for Datacenter Interconnect at Scale

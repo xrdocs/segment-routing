@@ -6,7 +6,7 @@ title: 'MPLS World Congress 2017'
 author: Segment Routing Team
 excerpt: 'Clarence Filsfils: Deployment experience and technology update.'
 header:
-  teaser: 'http://www.uppersideconferences.com/mpls-sdn-nfv/images/tetieres/logo_mpls-sdn-nfv_2017_v_0%20copie.svg'
+  teaser: 'https://img.youtube.com/vi/aaQAq5lj0_I/mqdefault.jpg'
 ---    
        
 <iframe width="355" height="200" src="https://www.youtube.com/embed/aaQAq5lj0_I" frameborder="0" allowfullscreen></iframe>

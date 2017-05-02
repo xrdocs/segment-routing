@@ -10,7 +10,7 @@ layout: null
 		<link>{{ base_path }}</link>
 		<atom:link href="{{ base_path }}/{{ page.path }}" rel="self" type="application/rss+xml" />
 		{% for post in site.tutorials %}
-      {% unless post.position == "hidden" %}
+                    {% unless post.position == "hidden" %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
 				{% if post.author %}
@@ -25,7 +25,26 @@ layout: null
 				<link>{{ base_path }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ base_path }}{{ post.url }}</guid>
 			</item>
-      {% endunless %}
-		{% endfor %}
+                    {% endunless %}
+                {% endfor %}
+
+		{% for post in site.conferences %}
+		    {% unless post.position == "hidden" %}
+			<item>
+				<title>{{ post.title | xml_escape }}</title>
+				{% if post.author %}
+					<dc:creator>{{ post.author | xml_escape }}</dc:creator>
+				{% endif %}
+				{% if post.excerpt %}
+					<description>{{ post.excerpt | xml_escape }}</description>
+				{% else %}
+					<description>{{ post.content | xml_escape }}</description>
+				{% endif %}
+				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+				<link>{{ base_path }}{{ post.url }}</link>
+				<guid isPermaLink="true">{{ base_path }}{{ post.url }}</guid>
+			</item>
+                  {% endunless %}
+               {% endfor %}
 	</channel>
 </rss>

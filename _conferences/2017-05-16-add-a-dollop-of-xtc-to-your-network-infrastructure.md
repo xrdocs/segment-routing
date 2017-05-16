@@ -1,6 +1,6 @@
 ---
 author: Segment Routing Team
-published: false
+published: true
 breadnav: true
 date: '2017-05-14 09:30 +0200'
 title: Add a dollop of XTC to your network infrastructure

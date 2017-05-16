@@ -9,5 +9,5 @@ excerpt: >-
   easily provide disjoint paths. Find out how this works and how it must be
   configured.
 ---
-Read in Stephane Litkowski's blog on [IP Network Geek](http://ipnetworkgeek.blogspot.fr/) how XTC can be used to easily provide disjoint paths. Find out how this works and how it must be configured.
+Read in Stephane Litkowski's blog on [IP Network Geek](http://ipnetworkgeek.blogspot.fr/) how XTC can be used to easily provide disjoint paths in your network. Find out how this works and how it must be configured.
 ><http://ipnetworkgeek.blogspot.fr/2017/05/path-disjointness-with-ios-xr-traffic.html>

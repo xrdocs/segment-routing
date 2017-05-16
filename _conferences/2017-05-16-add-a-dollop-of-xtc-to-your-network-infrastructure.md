@@ -10,3 +10,4 @@ excerpt: >-
 ---
 Read Frederic Trate's blog and find out what XTC is and how XTC can be used in your network.
 
+><https://blogs.cisco.com/sp/add-a-dollop-of-xtc-to-your-network-infrastructure>

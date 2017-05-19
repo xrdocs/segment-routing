@@ -8,7 +8,7 @@ excerpt: >-
   Bell Canada, Barefoot, and Cisco presented "The Extensible Network – Evolution
   in Protocol and Data Plane Agility" at the P4 Workshop on May 17 2017.
 header:
-  teaser: 'http://p4lc.wpengine.com/wp-content/uploads/2015/05/p4-logo.png'
+  teaser: /images/p4-open-source-project.png
 ---
 Bell Canada, Barefoot, and Cisco presented "The Extensible Network – Evolution in Protocol and Data Plane Agility" at the P4 Workshop on May 17 2017.
 

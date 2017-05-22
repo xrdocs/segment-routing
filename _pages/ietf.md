@@ -101,9 +101,6 @@ list_extensions:
   - title: BGP Link-State extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-gredler-idr-bgp-ls-segment-routing-ext/
     status: Draft
-  - title: Egress Peer Engineering using BGP-LU
-    url: https://datatracker.ietf.org/doc/draft-gredler-idr-bgplu-epe/
-    status: Draft
   - title: Carrying Binding Label/Segment-ID in PCE-based Networks
     url: https://datatracker.ietf.org/doc/draft-sivabalan-pce-binding-label-sid/
     status: Draft

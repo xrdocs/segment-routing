@@ -42,23 +42,8 @@ list_architecture:
   - title: SRv6 Network Programming
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-network-programming/
     status: Draft
-  - title: BGP Signaling of IPv6-Segment-Routing-based VPN Networks
-    url: https://datatracker.ietf.org/doc/draft-dawra-idr-srv6-vpn/
-    status: Draft
   - title: Insertion of IPv6 Segment Routing Headers in a Controlled Domain
     url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion
-    status: Draft
-  - title: Segment Routing interworking with LDP
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
-    status: WG Document
-  - title: Segment Routing Conflict Resolution
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-conflict-resolution/
-    status: WG Document
-  - title: Segment Routing Recursive Information
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-recursing-info/
-    status: Draft
-  - title: Anycast Segments in MPLS based Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-psarkar-spring-mpls-anycast-segments/
     status: Draft
   - title: Topology Independent Fast Reroute using Segment Routing
     url: https://datatracker.ietf.org/doc/draft-bashandy-rtgwg-segment-routing-ti-lfa/
@@ -73,6 +58,9 @@ list_extensions:
     status: WG Document
   - title: IS-IS Extensions to Support Segment Routing over IPv6 Dataplane
     url: https://datatracker.ietf.org/doc/draft-bashandy-isis-srv6-extensions/
+    status: Draft
+  - title: BGP Signaling of IPv6-Segment-Routing-based VPN Networks
+    url: https://datatracker.ietf.org/doc/draft-dawra-idr-srv6-vpn/
     status: Draft
   - title: Advertising L2 Bundle Member Link Attributes in IS-IS
     url: https://datatracker.ietf.org/doc/draft-ietf-isis-l2bundles/
@@ -97,6 +85,18 @@ list_extensions:
     status: WG Document
   - title: Advertising Segment Routing Traffic Engineering Policies in BGP
     url: https://datatracker.ietf.org/doc/draft-previdi-idr-segment-routing-te-policy/
+    status: Draft
+   - title: Segment Routing interworking with LDP
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
+    status: WG Document
+  - title: Segment Routing Conflict Resolution
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-conflict-resolution/
+    status: WG Document
+  - title: Segment Routing Recursive Information
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-recursing-info/
+    status: Draft
+  - title: Anycast Segments in MPLS based Segment Routing
+    url: https://datatracker.ietf.org/doc/draft-psarkar-spring-mpls-anycast-segments/
     status: Draft
   - title: BGP Link-State extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-gredler-idr-bgp-ls-segment-routing-ext/

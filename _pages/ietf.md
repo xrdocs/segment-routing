@@ -42,9 +42,6 @@ list_architecture:
   - title: SRv6 Network Programming
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-network-programming/
     status: Draft
-  - title: Insertion of IPv6 Segment Routing Headers in a Controlled Domain
-    url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion
-    status: Draft
   - title: Topology Independent Fast Reroute using Segment Routing
     url: https://datatracker.ietf.org/doc/draft-bashandy-rtgwg-segment-routing-ti-lfa/
     status: Draft
@@ -120,6 +117,9 @@ list_misc:
     status: Draft
   - title: Entropy labels for source routed stacked tunnels
     url: https://datatracker.ietf.org/doc/draft-kini-mpls-entropy-label-src-stacked-tunnels/
+    status: Draft
+  - title: Insertion of IPv6 Segment Routing Headers in a Controlled Domain
+    url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion
     status: Draft
 ---
 <div class="notice">

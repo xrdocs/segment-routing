@@ -15,5 +15,8 @@ main:
   - title: "Scientific Papers"
     url: "/scientific-papers/"
 
+  - title: "Blog Posts"
+    url: "/blogs/"
+
 #  - title: "Search"
 #    url: "/search/"

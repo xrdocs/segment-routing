@@ -1,0 +1,47 @@
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="min-height:120px;">
+    {% if post.teaser %}
+      <div class="archive__item-teaser" style="width:200px; max-height:100px; margin: 0 20px; float: left;">
+            <img src=
+              {% if post.teaser contains "://" %}
+                "{{ post.teaser }}"
+              {% else %}
+                "{{ post.teaser | relative_url }}"
+              {% endif %}
+              alt="">
+      </div>
+    {% endif %}
+      <h3 class="archive__item-title" itemprop="headline">
+        {% if post.eurl %}
+          <a href="{{ post.eurl }}" rel="external">{{ title }}</a>
+        {% else %}
+          {{ title }}
+        {% endif %}
+      </h3>
+      {% if post.author or post.date or post.excerpt %}
+        <p class="archive__item-excerpt">
+          {% if post.excerpt %}{{ post.excerpt }}{% endif %}<br />
+          <em>
+            {% if post.author %}
+              {{ post.author }}{% if post.source %},{% endif %}
+            {% endif %}
+            {% if post.source %}
+              {% if post.source-url %}
+                <a href="{{ post.source-url }}" rel="external">{{ post.source }}</a>
+              {% else %}
+                {{ post.source }}
+              {% endif %}
+            {% endif %}
+            &mdash;
+            {% if post.date %}{{ post.date | date: '%B %d, %Y' }}{% endif %}
+          </em>
+        </p>
+      {% endif %}
+  </article>
+</div>

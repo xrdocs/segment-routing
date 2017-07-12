@@ -1,0 +1,12 @@
+---
+layout: archive-full
+permalink: /blogs/
+title: "Blog posts"
+---
+
+{% include base_path %}
+
+{% assign sorted = (site.blogs | sort: post.date | reverse) %}
+{% for post in sorted %}
+  {% include blog-list %}
+{% endfor %}

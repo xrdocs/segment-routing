@@ -113,6 +113,9 @@ collections:
   scientific-papers:
     output: true
     permalink: /:collection/:path/
+  blogs:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -155,6 +158,15 @@ defaults:
       type: scientific-papers
     values:
       layout: single-full
+      related: true
+      position: "top"
+# _blogs
+  - scope:
+      path: ""
+      type: blogs
+    values:
+      layout: single-full
+      read_time: false
       related: true
       position: "top"
 

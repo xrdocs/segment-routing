@@ -84,8 +84,8 @@ list_extensions:
     url: https://datatracker.ietf.org/doc/draft-ietf-6man-segment-routing-header/
     status: WG Document
   - title: Advertising Segment Routing Traffic Engineering Policies in BGP
-    url: https://datatracker.ietf.org/doc/draft-previdi-idr-segment-routing-te-policy/
-    status: Draft
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-segment-routing-te-policy/
+    status: WG Document
   - title: Segment Routing interworking with LDP
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
     status: WG Document

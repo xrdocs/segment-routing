@@ -4,10 +4,10 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="min-height:120px;">
+<div class="bloglist__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if post.teaser %}
-      <div class="archive__item-teaser" style="width:200px; max-height:100px; margin: 0 20px; float: left;">
+      <div class="archive__item-teaser">
             <img src=
               {% if post.teaser contains "://" %}
                 "{{ post.teaser }}"
@@ -17,6 +17,7 @@
               alt="">
       </div>
     {% endif %}
+    <div class="archive__item-body">
       <h3 class="archive__item-title" itemprop="headline">
         {% if post.eurl %}
           <a href="{{ post.eurl }}" rel="external">{{ title }}</a>
@@ -43,5 +44,6 @@
           </em>
         </p>
       {% endif %}
+      </div>
   </article>
 </div>

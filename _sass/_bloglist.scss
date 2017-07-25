@@ -1,0 +1,51 @@
+/* ==========================================================================
+   Blog posts list
+   ========================================================================== */
+
+.bloglist__item {
+  clear:both;
+
+  .page__meta {
+    margin: 0 0 4px;
+  }
+
+  .archive__item {
+    min-height: 120px;
+  }
+
+  .archive__item-body {
+    overflow: hidden;
+  }
+
+  .archive__item-title {
+    margin-bottom: 0.25em;
+    font-family: $global-font-family;
+
+    a + a {
+      opacity: 0.5;
+    }
+  }
+
+  .archive__item-excerpt {
+    margin-top: 0;
+    text-align: justify;
+    font-size: $type-size-5;
+
+    & + p {
+      text-indent: 0;
+    }
+  }
+
+  .archive__item-teaser {
+    width: 200px;
+    max-height: 100px;
+    margin: 2em 20px 0 20px;
+    float: left;
+    border-radius: $border-radius;
+    text-align: center;
+    img {
+      width: 100%;
+      border-radius: $border-radius;
+    }
+  }
+}

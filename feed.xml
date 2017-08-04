@@ -22,6 +22,7 @@ layout: null
 					<description>{{ post.content | xml_escape }}</description>
 				{% endif %}
 				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+                                <enclosure url='{{ base_path }}/images/{{ site.og_image }}'></enclosure>
 				<link>{{ base_path }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ base_path }}{{ post.url }}</guid>
 			</item>
@@ -41,6 +42,7 @@ layout: null
 					<description>{{ post.content | xml_escape }}</description>
 				{% endif %}
 				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+                                <enclosure url='{{ base_path }}/images/{{ site.og_image }}'></enclosure>
 				<link>{{ base_path }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ base_path }}{{ post.url }}</guid>
 			</item>

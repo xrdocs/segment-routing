@@ -5,5 +5,5 @@ publisher: To appear in IEEE Conference on Network Softwarization (NetSoft)
 location: Bologna, Italy
 month: 7
 year: 2017
-doi:
+doi: 10.1109/NETSOFT.2017.8004208
 ---

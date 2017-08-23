@@ -113,7 +113,7 @@ collections:
   scientific-papers:
     output: true
     permalink: /:collection/:path/
-  blogs:
+  news:
     output: true
     permalink: /:collection/:path/
 
@@ -160,10 +160,10 @@ defaults:
       layout: single-full
       related: true
       position: "top"
-# _blogs
+# _news
   - scope:
       path: ""
-      type: blogs
+      type: news
     values:
       layout: single-full
       read_time: false

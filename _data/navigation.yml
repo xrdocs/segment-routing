@@ -1,5 +1,9 @@
 # main links links
 main:
+
+  - title: "News"
+    url: "/news/"
+
   - title: "Tutorials"
     url: "/tutorials/"
 
@@ -9,14 +13,11 @@ main:
   - title: "IETF"
     url: "/ietf/"
 
-  - title: "Open Software"
+  - title: "OpenSW"
     url: "/open-software/"
 
   - title: "Scientific Papers"
     url: "/scientific-papers/"
-
-  - title: "News"
-    url: "/news/"
 
 #  - title: "Search"
 #    url: "/search/"

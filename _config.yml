@@ -72,7 +72,7 @@ exclude:
   - Rakefile
   - README
   - tmp
-exclude: ["vendor"]
+
 keep_files:
   - .git
   - .svn
@@ -259,6 +259,8 @@ prose:
     - README.md
     - feed.xml
     - search.html
+    - .travis.yml
+    - _config.travis.yml
   metadata:
     _tutorials:
       - name: "title"

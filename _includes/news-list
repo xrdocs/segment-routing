@@ -5,9 +5,9 @@
 {% endif %}
 
 <div class="bloglist__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article itemscope itemtype="http://schema.org/CreativeWork">
     {% if post.teaser %}
-      <div class="archive__item-teaser">
+      <div class="bloglist__item-teaser">
             <img src=
               {% if post.teaser contains "://" %}
                 "{{ post.teaser }}"
@@ -17,8 +17,8 @@
               alt="">
       </div>
     {% endif %}
-    <div class="archive__item-body">
-      <h3 class="archive__item-title" itemprop="headline">
+    <div class="bloglist__item-body">
+      <h3 class="bloglist__item-title" itemprop="headline">
         {% if post.eurl %}
           <a href="{{ post.eurl }}" rel="external">{{ title }}</a>
         {% else %}
@@ -26,7 +26,7 @@
         {% endif %}
       </h3>
       {% if post.author or post.date or post.excerpt %}
-        <p class="archive__item-excerpt">
+        <p class="bloglist__item-excerpt">
           {% if post.excerpt %}{{ post.excerpt }}{% endif %}<br />
           <em>
             {% if post.author %}

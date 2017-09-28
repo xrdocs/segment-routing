@@ -9,15 +9,15 @@
     margin: 0 0 4px;
   }
 
-  .archive__item {
+  .bloglist__item {
     min-height: 120px;
   }
 
-  .archive__item-body {
+  .bloglist__item-body {
     overflow: hidden;
   }
 
-  .archive__item-title {
+  .bloglist__item-title {
     margin-bottom: 0.25em;
     font-family: $global-font-family;
 
@@ -26,7 +26,7 @@
     }
   }
 
-  .archive__item-excerpt {
+  .bloglist__item-excerpt {
     margin-top: 0;
     text-align: justify;
     font-size: $type-size-5;
@@ -36,7 +36,7 @@
     }
   }
 
-  .archive__item-teaser {
+  .bloglist__item-teaser {
     width: 200px;
     max-height: 100px;
     margin: 2em 20px 0 20px;

@@ -3,21 +3,24 @@
    ========================================================================== */
 
 .bloglist__item {
-  clear:both;
+  margin-top: 35px;
+  margin-bottom: 55px;
 
   .page__meta {
     margin: 0 0 4px;
   }
 
-  .bloglist__item {
-    min-height: 120px;
-  }
-
   .bloglist__item-body {
-    overflow: hidden;
+    display: inline-block;
+    width: -moz-calc(100% - 210px);
+    width: -webkit-calc(100% - 210px);
+    width: calc(100% - 210px);
+    vertical-align: middle;
+    padding-left: 20px;
   }
 
   .bloglist__item-title {
+    margin-top: 0;
     margin-bottom: 0.25em;
     font-family: $global-font-family;
 
@@ -28,6 +31,7 @@
 
   .bloglist__item-excerpt {
     margin-top: 0;
+    margin-bottom: 0;
     text-align: justify;
     font-size: $type-size-5;
 
@@ -37,14 +41,13 @@
   }
 
   .bloglist__item-teaser {
+    display: inline-block;
     width: 200px;
-    max-height: 100px;
-    margin: 2em 20px 0 20px;
-    float: left;
     border-radius: $border-radius;
+    vertical-align: middle;
     text-align: center;
     img {
-      width: 100%;
+      max-height: 150px;
       border-radius: $border-radius;
     }
   }

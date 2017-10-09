@@ -45,6 +45,9 @@ list_architecture:
   - title: Topology Independent Fast Reroute using Segment Routing
     url: https://datatracker.ietf.org/doc/draft-bashandy-rtgwg-segment-routing-ti-lfa/
     status: Draft
+  - title: Segment Routing for Service Chaining
+    url: https://datatracker.ietf.org/doc/draft-clad-spring-segment-routing-service-chaining/
+    status: Draft
   - title: SRv6 for Mobile User-Plane
     url: https://datatracker.ietf.org/doc/draft-matsushima-spring-dmm-srv6-mobile-uplane/
     status: Draft

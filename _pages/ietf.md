@@ -121,6 +121,9 @@ list_misc:
   - title: Performance Engineered LSPs using the Segment Routing Data-Plane
     url: https://datatracker.ietf.org/doc/draft-shakir-rtgwg-sr-performance-engineered-lsps/
     status: Draft
+  - title: Recommendations for RSVP-TE and Segment Routing LSP co-existance
+    url: https://datatracker.ietf.org/doc/draft-ietf-teas-sr-rsvp-coexistence-rec/
+    status: WG Document
   - title: Signaling Entropy Label Capability Using Interior Gateway Protocols
     url: https://datatracker.ietf.org/doc/draft-xu-mpls-el-capability-signaling-igp/
     status: Draft

@@ -107,6 +107,9 @@ list_extensions:
   - title: Seamless Bidirectional Forwarding Detection (S-BFD) for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-akiya-bfd-seamless-sr/
     status: Draft
+  - title: ISIS Segment Routing Flexible Algorithm
+    url: https://datatracker.ietf.org/doc/draft-hegdeppsenak-isis-sr-flex-algo/
+    status: Draft
 
 list_misc:
   - title: Signaling Entropy Label Capability Using OSPF

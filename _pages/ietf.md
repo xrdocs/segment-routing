@@ -133,6 +133,9 @@ list_misc:
   - title: Insertion of IPv6 Segment Routing Headers in a Controlled Domain
     url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion
     status: Draft
+  - title: Unified Source Routing Instructions using MPLS Label Stack
+    url: https://datatracker.ietf.org/doc/draft-xu-mpls-unified-source-routing-instruction/
+    status: Draft
 ---
 <div class="notice">
 Segment Routing is being standardized by the IETF.<br/>

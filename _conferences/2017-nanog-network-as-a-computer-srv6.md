@@ -10,3 +10,12 @@ header:
 ---    
        
 <iframe width="355" height="200" src="https://www.youtube.com/embed/ZUN68P6UAn0" frameborder="0" allowfullscreen></iframe>
+ 
+{% capture "pdf-link" %}https://pc.nanog.org/static/published/meetings/NANOG71/1445/20171005_Dawra_Segment_Routing_Ipv6_v1.pdf{% endcapture %}
+
+
+<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+
+<div class="fitvidsignore" id="pdf"></div>
+
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

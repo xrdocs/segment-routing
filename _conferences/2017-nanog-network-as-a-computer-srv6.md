@@ -10,6 +10,8 @@ header:
 ---    
        
 <iframe width="355" height="200" src="https://www.youtube.com/embed/ZUN68P6UAn0" frameborder="0" allowfullscreen></iframe>
+
+Check out the presentation here:
  
 {% capture "pdf-link" %}https://pc.nanog.org/static/published/meetings/NANOG71/1445/20171005_Dawra_Segment_Routing_Ipv6_v1.pdf{% endcapture %}
 

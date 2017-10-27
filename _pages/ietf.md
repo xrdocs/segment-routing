@@ -48,7 +48,7 @@ list_architecture:
   - title: Segment Routing for Service Chaining
     url: https://datatracker.ietf.org/doc/draft-clad-spring-segment-routing-service-chaining/
     status: Draft
-  - title: SR for SDWAN: VPN with Underlay SLA
+  - title: SR for SDWAN -  VPN with Underlay SLA
     url: https://datatracker.ietf.org/doc/draft-dukes-sr-for-sdwan/
     status: Draft
   - title: SRv6 for Mobile User-Plane

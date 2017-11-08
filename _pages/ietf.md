@@ -54,6 +54,9 @@ list_architecture:
   - title: SRv6 for Mobile User-Plane
     url: https://datatracker.ietf.org/doc/draft-matsushima-spring-dmm-srv6-mobile-uplane/
     status: Draft
+  - title: SRv6 OAM
+    url: https://datatracker.ietf.org/doc/draft-ali-6man-srv6-oam/
+    status: Draft
 
 list_extensions:
   - title: IS-IS Prefix Attributes for Extended IPv4 and IPv6 Reachability
@@ -116,6 +119,12 @@ list_extensions:
   - title: ISIS Segment Routing Flexible Algorithm
     url: https://datatracker.ietf.org/doc/draft-hegdeppsenak-isis-sr-flex-algo/
     status: Draft
+  - title: BGP Link State extensions for IPv6 Segment Routing (SRv6)
+    url: https://datatracker.ietf.org/doc/draft-dawra-idr-bgpls-srv6-ext/
+    status: Draft
+  - title: BGP Control Plane Extensions for Segment Routing based Service Chaining
+    url: https://datatracker.ietf.org/doc/draft-dawra-idr-bgp-sr-service-chaining/
+    status: Draft    
 
 list_misc:
   - title: Signaling Entropy Label Capability Using OSPF
@@ -146,11 +155,11 @@ Segment Routing is being standardized by the IETF.<br/>
 Protocol extensions are handled in their specific protocol working group (ISIS, OSPF, IDR, PCEP, 6MAN).
 </div>
 
-# Use-Cases and Requirement
-{% include rfc_list id="list_usecases" %}
-
 # Architecture
 {% include rfc_list id="list_architecture" %}
+
+# Use-Cases and Requirement
+{% include rfc_list id="list_usecases" %}
 
 # Protocol Extensions
 {% include rfc_list id="list_extensions" %}

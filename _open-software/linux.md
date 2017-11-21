@@ -35,20 +35,20 @@ Endpoint functions are triggered when the IPv6 Destination Address of an incomin
 
 | Name | Description | Release |
 | ---- | ----------- | :-----: |
-| End | Endpoint function | <span style="color:green">**4.10** (February 2017)</span> |
-| End.X | Endpoint function with Layer-3 cross-connect | <span style="color:green">**4.10** (February 2017)</span> |
+| End | Endpoint function | <span style="color:green">**4.10** (February 2017)</span>, <span style="color:#049FD9">**srext**</span> |
+| End.X | Endpoint function with Layer-3 cross-connect | <span style="color:green">**4.10** (February 2017)</span>, <span style="color:#049FD9">**srext**</span> |
 | End.T | Endpoint function with specific IPv6 table lookup | <span style="color:green">**4.14** (November 2017)</span> |
-| End.DX2 | Endpoint with decapsulation and Layer-2 cross-connect | <span style="color:green">**4.14** (November 2017)</span> |
-| End.DX6 | Endpoint with decapsulation and IPv6 cross-connect | <span style="color:green">**4.14** (November 2017)</span> |
-| End.DX4 | Endpoint with decapsulation and IPv4 cross-connect | <span style="color:green">**4.14** (November 2017)</span> |
+| End.DX2 | Endpoint with decapsulation and Layer-2 cross-connect | <span style="color:green">**4.14** (November 2017)</span>, <span style="color:#049FD9">**srext**</span> |
+| End.DX6 | Endpoint with decapsulation and IPv6 cross-connect | <span style="color:green">**4.14** (November 2017)</span>, <span style="color:#049FD9">**srext**</span> |
+| End.DX4 | Endpoint with decapsulation and IPv4 cross-connect | <span style="color:green">**4.14** (November 2017)</span>, <span style="color:#049FD9">**srext**</span> |
 | End.DT6 | Endpoint with decapsulation and IPv6 table lookup | <span style="color:green">**4.14** (November 2017)</span> |
 | End.DT4 | Endpoint with decapsulation and IPv4 table lookup | <span style="color:orange">In development</span> |
 | End.B6 | Endpoint bound to an SRv6 policy | <span style="color:green">**4.14** (November 2017)</span> |
 | End.B6.Encaps | Endpoint bound to an SRv6 encapsulation Policy | <span style="color:green">**4.14** (November 2017)</span> |
 | End.BM | Endpoint bound to an SR-MPLS Policy | <span style="color:orange">In development</span> |
 | End.S | Endpoint in search of a target in table T | <span style="color:orange">In development</span> |
-| End.AS | Endpoint to SR-unaware APP via static proxy | <span style="color:#049FD9">**srext** (April 2017)</span> |
-| End.AM | Endpoint to SR-unaware APP via masquerading | <span style="color:orange">In development</span> |
+| End.AD | Endpoint to SR-unaware APP via dynamic proxy | <span style="color:#049FD9">**srext**</span> |
+| End.AM | Endpoint to SR-unaware APP via masquerading | <span style="color:#049FD9">**srext**</span> |
 
 ### Transit behaviors
 

@@ -13,20 +13,26 @@ list_usecases:
   - title: IPv6 SPRING Use Cases
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-ipv6-use-cases/
     status: WG Document
-  - title: A Scalable and Topology-Aware MPLS Dataplane Monitoring System
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-oam-usecase/
-    status: WG Document
   - title: BGP-Prefix Segment in large-scale data centers
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-msdc/
     status: WG Document
   - title: Segment Routing Centralized BGP Peer Engineering
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-central-epe/
     status: WG Document
+  - title: Interconnecting Millions Of Endpoints With Segment Routing
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-large-scale-interconnect/
+    status: Draft
+  - title: Loop avoidance using Segment Routing
+    url: https://datatracker.ietf.org/doc/draft-bashandy-rtgwg-segment-routing-uloop/
+    status: Draft
+  - title: A Scalable and Topology-Aware MPLS Dataplane Monitoring System
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-oam-usecase/
+    status: WG Document
   - title: Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane
     url: https://datatracker.ietf.org/doc/draft-ietf-mpls-spring-lsp-ping/
     status: WG Document
-  - title: Interconnecting Millions Of Endpoints With Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-large-scale-interconnect/
+  - title: Packet-Optical Integration in Segment Routing
+    url: https://datatracker.ietf.org/doc/draft-anand-spring-poi-sr/
     status: Draft
 
 list_architecture:

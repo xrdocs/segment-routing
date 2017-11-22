@@ -65,8 +65,8 @@ list_architecture:
     status: Draft
 
 list_extensions:
-  - title: IPv6 Segment Routing Header (SRH)
-    url: https://datatracker.ietf.org/doc/draft-ietf-6man-segment-routing-header/
+  - title: Segment Routing interworking with LDP
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
     status: WG Document
   - title: Segment Routing Conflict Resolution
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-conflict-resolution/
@@ -77,6 +77,9 @@ list_extensions:
   - title: Anycast Segments in MPLS based Segment Routing
     url: https://datatracker.ietf.org/doc/draft-psarkar-spring-mpls-anycast-segments/
     status: Draft
+  - title: IPv6 Segment Routing Header (SRH)
+    url: https://datatracker.ietf.org/doc/draft-ietf-6man-segment-routing-header/
+    status: WG Document
   - title: Segment Routing Prefix SID extensions for BGP
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-prefix-sid/
     status: WG Document
@@ -137,9 +140,6 @@ list_extensions:
   - title: Carrying Binding Label/Segment-ID in PCE-based Networks
     url: https://datatracker.ietf.org/doc/draft-sivabalan-pce-binding-label-sid/
     status: Draft
-  - title: Segment Routing interworking with LDP
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
-    status: WG Document
   - title: Seamless Bidirectional Forwarding Detection (S-BFD) for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-akiya-bfd-seamless-sr/
     status: Draft

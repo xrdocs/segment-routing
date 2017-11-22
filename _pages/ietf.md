@@ -65,44 +65,8 @@ list_architecture:
     status: Draft
 
 list_extensions:
-  - title: IS-IS Prefix Attributes for Extended IPv4 and IPv6 Reachability
-    url: https://datatracker.ietf.org/doc/rfc7794/
-    status: RFC 7794
-  - title: IS-IS Extensions for Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-ietf-isis-segment-routing-extensions/
-    status: WG Document
-  - title: IS-IS Extensions to Support Segment Routing over IPv6 Dataplane
-    url: https://datatracker.ietf.org/doc/draft-bashandy-isis-srv6-extensions/
-    status: Draft
-  - title: BGP Signaling of IPv6-Segment-Routing-based VPN Networks
-    url: https://datatracker.ietf.org/doc/draft-dawra-idr-srv6-vpn/
-    status: Draft
-  - title: Advertising L2 Bundle Member Link Attributes in IS-IS
-    url: https://datatracker.ietf.org/doc/draft-ietf-isis-l2bundles/
-    status: WG Document
-  - title: OSPF Extensions for Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-ietf-ospf-segment-routing-extensions/
-    status: WG Document
-  - title: OSPFv3 Extensions for Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-ietf-ospf-ospfv3-segment-routing-extensions/
-    status: WG Document
-  - title: Segment Routing BGP Egress Peer Engineering BGP-LS Extensions
-    url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-segment-routing-epe/
-    status: WG Document
-  - title: Segment Routing Prefix SID extensions for BGP
-    url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-prefix-sid/
-    status: WG Document
-  - title: PCEP Extensions for Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-ietf-pce-segment-routing/
-    status: WG Document
   - title: IPv6 Segment Routing Header (SRH)
     url: https://datatracker.ietf.org/doc/draft-ietf-6man-segment-routing-header/
-    status: WG Document
-  - title: Advertising Segment Routing Traffic Engineering Policies in BGP
-    url: https://datatracker.ietf.org/doc/draft-ietf-idr-segment-routing-te-policy/
-    status: WG Document
-  - title: Segment Routing interworking with LDP
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
     status: WG Document
   - title: Segment Routing Conflict Resolution
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-conflict-resolution/
@@ -113,29 +77,74 @@ list_extensions:
   - title: Anycast Segments in MPLS based Segment Routing
     url: https://datatracker.ietf.org/doc/draft-psarkar-spring-mpls-anycast-segments/
     status: Draft
+  - title: Segment Routing Prefix SID extensions for BGP
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-prefix-sid/
+    status: WG Document
+  - title: Advertising Segment Routing Traffic Engineering Policies in BGP
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-segment-routing-te-policy/
+    status: WG Document
+  - title: BGP Control Plane Extensions for Segment Routing based Service Chaining
+    url: https://datatracker.ietf.org/doc/draft-dawra-idr-bgp-sr-service-chaining/
+    status: Draft
+  - title: BGP Signaling of IPv6-Segment-Routing-based VPN Networks
+    url: https://datatracker.ietf.org/doc/draft-dawra-idr-srv6-vpn/
+    status: Draft
   - title: BGP Link-State extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-gredler-idr-bgp-ls-segment-routing-ext/
     status: Draft
-  - title: Carrying Binding Label/Segment-ID in PCE-based Networks
-    url: https://datatracker.ietf.org/doc/draft-sivabalan-pce-binding-label-sid/
+  - title: Segment Routing BGP Egress Peer Engineering BGP-LS Extensions
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-segment-routing-epe/
+    status: WG Document
+  - title: BGP Link State extensions for IPv6 Segment Routing (SRv6)
+    url: https://datatracker.ietf.org/doc/draft-dawra-idr-bgpls-srv6-ext/
     status: Draft
-  - title: Seamless Bidirectional Forwarding Detection (S-BFD) for Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-akiya-bfd-seamless-sr/
+  - title: Signaling Maximum SID Depth using Border Gateway Protocol Link-State
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-segment-routing-msd/
+    status: Draft
+  - title: IS-IS Prefix Attributes for Extended IPv4 and IPv6 Reachability
+    url: https://datatracker.ietf.org/doc/rfc7794/
+    status: RFC 7794
+  - title: IS-IS Extensions for Segment Routing
+    url: https://datatracker.ietf.org/doc/draft-ietf-isis-segment-routing-extensions/
+    status: WG Document
+  - title: IS-IS Extensions to Support Segment Routing over IPv6 Dataplane
+    url: https://datatracker.ietf.org/doc/draft-bashandy-isis-srv6-extensions/
     status: Draft
   - title: ISIS Segment Routing Flexible Algorithm
     url: https://datatracker.ietf.org/doc/draft-hegdeppsenak-isis-sr-flex-algo/
     status: Draft
-  - title: BGP Link State extensions for IPv6 Segment Routing (SRv6)
-    url: https://datatracker.ietf.org/doc/draft-dawra-idr-bgpls-srv6-ext/
+  - title: Signaling MSD (Maximum SID Depth) using IS-IS
+    url: https://datatracker.ietf.org/doc/draft-ietf-isis-segment-routing-msd/
     status: Draft
-  - title: BGP Control Plane Extensions for Segment Routing based Service Chaining
-    url: https://datatracker.ietf.org/doc/draft-dawra-idr-bgp-sr-service-chaining/
-    status: Draft    
-
-list_misc:
+  - title: Advertising L2 Bundle Member Link Attributes in IS-IS
+    url: https://datatracker.ietf.org/doc/draft-ietf-isis-l2bundles/
+    status: WG Document
+  - title: OSPF Extensions for Segment Routing
+    url: https://datatracker.ietf.org/doc/draft-ietf-ospf-segment-routing-extensions/
+    status: WG Document
+  - title: OSPFv3 Extensions for Segment Routing
+    url: https://datatracker.ietf.org/doc/draft-ietf-ospf-ospfv3-segment-routing-extensions/
+    status: WG Document
+  - title: Signaling MSD (Maximum SID Depth) using OSPF
+    url: https://datatracker.ietf.org/doc/draft-ietf-ospf-segment-routing-msd/
+    status: WG Document
   - title: Signaling Entropy Label Capability Using OSPF
     url: https://datatracker.ietf.org/doc/draft-ietf-ospf-mpls-elc/
     status: WG Document
+  - title: PCEP Extensions for Segment Routing
+    url: https://datatracker.ietf.org/doc/draft-ietf-pce-segment-routing/
+    status: WG Document
+  - title: Carrying Binding Label/Segment-ID in PCE-based Networks
+    url: https://datatracker.ietf.org/doc/draft-sivabalan-pce-binding-label-sid/
+    status: Draft
+  - title: Segment Routing interworking with LDP
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
+    status: WG Document
+  - title: Seamless Bidirectional Forwarding Detection (S-BFD) for Segment Routing
+    url: https://datatracker.ietf.org/doc/draft-akiya-bfd-seamless-sr/
+    status: Draft
+
+list_misc:
   - title: Performance Engineered LSPs using the Segment Routing Data-Plane
     url: https://datatracker.ietf.org/doc/draft-shakir-rtgwg-sr-performance-engineered-lsps/
     status: Draft

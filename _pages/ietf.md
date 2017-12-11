@@ -25,6 +25,9 @@ list_usecases:
   - title: Loop avoidance using Segment Routing
     url: https://datatracker.ietf.org/doc/draft-bashandy-rtgwg-segment-routing-uloop/
     status: Draft
+  - title: Micro-loop avoidance using SPRING
+    url: https://datatracker.ietf.org/doc/draft-hegde-rtgwg-microloop-avoidance-using-spring/
+    status: Draft
   - title: A Scalable and Topology-Aware MPLS Dataplane Monitoring System
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-oam-usecase/
     status: WG Document

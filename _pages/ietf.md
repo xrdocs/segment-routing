@@ -104,6 +104,9 @@ list_extensions:
   - title: Signaling Maximum SID Depth using Border Gateway Protocol Link-State
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-segment-routing-msd/
     status: Draft
+  - title: BGP-LS Advertisement of IGP Traffic Engineering Performance Metric Extensions
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-te-pm-bgp-08/
+    status: Draft
   - title: IS-IS Prefix Attributes for Extended IPv4 and IPv6 Reachability
     url: https://datatracker.ietf.org/doc/rfc7794/
     status: RFC 7794

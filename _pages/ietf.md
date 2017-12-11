@@ -108,7 +108,7 @@ list_extensions:
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-segment-routing-msd/
     status: Draft
   - title: BGP-LS Advertisement of IGP Traffic Engineering Performance Metric Extensions
-    url: https://datatracker.ietf.org/doc/draft-ietf-idr-te-pm-bgp
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-te-pm-bgp/
     status: Draft
   - title: IS-IS Prefix Attributes for Extended IPv4 and IPv6 Reachability
     url: https://datatracker.ietf.org/doc/rfc7794/

@@ -71,6 +71,9 @@ list_extensions:
   - title: Segment Routing interworking with LDP
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
     status: WG Document
+  - title: IPv6 Segment Routing Header (SRH)
+    url: https://datatracker.ietf.org/doc/draft-ietf-6man-segment-routing-header/
+    status: WG Document
   - title: Segment Routing Conflict Resolution
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-conflict-resolution/
     status: WG Document
@@ -80,9 +83,6 @@ list_extensions:
   - title: Anycast Segments in MPLS based Segment Routing
     url: https://datatracker.ietf.org/doc/draft-psarkar-spring-mpls-anycast-segments/
     status: Draft
-  - title: IPv6 Segment Routing Header (SRH)
-    url: https://datatracker.ietf.org/doc/draft-ietf-6man-segment-routing-header/
-    status: WG Document
 
 list_bgp:
   - title: Segment Routing Prefix SID extensions for BGP
@@ -100,8 +100,8 @@ list_bgp:
 
 list_bgp_ls:
   - title: BGP Link-State extensions for Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-gredler-idr-bgp-ls-segment-routing-ext/
-    status: Draft
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-segment-routing-ext/
+    status: WG document
   - title: Segment Routing BGP Egress Peer Engineering BGP-LS Extensions
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-segment-routing-epe/
     status: WG Document
@@ -110,10 +110,10 @@ list_bgp_ls:
     status: Draft
   - title: Signaling Maximum SID Depth using Border Gateway Protocol Link-State
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-segment-routing-msd/
-    status: Draft
+    status: WG document
   - title: BGP-LS Advertisement of IGP Traffic Engineering Performance Metric Extensions
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-te-pm-bgp/
-    status: Draft
+    status: WG document
 
 list_isis:
   - title: IS-IS Prefix Attributes for Extended IPv4 and IPv6 Reachability
@@ -130,7 +130,7 @@ list_isis:
     status: Draft
   - title: Signaling MSD (Maximum SID Depth) using IS-IS
     url: https://datatracker.ietf.org/doc/draft-ietf-isis-segment-routing-msd/
-    status: Draft
+    status: WG Document
   - title: Advertising L2 Bundle Member Link Attributes in IS-IS
     url: https://datatracker.ietf.org/doc/draft-ietf-isis-l2bundles/
     status: WG Document
@@ -161,15 +161,6 @@ list_misc:
   - title: Performance Engineered LSPs using the Segment Routing Data-Plane
     url: https://datatracker.ietf.org/doc/draft-shakir-rtgwg-sr-performance-engineered-lsps/
     status: Draft
-  - title: Recommendations for RSVP-TE and Segment Routing LSP co-existance
-    url: https://datatracker.ietf.org/doc/draft-ietf-teas-sr-rsvp-coexistence-rec/
-    status: WG Document
-  - title: Signaling Entropy Label Capability Using Interior Gateway Protocols
-    url: https://datatracker.ietf.org/doc/draft-xu-mpls-el-capability-signaling-igp/
-    status: Draft
-  - title: Entropy labels for source routed stacked tunnels
-    url: https://datatracker.ietf.org/doc/draft-kini-mpls-entropy-label-src-stacked-tunnels/
-    status: Draft
   - title: Insertion of IPv6 Segment Routing Headers in a Controlled Domain
     url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion
     status: Draft
@@ -178,6 +169,15 @@ list_misc:
     status: Draft
   - title: Seamless Bidirectional Forwarding Detection (S-BFD) for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-akiya-bfd-seamless-sr/
+    status: Draft
+  - title: Recommendations for RSVP-TE and Segment Routing LSP co-existance
+    url: https://datatracker.ietf.org/doc/draft-ietf-teas-sr-rsvp-coexistence-rec/
+    status: WG Document
+  - title: Signaling Entropy Label Capability Using Interior Gateway Protocols
+    url: https://datatracker.ietf.org/doc/draft-xu-mpls-el-capability-signaling-igp/
+    status: Draft
+  - title: Entropy labels for source routed stacked tunnels
+    url: https://datatracker.ietf.org/doc/draft-kini-mpls-entropy-label-src-stacked-tunnels/
     status: Draft
 
 ---

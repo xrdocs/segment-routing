@@ -20,7 +20,6 @@ list_architecture:
     url: https://datatracker.ietf.org/doc/draft-clad-spring-segment-routing-service-chaining/
     status: Draft
 
-
 list_usecases:
   - title: Source Packet Routing in Networking (SPRING) Problem Statement and Requirements
     url: https://datatracker.ietf.org/doc/rfc7855/

@@ -197,7 +197,7 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
 # Use-Cases and Requirement
 {% include rfc_list id="list_usecases" %}
 
-## Fast ReRoute
+## Fast Reroute (FRR)
 {% include rfc_list id="list_frr" %}
 
 ## OAM

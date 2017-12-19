@@ -28,6 +28,12 @@ list_usecases:
   - title: Micro-loop avoidance using SPRING
     url: https://datatracker.ietf.org/doc/draft-hegde-rtgwg-microloop-avoidance-using-spring/
     status: Draft
+  - title: SR for SDWAN -  VPN with Underlay SLA
+    url: https://datatracker.ietf.org/doc/draft-dukes-sr-for-sdwan/
+    status: Draft
+  - title: SRv6 for Mobile User-Plane
+    url: https://datatracker.ietf.org/doc/draft-matsushima-spring-dmm-srv6-mobile-uplane/
+    status: Draft
   - title: A Scalable and Topology-Aware MPLS Dataplane Monitoring System
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-oam-usecase/
     status: WG Document
@@ -57,12 +63,6 @@ list_architecture:
   - title: Segment Routing for Service Chaining
     url: https://datatracker.ietf.org/doc/draft-clad-spring-segment-routing-service-chaining/
     status: Draft
-  - title: SR for SDWAN -  VPN with Underlay SLA
-    url: https://datatracker.ietf.org/doc/draft-dukes-sr-for-sdwan/
-    status: Draft
-  - title: SRv6 for Mobile User-Plane
-    url: https://datatracker.ietf.org/doc/draft-matsushima-spring-dmm-srv6-mobile-uplane/
-    status: Draft
   - title: SRv6 OAM
     url: https://datatracker.ietf.org/doc/draft-ali-6man-srv6-oam/
     status: Draft
@@ -83,6 +83,8 @@ list_extensions:
   - title: IPv6 Segment Routing Header (SRH)
     url: https://datatracker.ietf.org/doc/draft-ietf-6man-segment-routing-header/
     status: WG Document
+
+list_bgp:
   - title: Segment Routing Prefix SID extensions for BGP
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-prefix-sid/
     status: WG Document
@@ -95,6 +97,8 @@ list_extensions:
   - title: BGP Signaling of IPv6-Segment-Routing-based VPN Networks
     url: https://datatracker.ietf.org/doc/draft-dawra-idr-srv6-vpn/
     status: Draft
+
+list_bgp_ls:
   - title: BGP Link-State extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-gredler-idr-bgp-ls-segment-routing-ext/
     status: Draft
@@ -110,6 +114,8 @@ list_extensions:
   - title: BGP-LS Advertisement of IGP Traffic Engineering Performance Metric Extensions
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-te-pm-bgp/
     status: Draft
+
+list_isis:
   - title: IS-IS Prefix Attributes for Extended IPv4 and IPv6 Reachability
     url: https://datatracker.ietf.org/doc/rfc7794/
     status: RFC 7794
@@ -128,6 +134,8 @@ list_extensions:
   - title: Advertising L2 Bundle Member Link Attributes in IS-IS
     url: https://datatracker.ietf.org/doc/draft-ietf-isis-l2bundles/
     status: WG Document
+
+list_ospf:
   - title: OSPF Extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ietf-ospf-segment-routing-extensions/
     status: WG Document
@@ -140,14 +148,13 @@ list_extensions:
   - title: Signaling Entropy Label Capability Using OSPF
     url: https://datatracker.ietf.org/doc/draft-ietf-ospf-mpls-elc/
     status: WG Document
+
+list_pcep:
   - title: PCEP Extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ietf-pce-segment-routing/
     status: WG Document
   - title: Carrying Binding Label/Segment-ID in PCE-based Networks
     url: https://datatracker.ietf.org/doc/draft-sivabalan-pce-binding-label-sid/
-    status: Draft
-  - title: Seamless Bidirectional Forwarding Detection (S-BFD) for Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-akiya-bfd-seamless-sr/
     status: Draft
 
 list_misc:
@@ -169,6 +176,10 @@ list_misc:
   - title: Unified Source Routing Instructions using MPLS Label Stack
     url: https://datatracker.ietf.org/doc/draft-xu-mpls-unified-source-routing-instruction/
     status: Draft
+  - title: Seamless Bidirectional Forwarding Detection (S-BFD) for Segment Routing
+    url: https://datatracker.ietf.org/doc/draft-akiya-bfd-seamless-sr/
+    status: Draft
+
 ---
 <div class="notice">
 Segment Routing is being standardized by the IETF.<br/>
@@ -184,6 +195,21 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
 
 # Protocol Extensions
 {% include rfc_list id="list_extensions" %}
+
+## BGP
+{% include list_bgp id="list_extensions" %}
+
+## BGP-LS
+{% include list_bgp_ls id="list_extensions" %}
+
+## IS-IS
+{% include list_isis id="list_extensions" %}
+
+## OSPF
+{% include list_ospf id="list_extensions" %}
+
+## PCEP
+{% include list_pcep id="list_extensions" %}
 
 # Miscellaneous
 {% include rfc_list id="list_misc" %}

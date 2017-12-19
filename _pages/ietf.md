@@ -197,19 +197,19 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
 {% include rfc_list id="list_extensions" %}
 
 ## BGP
-{% include list_bgp id="list_extensions" %}
+{% include rfc_list id="list_bgp" %}
 
 ## BGP-LS
-{% include list_bgp_ls id="list_extensions" %}
+{% include rfc_list id="list_bgp_ls" %}
 
 ## IS-IS
-{% include list_isis id="list_extensions" %}
+{% include rfc_list id="list_isis" %}
 
 ## OSPF
-{% include list_ospf id="list_extensions" %}
+{% include rfc_list id="list_ospf" %}
 
 ## PCEP
-{% include list_pcep id="list_extensions" %}
+{% include rfc_list id="list_pcep" %}
 
 # Miscellaneous
 {% include rfc_list id="list_misc" %}

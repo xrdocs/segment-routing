@@ -17,7 +17,7 @@ list_architecture:
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-network-programming/
     status: Draft
   - title: Segment Routing for Service Chaining
-    url: https://datatracker.ietf.org/doc/draft-clad-spring-segment-routing-service-chaining/
+    url: https://datatracker.ietf.org/doc/draft-xu-clad-spring-sr-service-chaining/
     status: Draft
 
 list_usecases:
@@ -70,22 +70,41 @@ list_oam:
   - title: SRv6 OAM
     url: https://datatracker.ietf.org/doc/draft-ali-6man-srv6-oam/
     status: Draft
+  - title: Performance Measurement in Segment Routing Networks
+    url: https://datatracker.ietf.org/doc/draft-ali-spring-sr-pm/
+    status: Draft
 
 list_extensions:
-  - title: Segment Routing interworking with LDP
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
-    status: WG Document
+
+list_srv6:
   - title: IPv6 Segment Routing Header (SRH)
     url: https://datatracker.ietf.org/doc/draft-ietf-6man-segment-routing-header/
     status: WG Document
+  - title: Insertion of IPv6 Segment Routing Headers in a Controlled Domain
+    url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion/
+    status: Draft
+  - title: YANG Data Model for SRv6
+    url: https://datatracker.ietf.org/doc/draft-raza-spring-srv6-yang/
+    status: Draft
+    
+list_srmpls:
+  - title: Segment Routing interworking with LDP
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
+    status: WG Document
+  - title: Anycast Segments in MPLS based Segment Routing
+    url: https://datatracker.ietf.org/doc/draft-psarkar-spring-mpls-anycast-segments/
+    status: Draft
   - title: Segment Routing Conflict Resolution
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-conflict-resolution/
     status: WG Document
   - title: Segment Routing Recursive Information
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-recursing-info/
     status: Draft
-  - title: Anycast Segments in MPLS based Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-psarkar-spring-mpls-anycast-segments/
+  - title: Recommendations for RSVP-TE and Segment Routing LSP co-existance
+    url: https://datatracker.ietf.org/doc/draft-ietf-teas-sr-rsvp-coexistence-rec/
+    status: WG Document
+  - title: Unified Source Routing Instructions using MPLS Label Stack
+    url: https://datatracker.ietf.org/doc/draft-xu-mpls-unified-source-routing-instruction/
     status: Draft
 
 list_bgp:
@@ -161,29 +180,6 @@ list_pcep:
     url: https://datatracker.ietf.org/doc/draft-sivabalan-pce-binding-label-sid/
     status: Draft
 
-list_misc:
-  - title: Performance Engineered LSPs using the Segment Routing Data-Plane
-    url: https://datatracker.ietf.org/doc/draft-shakir-rtgwg-sr-performance-engineered-lsps/
-    status: Draft
-  - title: Insertion of IPv6 Segment Routing Headers in a Controlled Domain
-    url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion
-    status: Draft
-  - title: Unified Source Routing Instructions using MPLS Label Stack
-    url: https://datatracker.ietf.org/doc/draft-xu-mpls-unified-source-routing-instruction/
-    status: Draft
-  - title: Seamless Bidirectional Forwarding Detection (S-BFD) for Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-akiya-bfd-seamless-sr/
-    status: Draft
-  - title: Recommendations for RSVP-TE and Segment Routing LSP co-existance
-    url: https://datatracker.ietf.org/doc/draft-ietf-teas-sr-rsvp-coexistence-rec/
-    status: WG Document
-  - title: Signaling Entropy Label Capability Using Interior Gateway Protocols
-    url: https://datatracker.ietf.org/doc/draft-xu-mpls-el-capability-signaling-igp/
-    status: Draft
-  - title: Entropy labels for source routed stacked tunnels
-    url: https://datatracker.ietf.org/doc/draft-kini-mpls-entropy-label-src-stacked-tunnels/
-    status: Draft
-
 ---
 <div class="notice">
 Segment Routing is being standardized by the IETF.<br/>
@@ -206,6 +202,12 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
 # Protocol Extensions
 {% include rfc_list id="list_extensions" %}
 
+## SR-MPLS
+{% include rfc_list id="list_srmpls" %}
+
+## SRv6
+{% include rfc_list id="list_srv6" %}
+
 ## BGP
 {% include rfc_list id="list_bgp" %}
 
@@ -220,6 +222,3 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
 
 ## PCEP
 {% include rfc_list id="list_pcep" %}
-
-# Miscellaneous
-{% include rfc_list id="list_misc" %}

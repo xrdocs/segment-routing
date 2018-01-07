@@ -45,6 +45,9 @@ list_usecases:
   - title: SRv6 for Mobile User-Plane
     url: https://datatracker.ietf.org/doc/draft-matsushima-spring-dmm-srv6-mobile-uplane/
     status: Draft
+  - title: SRv6 for Mobile User-Plane
+    url: https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3403
+    status: 3GPP Study Item
   - title: Packet-Optical Integration in Segment Routing
     url: https://datatracker.ietf.org/doc/draft-anand-spring-poi-sr/
     status: Draft

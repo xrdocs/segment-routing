@@ -1,6 +1,6 @@
 ---
 title: Packet Pushers podcast on SRv6
-author: sr.net
+author: Drew Conry-Murray
 source: Packet Pushers
 source-url: http://packetpushers.net/podcast/podcasts/show-370-cisco-segment-routing-ipv6-sponsored/
 date: 2017-12-15

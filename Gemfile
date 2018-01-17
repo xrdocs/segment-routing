@@ -4,5 +4,4 @@ gem "github-pages", "165"
 # gem "jekyll-archives"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "json", github: "flori/json", branch: "v1.8"
-
-gem 'json', github: 'flori/json', branch: 'v1.8'
+gem "nokogiri", "~> 1.8.1"

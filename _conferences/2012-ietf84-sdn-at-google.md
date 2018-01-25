@@ -19,3 +19,7 @@ header:
 <script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
 <script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+
+# Additional references:
+https://www.scribd.com/document/332584909/Hoelzle-Tue-Openflow
+http://perspectives.mvdirona.com/2012/05/urs-holzle-open-networking-summit-2012/

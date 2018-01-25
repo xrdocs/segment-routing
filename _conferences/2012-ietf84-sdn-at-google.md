@@ -23,8 +23,8 @@ header:
 ## Additional references:
 ><http://perspectives.mvdirona.com/2012/05/urs-holzle-open-networking-summit-2012/>
 
-{% capture "pdf-link2" %}/images/hoelzle-tue-openflow.pdf {% endcapture %}
+{% capture "pdf-alt-link" %}/images/hoelzle-tue-openflow.pdf {% endcapture %}
 
 <script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link2 }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+<div class="fitvidsignore" id="pdf2"></div>
+<script>PDFObject.embed(" {{ pdf-alt-link }} ", "#pdf2", {height: "21.5em", width: "31.3em"});</script>

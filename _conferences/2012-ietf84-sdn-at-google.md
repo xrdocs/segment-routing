@@ -16,11 +16,14 @@ header:
 
 {% capture "pdf-link" %}https://www.ietf.org/proceedings/84/slides/slides-84-sdnrg-4.pdf {% endcapture %}
 
+
+## Additional references:
+><http://perspectives.mvdirona.com/2012/05/urs-holzle-open-networking-summit-2012/>
+
+><https://www.scribd.com/document/332584909/Hoelzle-Tue-Openflow>
+
+{% capture "pdf-link" %}/images/hoelzle-tue-openflow.pdf {% endcapture %}
+
 <script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
 <script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
-
-# Additional references:
-><https://www.scribd.com/document/332584909/Hoelzle-Tue-Openflow>
-
-><http://perspectives.mvdirona.com/2012/05/urs-holzle-open-networking-summit-2012/>

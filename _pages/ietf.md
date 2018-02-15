@@ -43,7 +43,7 @@ list_usecases:
     url: https://datatracker.ietf.org/doc/draft-dukes-sr-for-sdwan/
     status: Draft
   - title: SRv6 for Mobile User-Plane
-    url: https://datatracker.ietf.org/doc/draft-matsushima-spring-dmm-srv6-mobile-uplane/
+    url: https://datatracker.ietf.org/doc/draft-ietf-dmm-srv6-mobile-uplane/
     status: Draft
   - title: SRv6 for Mobile User-Plane
     url: https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3403
@@ -76,6 +76,9 @@ list_oam:
   - title: Performance Measurement in Segment Routing Networks
     url: https://datatracker.ietf.org/doc/draft-ali-spring-sr-pm/
     status: Draft
+  - title: Performance Measurement in Segment Routing Networks with MPLS Data Plane
+    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-sr-mpls-pm/
+    status: Draft 
 
 list_extensions:
 

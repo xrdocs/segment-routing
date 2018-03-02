@@ -8,5 +8,5 @@ title: "It's demo time!"
 
 {% assign sorted = (site.demos | sort: post.date | reverse) %}
 {% for post in sorted %}
-  {% include archive-single.html type="grid" %}
+  {% include demos-list %}
 {% endfor %}

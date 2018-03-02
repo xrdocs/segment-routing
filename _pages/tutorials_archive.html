@@ -8,7 +8,7 @@ title: "Tutorials"
 
 <h2 onclick="show_concepts()"><i id="icon_concepts" class='fa fa-angle-right'></i> SR concepts</h2>
 <p class="archive__item-excerpt">Learn about the foundational SR concepts.</p>
-<div id="list_concepts">
+<div id="list_concepts" style="display: none">
 {% assign sorted = (site.tutorials | where:"category","concepts" | sort: 'order') %}
 {% for post in sorted %}
   {% include archive-single.html %}

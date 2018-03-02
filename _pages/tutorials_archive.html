@@ -7,31 +7,41 @@ title: "Tutorials"
 {% include base_path %}
 
 <h2>SR concepts</h2>
+<div id=list_concepts">
 {% assign sorted = (site.tutorials | where:"category","concepts" | sort: 'order') %}
 {% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}
+</div>
 
 <h2>SR IGP</h2>
+<div id=list_igp">
 {% assign sorted = (site.tutorials | where:"category","igp" | sort: 'order') %}
 {% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}
+</div>
 
 <h2>SR and LDP</h2>
+<div id=list_ldp">
 {% assign sorted = (site.tutorials | where:"category","ldp" | sort: 'order') %}
 {% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}
+</div>
 
 <h2>SR Traffic Engineering</h2>
+<div id=list_te">
 {% assign sorted = (site.tutorials | where:"category","te" | sort: 'order') %}
 {% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}
+</div>
 
 <h2>SRv6</h2>
+<div id=list_srv6">
 {% assign sorted = (site.tutorials | where:"category","srv6" | sort: 'order') %}
 {% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}
+</div>

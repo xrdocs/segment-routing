@@ -7,6 +7,7 @@ title: "Tutorials"
 {% include base_path %}
 
 <h2 onclick="show_concepts()"><i id="icon_concepts" class='fa fa-angle-right'></i> SR concepts</h2>
+<p class="archive__item-excerpt">Learn about the foundational SR concepts.</p>
 <div id="list_concepts">
 {% assign sorted = (site.tutorials | where:"category","concepts" | sort: 'order') %}
 {% for post in sorted %}
@@ -15,6 +16,7 @@ title: "Tutorials"
 </div>
 
 <h2 onclick="show_igp()"><i id="icon_igp" class='fa fa-angle-right'></i> SR IGP</h2>
+<p class="archive__item-excerpt">The SR IGP control plane and automated fast-reroute resiliency.</p>
 <div id="list_igp" style="display: none">
 {% assign sorted = (site.tutorials | where:"category","igp" | sort: 'order') %}
 {% for post in sorted %}
@@ -23,6 +25,7 @@ title: "Tutorials"
 </div>
 
 <h2 onclick="show_ldp()"><i id="icon_ldp" class='fa fa-angle-right'></i> SR and LDP</h2>
+<p class="archive__item-excerpt">Introducing SR in an LDP network, how they can co-exist and interwork.</p>
 <div id="list_ldp" style="display: none">
 {% assign sorted = (site.tutorials | where:"category","ldp" | sort: 'order') %}
 {% for post in sorted %}
@@ -31,6 +34,7 @@ title: "Tutorials"
 </div>
 
 <h2 onclick="show_te()"><i id="icon_te" class='fa fa-angle-right'></i> SR Traffic Engineering</h2>
+<p class="archive__item-excerpt">SR-TE provides you low-delay paths, disjoint paths,… and many more.</p>
 <div id="list_te" style="display: none">
 {% assign sorted = (site.tutorials | where:"category","te" | sort: 'order') %}
 {% for post in sorted %}
@@ -39,6 +43,7 @@ title: "Tutorials"
 </div>
 
 <h2 onclick="show_srv6()"><i id="icon_srv6" class='fa fa-angle-right'></i> SRv6</h2>
+<p class="archive__item-excerpt">Apply the SR concepts to the IPv6 data plane and discover the power of SRv6 network programming.</p>
 <div id="list_srv6" style="display: none">
 {% assign sorted = (site.tutorials | where:"category","srv6" | sort: 'order') %}
 {% for post in sorted %}

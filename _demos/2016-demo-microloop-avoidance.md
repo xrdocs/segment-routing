@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2016-11-06 16:48 -0700'
-title: 'Demo: Microloop Avoidance'
+title: 'Microloop Avoidance'
 author: 'Kris Michielsen'
 teaser: 'https://img.youtube.com/vi/7nfnp-dnUHk/mqdefault.jpg'
 excerpt: >-

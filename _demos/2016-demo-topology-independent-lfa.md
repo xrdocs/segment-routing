@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2016-11-07 16:48 -0700'
-title: 'Demo: Topology Independent - Loop Free Alternate (TI-LFA)'
+title: 'Topology Independent - Loop Free Alternate (TI-LFA)'
 author: 'Kris Michielsen'
 teaser: 'https://img.youtube.com/vi/dttw2nc5FrA/mqdefault.jpg'
 excerpt: >-

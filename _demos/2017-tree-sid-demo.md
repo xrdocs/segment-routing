@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2017-12-26 03:06 -0700'
-title: 'It''s demo time! Tree-SID'
+title: 'Tree-SID'
 author: 'Jakub Horn'
 excerpt: 'Watch Jakub Horn demonstrate the benefits of Tree-SID.'
 teaser: 'https://img.youtube.com/vi/8qXdPODSrOM/mqdefault.jpg'

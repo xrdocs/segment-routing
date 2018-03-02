@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2016-11-09 16:48 -0700'
-title: 'Demo: SRv6 Spray use-case'
+title: 'SRv6 Spray use-case'
 author: 'Jose Liste'
 teaser: 'https://img.youtube.com/vi/W-q4T-vN0Q4/mqdefault.jpg'
 excerpt: >-

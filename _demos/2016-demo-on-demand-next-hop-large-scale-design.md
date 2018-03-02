@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2016-11-08 16:48 -0700'
-title: 'Demo: SR On-Demand Next Hops (ODN)'
+title: 'SR On-Demand Next Hops (ODN)'
 author: 'Jose Liste'
 teaser: 'https://img.youtube.com/vi/0xtysG86Fik/mqdefault.jpg'
 excerpt: >-

@@ -7,7 +7,7 @@ title: "Tutorials"
 {% include base_path %}
 
 <h2 onclick="show_concepts()"><i class='fa fa-chevron-right'></i>SR concepts</h2>
-<div id="list_concepts" style="display: none">
+<div id="list_concepts">
 {% assign sorted = (site.tutorials | where:"category","concepts" | sort: 'order') %}
 {% for post in sorted %}
   {% include archive-single.html %}

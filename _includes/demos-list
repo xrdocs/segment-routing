@@ -8,6 +8,7 @@
   <article itemscope itemtype="http://schema.org/CreativeWork">
     {% if post.teaser %}
       <div class="bloglist__item-teaser">
+        <a href="{{ post.link }}">
             <img src=
               {% if post.teaser contains "://" %}
                 "{{ post.teaser }}"
@@ -15,15 +16,12 @@
                 "{{ post.teaser | relative_url }}"
               {% endif %}
               alt="">
+        </a>
       </div>
     {% endif %}
     <div class="bloglist__item-body">
       <h3 class="bloglist__item-title" itemprop="headline">
-        {% if post.eurl %}
-          <a href="{{ post.eurl }}" rel="external">{{ title }}</a>
-        {% else %}
-          {{ title }}
-        {% endif %}
+          <a href="{{ post.link }}">{{ title }}</a>
       </h3>
       {% if post.author or post.date or post.excerpt %}
         <p class="bloglist__item-excerpt">

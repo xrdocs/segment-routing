@@ -6,7 +6,7 @@ title: "Tutorials"
 
 {% include base_path %}
 
-<a href onclick="show_concepts()" style="cursor:hand"><h2><i id="icon_concepts" class='fa fa-angle-right'></i> SR concepts</h2></a>
+<a onclick="show_concepts()" style="cursor:hand"><h2><i id="icon_concepts" class='fa fa-angle-right'></i> SR concepts</h2></a>
 <p class="archive__item-excerpt">Learn about the foundational SR concepts.</p>
 <div id="list_concepts" style="display: none">
 {% assign sorted = (site.tutorials | where:"category","concepts" | sort: 'order') %}
@@ -15,7 +15,7 @@ title: "Tutorials"
 {% endfor %}
 </div>
 
-<a href onclick="show_igp()" style="cursor:hand"><h2><i id="icon_igp" class='fa fa-angle-right'></i> SR IGP</h2></a>
+<a onclick="show_igp()" style="cursor:hand"><h2><i id="icon_igp" class='fa fa-angle-right'></i> SR IGP</h2></a>
 <p class="archive__item-excerpt">The SR IGP control plane and automated fast-reroute resiliency.</p>
 <div id="list_igp" style="display: none">
 {% assign sorted = (site.tutorials | where:"category","igp" | sort: 'order') %}
@@ -24,7 +24,7 @@ title: "Tutorials"
 {% endfor %}
 </div>
 
-<a href onclick="show_ldp()" style="cursor:hand"><h2><i id="icon_ldp" class='fa fa-angle-right'></i> SR and LDP</h2></a>
+<a onclick="show_ldp()" style="cursor:hand"><h2><i id="icon_ldp" class='fa fa-angle-right'></i> SR and LDP</h2></a>
 <p class="archive__item-excerpt">Introducing SR in an LDP network, how they can co-exist and interwork.</p>
 <div id="list_ldp" style="display: none">
 {% assign sorted = (site.tutorials | where:"category","ldp" | sort: 'order') %}

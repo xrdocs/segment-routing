@@ -6,7 +6,7 @@ title: "Tutorials"
 
 {% include base_path %}
 
-<h2>SR concepts</h2>
+<h2 onclick="show_concepts()">SR concepts</h2>
 <div id=list_concepts">
 {% assign sorted = (site.tutorials | where:"category","concepts" | sort: 'order') %}
 {% for post in sorted %}
@@ -14,7 +14,7 @@ title: "Tutorials"
 {% endfor %}
 </div>
 
-<h2>SR IGP</h2>
+<h2 onclick="show_igp()">SR IGP</h2>
 <div id=list_igp">
 {% assign sorted = (site.tutorials | where:"category","igp" | sort: 'order') %}
 {% for post in sorted %}
@@ -22,7 +22,7 @@ title: "Tutorials"
 {% endfor %}
 </div>
 
-<h2>SR and LDP</h2>
+<h2 onclick="show_ldp()">SR and LDP</h2>
 <div id=list_ldp">
 {% assign sorted = (site.tutorials | where:"category","ldp" | sort: 'order') %}
 {% for post in sorted %}
@@ -30,7 +30,7 @@ title: "Tutorials"
 {% endfor %}
 </div>
 
-<h2>SR Traffic Engineering</h2>
+<h2 onclick="show_te()">SR Traffic Engineering</h2>
 <div id=list_te">
 {% assign sorted = (site.tutorials | where:"category","te" | sort: 'order') %}
 {% for post in sorted %}
@@ -38,10 +38,57 @@ title: "Tutorials"
 {% endfor %}
 </div>
 
-<h2>SRv6</h2>
+<h2 onclick="show_srv6()">SRv6</h2>
 <div id=list_srv6">
 {% assign sorted = (site.tutorials | where:"category","srv6" | sort: 'order') %}
 {% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}
 </div>
+
+<script>
+function show_concepts() {
+    var x = document.getElementById("list_concepts");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function show_igp() {
+    var x = document.getElementById("list_igp");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function show_ldp() {
+    var x = document.getElementById("list_ldp");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function show_te() {
+    var x = document.getElementById("list_te");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function show_srv6() {
+    var x = document.getElementById("list_srv6");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>

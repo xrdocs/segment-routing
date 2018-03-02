@@ -6,7 +6,7 @@ title: "Tutorials"
 
 {% include base_path %}
 
-<h2 onclick="show_concepts()"><i class='fa fa-chevron-right'></i>SR concepts</h2>
+<h2 onclick="show_concepts()"><i class='fa fa-angle-right'></i>SR concepts</h2>
 <div id="list_concepts">
 {% assign sorted = (site.tutorials | where:"category","concepts" | sort: 'order') %}
 {% for post in sorted %}
@@ -14,7 +14,7 @@ title: "Tutorials"
 {% endfor %}
 </div>
 
-<h2 onclick="show_igp()"><i class='fa fa-chevron-right'></i>SR IGP</h2>
+<h2 onclick="show_igp()"><i class='fa fa-angle-right'></i>SR IGP</h2>
 <div id="list_igp" style="display: none">
 {% assign sorted = (site.tutorials | where:"category","igp" | sort: 'order') %}
 {% for post in sorted %}
@@ -22,7 +22,7 @@ title: "Tutorials"
 {% endfor %}
 </div>
 
-<h2 onclick="show_ldp()"><i class='fa fa-chevron-right'></i>SR and LDP</h2>
+<h2 onclick="show_ldp()"><i class='fa fa-angle-right'></i>SR and LDP</h2>
 <div id="list_ldp" style="display: none">
 {% assign sorted = (site.tutorials | where:"category","ldp" | sort: 'order') %}
 {% for post in sorted %}
@@ -30,7 +30,7 @@ title: "Tutorials"
 {% endfor %}
 </div>
 
-<h2 onclick="show_te()"><i class='fa fa-chevron-right'></i>SR Traffic Engineering</h2>
+<h2 onclick="show_te()"><i class='fa fa-angle-right'></i>SR Traffic Engineering</h2>
 <div id="list_te" style="display: none">
 {% assign sorted = (site.tutorials | where:"category","te" | sort: 'order') %}
 {% for post in sorted %}
@@ -38,7 +38,7 @@ title: "Tutorials"
 {% endfor %}
 </div>
 
-<h2 onclick="show_srv6()"><i class='fa fa-chevron-right'></i>SRv6</h2>
+<h2 onclick="show_srv6()"><i class='fa fa-angle-right'></i>SRv6</h2>
 <div id="list_srv6" style="display: none">
 {% assign sorted = (site.tutorials | where:"category","srv6" | sort: 'order') %}
 {% for post in sorted %}

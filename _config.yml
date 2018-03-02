@@ -117,7 +117,9 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
-
+  demos:
+    output: true
+    permalink: /:collection/:path/    
 
 # Defaults
 defaults:
@@ -170,12 +172,21 @@ defaults:
       read_time: false
       related: true
       position: "top"
+# _demos
+  - scope:
+      path: ""
+      type: demos
+    values:
+      layout: single-full
+      read_time: false
+      related: true
+      position: "top"
 
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Australia/ACT# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:  Europe/Madrid# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 future: true
 
 # Plugins

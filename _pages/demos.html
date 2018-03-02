@@ -1,0 +1,12 @@
+---
+layout: archive-full
+permalink: /demos/
+title: "It's demo time!"
+---
+
+{% include base_path %}
+
+{% assign sorted = (site.demos | sort: post.date | reverse) %}
+{% for post in sorted %}
+  {% include demos-list %}
+{% endfor %}

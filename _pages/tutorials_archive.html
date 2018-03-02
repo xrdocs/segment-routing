@@ -63,37 +63,57 @@ function show_concepts() {
 
 function show_igp() {
     var x = document.getElementById("list_igp");
+    var y = document.getElementById("icon_igp");
     if (x.style.display === "none") {
         x.style.display = "block";
+    	y.classList.remove("fa-angle-right");
+    	y.classList.add("fa-angle-down");
     } else {
         x.style.display = "none";
+        y.classList.remove("fa-angle-down");
+    	y.classList.add("fa-angle-right");
     }
 }
 
 function show_ldp() {
     var x = document.getElementById("list_ldp");
+    var y = document.getElementById("icon_ldp");
     if (x.style.display === "none") {
         x.style.display = "block";
+    	y.classList.remove("fa-angle-right");
+    	y.classList.add("fa-angle-down");
     } else {
         x.style.display = "none";
+        y.classList.remove("fa-angle-down");
+    	y.classList.add("fa-angle-right");
     }
 }
 
 function show_te() {
     var x = document.getElementById("list_te");
+    var y = document.getElementById("icon_te");
     if (x.style.display === "none") {
         x.style.display = "block";
+    	y.classList.remove("fa-angle-right");
+    	y.classList.add("fa-angle-down");
     } else {
         x.style.display = "none";
+        y.classList.remove("fa-angle-down");
+    	y.classList.add("fa-angle-right");
     }
 }
 
 function show_srv6() {
     var x = document.getElementById("list_srv6");
+    var y = document.getElementById("icon_srv6");
     if (x.style.display === "none") {
         x.style.display = "block";
+    	y.classList.remove("fa-angle-right");
+    	y.classList.add("fa-angle-down");
     } else {
         x.style.display = "none";
+        y.classList.remove("fa-angle-down");
+    	y.classList.add("fa-angle-right");
     }
 }
 </script>

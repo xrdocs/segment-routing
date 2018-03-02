@@ -4,6 +4,7 @@ published: true
 breadnav: true
 date: '2016-09-27 08:08 -0700'
 order: 7
+category: ldp
 title: Segment Routing and LDP interworking
 excerpt: >-
   Learn about the simple, automatic and seamless interworking between segment

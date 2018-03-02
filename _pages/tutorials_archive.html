@@ -6,7 +6,32 @@ title: "Tutorials"
 
 {% include base_path %}
 
-{% assign sorted = (site.tutorials | sort: 'order') %}
+<h1>SR concepts</h1>
+{% assign sorted = (site.tutorials | where:"category","concepts" | sort: 'order') %}
+{% for post in sorted %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h1>SR IGP</h1>
+{% assign sorted = (site.tutorials | where:"category","igp" | sort: 'order') %}
+{% for post in sorted %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h1>SR and LDP</h1>
+{% assign sorted = (site.tutorials | where:"category","ldp" | sort: 'order') %}
+{% for post in sorted %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h1>SR Traffic Engineering</h1>
+{% assign sorted = (site.tutorials | where:"category","te" | sort: 'order') %}
+{% for post in sorted %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h1>SRv6</h1>
+{% assign sorted = (site.tutorials | where:"category","srv6" | sort: 'order') %}
 {% for post in sorted %}
   {% include archive-single.html %}
 {% endfor %}

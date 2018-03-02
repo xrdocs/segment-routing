@@ -4,6 +4,7 @@ published: true
 breadnav: true
 date: '2016-09-27 08:10 -0700'
 order: 8
+category: igp
 title: Topology Independent LFA (TI-LFA)
 excerpt: >-
   An introduction to the Topology Independent LFA technology. See how Topology

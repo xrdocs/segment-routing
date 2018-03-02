@@ -4,6 +4,7 @@ published: true
 breadnav: true
 date: '2016-09-27 07:51 -0700'
 order: 2
+category: concepts
 title: Segment Routing MPLS data plane
 excerpt: >-
   See how segment routing leverages the existing MPLS data plane and learn how

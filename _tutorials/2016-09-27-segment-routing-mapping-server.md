@@ -4,6 +4,7 @@ published: true
 breadnav: true
 date: '2016-09-27 08:05 -0700'
 order: 6
+category: ldp
 title: Segment Routing Mapping server
 excerpt: >-
   Learn about the objective of the Mapping Server and see how one may configure

@@ -4,6 +4,7 @@ published: true
 breadnav: true
 date: '2017-03-06 11:36 +0100'
 order: 9
+category: te
 title: Segment Routing Traffic Engineering (SRTE)
 excerpt: >-
   An introduction to the Segment Routing Traffic Engineering (SRTE) technology.

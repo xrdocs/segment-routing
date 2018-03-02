@@ -117,7 +117,9 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
-
+  demos:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -165,6 +167,15 @@ defaults:
   - scope:
       path: ""
       type: news
+    values:
+      layout: single-full
+      read_time: false
+      related: true
+      position: "top"
+# _news
+  - scope:
+      path: ""
+      type: demos
     values:
       layout: single-full
       read_time: false

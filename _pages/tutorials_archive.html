@@ -51,6 +51,15 @@ title: "Tutorials"
 {% endfor %}
 </div>
 
+<a onclick="show_oam()" style="cursor: pointer"><h2><i id="icon_oam" class='fa fa-angle-right'></i> SR Operations and Monitoring</h2></a>
+<p class="archive__item-excerpt">Tools to monitor and operate your SR network.</p>
+<div id="list_oam" style="display: none">
+{% assign sorted = (site.tutorials | where:"category","oam" | sort: 'order') %}
+{% for post in sorted %}
+  {% include archive-single.html %}
+{% endfor %}
+</div>
+
 <script>
 function show_concepts() {
     var x = document.getElementById("list_concepts");
@@ -119,6 +128,20 @@ function show_srv6() {
         x.style.display = "none";
         y.classList.remove("fa-angle-down");
     	y.classList.add("fa-angle-right");
+    }
+}
+
+function show_oam() {
+    var x = document.getElementById("list_oam");
+    var y = document.getElementById("icon_oam");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.classList.remove("fa-angle-right");
+        y.classList.add("fa-angle-down");
+    } else {
+        x.style.display = "none";
+        y.classList.remove("fa-angle-down");
+        y.classList.add("fa-angle-right");
     }
 }
 </script>

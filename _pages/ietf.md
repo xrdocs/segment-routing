@@ -68,19 +68,22 @@ list_oam:
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-oam-usecase/
     status: WG Document
   - title: Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane
-    url: https://datatracker.ietf.org/doc/draft-ietf-mpls-spring-lsp-ping/
+    url: https://datatracker.ietf.org/doc/rfc8287/
     status: WG Document
   - title: SRv6 OAM
-    url: https://datatracker.ietf.org/doc/draft-ali-6man-srv6-oam/
-    status: Draft
-  - title: Performance Measurement in Segment Routing Networks
-    url: https://datatracker.ietf.org/doc/draft-ali-spring-sr-pm/
+    url: https://datatracker.ietf.org/doc/draft-ali-spring-srv6-oam/
     status: Draft
   - title: Performance Measurement in Segment Routing Networks with MPLS Data Plane
     url: https://datatracker.ietf.org/doc/draft-gandhi-spring-sr-mpls-pm/
     status: Draft 
   - title: Performance Measurement in Segment Routing Networks with IPv6 Data Plane (SRv6)
     url: https://datatracker.ietf.org/doc/draft-ali-spring-srv6-pm/
+    status: Draft 
+  - title: SR Traffic Accounting
+    url: https://datatracker.ietf.org/doc/draft-ali-spring-sr-traffic-accounting/
+    status: Draft 
+  - title: SBFD for SR Policies
+    url: https://datatracker.ietf.org/doc/draft-ali-spring-bfd-sr-policy/
     status: Draft 
 
 list_extensions:

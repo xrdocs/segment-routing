@@ -149,6 +149,9 @@ list_bgp_ls:
   - title: BGP Link State extensions for IPv6 Segment Routing (SRv6)
     url: https://datatracker.ietf.org/doc/draft-dawra-idr-bgpls-srv6-ext/
     status: Draft
+  - title: BGP Link-State Extensions for BGP-only Fabric
+    url: https://datatracker.ietf.org/doc/draft-ketant-idr-bgp-ls-bgp-only-fabric/
+    status: Draft
 
 list_isis:
   - title: IS-IS Prefix Attributes for Extended IPv4 and IPv6 Reachability
@@ -183,6 +186,12 @@ list_ospf:
   - title: Signaling Entropy Label Capability Using OSPF
     url: https://datatracker.ietf.org/doc/draft-ietf-ospf-mpls-elc/
     status: WG Document
+  - title: OSPFv3 Extensions for SRv6
+    url: https://datatracker.ietf.org/doc/draft-li-ospf-ospfv3-srv6-extensions/
+    status: Draft
+  - title: OSPF Segment Routing Flexible Algorithm
+    url: https://datatracker.ietf.org/doc/draft-ppsenak-ospf-sr-flex-algo/
+    status: Draft
 
 list_pcep:
   - title: PCEP Extensions for Segment Routing

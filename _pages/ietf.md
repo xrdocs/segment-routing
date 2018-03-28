@@ -76,8 +76,8 @@ list_oam:
   - title: Performance Measurement in Segment Routing Networks with MPLS Data Plane
     url: https://datatracker.ietf.org/doc/draft-gandhi-spring-sr-mpls-pm/
     status: Draft 
-  - title: Performance Measurement in Segment Routing Networks with IPv6 Data Plane (SRv6)
-    url: https://datatracker.ietf.org/doc/draft-ali-spring-srv6-pm/
+  - title: UDP Path for In-band Performance Measurement for Segment Routing Networks
+    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-udp-pm/
     status: Draft 
   - title: SR Traffic Accounting
     url: https://datatracker.ietf.org/doc/draft-ali-spring-sr-traffic-accounting/

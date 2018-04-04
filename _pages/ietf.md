@@ -27,9 +27,9 @@ list_usecases:
   - title: Use-cases for Resiliency in SPRING
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-resiliency-use-cases/
     status: WG Document
-  - title: IPv6 SPRING Use Cases
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-ipv6-use-cases/
-    status: WG Document
+  - title: Use Cases for IPv6 Source Packet Routing in Networking (SPRING)
+    url: https://datatracker.ietf.org/doc/rfc8354/
+    status: RFC 8354
   - title: BGP-Prefix Segment in large-scale data centers
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-msdc/
     status: WG Document
@@ -115,8 +115,8 @@ list_srmpls:
   - title: Recommendations for RSVP-TE and Segment Routing LSP co-existance
     url: https://datatracker.ietf.org/doc/draft-ietf-teas-sr-rsvp-coexistence-rec/
     status: WG Document
-  - title: Unified Source Routing Instructions using MPLS Label Stack
-    url: https://datatracker.ietf.org/doc/draft-xu-mpls-unified-source-routing-instruction/
+  - title: SR-MPLS over IP
+    url: https://datatracker.ietf.org/doc/draft-xu-mpls-sr-over-ip/
     status: Draft
 
 list_bgp:

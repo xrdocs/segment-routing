@@ -4,7 +4,7 @@ breadnav: true
 date: '2018-04-10 03:06 -0700'
 title: 'SR Data Plane Monitoring Demonstration'
 author: 'Jose Liste, Cisco'
-excerpt: 'Jose Liste demonstrates SR Data Plane Monitoring, a highly scalable monitoring solution providing blackhole detection.’
+excerpt: 'Jose Liste demonstrates SR Data Plane Monitoring, a highly scalable monitoring solution providing blackhole detection.'
 teaser: 'https://img.youtube.com/vi/LAVelovqyRA/mqdefault.jpg'
 ---
 Demonstration showcasing Segment Routing Data Plane Monitoring (SR-DPM) solution. SR-DPM is an LSP data-plane monitoring solution that provides highly scalable blackhole detection capability.

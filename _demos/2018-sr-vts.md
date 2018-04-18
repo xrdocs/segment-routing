@@ -1,7 +1,7 @@
 ---
 published: true
 breadnav: true
-date: '2018-04-10 03:06 -0700'
+date: '2018-04-18 03:06 -0700'
 title: 'CO Orchestration using SR-VTS'
 author: 'Lim Fung, Cisco'
 excerpt: 'Demonstration on SP Central Office Fabric Orchestration using Cisco VTS with Segment Routing.'

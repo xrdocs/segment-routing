@@ -11,15 +11,18 @@ main:
     url: "/tutorials/"
 
   - title: "Conferences"
-    url: "/conferences/" 
+    short: "Conf"
+    url: "/conferences/"
 
   - title: "IETF"
     url: "/ietf/"
 
-  - title: "Open SW"
+  - title: "Open Software"
+    short: "Open SW"
     url: "/open-software/"
 
   - title: "Scientific Papers"
+    short: "Acad"
     url: "/scientific-papers/"
 
 #  - title: "Search"

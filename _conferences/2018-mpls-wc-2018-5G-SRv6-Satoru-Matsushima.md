@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2018-03-12 03:06 -0700'
-title: 'MPLS WC 2018'
+title: 'MPLS World Congress 2018'
 author: Satoru Matsushima
 excerpt: 'Satoru Matsushima: SRv6 for 5G dataplane'
 header:

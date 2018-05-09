@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2018-03-12 03:09 -0700'
-title: 'MPLS WC 2018'
+title: 'MPLS World Congress 2018'
 author: Clarence Filsfils
 excerpt: 'Clarence Filsfils: Deployment Experience and Technology Update'
 header:

@@ -36,7 +36,7 @@ Endpoint functions are triggered when the IPv6 Destination Address of an incomin
 | ---- | ----------- | :-----: |
 | End | Endpoint function | <span style="color:green">**17.04** (April 2017)</span> |
 | End.X | Endpoint function with Layer-3 cross-connect | <span style="color:green">**17.04** (April 2017)</span> |
-| End.T | Endpoint function with specific IPv6 table lookup | <span style="color:orange">In development</span> |
+| End.T | Endpoint function with specific IPv6 table lookup | <span style="color:green">**17.10** (October 2017)</span> |
 | End.DX2 | Endpoint with decapsulation and Layer-2 cross-connect | <span style="color:green">**17.04** (April 2017)</span> |
 | End.DX6 | Endpoint with decapsulation and IPv6 cross-connect | <span style="color:green">**17.04** (April 2017)</span> |
 | End.DX4 | Endpoint with decapsulation and IPv4 cross-connect | <span style="color:green">**17.04** (April 2017)</span> |
@@ -46,8 +46,9 @@ Endpoint functions are triggered when the IPv6 Destination Address of an incomin
 | End.B6.Encaps | Endpoint bound to an SRv6 encapsulation Policy | <span style="color:green">**17.04** (April 2017)</span> |
 | End.BM | Endpoint bound to an SR-MPLS Policy | <span style="color:orange">In development</span> |
 | End.S | Endpoint in search of a target in table T | <span style="color:orange">In development</span> |
-| End.AS | Endpoint to SR-unaware APP via static proxy | <span style="color:orange">In development</span> |
-| End.AM | Endpoint to SR-unaware APP via masquerading | <span style="color:orange">In development</span> |
+| End.AS | Endpoint to SR-unaware APP via static proxy | <span style="color:green">**18.04** (April 2018)</span> |
+| End.AD | Endpoint to SR-unaware APP via dynamic proxy | <span style="color:green">**18.04** (April 2018)</span> |
+| End.AM | Endpoint to SR-unaware APP via masquerading | <span style="color:green">**18.04** (April 2018)</span> |
 
 #### Transit behaviors
 

@@ -1,7 +1,7 @@
 ---
 published: true
 breadnav: true
-date: '2018-02-05 03:06 -0700'
+date: '2018-03-12 03:07 -0700'
 title: 'MPLS WC 2018'
 author: Arkadiy Guiko
 excerpt: 'Arkadiy Guiko: Flexible Algorithms in IGP, a Distributed SR-TE Solution'

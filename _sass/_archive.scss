@@ -65,7 +65,8 @@
   overflow: hidden;
   text-align: center;
   img {
-    width: 100%;
+    max-height: 150px;
+    width: auto;
     border-radius: $border-radius;
   }
 }
@@ -118,7 +119,7 @@
   }
 
   .archive__item-excerpt {
-    display: none;
+    display: block;
   }
 
   @include breakpoint($small) {
@@ -143,7 +144,6 @@
     }
 
     .archive__item-excerpt {
-      display: block;
       font-size: $type-size-6;
       margin-top: 0.5em;
     }

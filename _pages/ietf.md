@@ -5,8 +5,8 @@ breadnav: false
 
 list_architecture:
   - title: Segment Routing Architecture
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing/
-    status: WG Document
+    url: https://datatracker.ietf.org/doc/rfc8402/
+    status: RFC 8402
   - title: Segment Routing Policy for Traffic Engineering
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-segment-routing-policy/
     status: Draft

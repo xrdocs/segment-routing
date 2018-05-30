@@ -6,7 +6,7 @@ title: 'MENOG 2018'
 author: Rasoul Mesghali
 excerpt: 'Rasoul Mesghali presented SR at the Middle East Network Operator Group.'
 header:
-  teaser: 'https://img.youtube.com/vi/BzGfBbIMKrA/mqdefault.jpg'
+  teaser: '/images/press/MENOG_Header_logo.png'
 ---    
        
 {% capture "pdf-link" %}/images/20180425-SR-MENOG.pdf{% endcapture %}

@@ -6,7 +6,7 @@ title: 'MENOG 2018'
 author: Rasoul Mesghali
 excerpt: 'Rasoul Mesghali presented SR at the Middle East Network Operator Group.'
 header:
-  teaser: '/images/press/MENOG_Header_logo.png'
+  teaser: '/images/MENOG_Header_logo.png'
 ---    
 During the last Middle East Network Operator Group (MENOG) 2018, Rasoul Mesghali presented Segment Routing.
 

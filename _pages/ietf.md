@@ -7,7 +7,7 @@ list_architecture:
   - title: Segment Routing Architecture
     url: https://datatracker.ietf.org/doc/rfc8402/
     status: RFC 8402
-  - title: Segment Routing Policy for Traffic Engineering
+  - title: SR Policy Architecture
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-segment-routing-policy/
     status: Draft
   - title: Segment Routing with MPLS data plane
@@ -48,6 +48,9 @@ list_usecases:
   - title: SRv6 for Mobile User-Plane
     url: https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3403
     status: 3GPP Study Item
+  - title: SR Policy Architecture - Companion document
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-policy-considerations/
+    status: Draft
   - title: Packet-Optical Integration in Segment Routing
     url: https://datatracker.ietf.org/doc/draft-anand-spring-poi-sr/
     status: Draft
@@ -69,7 +72,10 @@ list_oam:
     status: WG Document
   - title: Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane
     url: https://datatracker.ietf.org/doc/rfc8287/
-    status: WG Document
+    status: RFC 8287
+  - title: Packet Loss and Delay Measurement for MPLS Networks
+    url: https://datatracker.ietf.org/doc/rfc6376/
+    status: RFC 6376    
   - title: SRv6 OAM
     url: https://datatracker.ietf.org/doc/draft-ali-spring-srv6-oam/
     status: Draft
@@ -106,9 +112,6 @@ list_srmpls:
   - title: Anycast Segments in MPLS based Segment Routing
     url: https://datatracker.ietf.org/doc/draft-psarkar-spring-mpls-anycast-segments/
     status: Draft
-  - title: Segment Routing Conflict Resolution
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-conflict-resolution/
-    status: WG Document
   - title: Segment Routing Recursive Information
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-recursing-info/
     status: Draft
@@ -137,6 +140,9 @@ list_bgp_ls:
   - title: BGP Link-State extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-segment-routing-ext/
     status: WG document
+  - title: SR Policy Distribution via BGP-LS
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-te-lsp-distribution/
+    status: WG document
   - title: Segment Routing BGP Egress Peer Engineering BGP-LS Extensions
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-segment-routing-epe/
     status: WG Document
@@ -154,9 +160,6 @@ list_bgp_ls:
     status: Draft
 
 list_isis:
-  - title: IS-IS Prefix Attributes for Extended IPv4 and IPv6 Reachability
-    url: https://datatracker.ietf.org/doc/rfc7794/
-    status: RFC 7794
   - title: IS-IS Extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ietf-isis-segment-routing-extensions/
     status: WG Document
@@ -164,8 +167,8 @@ list_isis:
     url: https://datatracker.ietf.org/doc/draft-bashandy-isis-srv6-extensions/
     status: Draft
   - title: ISIS Segment Routing Flexible Algorithm
-    url: https://datatracker.ietf.org/doc/draft-hegdeppsenak-isis-sr-flex-algo/
-    status: Draft
+    url: https://datatracker.ietf.org/doc/draft-ietf-lsr-flex-algo/
+    status: WG Document
   - title: Signaling MSD (Maximum SID Depth) using IS-IS
     url: https://datatracker.ietf.org/doc/draft-ietf-isis-segment-routing-msd/
     status: WG Document
@@ -183,15 +186,12 @@ list_ospf:
   - title: Signaling MSD (Maximum SID Depth) using OSPF
     url: https://datatracker.ietf.org/doc/draft-ietf-ospf-segment-routing-msd/
     status: WG Document
-  - title: Signaling Entropy Label Capability Using OSPF
-    url: https://datatracker.ietf.org/doc/draft-ietf-ospf-mpls-elc/
-    status: WG Document
   - title: OSPFv3 Extensions for SRv6
     url: https://datatracker.ietf.org/doc/draft-li-ospf-ospfv3-srv6-extensions/
     status: Draft
   - title: OSPF Segment Routing Flexible Algorithm
-    url: https://datatracker.ietf.org/doc/draft-ppsenak-ospf-sr-flex-algo/
-    status: Draft
+    url: https://datatracker.ietf.org/doc/draft-ietf-lsr-flex-algo/
+    status: WG Document
 
 list_pcep:
   - title: PCEP Extensions for Segment Routing

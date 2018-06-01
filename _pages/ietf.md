@@ -73,18 +73,9 @@ list_oam:
   - title: Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane
     url: https://datatracker.ietf.org/doc/rfc8287/
     status: RFC 8287
-  - title: Packet Loss and Delay Measurement for MPLS Networks
-    url: https://datatracker.ietf.org/doc/rfc6374/
-    status: RFC 6374    
   - title: SRv6 OAM
     url: https://datatracker.ietf.org/doc/draft-ali-spring-srv6-oam/
     status: Draft
-  - title: Performance Measurement in Segment Routing Networks with MPLS Data Plane
-    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-sr-mpls-pm/
-    status: Draft 
-  - title: UDP Path for In-band Performance Measurement for Segment Routing Networks
-    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-udp-pm/
-    status: Draft 
   - title: SR Traffic Accounting
     url: https://datatracker.ietf.org/doc/draft-ali-spring-sr-traffic-accounting/
     status: Draft 
@@ -92,6 +83,20 @@ list_oam:
     url: https://datatracker.ietf.org/doc/draft-ali-spring-bfd-sr-policy/
     status: Draft 
 
+list_pm:
+  - title: Packet Loss and Delay Measurement for MPLS Networks
+    url: https://datatracker.ietf.org/doc/rfc6374/
+    status: RFC 6374
+  - title: UDP Return Path for Packet Loss and Delay Measurement for MPLS Networks
+    url: https://datatracker.ietf.org/doc/rfc7876/
+    status: RFC 7876
+  - title: Performance Measurement in Segment Routing Networks with MPLS Data Plane
+    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-sr-mpls-pm/
+    status: Draft 
+  - title: UDP Path for In-band Performance Measurement for Segment Routing Networks
+    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-udp-pm/
+    status: Draft 
+    
 list_extensions:
 
 list_srv6:
@@ -219,6 +224,9 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
 
 ## OAM
 {% include rfc_list id="list_oam" %}
+
+## Performance Measurement
+{% include rfc_list id="list_pm" %}
 
 # Protocol Extensions
 {% include rfc_list id="list_extensions" %}

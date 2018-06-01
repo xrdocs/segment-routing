@@ -74,8 +74,8 @@ list_oam:
     url: https://datatracker.ietf.org/doc/rfc8287/
     status: RFC 8287
   - title: Packet Loss and Delay Measurement for MPLS Networks
-    url: https://datatracker.ietf.org/doc/rfc6376/
-    status: RFC 6376    
+    url: https://datatracker.ietf.org/doc/rfc6374/
+    status: RFC 6374    
   - title: SRv6 OAM
     url: https://datatracker.ietf.org/doc/draft-ali-spring-srv6-oam/
     status: Draft

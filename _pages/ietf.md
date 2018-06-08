@@ -8,8 +8,8 @@ list_architecture:
     url: https://datatracker.ietf.org/doc/rfc8402/
     status: RFC 8402
   - title: SR Policy Architecture
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-segment-routing-policy/
-    status: Draft
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-policy/
+    status: WG Document
   - title: Segment Routing with MPLS data plane
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-mpls/
     status: WG Document

@@ -180,6 +180,9 @@ list_isis:
   - title: Advertising L2 Bundle Member Link Attributes in IS-IS
     url: https://datatracker.ietf.org/doc/draft-ietf-isis-l2bundles/
     status: WG Document
+  - title: IS-IS Traffic Engineering (TE) Metric Extensions
+    url: https://datatracker.ietf.org/doc/rfc7810/
+    status: RFC 7810
 
 list_ospf:
   - title: OSPF Extensions for Segment Routing
@@ -197,6 +200,9 @@ list_ospf:
   - title: OSPF Segment Routing Flexible Algorithm
     url: https://datatracker.ietf.org/doc/draft-ietf-lsr-flex-algo/
     status: WG Document
+  - title: OSPF Traffic Engineering (TE) Metric Extensions
+    url: https://datatracker.ietf.org/doc/rfc7471/
+    status: RFC 7471
 
 list_pcep:
   - title: PCEP Extensions for Segment Routing

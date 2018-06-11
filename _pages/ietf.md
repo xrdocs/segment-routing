@@ -5,7 +5,7 @@ breadnav: false
 
 list_architecture:
   - title: Segment Routing Architecture
-    url: https://datatracker.ietf.org/doc/rfc8402/
+    url: https://www.rfc-editor.org/authors/rfc8402.txt
     status: RFC 8402
   - title: SR Policy Architecture
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-policy/
@@ -50,6 +50,9 @@ list_usecases:
     status: 3GPP Study Item
   - title: SR Policy Architecture - Companion document
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-policy-considerations/
+    status: Draft
+  - title: Segment Routing Traffic Accounting Counters
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-traffic-counters/
     status: Draft
   - title: Packet-Optical Integration in Segment Routing
     url: https://datatracker.ietf.org/doc/draft-anand-spring-poi-sr/

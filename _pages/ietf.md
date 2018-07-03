@@ -10,14 +10,20 @@ list_architecture:
   - title: SR Policy Architecture
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-policy/
     status: WG Document
+  - title: SR Policy Architecture - Companion document
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-policy-considerations/
+    status: Draft
+  - title: YANG Data Model for Segment Routing Policy
+    url: https://datatracker.ietf.org/doc/draft-thomas-spring-sr-policy-yang/
+    status: Draft
   - title: Segment Routing with MPLS data plane
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-mpls/
     status: WG Document
   - title: SRv6 Network Programming
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-network-programming/
     status: Draft
-  - title: Segment Routing for Service Chaining
-    url: https://datatracker.ietf.org/doc/draft-xu-clad-spring-sr-service-chaining/
+  - title: Segment Routing for Service Programming
+    url: https://datatracker.ietf.org/doc/draft-xu-clad-spring-sr-service-programming/
     status: Draft
 
 list_usecases:
@@ -48,8 +54,11 @@ list_usecases:
   - title: SRv6 for Mobile User-Plane
     url: https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3403
     status: 3GPP Study Item
-  - title: SR Policy Architecture - Companion document
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-policy-considerations/
+  - title: SRv6 for Mobile User-Plane PoCs
+    url: https://datatracker.ietf.org/doc/draft-camarillo-dmm-srv6-mobile-pocs/
+    status: Draft
+  - title: Building blocks for Slicing in Segment Routing Network
+    url: https://datatracker.ietf.org/doc/draft-ali-spring-network-slicing-building-blocks/
     status: Draft
   - title: Segment Routing Traffic Accounting Counters
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-traffic-counters/
@@ -57,6 +66,7 @@ list_usecases:
   - title: Packet-Optical Integration in Segment Routing
     url: https://datatracker.ietf.org/doc/draft-anand-spring-poi-sr/
     status: Draft
+
 
 list_frr:
   - title: Topology Independent Fast Reroute using Segment Routing
@@ -206,6 +216,11 @@ list_ospf:
   - title: OSPF Traffic Engineering (TE) Metric Extensions
     url: https://datatracker.ietf.org/doc/rfc7471/
     status: RFC 7471
+
+list_lisp:
+  - title: LISP Control Plane for SRv6 Endpoint Mobility
+    url: https://datatracker.ietf.org/doc/draft-rodrigueznatal-lisp-srv6/
+    status: Draft
 
 list_pcep:
   - title: PCEP Extensions for Segment Routing

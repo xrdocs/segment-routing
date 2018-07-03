@@ -275,3 +275,6 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
 
 ## PCEP
 {% include rfc_list id="list_pcep" %}
+
+## LISP
+{% include rfc_list id="list_lisp" %}

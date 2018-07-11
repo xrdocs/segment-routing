@@ -8,9 +8,8 @@ title: "Open Software Projects"
   {% for post in sorted %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
-</div>
 
-<div class="grid__wrapper">
+  #OpenSource Applications
   {% assign sorted = (site.open-software-apps | sort: 'title') %}
   {% for post in sorted %}
     {% include archive-single.html %}

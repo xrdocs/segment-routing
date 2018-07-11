@@ -158,6 +158,14 @@ defaults:
       layout: single-full
       related: true
       position: "top"
+# _open-software-apps
+  - scope:
+      path: ""
+      type: open-software-apps
+    values:
+      layout: single-full
+      related: true
+      position: "top"
 # _scientific-papers
   - scope:
       path: ""

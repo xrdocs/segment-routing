@@ -3,6 +3,7 @@ published: true
 breadnav: true
 date: '2017-01-20 08:52 -0700'
 title: The Fast Data Project (FD.io)
+app: false
 header:
   teaser: images/fd-logo.png
 excerpt: >-

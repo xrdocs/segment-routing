@@ -1,5 +1,6 @@
 ---
 title: Linux Kernel
+app: false
 breadnav: true
 date: '2017-01-20 12:18 +0100'
 header:

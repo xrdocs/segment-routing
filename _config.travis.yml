@@ -111,9 +111,6 @@ collections:
   open-software:
     output: true
     permalink: /:collection/:path/
-  open-software-apps:
-    output: true
-    permalink: /:collection/:path/
   scientific-papers:
     output: true
     permalink: /:collection/:path/
@@ -154,14 +151,6 @@ defaults:
   - scope:
       path: ""
       type: open-software
-    values:
-      layout: single-full
-      related: true
-      position: "top"
-# _open-software-apps
-  - scope:
-      path: ""
-      type: open-software-apps
     values:
       layout: single-full
       related: true

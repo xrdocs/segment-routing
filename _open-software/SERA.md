@@ -2,6 +2,7 @@
 published: true
 breadnav: true
 title: SERA
+app: true
 excerpt: >-
   SERA is a SEgment Routing Aware firewall that extends the Linux iptables firewall. It's capable of applying the iptables rules to the inner packet of received SR traffic. 
 ---

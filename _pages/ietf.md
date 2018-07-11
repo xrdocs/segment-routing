@@ -13,9 +13,6 @@ list_architecture:
   - title: SR Policy Architecture - Companion document
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-policy-considerations/
     status: Draft
-  - title: YANG Data Model for Segment Routing Policy
-    url: https://datatracker.ietf.org/doc/draft-thomas-spring-sr-policy-yang/
-    status: Draft
   - title: Segment Routing with MPLS data plane
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-mpls/
     status: WG Document
@@ -118,9 +115,6 @@ list_srv6:
     status: WG Document
   - title: Insertion of IPv6 Segment Routing Headers in a Controlled Domain
     url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion/
-    status: Draft
-  - title: YANG Data Model for SRv6
-    url: https://datatracker.ietf.org/doc/draft-raza-spring-srv6-yang/
     status: Draft
     
 list_srmpls:
@@ -230,6 +224,14 @@ list_pcep:
     url: https://datatracker.ietf.org/doc/draft-sivabalan-pce-binding-label-sid/
     status: Draft
 
+list_yang:
+  - title: YANG Data Model for Segment Routing Policy
+    url: https://datatracker.ietf.org/doc/draft-thomas-spring-sr-policy-yang/
+    status: Draft
+  - title: YANG Data Model for SRv6
+    url: https://datatracker.ietf.org/doc/draft-raza-spring-srv6-yang/
+    status: Draft
+
 ---
 <div class="notice">
 Segment Routing is being standardized by the IETF.<br/>
@@ -278,3 +280,7 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
 
 ## LISP
 {% include rfc_list id="list_lisp" %}
+
+# Yang models
+{% include rfc_list id="list_yang" %}
+

@@ -111,6 +111,9 @@ collections:
   open-software:
     output: true
     permalink: /:collection/:path/
+  open-software-apps:
+    output: true
+    permalink: /:collection/:path/
   scientific-papers:
     output: true
     permalink: /:collection/:path/

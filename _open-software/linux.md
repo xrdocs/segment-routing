@@ -12,6 +12,10 @@ excerpt: >-
 
 The IPv6 dataplane functionalities enabling Segment Routing packet generation and forwarding are available in the latest Linux kernel releases (4.10 and later). This implementation is provided by the [IP Networking Lab](https://inl.info.ucl.ac.be) of Université Catholique de Louvain, Louvain-la-Neuve, Belgium.
 
+## Linux kernel 4.14
+
+Kernel 4.14 is another milestone in SRv6 support in Linux. A new set of SRv6 behaviors has been added to the kernel (see table below).
+
 Quick start guide and complete documentation are available on the [dedicated website](http://www.segment-routing.org/).
 
 For any question regarding this implementation, please reach out to the [developers mailing list](https://sympa-2.sipr.ucl.ac.be/sympa/info/sr6-dev).

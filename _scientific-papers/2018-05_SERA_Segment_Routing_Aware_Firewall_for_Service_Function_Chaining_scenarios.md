@@ -1,9 +1,8 @@
 ---
-title: "6LB: Scalable and Application-Aware Load Balancing with Segment Routing"
-authors: Yoann Desmouceaux, Pierre Pfister, Jérôme Tollet, Mark Townsley and Thomas Clausen
-publisher: IEEE/ACM Transactions on Networking
-month: 2
+title: "SERA: SEgment Routing Aware Firewall for Service Function Chaining scenarios"
+authors: Ahmed Abdelsalam, Stefano Salsano, Francois Clad, Pablo Camarillo and Clarence Filsfils
+publisher: IFIP Networking 2018 Zurich, Switzerland, 2018
+month: 5
 year: 2018
-doi: 10.1109/TNET.2018.2799242
+eurl: http://netgroup.uniroma2.it/Stefano_Salsano/papers/18-ifip-sera-firewall-sfc.pdf
 ---
-

@@ -10,7 +10,7 @@ title: "Open Software Projects"
   {% endfor %}
 
   <h1 id="openapps">Applications</h1>
-  {% assign sorted = (site.open-software-apps | where:"app","true" | sort: 'title') %}
+  {% assign sorted = (site.open-software | where:"app","true" | sort: 'title') %}
   {% for post in sorted %}
     {% include archive-single.html %}
   {% endfor %}

@@ -1,9 +1,13 @@
 ---
 published: true
 breadnav: true
-title: SERA
+date: '2017-01-20 08:52 -0700'
+title: The Fast Data Project (FD.io)
+header:
+  teaser: images/fd-logo.png
 excerpt: >-
-  SERA is a SEgment Routing Aware firewall that extends the Linux iptables firewall. It's capable of applying the iptables rules to the inner packet of received SR traffic. 
+  Cisco has funded an extensive implementation of SRv6 in open-source project FD.io VPP.
+  Find out how to leverage this platform in your network architecture.
 ---
 
 ## Introduction

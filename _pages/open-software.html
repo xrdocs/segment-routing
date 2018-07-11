@@ -9,5 +9,8 @@ title: "Open Software Projects"
     {% include archive-single.html type="grid" %}
   {% endfor %}
 
-
+  {% assign sorted2 = (site.open-software-apps | sort: 'title') %}
+  {% for post2 in sorted2 %}
+    {% include archive-single.html %}
+  {% endfor %}
 </div>

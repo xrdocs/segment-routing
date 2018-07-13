@@ -3,7 +3,7 @@ layout: archive-full
 permalink: /open-software/
 title: "Open Software Projects"
 ---
-<div class="grid__wrapper">
+<div class="feature__wrapper">
   {% assign sorted = (site.open-software | where:"app","false" | sort: 'title') %}
   {% for post in sorted %}
     {% include archive-single.html type="grid" %}
@@ -11,7 +11,7 @@ title: "Open Software Projects"
 </div>
 
 <h1 id="openapps">Applications</h1>
-<div class="grid__wrapper">
+<div class="feature__wrapper">
   {% assign sorted = (site.open-software | where:"app","true" | sort: 'title') %}
   {% for post in sorted %}
     {% include archive-single.html %}

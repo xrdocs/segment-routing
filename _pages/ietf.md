@@ -20,7 +20,7 @@ list_architecture:
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-network-programming/
     status: Draft
   - title: Segment Routing for Service Programming
-    url: https://datatracker.ietf.org/doc/draft-xu-clad-spring-sr-service-programming/
+    url: https://datatracker.ietf.org/doc/draft-xuclad-spring-sr-service-programming/
     status: Draft
 
 list_usecases:

@@ -10,7 +10,7 @@ title: "Open Software Projects"
   {% endfor %}
 </div>
 
-<h1 id="openapps">Applications</h1>
+<h2 id="openapps">SR-aware applications</h2>
 <div class="feature__wrapper">
   {% assign sorted = (site.open-software | where:"app","true" | sort: 'title') %}
   {% for post in sorted %}

@@ -45,6 +45,9 @@ list_usecases:
   - title: SR for SDWAN - VPN with Underlay SLA
     url: https://datatracker.ietf.org/doc/draft-dukes-sr-for-sdwan/
     status: Draft
+  - title: SRv6 for Mobility Use-Cases
+    url: https://datatracker.ietf.org/doc/draft-camarilloelmalky-springdmm-srv6-mob-usecases/
+    status: Draft
   - title: SRv6 for Mobile User-Plane
     url: https://datatracker.ietf.org/doc/draft-ietf-dmm-srv6-mobile-uplane/
     status: Draft

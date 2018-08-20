@@ -5,7 +5,7 @@ breadnav: false
 
 list_architecture:
   - title: Segment Routing Architecture
-    url: https://www.rfc-editor.org/authors/rfc8402.txt
+    url: https://datatracker.ietf.org/doc/rfc8402/
     status: RFC 8402
   - title: SR Policy Architecture
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-policy/

@@ -2,7 +2,7 @@
 title: ACG Research Paper&#58; Segment Routing
 author: Ray Mota
 source: ACG Research
-source-url: /images/ACG_Segment_Routing_201808.pdf
+source-url: https://www.acgcc.com/segment-routing-an-acg-research-whitepaper/
 date: 2018-08-29
 eurl: /images/ACG_Segment_Routing_201808.pdf
 excerpt: >-

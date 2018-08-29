@@ -1,5 +1,5 @@
 ---
-title: ACG Research Paper &colon; Segment Routing
+title: ACG Research Paper&#58; Segment Routing
 author: Ray Mota
 source: ACG Research
 source-url: /images/ACG_Segment_Routing_201808.pdf

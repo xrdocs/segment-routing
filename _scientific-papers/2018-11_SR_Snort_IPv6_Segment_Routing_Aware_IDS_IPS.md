@@ -1,7 +1,7 @@
 ---
 title: "SR-Snort: IPv6 Segment Routing Aware IDS/IPS"
 authors: Ahmed Abdelsalam, Stefano Salsano, Francois Clad, Pablo Camarillo and Clarence Filsfils
-publisher: 2018 IEEE Conference on Network Function Virtualization and Software Defined Networks
+publisher: IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN)
 location: Verona, Italy
 month: 11
 year: 2018

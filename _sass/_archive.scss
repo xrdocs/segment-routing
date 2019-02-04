@@ -65,7 +65,6 @@
   overflow: hidden;
   text-align: center;
   img {
-    max-height: 150px;
     width: auto;
     border-radius: $border-radius;
   }
@@ -156,6 +155,10 @@
       font-size: $type-size-6;
       margin-top: 0.5em;
     }
+  }
+
+  .archive__item-teaser img {
+    max-height: 150px;
   }
 }
 

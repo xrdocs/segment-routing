@@ -16,4 +16,8 @@ An introduction to the Segment Routing Traffic Engineering (SR-TE) technology. S
 SR-TE provides lots of functionality. It was designed with lead operators, along their use-cases.
 {: .notice}  
 
-<iframe src="https://app.box.com/embed/preview/lps64v4wh3cvupbn2ge5o6bbuvlpz1ps?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+{% capture "pdf-link" %}/images/SRTE_TOI_dev_v20a_EXTERNAL.pdf{% endcapture %}
+
+<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<div class="fitvidsignore" id="pdf"></div>
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

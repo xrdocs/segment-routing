@@ -28,10 +28,12 @@ header:
   
 
 ### Slides
-  
-  
-<iframe src="https://app.box.com/embed/preview/vel8mmbct6k5rzo4ulxymljdsvudce0x?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>    
-  
+
+{% capture "pdf-link" %}/images/1551544-sr-mpls-sdn-2016-rev2b.pdf{% endcapture %}
+
+<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<div class="fitvidsignore" id="pdf"></div>
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>  
 
 ### Longer video  
   

@@ -15,4 +15,8 @@ excerpt: >-
 See what the Segment Routing Global Block is. Learn about the best practices to use the same SRGB on all segment routing nodes. Further, learn how to modify the Segment Routing Global Block.
 {: .notice}
 
-<iframe src="https://app.box.com/embed/preview/9m1a3uizlcgbgh31si3vdn2oy68v274t?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+{% capture "pdf-link" %}/images/0030-SR-TOI-SRGB_v10.pdf{% endcapture %}
+
+<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<div class="fitvidsignore" id="pdf"></div>
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

@@ -18,4 +18,8 @@ An introduction to the Topology Independent LFA technology. See how Topology Ind
 In the end, learn how to verify TI-LFA using some examples.
 {: .notice}  
 
-<iframe src="https://app.box.com/embed/preview/t0xtf3xu8yaxbvnm3x1ohksjssx8t9qh?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe> 
+{% capture "pdf-link" %}/images/0080-SR-TOI-SR_TI-LFA_v17_EXTERNAL.pdf{% endcapture %}
+
+<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<div class="fitvidsignore" id="pdf"></div>
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

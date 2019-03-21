@@ -14,4 +14,8 @@ excerpt: >-
 Learn about the objective of the Mapping Server and see how one may configure it. Further, verify the mapping server functionality.
 {: .notice}  
 
-<iframe src="https://app.box.com/embed/preview/mv72k0w1vt1as9fwknfzvngiasfxv0c0?theme=dark" width="800" height="450" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe> 
+{% capture "pdf-link" %}/images/0060-SR-TOI-SR_Mapping-Server_v8.pdf{% endcapture %}
+
+<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<div class="fitvidsignore" id="pdf"></div>
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

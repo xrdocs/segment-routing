@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2019-03-22 03:06 -0700'
-title: 'NANOG75 Flexible Algorithm'
+title: 'NANOG75 Unleashing SR-TE capabilities with SR Flex-Algo'
 author: Segment Routing Team
 excerpt: 'Jose Liste presents SR IGP Flexible Algorithm, the flexible tool in the SR-TE toolkit. How it works and its use-cases'
 header:

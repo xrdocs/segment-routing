@@ -91,10 +91,10 @@ list_oam:
     status: Draft
   - title: SR Traffic Accounting
     url: https://datatracker.ietf.org/doc/draft-ali-spring-sr-traffic-accounting/
-    status: Draft 
+    status: Draft
   - title: SBFD for SR Policies
     url: https://datatracker.ietf.org/doc/draft-ali-spring-bfd-sr-policy/
-    status: Draft 
+    status: Draft
 
 list_pm:
   - title: Packet Loss and Delay Measurement for MPLS Networks
@@ -105,11 +105,11 @@ list_pm:
     status: RFC 7876
   - title: Performance Measurement in Segment Routing Networks with MPLS Data Plane
     url: https://datatracker.ietf.org/doc/draft-gandhi-spring-sr-mpls-pm/
-    status: Draft 
+    status: Draft
   - title: UDP Path for In-band Performance Measurement for Segment Routing Networks
     url: https://datatracker.ietf.org/doc/draft-gandhi-spring-udp-pm/
-    status: Draft 
-    
+    status: Draft
+
 list_extensions:
 
 list_srv6:
@@ -119,7 +119,7 @@ list_srv6:
   - title: Insertion of IPv6 Segment Routing Headers in a Controlled Domain
     url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion/
     status: Draft
-    
+
 list_srmpls:
   - title: Segment Routing interworking with LDP
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
@@ -133,9 +133,6 @@ list_srmpls:
   - title: Recommendations for RSVP-TE and Segment Routing LSP co-existance
     url: https://datatracker.ietf.org/doc/draft-ietf-teas-sr-rsvp-coexistence-rec/
     status: WG Document
-  - title: SR-MPLS over IP
-    url: https://datatracker.ietf.org/doc/draft-xu-mpls-sr-over-ip/
-    status: Draft
 
 list_bgp:
   - title: Segment Routing Prefix SID extensions for BGP
@@ -286,4 +283,3 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
 
 # Yang models
 {% include rfc_list id="list_yang" %}
-

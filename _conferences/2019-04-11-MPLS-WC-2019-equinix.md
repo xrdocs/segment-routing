@@ -1,7 +1,7 @@
 ---
 published: true
 breadnav: true
-date: 2019-04-11
+date: '2019-04-11 03:06 -0700'
 title: 'MPLS WC 2019 - Equinix SR deployment'
 author: Segment Routing Team
 excerpt: 'Rizwan Jamal of Equinix presents "Implementing 5G Application Intent using Segment Routing"'

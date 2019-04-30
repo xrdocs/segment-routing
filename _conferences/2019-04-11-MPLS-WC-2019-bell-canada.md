@@ -1,7 +1,7 @@
 ---
 published: true
 breadnav: true
-date: '2019-04-11 03:07 -0700'
+date: '2019-04-11 03:05 -0700'
 title: 'MPLS WC 2019 - Bell Canada SR deployment'
 author: Segment Routing Team
 excerpt: 'Mark Ferreira of Bell Canada presents "SR-aware SD-WAN: Enabling End-to-end Application-responsive Networking"'

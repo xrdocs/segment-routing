@@ -6,7 +6,7 @@ title: 'MPLS WC 2019 - Equinix SR deployment'
 author: Segment Routing Team
 excerpt: 'Rizwan Jamal of Equinix presents "Implementing 5G Application Intent using Segment Routing"'
 header:
-  teaser: '/images/MPLSWC2019.png'
+  teaser: 'https://img.youtube.com/vi/hchiMeYLNuk/mqdefault.jpg'
 ---
 
 At the [**MPLS WC 2019**](<https://www.uppersideconferences.com/mpls-sdn-nfv/mplswc2019_agenda_day_02_01.html>) in Paris, 

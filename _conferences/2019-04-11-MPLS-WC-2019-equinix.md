@@ -14,5 +14,6 @@ At the [**MPLS WC 2019**](<https://www.uppersideconferences.com/mpls-sdn-nfv/mpl
 
 ## Implementing 5G Application Intent using Segment Routing
 ### Rizwan Jamal, Principal Network Architect, Equinix
-&nbsp;
-Video coming soon.
+
+#### video
+<iframe width="355" height="200" src="https://www.youtube.com/embed/hchiMeYLNuk" frameborder="0" allowfullscreen></iframe>

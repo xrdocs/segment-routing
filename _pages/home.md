@@ -58,13 +58,13 @@ feature_row_np:
       The IPv6 flavor of Segment Routing allows user-defined functions to be associated with segments. By leveraging the IPv6 SID format and the dedicated Segment Routing Extension Header, these functions may implement any computable behavior allowing for Network Function Virtualization.
 
 feature_row_book:
-  - image_path: images/sr-book-amazon.jpg
-    image_width: 150px
+  - image_path: images/sr-book-combined.png
+    image_width: 300px
     title: 'Segment Routing, Part 1'
     excerpt: >-
       Check out <b>Segment Routing Part I</b> on Amazon as paperback or Kindle edition,
       by Clarence Filsfils, Kris Michielsen and Ketan Talaulikar.
-    url: 'https://amzn.com/B01I58LSUO'
+    url: 'https://amzn.com/B07N6H54VP'
     btn_label: Check out the Segment Routing book!
     btn_class: btn--large
 
@@ -76,4 +76,25 @@ published: true
 {% include feature_row id="feature_row_odn" type="right" %}
 {% include feature_row id="feature_row_frr" type="left" %}
 {% include feature_row id="feature_row_np" type="right" %}
-{% include feature_row id="feature_row_book" type="left" %}
+
+<div class="feature__wrapper">
+  <div class="feature__item--left">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <img src="{{ 'images/sr-book-part1.jpg' | relative_url }}" alt="SR book part I" style="width:calc(50% - 3px); max-width:200px; margin-right:6px;"><img src="{{ 'images/sr-book-part2.jpg' | relative_url }}" alt="SR book part II" style="width:calc(50% - 3px); max-width:200px;">
+      </div>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">Segment Routing book series</h2>
+        <div class="archive__item-excerpt">
+          <p>Part I by Clarence Filsfils, Kris Michielsen and Ketan Talaulikar walks the reader through the journey that led to the invention Segment Routing. Besides describing the SR functionalities, it also describes the intuition behind the key concepts and explains why it was designed this way.</p>
+          <p>Part II by Clarence Filsfils, Kris Michielsen, Fran&ccedil;ois Clad and Daniel Voyer explains how Segment Routing has changed the game of Traffic Engineering in Service Provider and Enterprise networks by finding the right balance between distributed intelligence and centralized control.</p>
+          <p>Check out the <b>Segment Routing books</b> on Amazon as paperback or Kindle editions.</p>
+        </div>
+        <p>
+          <a href="https://amzn.com/B01I58LSUO" class="btn btn--large">Part I</a>
+          <a href="https://amzn.com/B07N13RDM9" class="btn btn--large">Part II &mdash; Traffic Engineering</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

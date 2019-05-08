@@ -13,4 +13,4 @@ header:
 <iframe width="355" height="200" src="https://www.youtube.com/embed/An9neQzho1Q" frameborder="0" allowfullscreen></iframe> 
  
 ## Segment Routing
-Video coming soon...
+<iframe width="355" height="200" src="https://www.youtube.com/embed/zoSmj8JzBMM" frameborder="0" allowfullscreen></iframe> 

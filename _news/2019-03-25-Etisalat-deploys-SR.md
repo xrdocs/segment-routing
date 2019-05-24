@@ -3,7 +3,7 @@ title: Etisalat and Cisco have successfully deployed the first segment routing t
 author: Cisco Systems
 source: Cisco News 
 source-url: https://emear.thecisconetwork.com/site/content/lang/en/id/10424
-date: 2019-04-25
+date: 2019-03-25
 eurl: https://emear.thecisconetwork.com/site/content/lang/en/id/10424
 excerpt: >-
   DUBAI, UAE: Etisalat and Cisco have successfully deployed the <strong>first segment routing technology in the region</strong> over its 

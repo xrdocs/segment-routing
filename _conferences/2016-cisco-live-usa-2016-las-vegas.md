@@ -16,10 +16,6 @@ author: Segment Routing Team
 **Steve Braaten, Cisco**
 {: .notice--info}  
 
-### Video
-
-[Access video here](https://www.ciscolive.com/online/connect/sessionDetail.ww?SESSION_ID=90888&backBtn=true)
-
 
 ### Slides
 

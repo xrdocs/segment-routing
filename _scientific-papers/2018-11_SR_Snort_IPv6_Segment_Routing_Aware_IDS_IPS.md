@@ -5,5 +5,5 @@ publisher: IEEE Conference on Network Function Virtualization and Software Defin
 location: Verona, Italy
 month: 11
 year: 2018
-eurl: http://netgroup.uniroma2.it/Stefano_Salsano/papers/18-sr-snort-demo.pdf
+doi: 10.1109/NFV-SDN.2018.8725797
 ---

@@ -5,5 +5,5 @@ publisher: IFIP Networking
 location: Zurich, Switzerland
 month: 5
 year: 2018
-eurl: http://netgroup.uniroma2.it/Stefano_Salsano/papers/18-ifip-sera-firewall-sfc.pdf
+doi: 10.23919/IFIPNetworking.2018.8697021
 ---

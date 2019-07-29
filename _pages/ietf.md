@@ -72,7 +72,20 @@ list_usecases:
   - title: Packet-Optical Integration in Segment Routing
     url: https://datatracker.ietf.org/doc/draft-anand-spring-poi-sr/
     status: Draft
+  - title: SRv6 and MPLS interworking
+    url: https://datatracker.ietf.org/doc/draft-agrawal-spring-srv6-mpls-interworking/
+    status: Draft
+  - title: Comparative Analysis of MTU overhead in the context of SPRING
+    url: https://datatracker.ietf.org/doc/draft-dukes-spring-mtu-overhead-analysis/
+    status: Draft
 
+list_deploy:
+  - title: SRv6 interoperability report
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-interop/
+    status: Draft
+  - title: SRv6 Implementation and Deployment Status
+    url: https://datatracker.ietf.org/doc/draft-matsushima-spring-srv6-deployment-status/
+    status: Draft
 
 list_frr:
   - title: Topology Independent Fast Reroute using Segment Routing
@@ -80,7 +93,7 @@ list_frr:
     status: WG Document
   - title: Loop avoidance using Segment Routing
     url: https://datatracker.ietf.org/doc/draft-bashandy-rtgwg-segment-routing-uloop/
-    status: Draft   
+    status: Draft
 
 list_oam:
   - title: A Scalable and Topology-Aware MPLS Dataplane Monitoring System
@@ -98,6 +111,9 @@ list_oam:
   - title: SBFD for SR Policies
     url: https://datatracker.ietf.org/doc/draft-ali-spring-bfd-sr-policy/
     status: Draft
+  - title: Segment Routing Header encapsulation for In-situ OAM Data
+    url: https://datatracker.ietf.org/doc/draft-ali-spring-ioam-srv6/
+    status: Draft
 
 list_pm:
   - title: Packet Loss and Delay Measurement for MPLS Networks
@@ -111,6 +127,14 @@ list_pm:
     status: Draft
   - title: Performance Measurement Using UDP Path for Segment Routing Networks
     url: https://datatracker.ietf.org/doc/draft-gandhi-spring-rfc6374-srpm-udp/
+    status: Draft
+  - title: Performance Measurement Using TWAMP for Segment Routing Networks
+    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-twamp-srpm/
+    status: Draft
+
+list_mcast:
+  - title: PCEP extensions for p2mp sr policy
+    url: https://datatracker.ietf.org/doc/draft-hsd-pce-sr-p2mp-policy/
     status: Draft
 
 list_extensions:
@@ -229,6 +253,9 @@ list_pcep:
   - title: Carrying Binding Label/Segment-ID in PCE-based Networks
     url: https://datatracker.ietf.org/doc/draft-sivabalan-pce-binding-label-sid/
     status: Draft
+  - title: PCEP extension to support Segment Routing Policy Candidate Paths
+    url: https://datatracker.ietf.org/doc/draft-barth-pce-segment-routing-policy-cp/
+    status: Draft
 
 list_yang:
   - title: YANG Data Model for Segment Routing Policy
@@ -236,6 +263,12 @@ list_yang:
     status: Draft
   - title: YANG Data Model for SRv6 Base and Static
     url: https://datatracker.ietf.org/doc/draft-raza-spring-srv6-yang/
+    status: Draft
+  - title: YANG data model for BGP Segment Routing Extensions
+    url: https://datatracker.ietf.org/doc/draft-dhjain-spring-bgp-sr-yang/
+    status: Draft
+  - title: YANG Data Model for IS-IS SRv6
+    url: https://datatracker.ietf.org/doc/draft-hu-isis-srv6-yang/
     status: Draft
 
 ---
@@ -248,8 +281,11 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
 # Architecture
 {% include rfc_list id="list_architecture" %}
 
-# Use-Cases and Requirement
+# Use-Cases and Requirements
 {% include rfc_list id="list_usecases" %}
+
+## Deployments and Interoperability
+{% include rfc_list id="list_deploy" %}
 
 ## Fast Reroute (FRR)
 {% include rfc_list id="list_frr" %}
@@ -259,6 +295,9 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
 
 ## Performance Measurement
 {% include rfc_list id="list_pm" %}
+
+## Multicast/Replication
+{% include rfc_list id="list_mcast" %}
 
 # Protocol Extensions
 {% include rfc_list id="list_extensions" %}

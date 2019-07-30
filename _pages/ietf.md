@@ -288,7 +288,7 @@ list_yang:
   - title: YANG Data Model for SRv6 Base and Static
     url: https://datatracker.ietf.org/doc/draft-raza-spring-srv6-yang/
     status: Draft
-  - title: YANG data model for BGP Segment Routing Extensions
+  - title: Yang Data Model for SRv6 based Services
     url: https://datatracker.ietf.org/doc/draft-raza-bess-srv6-services-yang/
     status: Draft
   - title: YANG Data Model for IS-IS SRv6
@@ -306,9 +306,11 @@ list_yang:
   - title: YANG Data Model for SR and SR TE Topologies
     url: https://datatracker.ietf.org/doc/draft-ietf-teas-yang-sr-te-topo/
     status: WG Document
-  - title: Yang Data Model for SRv6 based Services
-    url: https://datatracker.ietf.org/doc/draft-raza-bess-srv6-services-yang/
+  - title: YANG data model for BGP Segment Routing TE Extensions
+    url: https://datatracker.ietf.org/doc/draft-majumdar-idr-bgp-srte-yang/
     status: Draft
+  - title: YANG data model for BGP Segment Routing Extensions
+    url: https://datatracker.ietf.org/doc/draft-majumdar-spring-bgp-sr-yang/
     
 ---
 <div class="notice">

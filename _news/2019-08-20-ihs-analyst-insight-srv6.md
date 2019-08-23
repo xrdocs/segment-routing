@@ -1,6 +1,6 @@
 ---
-title: SRv6: A new approach for the evolution of IP Networks
-author: Heidi Adams, IHS Markit
+title: SRv6- A new approach for the evolution of IP Networks
+author: Heidi Adams
 source: IHS Markit
 source-url: /images/2019-IHSM-SRv6-08-06-19.pdf
 date: 2019-08-06

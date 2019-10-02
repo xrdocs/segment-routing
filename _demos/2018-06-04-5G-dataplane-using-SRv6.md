@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 breadnav: true
 date: '2018-06-04 03:06 -0700'
 title: '5G dataplane using SRv6'

@@ -17,10 +17,4 @@ At the [**MPLS WC 2019**](<https://www.uppersideconferences.com/mpls-sdn-nfv/mpl
 ### video
 <iframe width="355" height="200" src="https://www.youtube.com/embed/kANeJhY5doA" frameborder="0" allowfullscreen></iframe>
 
-### slides
-{% capture "pdf-link" %}/images/SD-WAN-SR-MPLS-2019-Mark-Ferreira-Bell-Canada.pdf{% endcapture %}
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
-
 <img src="/images/MPLSWC2019_Mark_Ferreira_1.jpg">

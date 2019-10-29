@@ -1,6 +1,6 @@
 ---
 title: October 2019&#58; State of SRv6
-author: Cisco
+author: SRH and SRv6 Network Programming IETF draft co-authors
 source-url: https://www.segment-routing.net/updates-20191029-srv6-state/
 date: 2019-10-29
 eurl: https://www.segment-routing.net/updates-20191029-srv6-state/

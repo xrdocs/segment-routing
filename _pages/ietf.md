@@ -311,7 +311,11 @@ list_yang:
     status: Draft
   - title: YANG data model for BGP Segment Routing Extensions
     url: https://datatracker.ietf.org/doc/draft-majumdar-spring-bgp-sr-yang/
-    
+
+list_discussions:
+  - title: State of SRv6 - October 2019
+    url: https://www.segment-routing.net/updates-20191029-srv6-state/
+
 ---
 <div class="notice">
 Segment Routing is being standardized by the IETF.<br/>
@@ -369,3 +373,6 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
 
 # Yang models
 {% include rfc_list id="list_yang" %}
+
+# IETF Discussions
+{% include rfc_list id="list_discussions" %}

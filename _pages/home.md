@@ -70,6 +70,13 @@ feature_row_book:
 
 published: true
 ---
+<div class="notice" style="background-color:Beige">
+      <b>Segment Routing updates:</b>
+        <p>
+          <li><b><a href="{{ '/updates-20191029-srv6-state/' | base_url }}" style="font-size: 14px; color:LightSkyBlue">October 2019: State of SRv6.</a></b></li>
+        </p>
+</div>
+
 {% include feature_row id="feature_row_benefits" %}
 {% include feature_row id="feature_row_te" type="right" %}
 {% include feature_row id="feature_row_e2e" type="left" %}

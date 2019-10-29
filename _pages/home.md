@@ -71,7 +71,7 @@ feature_row_book:
 published: true
 ---
 <div class="notice" style="padding: 30px 30px 10px; background-color:Beige">
-      <h1 style="font-size: 1.8em;" align="center">Latest news:   <a href="{{ '/updates-20191029-srv6-state/' | base_url }}" style="color: #3b5998;" align="center">SRv6 status update</a></h1>
+      <h1 style="font-size: 1.8em;" align="center"><b>Latest news:   </b><a href="{{ '/updates-20191029-srv6-state/' | base_url }}" style="color: #3b5998;" align="center">SRv6 status update</a></h1>
 </div>
 
 {% include feature_row id="feature_row_benefits" %}

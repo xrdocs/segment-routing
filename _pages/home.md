@@ -72,9 +72,8 @@ published: true
 ---
 <div class="notice" style="padding: 30px 30px 10px">
       <h1 style="font-size: 1.6em;" align="center">Segment Routing news:   <a href="{{ '/updates-20191029-srv6-state/' | base_url }}" style="color: #3b5998;" align="center">October 2019 - State of SRv6</a></b>
-        </p>
         <p>
-          <b><a href="{{ '/updates-20191029-srv6-standardization-activities/' | base_url }}" style="font-size: 1.6em; color: #3b5998;">October 2019: SRv6 standardization activities</a></b>
+          <b><a href="{{ '/updates-20191029-srv6-standardization-activities/' | base_url }}" style="font-size: 1.6em; color: #3b5998;" align="center">SRv6 standardization activities</a></b>
         </p>
 </div>
 

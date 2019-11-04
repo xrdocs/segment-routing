@@ -25,6 +25,9 @@ list_architecture:
   - title: Network Programming extension - SRv6 uSID instruction
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-net-pgm-extension-srv6-usid/
     status: Draft
+  - title: SRv6 NET-PGM extension - Insertion
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-net-pgm-insertion/
+    status: Draft
   - title: Segment Routing for Service Programming
     url: https://datatracker.ietf.org/doc/draft-xuclad-spring-sr-service-programming/
     status: Draft

@@ -92,6 +92,9 @@ list_deploy:
   - title: SRv6 Implementation and Deployment Status
     url: https://datatracker.ietf.org/doc/draft-matsushima-spring-srv6-deployment-status/
     status: Draft
+  - title: An Experiment of SRv6 Service Chaining at Interop Tokyo 2019 ShowNet
+    url: https://datatracker.ietf.org/doc/draft-upa-srv6-service-chaining-exp/
+    status: Draft
 
 list_frr:
   - title: Topology Independent Fast Reroute using Segment Routing

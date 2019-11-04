@@ -81,6 +81,9 @@ list_usecases:
   - title: Comparative Analysis of MTU overhead in the context of SPRING
     url: https://datatracker.ietf.org/doc/draft-dukes-spring-mtu-overhead-analysis/
     status: Draft
+  - title: Architecture Discussion on SRv6 Mobile User plane
+    url: https://datatracker.ietf.org/doc/draft-kohno-dmm-srv6mob-arch/
+    status: Draft
 
 list_deploy:
   - title: SRv6 interoperability report

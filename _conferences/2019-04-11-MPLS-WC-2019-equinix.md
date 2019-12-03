@@ -9,7 +9,7 @@ header:
   teaser: 'https://img.youtube.com/vi/hchiMeYLNuk/mqdefault.jpg'
 ---
 
-At the [**MPLS WC 2019**](<https://www.uppersideconferences.com/mpls-sdn-nfv/mplswc2019_agenda_day_02_01.html>) in Paris, 
+At the [**MPLS WC 2019**](<https://www.uppersideconferences.com/mpls-sdn-nfv/2019/mplswc2019_agenda_day_02_01.html>) in Paris,
 **Rizwan Jamal** of Equinix presents his SR deployment experience.
 
 ## Implementing 5G Application Intent using Segment Routing

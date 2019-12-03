@@ -9,7 +9,7 @@ header:
   teaser: 'https://img.youtube.com/vi/kANeJhY5doA/mqdefault.jpg'
 ---
 
-At the [**MPLS WC 2019**](<https://www.uppersideconferences.com/mpls-sdn-nfv/mplswc2019_agenda_day_02_01.html>) in Paris,
+At the [**MPLS WC 2019**](<https://www.uppersideconferences.com/mpls-sdn-nfv/2019/mplswc2019_agenda_day_02_01.html>) in Paris,
 **Mark Ferreira** of Bell Canada presents his SR deployment experience.
 
 ## SR-aware SD-WAN: Enabling End-to-end Application-responsive Networking <br /> Mark Ferreira, Technical Fellow, Bell Canada

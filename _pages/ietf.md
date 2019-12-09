@@ -14,8 +14,8 @@ list_architecture:
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-policy-considerations/
     status: Draft
   - title: Segment Routing with MPLS data plane
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-mpls/
-    status: WG Document
+    url: https://datatracker.ietf.org/doc/rfc8660/
+    status: RFC 8660
   - title: IPv6 Segment Routing Header (SRH)
     url: https://datatracker.ietf.org/doc/draft-ietf-6man-segment-routing-header/
     status: WG Document
@@ -45,9 +45,9 @@ list_usecases:
   - title: Use Cases for IPv6 Source Packet Routing in Networking (SPRING)
     url: https://datatracker.ietf.org/doc/rfc8354/
     status: RFC 8354
-  - title: BGP-Prefix Segment in large-scale data centers
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-msdc/
-    status: WG Document
+  - title: BGP Prefix Segment in Large-Scale Data Centers
+    url: https://datatracker.ietf.org/doc/rfc8670/
+    status: RFC 8670
   - title: Segment Routing Centralized BGP Egress Peer Engineering
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-central-epe/
     status: WG Document
@@ -129,7 +129,7 @@ list_oam:
   - title: Segment Routing Generic TLV for MPLS Label Switched Path (LSP) Ping/ Traceroute
     url: https://datatracker.ietf.org/doc/draft-nainar-mpls-spring-lsp-ping-sr-generic-sid/
     status: Draft
-    
+
 list_pm:
   - title: Packet Loss and Delay Measurement for MPLS Networks
     url: https://datatracker.ietf.org/doc/rfc6374/
@@ -154,7 +154,7 @@ list_mcast:
   - title: SR Replication Policy for P2MP Service Delivery
     url: https://datatracker.ietf.org/doc/draft-voyer-spring-sr-p2mp-policy/
     status: Draft
-    
+
 list_extensions:
 
 list_srv6:
@@ -170,8 +170,8 @@ list_srv6:
 
 list_srmpls:
   - title: Segment Routing interworking with LDP
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-ldp-interop/
-    status: WG Document
+    url: https://datatracker.ietf.org/doc/rfc8661/
+    status: RFC 8661
   - title: Anycast Segments in MPLS based Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-mpls-anycast-segments/
     status: WG Document
@@ -224,7 +224,7 @@ list_bgp_ls:
   - title: Signalling ERLD using BGP-LS
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-segment-routing-rld/
     status: WG Document
-    
+
 list_isis:
   - title: IS-IS Extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ietf-isis-segment-routing-extensions/
@@ -289,7 +289,7 @@ list_pcep:
   - title: Carrying SID Algorithm information in PCE-based Networks.
     url: https://datatracker.ietf.org/doc/draft-tokar-pce-sid-algo/
     status: Draft
-    
+
 list_yang:
   - title: YANG Data Model for Segment Routing Policy
     url: https://datatracker.ietf.org/doc/draft-raza-spring-sr-policy-yang/

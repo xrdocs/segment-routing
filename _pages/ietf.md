@@ -181,6 +181,9 @@ list_srmpls:
   - title: Recommendations for RSVP-TE and Segment Routing LSP co-existance
     url: https://datatracker.ietf.org/doc/rfc8426/
     status: RFC 8426
+  - title: SR-MPLS Data Plane with IPv6 Control Plane
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-mpls-ipv6-control-plane/
+    status: Draft
 
 list_bgp:
   - title: Segment Routing Prefix SID extensions for BGP

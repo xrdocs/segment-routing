@@ -1,5 +1,5 @@
 ---
-permalink: /srv6-status/srv6-technology-and-use-cases-part4
+permalink: /20200212-srv6-status/srv6-technology-and-use-cases-part4
 published: true
 breadnav: true
 date: '2020-02-12 03:06 -0700'

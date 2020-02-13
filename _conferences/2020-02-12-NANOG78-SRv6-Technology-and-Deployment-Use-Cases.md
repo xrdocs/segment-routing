@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 breadnav: true
 date: '2020-02-12 00:06 -0700'
 title: 'NANOG 78 - SRv6 Technology and Deployment Use-Cases'

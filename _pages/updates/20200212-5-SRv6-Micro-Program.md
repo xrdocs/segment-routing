@@ -13,3 +13,9 @@ header:
 # Micro-program
 <iframe width="355" height="200" src="https://www.youtube.com/embed/EHbx_e0Oybg" frameborder="0" allowfullscreen></iframe>
 
+## Slides
+
+{% capture "pdf-link" %}/images/20200212-SRv6-Technology-and-Use-cases-Part5.pdf{% endcapture %}
+<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<div class="fitvidsignore" id="pdf"></div>
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

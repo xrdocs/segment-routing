@@ -11,7 +11,7 @@ breadnav: true
 
 ## February 2020
 
-Clarence Filsfils presents "**SRv6 technology and deployment use-cases**" in a series of 6 videos. Watch them here:
+Clarence Filsfils presents "**SRv6 technology and deployment use-cases**" in a series of 6 videos. Watch them using the links below and download the pdf [here](</images/20200212-SRv6-Technology-and-Use-cases.pdf>).
 
 * [Part 1: Introduction for NANOG78](</20200212-srv6-status/srv6-technology-and-use-cases-part1>)
 * [Part 2: SRv6 Eco-System Update](</20200212-srv6-status/srv6-technology-and-use-cases-part2>)

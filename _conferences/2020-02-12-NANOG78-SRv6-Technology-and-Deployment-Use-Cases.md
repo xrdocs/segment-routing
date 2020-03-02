@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 breadnav: true
 date: '2020-02-12 00:06 -0700'
 title: 'NANOG 78 - SRv6 Technology and Deployment Use-Cases'
@@ -8,6 +8,12 @@ excerpt: 'Bruce McDougall presents "SRv6 Technology and Deployment Use-Cases" at
 header:
   teaser: '/images/2020-02-12-NANOG78-teaser.jpg'
 ---
+
+**Update:** An updated and extended version of this presentation is available on this page: [State of SRv6](</srv6-status>)
+{: .notice--info}
+
+----
+
 **Bruce McDougall** (Systems Architect, Cisco Systems) presents "SRv6 Technology and Deployment Use-Cases" at NANOG 78.
 
 The SRv6 network programming model was first presented at IETF in March 2017. During the last two years, the ecosystem around the technology has made tremendous and successful implementation, deployment and standardization efforts.
@@ -17,7 +23,7 @@ In this talk, we will present the SRv6 ecosystem, standardization progress and t
 Then we will delve into the SRv6 deployed use-cases from (Softbank, Iliad) and planned deployments.
 
 ## Video
-<iframe width="355" height="200" src="https://www.youtube.com/embed/-9N608zLIZc?t=23347" frameborder="0" allowfullscreen></iframe>
+<iframe width="355" height="200" src="https://www.youtube.com/embed/KtXcy_0q8qs" frameborder="0" allowfullscreen></iframe>
 
 ## Slides
 

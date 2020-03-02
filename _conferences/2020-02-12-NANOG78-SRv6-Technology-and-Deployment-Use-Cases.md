@@ -9,8 +9,9 @@ header:
   teaser: '/images/2020-02-12-NANOG78-teaser.jpg'
 ---
 
-**Update:** An updated and extended version of this presentation is available on this page: [State of SRv6](</srv6-status>)
-{: .notice--info}
+<div class="notice" style="padding: 10px 10px 10px; background-color:Beige">
+<h2 style="font-size: 1.8em;" align="center"><strong>Important:</strong> Please watch the updated and extended version of this presentation on this page: <a href="/srv6-status/" style="color: #3b5998;" align="center">State of SRv6</a></h2>
+</div>
 
 ----
 

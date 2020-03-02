@@ -10,7 +10,7 @@ header:
 ---
 
 <div class="notice" style="padding: 10px 10px 10px; background-color:Beige">
-<h2 style="font-size: 1.8em;" align="center"><strong>Important:</strong> Please watch the updated and extended version of this presentation on this page: <a href="/srv6-status/" style="color: #3b5998;" align="center">State of SRv6</a></h2>
+<h2 style="font-size: 1.8em;" align="center"><strong>Important:</strong> Please watch the updated and extended version of this presentation on this link: <a href="/srv6-status/" style="color: #3b5998;" align="center">State of SRv6</a></h2>
 </div>
 
 ----

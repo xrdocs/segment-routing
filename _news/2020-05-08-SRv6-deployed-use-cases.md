@@ -1,5 +1,5 @@
 ---
-title: SRv6: Deployed use-cases
+title: 'SRv6: Deployed use-cases'
 author: Clarence Filsfils - APNIC blog
 source-url: https://blog.apnic.net/2020/05/08/srv6-deployed-use-cases/
 date: 2020-05-08

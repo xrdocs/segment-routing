@@ -18,7 +18,7 @@ list_architecture:
     status: RFC 8660
   - title: IPv6 Segment Routing Header (SRH)
     url: https://datatracker.ietf.org/doc/draft-ietf-6man-segment-routing-header/
-    status: RFC Editor Queue
+    status: RFC 8754
   - title: SRv6 Network Programming
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-srv6-network-programming/
     status: WG Document

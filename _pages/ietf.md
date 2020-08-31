@@ -22,6 +22,9 @@ list_architecture:
   - title: SRv6 Network Programming
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-srv6-network-programming/
     status: WG Document
+  - title: Compressed SRv6 Segment List Encoding in SRH
+    url: https://datatracker.ietf.org/doc/draft-filsfilscheng-spring-srv6-srh-comp-sl-enc/
+    status: Draft
   - title: Network Programming extension - SRv6 uSID instruction
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-net-pgm-extension-srv6-usid/
     status: Draft

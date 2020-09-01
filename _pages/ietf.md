@@ -73,10 +73,10 @@ list_usecases:
     url: https://datatracker.ietf.org/doc/draft-camarillo-dmm-srv6-mobile-pocs/
     status: Draft
   - title: Stateless and Scalable Network Slice Identification for SRv6
-    url: https://datatracker.ietf.org/doc/draft-ali-spring-network-slicing-building-blocks/
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-stateless-slice-id/
     status: Draft
   - title: Building blocks for Slicing in Segment Routing Network
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-stateless-slice-id/
+    url: https://datatracker.ietf.org/doc/draft-ali-spring-network-slicing-building-blocks/
     status: Draft
   - title: Segment Routing Traffic Accounting Counters
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-traffic-counters/

@@ -137,6 +137,12 @@ list_oam:
     status: Draft
 
 list_pm:
+  - title: A Two-Way Active Measurement Protocol (TWAMP)
+    url: https://datatracker.ietf.org/doc/rfc5357/
+    status: RFC 5357
+  - title: Simple Two-Way Active Measurement Protocol
+    url: https://datatracker.ietf.org/doc/rfc8762/
+    status: RFC 8762
   - title: Enhanced Performance Delay and Liveness Monitoring in Segment Routing Networks
     url: https://datatracker.ietf.org/doc/draft-gandhi-spring-sr-enhanced-plm/
     status: Draft
@@ -146,12 +152,6 @@ list_pm:
   - title: Performance Measurement Using Simple TWAMP (STAMP) for Segment Routing Networks
     url: https://datatracker.ietf.org/doc/draft-gandhi-spring-stamp-srpm/
     status: Draft
-  - title: A Two-Way Active Measurement Protocol (TWAMP)
-    url: https://datatracker.ietf.org/doc/rfc5357/
-    status: RFC 5357
-  - title: Simple Two-Way Active Measurement Protocol
-    url: https://datatracker.ietf.org/doc/rfc8762/
-    status: RFC 8762
 
 list_mcast:
   - title: PCEP extensions for p2mp sr policy

@@ -137,21 +137,21 @@ list_oam:
     status: Draft
 
 list_pm:
-  - title: Packet Loss and Delay Measurement for MPLS Networks
-    url: https://datatracker.ietf.org/doc/rfc6374/
-    status: RFC 6374
-  - title: UDP Return Path for Packet Loss and Delay Measurement for MPLS Networks
-    url: https://datatracker.ietf.org/doc/rfc7876/
-    status: RFC 7876
-  - title: Performance Measurement for Segment Routing Networks with MPLS Data Plane
-    url: https://datatracker.ietf.org/doc/draft-gandhi-mpls-rfc6374-sr/
+  - title: Enhanced Performance Delay and Liveness Monitoring in Segment Routing Networks
+    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-sr-enhanced-plm/
     status: Draft
-  - title: Performance Measurement Using UDP Path for Segment Routing Networks
-    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-rfc6374-srpm-udp/
-    status: Draft
-  - title: Performance Measurement Using TWAMP for Segment Routing Networks
+  - title: Performance Measurement Using TWAMP Light for Segment Routing Networks
     url: https://datatracker.ietf.org/doc/draft-gandhi-spring-twamp-srpm/
     status: Draft
+  - title: Performance Measurement Using Simple TWAMP (STAMP) for Segment Routing Networks
+    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-stamp-srpm/
+    status: Draft
+  - title: A Two-Way Active Measurement Protocol (TWAMP)
+    url: https://datatracker.ietf.org/doc/rfc5357/
+    status: RFC 5357
+  - title: Simple Two-Way Active Measurement Protocol
+    url: https://datatracker.ietf.org/doc/rfc8762/
+    status: RFC 8762
 
 list_mcast:
   - title: PCEP extensions for p2mp sr policy

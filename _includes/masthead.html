@@ -14,7 +14,7 @@
             {% endif %}
 
             {% if page.url contains link.url %}
-              <li class="masthead__menu-item greedy-nav-active"><a href="{{ domain }}{{ link.url }}">
+              <li class="masthead__menu-item greedy-nav-active"><a href="{{ link.url }}">
                 {% if link.short %}
                 <span class="lg-view">{{ link.title }}</span>
                 <span class="sm-view">{{ link.short }}</span>
@@ -23,7 +23,7 @@
                 {% endif %}
               </a></li>
             {% else %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">
+              <li class="masthead__menu-item"><a href="{{ link.url }}">
                 {% if link.short %}
                 <span class="lg-view">{{ link.title }}</span>
                 <span class="sm-view">{{ link.short }}</span>

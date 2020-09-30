@@ -1,6 +1,6 @@
 ---
 title: Segment Routing and 5G - Podcast
-author: Simon Spraggs
+author: Simon Spraggs, Ray Mota
 source: The Deep Edge Podcast
 source-url: https://www.buzzsprout.com/1010419/3956699
 date: 2020-05-28

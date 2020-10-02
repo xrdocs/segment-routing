@@ -5,7 +5,7 @@ author: Dennis Cai, Ray Mota
 source: The Deep Edge Podcast
 source-url: https://www.buzzsprout.com/1010419/4702961-alibaba-dennis-cai-talks-about-segment-routing-episode-18
 date: 2020-07-27
-eurl: https://www.buzzsprout.com/1010419/4702961-alibaba-dennis-cai-talks-about-segment-routing-episode-18
+eurl: /conferences/2020-07-27-the-deep-edge-podcast-alibaba-dennis-cai-talks-about-segment-routing/
 excerpt: >-
   In this podcast, Dennis Cai, Chief Architect of Network Infrastructure from Alibaba talks about Segment Routing.<br />
   Topics:<br /> 

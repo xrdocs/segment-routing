@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2020-07-27 10:00 -0700'
-title: 'Dennis Cai of Alibaba talks about Segment Routing - Podcast'
+title: 'Dennis Cai of Alibaba talks about Segment Routing SRv6 - Podcast'
 author: Dennis Cai, Ray Mota
 excerpt: 'In this podcast, Dennis Cai, Chief Architect of Network Infrastructure of Alibaba, talks about Segment Routing and the SRv6 adoption at Alibaba. Transcript is provided here.'
 header:

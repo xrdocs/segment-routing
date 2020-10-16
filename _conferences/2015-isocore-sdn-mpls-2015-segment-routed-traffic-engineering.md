@@ -6,7 +6,7 @@ title: 'Isocore SDN/MPLS 2015: Segment Routed Traffic Engineering '
 author: Segment Routing Team
 excerpt: 'Isocore SDN/MPLS 2015: Segment Routed Traffic Engineering '
 header:
-  teaser: 'http://www.isocore.com/2015/images/logo/MPLS_SDN_logo.bmp'
+  teaser: 'https://www.isocore.com/2015/images/logo/MPLS_SDN_logo.bmp'
 ---
 
 

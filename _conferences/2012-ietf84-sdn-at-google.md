@@ -6,7 +6,7 @@ date: '2012-08-03 00:18 -0700'
 title: 'IETF84: SDN at Google'
 excerpt: Opportunities for WAN Optimization
 header:
-  teaser: http://www6.ietf.org/images/ietflogotrans.gif
+  teaser: https://www6.ietf.org/images/ietflogotrans.gif
 ---
 
 ## SDN at Google: Opportunities for WAN Optimization
@@ -21,7 +21,7 @@ header:
 <script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
 
 ## Additional references:
-><http://perspectives.mvdirona.com/2012/05/urs-holzle-open-networking-summit-2012/>
+><https://perspectives.mvdirona.com/2012/05/urs-holzle-open-networking-summit-2012/>
 
 {% capture "pdf-alt-link" %}/images/hoelzle-tue-openflow.pdf {% endcapture %}
 

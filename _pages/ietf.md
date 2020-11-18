@@ -7,10 +7,10 @@ list_architecture:
   - title: Segment Routing Architecture
     url: https://datatracker.ietf.org/doc/rfc8402/
     status: RFC 8402
-  - title: SR Policy Architecture
+  - title: Segment Routing Policy Architecture
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-policy/
     status: WG Document
-  - title: SR Policy Architecture - Companion document
+  - title: SR Policy Implementation and Deployment Considerations
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-policy-considerations/
     status: Draft
   - title: Segment Routing with MPLS data plane
@@ -25,10 +25,10 @@ list_architecture:
   - title: Compressed SRv6 Segment List Encoding in SRH
     url: https://datatracker.ietf.org/doc/draft-filsfilscheng-spring-srv6-srh-comp-sl-enc/
     status: Draft
-  - title: Network Programming extension - SRv6 uSID instruction
+  - title: "Network Programming extension: SRv6 uSID instruction"
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-net-pgm-extension-srv6-usid/
     status: Draft
-  - title: SRv6 NET-PGM extension - Insertion
+  - title: "SRv6 NET-PGM extension: Insertion"
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-net-pgm-insertion/
     status: Draft
   - title: Service Programming with Segment Routing
@@ -37,6 +37,9 @@ list_architecture:
   - title: SR-MPLS over IP
     url: https://datatracker.ietf.org/doc/rfc8663/
     status: RFC 8663
+  - title: Introducing Resource Awareness to SR Segments
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-resource-aware-segments/
+    status: WG Document
 
 list_usecases:
   - title: Source Packet Routing in Networking (SPRING) Problem Statement and Requirements
@@ -57,52 +60,31 @@ list_usecases:
   - title: Interconnecting Millions Of Endpoints With Segment Routing
     url: https://datatracker.ietf.org/doc/rfc8604/
     status: RFC 8604
-  - title: SR for SDWAN - VPN with Underlay SLA
-    url: https://datatracker.ietf.org/doc/draft-dukes-spring-sr-for-sdwan/
-    status: Draft
-  - title: SRv6 Mobility Use-Cases
-    url: https://datatracker.ietf.org/doc/draft-camarilloelmalky-springdmm-srv6-mob-usecases/
-    status: Draft
-  - title: SRv6 for Mobile User-Plane
+  - title: Segment Routing IPv6 for Mobile User Plane
     url: https://datatracker.ietf.org/doc/draft-ietf-dmm-srv6-mobile-uplane/
     status: WG Document
   - title: SRv6 for Mobile User-Plane
     url: https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3403
     status: 3GPP Study Item
-  - title: SRv6 for Mobile User-Plane PoCs
-    url: https://datatracker.ietf.org/doc/draft-camarillo-dmm-srv6-mobile-pocs/
-    status: Draft
   - title: Stateless and Scalable Network Slice Identification for SRv6
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-stateless-slice-id/
     status: Draft
   - title: Building blocks for Slicing in Segment Routing Network
     url: https://datatracker.ietf.org/doc/draft-ali-spring-network-slicing-building-blocks/
     status: Draft
-  - title: Segment Routing Traffic Accounting Counters
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-traffic-counters/
-    status: Draft
-  - title: Packet-Optical Integration in Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-anand-spring-poi-sr/
-    status: Draft
   - title: SRv6 and MPLS interworking
     url: https://datatracker.ietf.org/doc/draft-agrawal-spring-srv6-mpls-interworking/
-    status: Draft
-  - title: Comparative Analysis of MTU overhead in the context of SPRING
-    url: https://datatracker.ietf.org/doc/draft-dukes-spring-mtu-overhead-analysis/
     status: Draft
   - title: Architecture Discussion on SRv6 Mobile User plane
     url: https://datatracker.ietf.org/doc/draft-kohno-dmm-srv6mob-arch/
     status: Draft
+  - title: Segment Routing Traffic Engineering Leveraging Existing IPv6 Interface Addresses
+    url: https://datatracker.ietf.org/doc/draft-dukes-6man-sr-te-intf-address/
+    status: Draft
 
 list_deploy:
-  - title: SRv6 interoperability report
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-interop/
-    status: Draft
   - title: SRv6 Implementation and Deployment Status
     url: https://datatracker.ietf.org/doc/draft-matsushima-spring-srv6-deployment-status/
-    status: Draft
-  - title: An Experiment of SRv6 Service Chaining at Interop Tokyo 2019 ShowNet
-    url: https://datatracker.ietf.org/doc/draft-upa-srv6-service-chaining-exp/
     status: Draft
 
 list_frr:
@@ -120,13 +102,10 @@ list_oam:
   - title: Label Switched Path (LSP) Ping/Trace for Segment Routing Networks Using MPLS Dataplane
     url: https://datatracker.ietf.org/doc/rfc8287/
     status: RFC 8287
-  - title: SRv6 OAM
+  - title: Operations, Administration, and Maintenance (OAM) in Segment Routing Networks with IPv6 Data plane (SRv6)
     url: https://datatracker.ietf.org/doc/draft-ietf-6man-spring-srv6-oam/
     status: WG Document
-  - title: SR Traffic Accounting
-    url: https://datatracker.ietf.org/doc/draft-ali-spring-sr-traffic-accounting/
-    status: Draft
-  - title: SBFD for SR Policies
+  - title: Bidirectional Forwarding Detection (BFD) for Segment Routing Policies for Traffic Engineering
     url: https://datatracker.ietf.org/doc/draft-ali-spring-bfd-sr-policy/
     status: Draft
   - title: Segment Routing Header encapsulation for In-situ OAM Data
@@ -134,6 +113,9 @@ list_oam:
     status: Draft
   - title: Segment Routing Generic TLV for MPLS Label Switched Path (LSP) Ping/ Traceroute
     url: https://datatracker.ietf.org/doc/draft-nainar-mpls-spring-lsp-ping-sr-generic-sid/
+    status: Draft
+  - title: MPLS Data Plane Encapsulation for In-situ OAM Data
+    url: https://datatracker.ietf.org/doc/draft-gandhi-mpls-ioam-sr/
     status: Draft
 
 list_pm:
@@ -152,13 +134,31 @@ list_pm:
   - title: Performance Measurement Using Simple TWAMP (STAMP) for Segment Routing Networks
     url: https://datatracker.ietf.org/doc/draft-gandhi-spring-stamp-srpm/
     status: Draft
+  - title: TWAMP Light Extensions for Segment Routing Networks
+    url: https://datatracker.ietf.org/doc/draft-gandhi-ippm-twamp-srpm/
+    status: Draft
+  - title: Performance Measurement Using RFC 6374 for Segment Routing Networks with MPLS Data Plane
+    url: https://datatracker.ietf.org/doc/draft-ietf-mpls-rfc6374-sr/
+    status: WG Document
+  - title: Performance Measurement Using RFC 6374 with UDP Path for Segment Routing Networks
+    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-rfc6374-srpm-udp/
+    status: Draft
+  - title: Simple TWAMP (STAMP) Extensions for Segment Routing Networks
+    url: https://datatracker.ietf.org/doc/draft-gandhi-ippm-stamp-srpm/
+    status: Draft
 
 list_mcast:
   - title: PCEP extensions for p2mp sr policy
     url: https://datatracker.ietf.org/doc/draft-hsd-pce-sr-p2mp-policy/
     status: Draft
   - title: SR Replication Segment for Multi-point Service Delivery
-    url: https://datatracker.ietf.org/doc/draft-voyer-spring-sr-replication-segment/
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-sr-replication-segment/
+    status: WG Document
+  - title: Segment Routing Point-to-Multipoint Policy
+    url: https://datatracker.ietf.org/doc/draft-ietf-pim-sr-p2mp-policy/
+    status: WG Document
+  - title: Multicast and Ethernet VPN with Segment Routing Point-to-Multipoint Trees
+    url: https://datatracker.ietf.org/doc/draft-parekh-bess-mvpn-evpn-sr-p2mp/
     status: Draft
 
 list_extensions:
@@ -170,20 +170,20 @@ list_srv6:
   - title: Illustrations for SRv6 Network Programming
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-net-pgm-illustration/
     status: Draft
-  - title: Simplifying Firewall Rules with Network Programming and SRH Metadata
-    url: https://datatracker.ietf.org/doc/draft-guichard-spring-srv6-simplified-firewall/
+  - title: User Plane Message Encoding
+    url: https://datatracker.ietf.org/doc/draft-murakami-dmm-user-plane-message-encoding/
+    status: Draft
+  - title: Analysis Framework For Extensions of SRv6 Encapsulation
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-analysis-fmwk-ext-srv6-encap/
+    status: Draft
+  - title: SRv6 Network Programming Overhead Analysis
+    url: https://datatracker.ietf.org/doc/draft-dukes-spring-srv6-overhead-analysis/
     status: Draft
 
 list_srmpls:
   - title: Segment Routing interworking with LDP
     url: https://datatracker.ietf.org/doc/rfc8661/
     status: RFC 8661
-  - title: Anycast Segments in MPLS based Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-mpls-anycast-segments/
-    status: WG Document
-  - title: Segment Routing Recursive Information
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-recursing-info/
-    status: Draft
   - title: Recommendations for RSVP-TE and Segment Routing LSP co-existance
     url: https://datatracker.ietf.org/doc/rfc8426/
     status: RFC 8426
@@ -205,40 +205,40 @@ list_bgp:
 list_bgp_ls:
   - title: BGP Link-State extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-segment-routing-ext/
-    status: WG document
-  - title: SR Policy Distribution via BGP-LS
+    status: WG Document
+  - title: Distribution of Traffic Engineering (TE) Policies and State using BGP-LS
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-te-lsp-distribution/
-    status: WG document
+    status: WG Document
   - title: BGP-LS extensions for Segment Routing BGP Egress Peer Engineering
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-segment-routing-epe/
     status: WG Document
-  - title: Signaling Maximum SID Depth using Border Gateway Protocol Link-State
-    url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-segment-routing-msd/
-    status: WG document
+  - title: Signaling Maximum SID Depth (MSD) Using the Border Gateway Protocol - Link State
+    url: https://datatracker.ietf.org/doc/rfc8814/
+    status: RFC 8814
   - title: BGP-LS Advertisement of IGP Traffic Engineering Performance Metric Extensions
     url: https://datatracker.ietf.org/doc/rfc8571/
     status: RFC 8571
-  - title: BGP Link State extensions for IPv6 Segment Routing (SRv6)
+  - title: BGP Link State Extensions for SRv6
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-srv6-ext/
-    status: WG document
+    status: WG Document
   - title: BGP Link-State Extensions for BGP-only Fabric
     url: https://datatracker.ietf.org/doc/draft-ketant-idr-bgp-ls-bgp-only-fabric/
     status: Draft
   - title: BGP-LS Advertisement of Segment Routing Service Segments
     url: https://datatracker.ietf.org/doc/draft-dawra-idr-bgp-ls-sr-service-segments/
     status: Draft
-  - title: Application Specific Attributes Advertisement with BGP Link-State
+  - title: Application-Specific Attributes Advertisement with BGP Link-State
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-app-specific-attr/
     status: WG Document
-  - title: Signalling ERLD using BGP-LS
-    url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-segment-routing-rld/
+  - title: Flexible Algorithm Definition Advertisement with BGP Link-State
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-flex-algo/
     status: WG Document
 
 list_isis:
   - title: IS-IS Extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/rfc8667/
     status: RFC 8667
-  - title: IS-IS Extensions to Support Segment Routing over IPv6 Dataplane
+  - title: IS-IS Extension to Support Segment Routing over IPv6 Dataplane
     url: https://datatracker.ietf.org/doc/draft-ietf-lsr-isis-srv6-extensions/
     status: WG Document
   - title: IGP Flexible Algorithm
@@ -265,14 +265,17 @@ list_ospf:
     url: https://datatracker.ietf.org/doc/rfc8476/
     status: RFC 8476
   - title: OSPFv3 Extensions for SRv6
-    url: https://datatracker.ietf.org/doc/draft-li-ospf-ospfv3-srv6-extensions/
-    status: Draft
+    url: https://datatracker.ietf.org/doc/draft-ietf-lsr-ospfv3-srv6-extensions/
+    status: WG Document
   - title: IGP Flexible Algorithm
     url: https://datatracker.ietf.org/doc/draft-ietf-lsr-flex-algo/
     status: WG Document
   - title: OSPF Traffic Engineering (TE) Metric Extensions
     url: https://datatracker.ietf.org/doc/rfc7471/
     status: RFC 7471
+  - title: Advertising L2 Bundle Member Link Attributes in OSPF
+    url: https://datatracker.ietf.org/doc/draft-ietf-lsr-ospf-l2bundles/
+    status: WG Document
 
 list_lisp:
   - title: LISP Control Plane for SRv6 Endpoint Mobility
@@ -283,29 +286,29 @@ list_pcep:
   - title: PCEP Extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/rfc8664/
     status: RFC 8664
-  - title: Carrying Binding Label/SID in PCE-based Networks
+  - title: Carrying Binding Label/Segment-ID in PCE-based Networks.
     url: https://datatracker.ietf.org/doc/draft-ietf-pce-binding-label-sid/
     status: WG Document
   - title: PCEP extension to support Segment Routing Policy Candidate Paths
-    url: https://datatracker.ietf.org/doc/draft-barth-pce-segment-routing-policy-cp/
-    status: Draft
+    url: https://datatracker.ietf.org/doc/draft-ietf-pce-segment-routing-policy-cp/
+    status: WG Document
   - title: PCEP Extensions for Segment Routing leveraging the IPv6 data plane
     url: https://datatracker.ietf.org/doc/draft-ietf-pce-segment-routing-ipv6/
     status: WG Document
   - title: PCEP Operational Clarification
     url: https://datatracker.ietf.org/doc/draft-koldychev-pce-operational/
     status: Draft
-  - title: Carrying SID Algorithm information in PCE-based Networks
+  - title: Carrying SID Algorithm information in PCE-based Networks.
     url: https://datatracker.ietf.org/doc/draft-tokar-pce-sid-algo/
     status: Draft
 
 list_yang:
   - title: YANG Data Model for Segment Routing Policy
-    url: https://datatracker.ietf.org/doc/draft-raza-spring-sr-policy-yang/
-    status: Draft
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-sr-policy-yang/
+    status: WG Document
   - title: YANG Data Model for SRv6 Base and Static
-    url: https://datatracker.ietf.org/doc/draft-raza-spring-srv6-yang/
-    status: Draft
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-srv6-yang/
+    status: WG Document
   - title: Yang Data Model for SRv6 based Services
     url: https://datatracker.ietf.org/doc/draft-raza-bess-srv6-services-yang/
     status: Draft
@@ -321,11 +324,11 @@ list_yang:
   - title: YANG Data Model for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-sr-yang/
     status: WG Document
-  - title: YANG Data Model for SR and SR TE Topologies
+  - title: YANG Data Model for SR and SR TE Topologies on MPLS Data Plane
     url: https://datatracker.ietf.org/doc/draft-ietf-teas-yang-sr-te-topo/
     status: WG Document
   - title: YANG data model for BGP Segment Routing TE Extensions
-    url: https://datatracker.ietf.org/doc/draft-majumdar-idr-bgp-srte-yang/
+    url: https://datatracker.ietf.org/doc/draft-deevi-idr-bgp-srte-yang/
     status: Draft
   - title: YANG data model for BGP Segment Routing Extensions
     url: https://datatracker.ietf.org/doc/draft-majumdar-spring-bgp-sr-yang/

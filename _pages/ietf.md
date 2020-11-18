@@ -363,7 +363,7 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
 ## Performance Measurement
 {% include rfc_list id="list_pm" %}
 
-## Multicast/Replication
+## Replication
 {% include rfc_list id="list_mcast" %}
 
 # Protocol Extensions

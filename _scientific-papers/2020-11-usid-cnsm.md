@@ -5,5 +5,5 @@ publisher: 16th International Conference on Network and Service Management
 location: 
 month: 11
 year: 2020
-eurl: https://arxiv.org/pdf/2007.12286.pdf
+eurl: http://dl.ifip.org/db/conf/cnsm/cnsm2020/1570663490.pdf
 ---

@@ -128,21 +128,12 @@ list_pm:
   - title: Enhanced Performance Delay and Liveness Monitoring in Segment Routing Networks
     url: https://datatracker.ietf.org/doc/draft-gandhi-spring-sr-enhanced-plm/
     status: Draft
-  - title: Performance Measurement Using TWAMP Light for Segment Routing Networks
-    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-twamp-srpm/
-    status: Draft
   - title: Performance Measurement Using Simple TWAMP (STAMP) for Segment Routing Networks
     url: https://datatracker.ietf.org/doc/draft-gandhi-spring-stamp-srpm/
-    status: Draft
-  - title: TWAMP Light Extensions for Segment Routing Networks
-    url: https://datatracker.ietf.org/doc/draft-gandhi-ippm-twamp-srpm/
     status: Draft
   - title: Performance Measurement Using RFC 6374 for Segment Routing Networks with MPLS Data Plane
     url: https://datatracker.ietf.org/doc/draft-ietf-mpls-rfc6374-sr/
     status: WG Document
-  - title: Performance Measurement Using RFC 6374 with UDP Path for Segment Routing Networks
-    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-rfc6374-srpm-udp/
-    status: Draft
   - title: Simple TWAMP (STAMP) Extensions for Segment Routing Networks
     url: https://datatracker.ietf.org/doc/draft-gandhi-ippm-stamp-srpm/
     status: Draft

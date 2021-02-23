@@ -20,8 +20,8 @@ list_architecture:
     url: https://datatracker.ietf.org/doc/draft-ietf-6man-segment-routing-header/
     status: RFC 8754
   - title: SRv6 Network Programming
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-srv6-network-programming/
-    status: WG Document
+    url: https://datatracker.ietf.org/doc/rfc8986/
+    status: RFC 8986
   - title: Compressed SRv6 Segment List Encoding in SRH
     url: https://datatracker.ietf.org/doc/draft-filsfilscheng-spring-srv6-srh-comp-sl-enc/
     status: Draft

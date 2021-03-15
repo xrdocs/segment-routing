@@ -1,55 +1,19 @@
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
-<div class="bloglist__item">
+<div class="container">
   <article itemscope itemtype="http://schema.org/CreativeWork">
-    {% if post.teaser %}
-      <div class="bloglist__item-teaser">
-        {% if post.eurl %}
-          <a href="{{ post.eurl }}" rel="external">
-        {% endif %}
-            <img src=
-              {% if post.teaser contains "://" %}
-                "{{ post.teaser }}"
-              {% else %}
-                "{{ post.teaser | relative_url }}"
-              {% endif %}
-              alt="">
-        {% if post.eurl %}
-          </a>
-        {% endif %}
+    <a href="{{ post.eurl }}" class="news-link">
+      <div class="news-box">
+        <div class="news-title">{{ post.title }}</div>
+        <p class="news-excerpt">{{ post.excerpt }}</p>
+        <div class="news-info">
+          {% if post.author %}
+            {{ post.author }}, 
+          {% else %}
+            Author Unknown,
+          {% endif %}
+          <a href="{% if post.source %} {{ post.source-url }} {% endif %} " class="publication-link">{{ post.source }}</a>
+          - {{ post.date | date: '%B %d, %Y' }}
+        </div>
       </div>
-    {% endif %}
-    <div class="bloglist__item-body">
-      <h3 class="bloglist__item-title" itemprop="headline">
-        {% if post.eurl %}
-          <a href="{{ post.eurl }}" rel="external">{{ title }}</a>
-        {% else %}
-          {{ title }}
-        {% endif %}
-      </h3>
-      {% if post.author or post.date or post.excerpt %}
-        <p class="bloglist__item-excerpt">
-          {% if post.excerpt %}{{ post.excerpt }}{% endif %}<br />
-          <em>
-            {% if post.author %}
-              {{ post.author }}{% if post.source %},{% endif %}
-            {% endif %}
-            {% if post.source %}
-              {% if post.source-url %}
-                <a href="{{ post.source-url }}" rel="external">{{ post.source }}</a>
-              {% else %}
-                {{ post.source }}
-              {% endif %}
-            {% endif %}
-            &mdash;
-            {% if post.date %}{{ post.date | date: '%B %d, %Y' }}{% endif %}
-          </em>
-        </p>
-      {% endif %}
-      </div>
+    </a>
   </article>
 </div>

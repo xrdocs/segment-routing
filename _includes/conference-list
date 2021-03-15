@@ -1,0 +1,27 @@
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="accordion-item conf">
+    {% if post.link %}
+      <a href="{{ post.link }}">
+    {% else %}
+      <a href="{{ post.url | relative_url }}" rel="permalink">
+    {% endif %}
+    <article class="conf-item" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="conf-image">
+          <img class="conf-img" src="{{ post.header.teaser }}">
+        </div>
+        <div class="conf-description">
+            <h3 class="archive__item-title" itemprop="headline">
+              {{ title }}
+            </h3>
+            {% if post.excerpt %}
+              <p class="article-excerpt"> {{ post.excerpt }} </p>
+            {% endif %}
+        </div>
+    </article>
+  </a>
+</div>

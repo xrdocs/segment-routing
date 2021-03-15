@@ -1,10 +1,11 @@
 ---
 layout: default
+hero-image: /images/new-design/SR-Hero-Background-Image-8.png/
 ---
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+<!-- {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
-{% endif %}
+{% endif %} -->
 
 {% if page.url != "/" and site.breadcrumbs %}
     {% include breadcrumbs.html %}
@@ -18,6 +19,13 @@ layout: default
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+    <div class="hero-block" style="background-image: url('{{ hero-image }}');">
+      <div class="container">
+        <h1 class="large-hero-title">{{ page.title }}</h1>
+        <p class="hero-description">{{ page.description }}</p>
+      </div>
+    </div>
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}

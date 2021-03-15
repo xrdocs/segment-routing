@@ -11,7 +11,7 @@ header:
 ---
 
 # Conclusion for NANOG78 
-<iframe width="355" height="200" src="https://www.youtube.com/embed/rSvk-j-NsVs" frameborder="0" allowfullscreen></iframe>
+<iframe wwidth="100%" height="400px" src="https://www.youtube.com/embed/rSvk-j-NsVs" frameborder="0" allowfullscreen></iframe>
 
 ## Slides
 

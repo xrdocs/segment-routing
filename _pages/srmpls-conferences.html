@@ -1,0 +1,28 @@
+---
+layout: articles
+permalink: /srmpls-conferences/
+hero-image: /images/new-design/SR-Hero-Background-Image-8.png/
+title: "SR MPLS Conferences"
+technology: "SR MPLS"
+type: "Conferences"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim lorem ipsum."
+---
+
+{% capture written_year %}'None'{% endcapture %}
+  <div class="container accordion">
+    {% assign sorted = (site.conferences | reverse) %}
+    {% for post in sorted %}
+      {% capture year %}{{ post.date | slice: 0, 4 }}{% endcapture %}
+      {% if year != written_year %}
+        </details>
+        {% if post == sorted[0] %}
+        <details open>
+        {% else %}
+        <details>
+        {% endif %}
+          <summary> {{ year }} </summary>
+          {% capture written_year %}{{ year }}{% endcapture %}
+      {% endif %}
+      {% include conference-list %}
+    {% endfor %}
+  </div> 

@@ -4,47 +4,55 @@
   {% assign feature_row = page.feature_row %}
 {% endif %}
 
-<div class="feature__wrapper">
+<div class="features-row">
+  <div class="feature__wrapper">
 
-  {% for f in feature_row %}
+    {% for f in feature_row %}
 
-    {% if f.url contains "://" %}
-      {% capture f_url %}{{ f.url }}{% endcapture %}
-    {% else %}
-      {% capture f_url %}{{ f.url | relative_url }}{% endcapture %}
-    {% endif %}
+      {% if f.url contains "://" %}
+        {% capture f_url %}{{ f.url }}{% endcapture %}
+      {% else %}
+        {% capture f_url %}{{ f.url | relative_url }}{% endcapture %}
+      {% endif %}
 
-    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
-      <div class="archive__item">
-        {% if f.image_path %}
-          <div class="archive__item-teaser">
-            <img src=
-              {% if f.image_path contains "://" %}
-                "{{ f.image_path }}"
-              {% else %}
-                "{{ f.image_path | relative_url }}"
+      {% if forloop.last %}
+        <div class="features-column column-stack last feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      {% else %}
+        <div class="features-column column-stack feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      {% endif %}
+
+          <div class="features-column-block archive__item">
+            {% if f.image_path %}
+              <div class="archive__item-teaser">
+                <img class="features-image" src=
+                  {% if f.image_path contains "://" %}
+                    "{{ f.image_path }}"
+                  {% else %}
+                    "{{ f.image_path | relative_url }}"
+                  {% endif %}
+                alt="{% if f.alt %}{{ f.alt }}{% endif %}" {% if f.image_width %} style="width:{{f.image_width}};"{% endif %}>
+              </div>
+            {% endif %}
+
+            <div class="archive__item-body">
+              {% if f.title %}
+                <h2 class="features-title archive__item-title">{{ f.title }}</h2>
               {% endif %}
-            alt="{% if f.alt %}{{ f.alt }}{% endif %}" {% if f.image_width %} style="width:{{f.image_width}};"{% endif %}>
-          </div>
-        {% endif %}
 
-        <div class="archive__item-body">
-          {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
-          {% endif %}
+              {% if f.excerpt %}
+                <div class="feature-excerpt archive__item-excerpt">
+                  {{ f.excerpt | markdownify }}
+                </div>
+              {% endif %}
 
-          {% if f.excerpt %}
-            <div class="archive__item-excerpt">
-              {{ f.excerpt | markdownify }}
+              {% if f.url %}
+                <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+              {% endif %}
             </div>
-          {% endif %}
-
-          {% if f.url %}
-            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-          {% endif %}
-        </div>
+          </div>
       </div>
-    </div>
-  {% endfor %}
 
+    {% endfor %}
+
+  </div>
 </div>

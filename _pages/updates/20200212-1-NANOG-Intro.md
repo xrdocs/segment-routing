@@ -11,7 +11,7 @@ header:
 ---
 
 # Introduction for NANOG78 
-<iframe width="355" height="200" src="https://www.youtube.com/embed/YWfdGjKKUm4" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/YWfdGjKKUm4" frameborder="0" allowfullscreen></iframe>
 
 ## Slides
 

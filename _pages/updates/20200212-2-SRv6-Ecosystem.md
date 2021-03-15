@@ -11,7 +11,7 @@ header:
 ---
 
 # Eco-system Update
-<iframe width="355" height="200" src="https://www.youtube.com/embed/p-QtiWC_Xek" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/p-QtiWC_Xek" frameborder="0" allowfullscreen></iframe>
 
 ## Slides
 

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="hero-block" style="background-image: url('{{ page.hero-image }}');">
+  <div class="container">
+    <h1 class="large-hero-title">{{ page.technology }} <span class="blue-title">{{ page.type }}</span></h1>
+    <p class="hero-description">{{ page.description }}</p>
+  </div>
+</div> 
+
+<div class="second-nav">
+  <div class="container">
+    <div class="second-nav-breadcrumbs">
+      <p class="breadcrumbs-technology">{{ page.technology }}
+      <span class="breadcrumbs-separator">></span>
+      <span class="breadcrumbs-type">{{ page.type }}</span></p>
+    </div>
+    <div class="second-nav-menu">
+      {% for item in site.data.navigation.main[0].subfolderitems %}
+        {% if item.page != page.type %}
+          <a href="{{ item.url }}">{{ item.page }}</a>
+        {% endif %}
+      {% endfor %}        
+    </div>
+  </div>
+</div>
+<div style="clear: both;"></div>
+
+<div class="container">
+  {% if page.type == "Demos" %}
+  <div class="cards-grid-container">
+    {{ content }}
+  </div>
+  {% else if %}
+    {{ content }}
+  {% endif %}
+</div>

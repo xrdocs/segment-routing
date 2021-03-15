@@ -1,18 +1,30 @@
 ---
 layout: archive-full
 permalink: /scientific-papers/
+hero-image: /images/new-design/SR-Background-Image-2.png/
 title: "Scientific Papers and Research Publications"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim lorem ipsum."
 ---
-
+ 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
+<div class="container accordion">
+  {% assign sorted = (site.scientific-papers | reverse) %}
+  {% for post in sorted %}
+    {% capture year %}{{ post.year }}{% endcapture %}
+    {% if year != written_year %}
+      </details>
+      {% if post == sorted[0] %}
+      <details open>
+      {% else %}
+      <details>
+      {% endif %}
+        <summary> {{ year }} </summary>
+        {% capture written_year %}{{ year }}{% endcapture %}
+    {% endif %}
+    <div>
+      {% include papers-list %}
+    </div>
+  {% endfor %}
+</div>
 
-{% assign sorted = (site.scientific-papers | reverse) %}
-{% for post in sorted %}
-  {% capture year %}{{ post.year }}{% endcapture %}
-  {% if year != written_year %}
-    <h3 class="list__title" id="{{ year | slugify }}">{{ year }}</h3>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include papers-list %}
-{% endfor %}

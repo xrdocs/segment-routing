@@ -1,30 +1,29 @@
-    <div class="page__footer-follow" style="padding-top:1em;">
-      <ul class="social-icons">
+    <div class="footer page__footer-follow" style="padding-top:1em;">
+      <div class="container social-icons">
         {% if site.data.ui-text[site.locale].contact_label %}
-          <li><strong>{{ site.data.ui-text[site.locale].contact_label }}</strong></li>
+          <h2 class="section-title">{{ site.data.ui-text[site.locale].contact_label }}</h2>
         {% endif %}
         {% if site.author.email %}
-          <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          <a href="mailto:{{ site.author.email }}"><img src="/images/email-icon.svg" width="60" alt="email icon" class="social-icon"></a>
         {% endif %}
         {% if site.author.twitter %}
-          <li><a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          <a href="https://twitter.com/{{ site.author.twitter }}"><img src="/images/twitter-icon.svg" width="60" alt="twitter icon" class="social-icon"></i></a>
         {% endif %}
         {% if site.facebook.username %}
-          <li><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+          <a href="https://facebook.com/{{ site.facebook.username }}"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a>
         {% endif %}
         {% if site.author.github %}
-          <li><a href="http://github.com/{{ site.author.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <a href="http://github.com/{{ site.author.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a>
         {% endif %}
         {% if site.author.bitbucket %}
-          <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fa fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+          <a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fa fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a>
         {% endif %}
         {% if site.author.linkedin-group %}
-          <li><a href="https://www.linkedin.com/groups/{{ site.author.linkedin-group }}"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
+          <a href="https://www.linkedin.com/groups/{{ site.author.linkedin-group }}"><img src="/images/linkedin-icon.svg" width="60" alt="linkedin icon" class="social-icon"></a>
         {% endif %}
         {% if site.rss_feed %}
-        <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+          <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a>
         {% endif %}
-      </ul>
+        <div class="footer-text page__footer-copyright">This site is maintained by Cisco Systems, Inc. employees.</div>
+      </div>
     </div>
-
-    <div class="page__footer-copyright">This site is maintained by Cisco Systems, Inc. employees.</div>

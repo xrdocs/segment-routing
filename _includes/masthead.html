@@ -1,42 +1,37 @@
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <img src="{{ site.logo | relative_url }}" width="45px" height="45px" alt="Segment-Routing logo" style="float:left;">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = site.url | append: site.baseurl %}
-            {% endif %}
-
-            {% if page.url contains link.url %}
-              <li class="masthead__menu-item greedy-nav-active"><a href="{{ link.url }}">
-                {% if link.short %}
-                <span class="lg-view">{{ link.title }}</span>
-                <span class="sm-view">{{ link.short }}</span>
+<div class=nav-container>
+  <nav>
+      <a href="{{ '/' | relative_url }}" ><img src="{{ site.logo | relative_url }}" class="nav-logo" id="nav-logo" alt="Segment-Routing brand logo"></a>
+      <div class="navbar" id="mylinks">
+            {% if site.data.navigation.main[0] %}
+              {% for item in site.data.navigation.main %}
+                {% if item.subfolderitems[0] %}
+                  <div class="dropdown nav-link">
+                    <label class="underline">{{ item.title }} <i class="fa fa-caret-down font-awesome-icon"></i>
+                      <input type="checkbox" id="toggle">
+                      <div class="dropdown-content" for="toggle">
+                        {% for entry in item.subfolderitems %}
+                          <a href="{{ entry.url }}" class="underline">{{ entry.page }}</a>
+                        {% endfor %}
+                      </div>
+                  </div>  
                 {% else %}
-                {{ link.title }}
+                  <div class="nav-link">
+                    <a href="{{ item.url }}" class="underline">{{ item.title }}</a>
+                  </div>
                 {% endif %}
-              </a></li>
-            {% else %}
-              <li class="masthead__menu-item"><a href="{{ link.url }}">
-                {% if link.short %}
-                <span class="lg-view">{{ link.title }}</span>
-                <span class="sm-view">{{ link.short }}</span>
-                {% else %}
-                {{ link.title }}
-                {% endif %}
-              </a></li>
+              {% endfor %}
             {% endif %}
-
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
+          <div class="social">
+              <a href="mailto:ask-segment-routing@cisco.com" target="_blank"><img src="/images/email-icon.svg" width="50" alt="email icon" class="social-icon"></a>
+              <a href="https://twitter.com/segmentrouting"  target="_blank"><img src="/images/twitter-icon.svg" width="50" alt="twitter icon" class="social-icon"></a>
+              <a href="https://www.linkedin.com/groups/8266623" target="_blank"><img src="/images/linkedin-icon.svg" width="50" alt="linkedin icon" class="social-icon"></a>
+          </div>
+      </div>
+      <div class="menu-icon" id="nav-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </nav>
 </div>

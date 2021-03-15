@@ -11,7 +11,7 @@ header:
 ---
 
 # Micro-program
-<iframe width="355" height="200" src="https://www.youtube.com/embed/EHbx_e0Oybg" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/EHbx_e0Oybg" frameborder="0" allowfullscreen></iframe>
 
 ## Slides
 

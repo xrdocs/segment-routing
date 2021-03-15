@@ -1,21 +1,15 @@
-{% if include.id %}
-  {% assign rfc_list = page.[include.id] %}
-{% else %}
-  {% assign rfc_list = page.rfc_list %}
-{% endif %}
+<div class="rfc-item">
+  <article itemscope itemtype="http://schema.org/CreativeWork">
+    {% if post.link %}
+      <a href="{{ post.link }}">
+    {% else %}
+      <a href="{{ post.url | relative_url }}" rel="permalink">
+    {% endif %}
 
-<div class="rfclist">
-  <ul>
-  {% for f in rfc_list %}
-    <li>
-      <a href="{{ f.url }}" >{{f.title}}
-        {% if f.status contains "RFC" %}
-          <span class="tag tag--large tag--bold">{{f.status}}</span>
-        {% else %}
-          <span class="tag tag--large">{{f.status}}</span>
-        {% endif %}
-      </a>
-    </li>
-  {% endfor %}
-  </ul>
+    <div class="article-title rfc-title">
+      {{ post.title }} 
+      <span class="rfc-status">{{ post.status }}</span>
+    </div>
+    </a>
+  </article>
 </div>

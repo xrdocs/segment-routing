@@ -14,8 +14,8 @@ description              : &description "Documentation, Blogs and Tutorials for 
 url                      : "http://www.segment-routing.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/xrdocs/segment-routing"
-teaser                   : "/images/new-design/SR-Background-Image-3.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-logo                     : "/images/sr-logo-blue.png"
+teaser                   : "images/new-design/SR-Background-Image-3.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+logo                     : "images/sr-logo-blue.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 

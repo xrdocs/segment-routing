@@ -4,6 +4,7 @@ published: true
 breadnav: true
 date: '2013-09-26 01:06 -0700'
 title: 'SGNOG2: Segment Routing'
+technology: 'SRv6, SRMPLS'
 excerpt: 'SGNOG2 (Singapore Network Operator''s Group): Segment Routing Overview'
 header:
   teaser: /images/sgnog.png
@@ -15,4 +16,4 @@ header:
 **Clarence Filsfils, Distinguished Engineer, Cisco**  
 {: .notice--info}  
 
-<iframe src="https://docs.google.com/file/d/0B8Ws5Hhj8UoOVnlRYWNKYk02dFE/preview" width="720" height="420"></iframe>
+<iframe src="https://docs.google.com/file/d/0B8Ws5Hhj8UoOVnlRYWNKYk02dFE/preview" width="100%" height="400px"></iframe>

@@ -4,6 +4,7 @@ published: true
 breadnav: true
 date: '2013-09-26 00:18 -0700'
 title: 'IEICE Technical Committee on Internet Architecture(IA)  2013 '
+technology: 'SRv6, SRMPLS'
 excerpt: Moving towards an SDN era for the Network with Segment Routing
 header:
   teaser: /images/ieice_2013_sdn.png

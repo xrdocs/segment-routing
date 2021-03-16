@@ -5,6 +5,7 @@ breadnav: true
 date: '2016-09-27 07:58 -0700'
 order: 5
 category: ldp
+technology: 'SRv6, SRMPLS'
 title: Segment Routing and LDP co-existence
 excerpt: >-
   See how segment routing can co-exist with LDP and other MPLS protocols, both
@@ -19,4 +20,4 @@ See how segment routing can co-exist with LDP and other MPLS protocols, both on 
 
 <script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

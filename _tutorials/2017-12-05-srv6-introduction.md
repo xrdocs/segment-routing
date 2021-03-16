@@ -5,6 +5,7 @@ breadnav: true
 date: '2017-12-05 22:03 +0100'
 order: 99
 category: srv6
+technology: 'SRv6'
 title: SRv6 Introduction
 ---
 An introduction to the SRv6 (Segment Routing over IPv6 dataplane) technology.
@@ -15,4 +16,4 @@ Learn about the power of SRv6 network programming concept. Find out how SRv6 pro
 
 <script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

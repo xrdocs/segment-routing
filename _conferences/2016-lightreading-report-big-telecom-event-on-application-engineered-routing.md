@@ -4,6 +4,7 @@ published: true
 breadnav: true
 date: '2016-11-19 15:47 -0700'
 title: Lightreading report Big telecom event on Application Engineered Routing
+technology: 'SRv6, SRMPLS'
 excerpt: 'Lightreading''s Big Telecom Event, Austin, May 24 & 25, 2016 '
 header:
   teaser: /images/lightreading_bte.png

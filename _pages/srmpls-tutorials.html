@@ -14,9 +14,11 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendis
   <details open>
     <summary>SR concepts</summary>
   {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
     <div>
       {% include archive-single.html %}
     </div>
+    {% endif %}
   {% endfor %}
   </details>
 
@@ -24,9 +26,11 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendis
   <details>
     <summary>SR IGP</summary>
   {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
     <div>
       {% include archive-single.html %}
     </div>
+    {% endif %}
   {% endfor %}
   </details>
 
@@ -34,9 +38,11 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendis
   <details>
     <summary>SR and LDP</summary>
   {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
     <div>
       {% include archive-single.html %}
     </div>
+    {% endif %}
   {% endfor %}
   </details>
 
@@ -44,9 +50,11 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendis
   <details>
     <summary>SR Traffic Engineering</summary>
   {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
     <div>
       {% include archive-single.html %}
     </div>
+    {% endif %}
   {% endfor %}
   </details>
 
@@ -54,9 +62,11 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendis
   <details>
     <summary>SR Operations and Monitoring</summary>
   {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
     <div>
       {% include archive-single.html %}
     </div>
+    {% endif %}
   {% endfor %}
   </details>
 </div>

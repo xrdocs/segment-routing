@@ -4,6 +4,7 @@ published: true
 breadnav: true
 date: '2014-09-25 22:43 -0700'
 title: 'UKNOF 27: Spring Forwarding'
+technology: 'SRv6, SRMPLS'
 excerpt: SPRING FORWARD(ING). Evolving IP/MPLS networks with Segment Routing
 header:
   teaser: /images/uknof27-teaser.png

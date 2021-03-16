@@ -14,7 +14,7 @@ description              : &description "Documentation, Blogs and Tutorials for 
 url                      : "https://www.segment-routing.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/xrdocs/segment-routing"
-teaser                   : "/images/sr-teaser-icon.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "/images/new-design/SR-Background-Image-3.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 logo                     : "/images/sr-logo-blue.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
@@ -55,7 +55,8 @@ exclude:
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
-  - .sass-cache
+  - .sass-cache  
+  - [vendor]
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
@@ -85,7 +86,7 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-incremental: false
+incremental: true
 
 
 # Markdown Processing
@@ -114,7 +115,13 @@ collections:
   scientific-papers:
     output: true
     permalink: /:collection/:path/
-  news:
+  news: 
+    output: true
+    permalink: /:collection/:path/
+  srv6-news:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-news:
     output: true
     permalink: /:collection/:path/
   demos:
@@ -181,6 +188,24 @@ defaults:
       read_time: false
       related: true
       position: "top"
+# _srv6-news
+  - scope:
+      path: ""
+      type: single-full
+    values:
+      layout: news
+      read_time: false
+      related: true
+      position: "top"
+# _srmpls-news
+  - scope:
+      path: ""
+      type: single-full
+    values:
+      layout: news
+      read_time: false
+      related: true
+      position: "top"
 
 # Outputting
 permalink: /:categories/:title/
@@ -190,7 +215,7 @@ timezone:  Europe/Madrid# http://en.wikipedia.org/wiki/List_of_tz_database_time_
 future: true
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -242,6 +267,7 @@ prose:
   ignore:
     - index.md
     - _config.yml
+    - /_sass
     - /_layouts
     - /_includes
     - /_posts
@@ -251,6 +277,7 @@ prose:
     - /_drafts
     - /_includes
     - /_layouts
+    - /_pages
     - /_pets
     - /_portfolio
     - /_posts
@@ -271,6 +298,7 @@ prose:
     - feed.xml
     - search.html
     - .travis.yml
+    - _config.pdf.yml
     - _config.travis.yml
   metadata:
     _tutorials:

@@ -15,9 +15,6 @@ main:
       - page: "Conferences" 
         url: "/srv6-conferences/"
 
-      - page: "IETF" 
-        url: "/srv6-ietf/"
-
   - title: "SR MPLS"
     subfolderitems:
       - page: "News" 
@@ -31,9 +28,9 @@ main:
 
       - page: "Conferences" 
         url: "/srmpls-conferences/"
-
-      - page: "IETF" 
-        url: "/srmpls-ietf/"
+  
+  - title: "IETF" 
+    url: "/ietf/"
 
   - title: "Open Software"
     url: "/open-software/"

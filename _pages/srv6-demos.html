@@ -9,7 +9,7 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendis
 
 
 
-{% assign sorted = (site.demos | sort:date | reverse) %} 
+{% assign sorted = (site.demos | where_exp:"item", "item.technology contains 'SRv6'" | sort:date | reverse) %} 
 {% for post in sorted %}
   {% include demos-list %}
 {% endfor %}

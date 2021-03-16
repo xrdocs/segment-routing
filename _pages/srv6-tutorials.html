@@ -13,9 +13,11 @@ description: "Apply the SR concepts to the IPv6 data plane and discover the powe
   <details open>
     <summary>SRv6</summary>
     {% for post in sorted %}
+      {% if post.technology contains 'SRMPLS' %}
     <div>
       {% include archive-single.html %}
     </div>
+      {% endif %}
     {% endfor %}
   </details>
 </div>

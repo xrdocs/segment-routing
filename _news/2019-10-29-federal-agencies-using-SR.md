@@ -4,6 +4,7 @@ author: FedScoop Staff
 source-url: https://www.fedscoop.com/segment-routing-network-performance-legacy-systems-sc/
 date: 2019-10-29
 eurl: https://www.fedscoop.com/segment-routing-network-performance-legacy-systems-sc/
+technology: 'SRv6, SRMPLS'
 excerpt: >-
   Agencies that continue to operate legacy systems can achieve greater IT performance and versatility, lower their 
   operating costs and enhance their security controls simply by taking advantage of newer networking capabilities.

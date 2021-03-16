@@ -4,6 +4,7 @@ author: Clarence Filsfils - APNIC blog
 source-url: https://blog.apnic.net/2020/05/08/srv6-deployed-use-cases/
 date: 2020-05-08
 eurl: https://blog.apnic.net/2020/05/08/srv6-deployed-use-cases/
+technology: 'SRv6'
 excerpt: >-
   As of 2019, Segment Routing over IPv6 data plane (SRv6) has been deployed in eight large-scale networks; supported by more than 25 hardware implementations at line rate; implemented in 11 open-source platforms/applications; and, importantly, is undergoing IETF standardization (RFC 8402, RFC 8754).
   <br/>

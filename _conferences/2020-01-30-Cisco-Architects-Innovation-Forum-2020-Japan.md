@@ -4,6 +4,7 @@ breadnav: true
 date: 2020-01-26
 title: 'Cisco Architects Innovation Forum 2020 - Japan'
 author: Segment Routing Team
+technology: 'SRv6'
 excerpt: 'SRv6 was one of the topics of the "Cisco Architects Innovation Forum 2020" in Japan, a forum that discusses latest technologies and future architectural changes.'
 header:
   teaser: '/images/2020-01-30-Cisco-Architect-Innovation-Forum-2020-Pablo-teaser.jpg'

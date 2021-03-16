@@ -14,7 +14,7 @@ description              : &description "Documentation, Blogs and Tutorials for 
 url                      : "http://www.segment-routing.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/xrdocs/segment-routing"
-teaser                   : "/images/sr-teaser-icon.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "/images/new-design/SR-Background-Image-3.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 logo                     : "/images/sr-logo-blue.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
@@ -117,6 +117,12 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
+  srv6-news:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-news:
+    output: true
+    permalink: /:collection/:path/
   demos:
     output: true
     permalink: /:collection/:path/
@@ -178,6 +184,24 @@ defaults:
       type: demos
     values:
       layout: single-full
+      read_time: false
+      related: true
+      position: "top"
+# _srv6-news
+  - scope:
+      path: ""
+      type: single-full
+    values:
+      layout: news
+      read_time: false
+      related: true
+      position: "top"
+# _srmpls-news
+  - scope:
+      path: ""
+      type: single-full
+    values:
+      layout: news
       read_time: false
       related: true
       position: "top"
@@ -269,9 +293,6 @@ prose:
     - CHANGELOG.md
     - README.md
     - feed.xml
-    - search.html
-    - .travis.yml
-    - _config.travis.yml
   metadata:
     _tutorials:
       - name: "title"

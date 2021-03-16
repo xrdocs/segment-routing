@@ -5,6 +5,7 @@ breadnav: true
 date: '2016-09-27 08:08 -0700'
 order: 7
 category: ldp
+technology: 'SRv6, SRMPLS'
 title: Segment Routing and LDP interworking
 excerpt: >-
   Learn about the simple, automatic and seamless interworking between segment
@@ -20,4 +21,4 @@ Learn about the simple, automatic and seamless interworking between segment rout
 
 <script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

@@ -4,6 +4,7 @@ author: Clarence Filsfils - APNIC blog
 source-url: https://blog.apnic.net/2020/05/15/srv6-micro-instructions/
 date: 2020-05-15
 eurl: https://blog.apnic.net/2020/05/15/srv6-micro-instructions/
+technology: 'SRv6'
 excerpt: >-
   Network programming is seminal to the Segment Routing over IPv6 data plane (SRv6) solution. It allows for expressing any end-to-end service in a stateless manner as a set of 16-byte instructions (Segment ID, or SID) encoded in the packet header. These instructions may express TE, FRR, VPN behaviours, as well as application behaviours.
   <br/>

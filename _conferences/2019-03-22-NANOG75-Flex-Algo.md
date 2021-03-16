@@ -4,12 +4,13 @@ breadnav: true
 date: '2019-03-22 03:06 -0700'
 title: 'NANOG75 SR Flexible Algorithms'
 author: Segment Routing Team
+technology: 'SRv6, SRMPLS'
 excerpt: 'Jose Liste presents SR IGP Flexible Algorithms, the flexible tool in the SR-TE toolkit. Its functionality and its use-cases'
 header:
   teaser: 'https://img.youtube.com/vi/l_RThbdDnko/mqdefault.jpg'
 ---    
        
-<iframe width="355" height="200" src="https://www.youtube.com/embed/l_RThbdDnko" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/l_RThbdDnko" frameborder="0" allowfullscreen></iframe>
 
 Check out the presentation here:
  

@@ -10,7 +10,7 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendis
 
 {% capture written_year %}'None'{% endcapture %}
   <div class="container accordion">
-    {% assign sorted = (site.conferences | reverse) %}
+    {% assign sorted = (site.conferences | where_exp:"item", "item.technology contains 'SRMPLS'" | reverse) %}
     {% for post in sorted %}
       {% capture year %}{{ post.date | slice: 0, 4 }}{% endcapture %}
       {% if year != written_year %}
@@ -23,6 +23,6 @@ description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendis
           <summary> {{ year }} </summary>
           {% capture written_year %}{{ year }}{% endcapture %}
       {% endif %}
-      {% include conference-list %}
+      {% include conference-list %} 
     {% endfor %}
   </div> 

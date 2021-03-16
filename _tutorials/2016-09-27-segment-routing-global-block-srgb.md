@@ -6,6 +6,7 @@ date: '2016-09-27 07:53 -0700'
 order: 3
 category: concepts
 title: Segment Routing Global Block (SRGB)
+technology: 'SRv6, SRMPLS'
 excerpt: >-
   See what the Segment Routing Global Block is. Learn about the best practices
   to use the same SRGB on all segment routing nodes. Further, learn how to
@@ -19,4 +20,4 @@ See what the Segment Routing Global Block is. Learn about the best practices to 
 
 <script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

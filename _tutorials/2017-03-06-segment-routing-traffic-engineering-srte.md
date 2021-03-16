@@ -5,6 +5,7 @@ breadnav: true
 date: '2017-03-06 11:36 +0100'
 order: 9
 category: te
+technology: 'SRv6, SRMPLS'
 title: Segment Routing Traffic Engineering (SR-TE)
 excerpt: >-
   An introduction to the Segment Routing Traffic Engineering (SR-TE) technology.
@@ -20,4 +21,4 @@ SR-TE provides lots of functionality. It was designed with lead operators, along
 
 <script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

@@ -4,6 +4,7 @@ published: true
 breadnav: true
 date: '2012-08-03 00:18 -0700'
 title: 'IETF84: SDN at Google'
+technology: 'SRv6, SRMPLS'
 excerpt: Opportunities for WAN Optimization
 header:
   teaser: https://www6.ietf.org/images/ietflogotrans.gif

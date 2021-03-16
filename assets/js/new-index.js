@@ -8,9 +8,9 @@ $(document).ready(function(){
 
 // Video popup
 window.document.onkeydown = function(e) {
-        if (e.keyCode == 27) {
-                lightbox_close();
-        }
+  if (e.keyCode == 27) {
+    lightbox_close();
+  }
 }
 
 function lightbox_open() {

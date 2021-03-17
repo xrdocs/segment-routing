@@ -16,7 +16,7 @@ The speakers are Dave Ward, Senior Vice President of Engineering, as well as Cis
 
 One of the sessions covers the latest updates of SRv6, the routing innovation that provides flexibility while maintaining the scale, simplicity, and statelessness of Native IP. This session is presented by Cisco Systems Software Engineer Pablo Camarillo.
 
-<img src="images/2020-01-30-Cisco-Architect-Innovation-Forum-2020-group-photo.jpg">
+<img src="{{ 'images/2020-01-30-Cisco-Architect-Innovation-Forum-2020-group-photo.jpg' | relative_url }}">
 
-<img src="images/2020-01-30-Cisco-Architect-Innovation-Forum-2020-Pablo.jpg">
+<img src="{{ 'images/2020-01-30-Cisco-Architect-Innovation-Forum-2020-Pablo.jpg' | relative_url }}">
 

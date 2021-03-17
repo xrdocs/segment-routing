@@ -19,7 +19,7 @@ At the [**MPLS WC 2019**](<https://www.uppersideconferences.com/mpls-sdn-nfv/201
 
 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/kANeJhY5doA" frameborder="0" allowfullscreen></iframe>
 
-<img src="/images/MPLSWC2019_Mark_Ferreira_1.jpg">
+<img src="{{ 'images/MPLSWC2019_Mark_Ferreira_1.jpg' | relative_url }}">
 
 ### Check out the presentation here:
  

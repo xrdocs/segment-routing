@@ -16,7 +16,7 @@ The Pioneer is Cisco’s highest engineering award recognizing the pioneering sp
 
 This is the Segment Routing team:
 
-<img src="images/sr_team.jpeg">
+<img src="{{ 'images/sr_team.jpeg' | relative_url }}">
 
 Event video:
 

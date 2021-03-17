@@ -22,7 +22,7 @@ Segment routing is a huge innovation that has the potential to change the way we
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf1"></div>
 
-<script>PDFObject.embed(" {{ pdf-link1 }} ", "#pdf1", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-link1 | relative_url }} ", "#pdf1", {height: "21.5em", width: "31.3em"});</script>
 
 
 ### Segment Routing and IPv6 with Jakub Horn
@@ -38,4 +38,4 @@ Segment routing isn't just for IPv4. Segment routing for IPv6 (SRv6) is an excit
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf2"></div>
 
-<script>PDFObject.embed(" {{ pdf-link2 }} ", "#pdf2", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-link2 | relative_url }} ", "#pdf2", {height: "21.5em", width: "31.3em"});</script>

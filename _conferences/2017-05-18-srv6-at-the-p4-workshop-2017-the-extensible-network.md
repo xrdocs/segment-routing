@@ -17,4 +17,4 @@ Bell Canada, Barefoot, and Cisco presented "The Extensible Network – Evolution
 
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

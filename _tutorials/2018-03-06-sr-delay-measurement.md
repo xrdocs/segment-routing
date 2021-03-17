@@ -19,4 +19,4 @@ The Delay Measurement solution, as part of the Performance Monitoring functional
 
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "100%"});</script>
+<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

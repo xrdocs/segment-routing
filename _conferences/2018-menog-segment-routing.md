@@ -18,4 +18,4 @@ During the last Middle East Network Operator Group (MENOG) 2018, Rasoul Mesghali
 
 <div class="fitvidsignore" id="pdf"></div>
 
-<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

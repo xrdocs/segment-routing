@@ -19,7 +19,7 @@ header:
 
 <script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-link | relative_url  }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
 
 ## Additional references:
 ><https://perspectives.mvdirona.com/2012/05/urs-holzle-open-networking-summit-2012/>
@@ -28,4 +28,4 @@ header:
 
 <script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf2"></div>
-<script>PDFObject.embed(" {{ pdf-alt-link }} ", "#pdf2", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-alt-link | relative_url }} ", "#pdf2", {height: "21.5em", width: "31.3em"});</script>

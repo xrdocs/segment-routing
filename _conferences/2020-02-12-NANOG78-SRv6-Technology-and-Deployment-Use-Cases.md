@@ -32,4 +32,4 @@ Then we will delve into the SRv6 deployed use-cases from (Softbank, Iliad) and p
 {% capture "pdf-link" %}/images/20200212-NANOG78-SRv6-rev3e-96ppi.pdf{% endcapture %}
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

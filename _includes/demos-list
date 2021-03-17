@@ -7,7 +7,7 @@
   
     <div class="demo-box">
       <div class="demo-image">
-        <img class="demo-img" src="{{ post.teaser }}">
+        <img class="demo-img" src="{{ post.teaser | relative_url }}">
       </div>
       <div class="news-title">{{ post.title }}</div>
       <p class="news-excerpt">{{ post.excerpt }}</p>

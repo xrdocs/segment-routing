@@ -6,13 +6,13 @@
 
 <div class="accordion-item conf">
     {% if post.link %}
-      <a href="{{ post.link }}">
+      <a href="{{ post.link | relative_url }}">
     {% else %}
       <a href="{{ post.url | relative_url }}" rel="permalink">
     {% endif %}
     <article class="conf-item" itemscope itemtype="http://schema.org/CreativeWork">
         <div class="conf-image">
-          <img class="conf-img" src="{{ post.header.teaser }}">
+          <img class="conf-img" src="{{ post.header.teaser | relative_url }}">
         </div>
         <div class="conf-description">
             <h3 class="archive__item-title" itemprop="headline">

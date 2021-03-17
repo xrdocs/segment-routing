@@ -504,11 +504,19 @@ label.underline:before, .nav-link > a.underline:before {
   to {opacity: 1}
 }
 /* Discover Tech Section */
-.discover-tech-image {
+.discover-tech-image-srv6 {
   width: 50%;
   height: 500px;
   float: left;
-  background-image: url(../../images/new-home/SR-Background-Image-4.png);
+  background-image: url(../../images/new-home/SRv6.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.discover-tech-image-srmpls {
+  width: 50%;
+  height: 500px;
+  float: right;
+  background-image: url(../../images/new-home/SR-MPLS.png);
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -564,9 +572,6 @@ label.underline:before, .nav-link > a.underline:before {
   -ms-transform: translate(0px, -1.5px);
   transform: translate(0px, -1.5px);
   color: #6abf4b;
-}
-.discover-tech-image.right {
-  float: right;
 }
 .discover-tech-content.left {
   float: left;

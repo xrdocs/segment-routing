@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="hero-block" style="background-image: url('{{ page.hero-image }}');">
+<div class="hero-block" style="background-image: url('{{ page.hero-image | relative_url }}');">
   <div class="container">
     <h1 class="large-hero-title">{{ page.technology }} <span class="blue-title">{{ page.type }}</span></h1>
     <p class="hero-description">{{ page.description }}</p>
@@ -18,7 +18,7 @@ layout: default
     <div class="second-nav-menu">
       {% for item in site.data.navigation.main[0].subfolderitems %}
         {% if item.page != page.type %}
-          <a href="{{ item.url }}">{{ item.page }}</a>
+          <a href="{{ item.url | relative_url }}">{{ item.page }}</a>
         {% endif %}
       {% endfor %}        
     </div>

@@ -1,11 +1,7 @@
 ---
 layout: default
-hero-image: images/new-design/SR-Hero-Background-Image-8.png/
+hero-image: images/new-design/SR-Hero-Background-Image-8.png
 ---
-
-<!-- {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% endif %} -->
 
 {% if page.url != "/" and site.breadcrumbs %}
     {% include breadcrumbs.html %}
@@ -20,7 +16,7 @@ hero-image: images/new-design/SR-Hero-Background-Image-8.png/
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
 
-    <div class="hero-block" style="background-image: url('{{ hero-image }}');">
+    <div class="hero-block" style="background-image: url('{{ hero-image | relative_url }}');">
       <div class="container">
         <h1 class="large-hero-title">{{ page.title }}</h1>
         <p class="hero-description">{{ page.description }}</p>
@@ -39,7 +35,7 @@ hero-image: images/new-design/SR-Hero-Background-Image-8.png/
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        {% if page.link %}<div><a href="{{ page.link | relative_url }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
       <footer class="page__meta">

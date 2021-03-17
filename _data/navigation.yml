@@ -4,7 +4,7 @@ main:
   - title: "SRv6"
     subfolderitems:
       - page: "News" 
-        url: srv6-news/"
+        url: srv6-news"
 
       - page: "Demos" 
         url: "srv6-demos"

@@ -10,7 +10,7 @@ header:
   teaser: 'images/lightreading-srv6-webinar-thumbnail.png'
 ---    
 
-[<img src="images/lightreading-srv6-webinar.png"/>](https://www.lightreading.com/webinar.asp?webinar_id=1709)
+[<img src="{{ 'images/lightreading-srv6-webinar.png' | relative_url }}"/>](https://www.lightreading.com/webinar.asp?webinar_id=1709)
 
 [Click here to access the Lightreading webinar "The state of SRv6".](https://www.lightreading.com/webinar.asp?webinar_id=1709)
 

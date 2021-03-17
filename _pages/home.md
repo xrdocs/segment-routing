@@ -111,7 +111,9 @@ published: true
 {% include slider id="slider_quote" %}
 
 <div class="discover-tech">
-  <div class="discover-tech-image-srv6"></div>
+  <div class="discover-tech-image-srv6">
+    <img class="tech-image" src="{{site.baseurl}}/images/new-home/SRv6_transparent.png">
+  </div>
   <div class="discover-tech-content">
     <div class="discover-tech-content-block">
       <h2 class="features-title">Discover <span class="discover-tech-span">SRv6</span></h2>
@@ -127,7 +129,9 @@ published: true
   </div>
 </div>
 <div class="discover-tech">
-  <div class="discover-tech-image-srmpls"></div>
+  <div class="discover-tech-image-srmpls">
+    <img class="tech-image" src="{{site.baseurl}}/images/new-home/SR_MPLS_transparent.png">
+  </div>
   <div class="discover-tech-content left">
     <div class="discover-tech-content-block">
       <h2 class="features-title">Discover <span class="discover-tech-span">SR MPLS</span></h2>

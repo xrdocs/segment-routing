@@ -4,10 +4,10 @@
       <h2 class="section-title">{{ site.data.ui-text[site.locale].contact_label }}</h2>
     {% endif %}
     {% if site.author.email %}
-      <a href="mailto:{{ site.author.email }}" target="_blank"><img src="{{ 'images/email-icon.svg' | relative_path }}" width="60" alt="email icon" class="social-icon"></a>
+      <a href="mailto:{{ site.author.email }}" target="_blank"><img src="{{ 'images/email-icon.svg' | relative_url }}" width="60" alt="email icon" class="social-icon"></a>
     {% endif %}
     {% if site.author.twitter %}
-      <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank"><img src="{{ 'images/twitter-icon.svg' | relative_path }}" width="60" alt="twitter icon" class="social-icon"></i></a>
+      <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank"><img src="{{ 'images/twitter-icon.svg' | relative_url }}" width="60" alt="twitter icon" class="social-icon"></i></a>
     {% endif %}
     {% if site.facebook.username %}
       <a href="https://facebook.com/{{ site.facebook.username }}" target="_blank"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a>
@@ -19,7 +19,7 @@
       <a href="http://bitbucket.org/{{ site.author.bitbucket }}" target="_blank"><i class="fa fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a>
     {% endif %}
     {% if site.author.linkedin-group %}
-      <a href="https://www.linkedin.com/groups/{{ site.author.linkedin-group }}" target="_blank"><img src="{{ 'images/linkedin-icon.svg' | relative_path }}" width="60" alt="linkedin icon" class="social-icon"></a>
+      <a href="https://www.linkedin.com/groups/{{ site.author.linkedin-group }}" target="_blank"><img src="{{ 'images/linkedin-icon.svg' | relative_url }}" width="60" alt="linkedin icon" class="social-icon"></a>
     {% endif %}
     {% if site.rss_feed %}
       <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" target="_blank"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a>

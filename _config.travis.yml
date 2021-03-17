@@ -172,7 +172,7 @@ defaults:
       layout: single-full
       related: true
       position: "top"
-# _news
+# demos
   - scope:
       path: ""
       type: news
@@ -190,24 +190,7 @@ defaults:
       read_time: false
       related: true
       position: "top"
-# _srv6-news
-  - scope:
-      path: ""
-      type: single-full
-    values:
-      layout: news
-      read_time: false
-      related: true
-      position: "top"
-# _srmpls-news
-  - scope:
-      path: ""
-      type: single-full
-    values:
-      layout: news
-      read_time: false
-      related: true
-      position: "top"
+
 
 # Outputting
 permalink: /:categories/:title/

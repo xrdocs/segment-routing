@@ -22,7 +22,7 @@ cookie_popup_css.innerHTML = `
 }
 
 #cookie-popup .cookie-popup__card {
-  background: #000;
+  background: #1850A3;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
   display: flex;
   height: 285px;

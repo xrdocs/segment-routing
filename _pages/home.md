@@ -135,9 +135,9 @@ published: true
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
       </p>
       <div class="descover-tech-links">
-        <a href="{{ 'sr-mpls-demos' | base_url }}" class="discover-tech-link">Demos <i class="fas fa-arrow-circle-right"></i></a>
-        <a href="{{ 'sr-mpls-tutorials' | base_url }}" class="discover-tech-link">Tutorials <i class="fas fa-arrow-circle-right"></i></a>
-        <a href="{{ 'sr-mpls-news' | base_url }}" class="discover-tech-link">News <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'srmpls-demos' | base_url }}" class="discover-tech-link">Demos <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'srmpls-tutorials' | base_url }}" class="discover-tech-link">Tutorials <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'srmpls-news' | base_url }}" class="discover-tech-link">News <i class="fas fa-arrow-circle-right"></i></a>
       </div>
     </div>
   </div>

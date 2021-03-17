@@ -1305,8 +1305,9 @@ details {
     float: none;
   }
   /* Discover Tech Section */
-  .discover-tech-image {
-    height: 250px;
+  .discover-tech-image-srv6,
+  .discover-tech-image-srmpls {
+    height: 295px;
     width: 100%;
     float: none;
   }

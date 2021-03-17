@@ -8,5 +8,5 @@ technology: 'SRv6'
 excerpt: >-
   In 2019, SRv6 gained solid customer traction with noteworthy live deployments. The authors of the key SRv6 documents (SRH and Net-PGM) provide an update on the State of SRv6. 
 
-teaser: /images/sr-logo-blue.png
+teaser: images/sr-logo-blue.png
 ---

@@ -11,5 +11,5 @@ excerpt: >-
   In that respect, network operators have been exploring Traffic Engineering techniques for some years now but have obviously run into many scaling issues preventing them from having an end-to-end, fine-grained control over the myriad services they offer.
   We firmly believe Segment Routing Traffic Engineering (SR TE) has changed the game and has become the undisputed solution to deliver Traffic Engineering capabilities at scale.
   What makes SR Flexible Algorithm a noteworthy addition to SR TE solution?
-teaser: /images/sr-logo-blue.png
+teaser: images/sr-logo-blue.png
 ---

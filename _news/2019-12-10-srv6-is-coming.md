@@ -10,5 +10,5 @@ excerpt: >-
 
   Kevin Wollenweber, Vice President Of Product Management at Cisco Systems, explains why the pace of adoption for SRv6 will be even faster.
 
-teaser: /images/sr-logo-blue.png
+teaser: images/sr-logo-blue.png
 ---

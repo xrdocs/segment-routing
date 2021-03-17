@@ -88,7 +88,7 @@ published: true
 <div class="home-notice">
   <div class="container">
       <h4>Explore the state of SRv6 and how it enhances all Segment Routing MPLS capabilities.</h4>
-      <a href="{{ '/srv6-status/' | base_url }}" target="_blank">
+      <a href="{{ 'srv6-status' | base_url }}" target="_blank">
         <button >State of SRv6</button>
       </a>
   </div>
@@ -119,9 +119,9 @@ published: true
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
       </p>
       <div class="descover-tech-links">
-        <a href="srv6-demos.html" class="discover-tech-link">Demos <i class="fas fa-arrow-circle-right"></i></a>
-        <a href="srv6-tutorials.html" class="discover-tech-link">Tutorials <i class="fas fa-arrow-circle-right"></i></a>
-        <a href="srv6-news.html" class="discover-tech-link">News <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'srv6-demos' | base_url }}" class="discover-tech-link">Demos <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'srv6-tutorials' | base_url }}" class="discover-tech-link">Tutorials <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'srv6-news' | base_url }}" class="discover-tech-link">News <i class="fas fa-arrow-circle-right"></i></a>
       </div>
     </div>
   </div>
@@ -135,9 +135,9 @@ published: true
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
       </p>
       <div class="descover-tech-links">
-        <a href="sr-mpls-demos.html" class="discover-tech-link">Demos <i class="fas fa-arrow-circle-right"></i></a>
-        <a href="sr-mpls-tutorials.html" class="discover-tech-link">Tutorials <i class="fas fa-arrow-circle-right"></i></a>
-        <a href="sr-mpls-news.html" class="discover-tech-link">News <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'sr-mpls-demos' | base_url }}" class="discover-tech-link">Demos <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'sr-mpls-tutorials' | base_url }}" class="discover-tech-link">Tutorials <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'sr-mpls-news' | base_url }}" class="discover-tech-link">News <i class="fas fa-arrow-circle-right"></i></a>
       </div>
     </div>
   </div>

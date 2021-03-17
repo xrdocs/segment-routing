@@ -1,5 +1,5 @@
 ---
-permalink: /srv6-status/
+permalink: /srv6-status
 breadnav: false
 published: true
 breadnav: true

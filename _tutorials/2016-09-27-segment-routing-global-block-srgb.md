@@ -18,6 +18,6 @@ See what the Segment Routing Global Block is. Learn about the best practices to 
 
 {% capture "pdf-link" %}/images/0030-SR-TOI-SRGB_v10.pdf{% endcapture %}
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
 <script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

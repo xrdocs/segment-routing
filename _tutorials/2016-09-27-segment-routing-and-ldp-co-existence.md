@@ -18,6 +18,6 @@ See how segment routing can co-exist with LDP and other MPLS protocols, both on 
 
 {% capture "pdf-link" %}/images/0050-SR-TOI-SR_and_LDP_coexist_v8.pdf{% endcapture %}
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
 <script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

@@ -8,5 +8,5 @@ eurl: https://blogs.cisco.com/sp/segment-routing-fundamental-to-make-your-networ
 technology: 'SRv6, SRMPLS'
 excerpt: >-
   Check out the latest insight into the latest Segment Routing announcements at MPLS WC 2017.
-teaser: /images/press/Logo-Segment-Routing-800x800-pixels-Blue-460x230.png
+teaser: images/press/Logo-Segment-Routing-800x800-pixels-Blue-460x230.png
 ---

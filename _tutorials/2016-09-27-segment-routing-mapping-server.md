@@ -17,6 +17,6 @@ Learn about the objective of the Mapping Server and see how one may configure it
 
 {% capture "pdf-link" %}/images/0060-SR-TOI-SR_Mapping-Server_v8.pdf{% endcapture %}
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
 <script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

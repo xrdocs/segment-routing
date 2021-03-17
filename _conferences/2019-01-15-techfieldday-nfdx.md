@@ -19,7 +19,7 @@ Segment routing is a huge innovation that has the potential to change the way we
 **Check out the presentation here:**
 
 {% capture "pdf-link1" %}/images/201901-SR-Flexalgo.pdf{% endcapture %}
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf1"></div>
 
 <script>PDFObject.embed(" {{ pdf-link1 }} ", "#pdf1", {height: "21.5em", width: "31.3em"});</script>
@@ -35,7 +35,7 @@ Segment routing isn't just for IPv4. Segment routing for IPv6 (SRv6) is an excit
 
 {% capture "pdf-link2" %}/images/201901-SRv6.pdf{% endcapture %}
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf2"></div>
 
 <script>PDFObject.embed(" {{ pdf-link2 }} ", "#pdf2", {height: "21.5em", width: "31.3em"});</script>

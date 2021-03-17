@@ -7,7 +7,7 @@ title: 'SGNOG2: Segment Routing'
 technology: 'SRv6, SRMPLS'
 excerpt: 'SGNOG2 (Singapore Network Operator''s Group): Segment Routing Overview'
 header:
-  teaser: /images/sgnog.png
+  teaser: images/sgnog.png
 ---
 
 ## Segment Routing Overview  

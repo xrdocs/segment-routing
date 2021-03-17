@@ -26,7 +26,7 @@ At the [**MPLS WC 2019**](<https://www.uppersideconferences.com/mpls-sdn-nfv/201
 {% capture "pdf-link" %}/images/20190411-MPLS-SDN-Bell-SDWAN-Mark-Ferreira.pdf{% endcapture %}
 
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 
 <div class="fitvidsignore" id="pdf"></div>
 

@@ -1,5 +1,5 @@
 ---
-permalink: /20200212-srv6-status/srv6-technology-and-use-cases-part2
+permalink: 20200212-srv6-status/srv6-technology-and-use-cases-part2
 published: true
 breadnav: true
 date: '2020-02-12 03:06 -0700'
@@ -16,6 +16,6 @@ header:
 ## Slides
 
 {% capture "pdf-link" %}/images/20200212-SRv6-Technology-and-Use-cases-Part2.pdf{% endcapture %}
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
 <script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

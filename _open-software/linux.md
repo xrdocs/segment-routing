@@ -4,7 +4,7 @@ app: false
 breadnav: true
 date: '2017-01-20 12:18 +0100'
 header:
-  teaser: /images/new-design/tux.png
+  teaser: images/new-design/tux.png
 excerpt: >-
   The IPv6 dataplane functionalities for Segment Routing are available in the Linux Kernel. Find out how to start using SR on any Linux host.
 ---

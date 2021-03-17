@@ -17,7 +17,7 @@ Check out the presentation here:
 {% capture "pdf-link" %}https://pc.nanog.org/static/published/meetings/NANOG75/1910/20190220_Liste_Unleashing_Sr_Traffic_v1.pdf{% endcapture %}
 
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 
 <div class="fitvidsignore" id="pdf"></div>
 

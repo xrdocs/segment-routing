@@ -17,6 +17,6 @@ The Delay Measurement solution, as part of the Performance Monitoring functional
 
 {% capture "pdf-link" %}/images/sr-mpls-pm-rev1g-km1.pdf{% endcapture %}
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
 <script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

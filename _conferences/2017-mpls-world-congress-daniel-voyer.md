@@ -16,7 +16,7 @@ header:
 {% capture "pdf-link" %}/images/Bell_Canada_SR_Paris_2017.pdf{% endcapture %}
 
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 
 <div class="fitvidsignore" id="pdf"></div>
 

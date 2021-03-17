@@ -17,7 +17,7 @@ Check out the presentation here:
 {% capture "pdf-link" %}https://pc.nanog.org/static/published/meetings/NANOG71/1445/20171005_Dawra_Segment_Routing_Ipv6_v1.pdf{% endcapture %}
 
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 
 <div class="fitvidsignore" id="pdf"></div>
 

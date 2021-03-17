@@ -18,7 +18,7 @@ excerpt: >-
   <a href="http://www.eantc.de/fileadmin/eantc/downloads/events/2017-2020/MPLS2019/EANTC-MPLSSDNNFV2019-WhitePaper-v1.3.pdf">
   Click here to access the EANTC whitepaper PDF.</a>
   
-teaser: /images/eantc-logo.png
+teaser: images/eantc-logo.png
 categories:
   - SRv6
   - SRMPLS

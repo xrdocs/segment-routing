@@ -7,13 +7,13 @@ author: Clarence Filsfils
 technology: 'SRv6'
 excerpt: 'Clarence Filsfils: SRv6 solution, use-cases, deployments and research opportunities'
 header:
-  teaser: '/images/20181106-cnsm-srv6.png'
+  teaser: 'images/20181106-cnsm-srv6.png'
 ---    
 
 {% capture "pdf-link" %}/images/20181106-cnsm-srv6.pdf{% endcapture %}
 
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 
 <div class="fitvidsignore" id="pdf"></div>
 

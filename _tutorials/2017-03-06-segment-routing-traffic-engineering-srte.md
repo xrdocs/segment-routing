@@ -19,6 +19,6 @@ SR-TE provides lots of functionality. It was designed with lead operators, along
 
 {% capture "pdf-link" %}/images/SRTE_TOI_dev_v20a_EXTERNAL.pdf{% endcapture %}
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
 <script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

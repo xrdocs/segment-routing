@@ -17,6 +17,6 @@ See how segment routing leverages the existing MPLS data plane and learn how to 
 
 {% capture "pdf-link" %}/images/0020-SR-TOI-MPLS_dataplane_v9.pdf{% endcapture %}
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
 <script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

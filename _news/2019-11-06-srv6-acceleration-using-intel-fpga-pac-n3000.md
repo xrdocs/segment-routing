@@ -8,5 +8,5 @@ technology: 'SRv6'
 excerpt: >-
   The Intel FPGA Programmable Accelerator Card (PAC) N3000, an FPGA-based solution, can be programmed to handle almost any type of functionality – including networking functions – thus improving network and server performance. HCL Technologies and Intel have co-authored a White Paper titled “Segment Routing Over IPv6 Acceleration Using Intel FPGA Programmable Acceleration Card N3000” that describes a solution to hardware-based SRv6 using FPGA technology to improve network performance.
 
-teaser: /images/intel-logo.jpg
+teaser: images/intel-logo.jpg
 ---

@@ -19,5 +19,5 @@ excerpt: >-
   The MPBB design leverages the flexibility and simplicity of SR-TE IGP Flex-Algo. 
   Read this document to find out how Flex-Algo helps realizing the MPBB goals.
 
-teaser: /images/2019-08-01-using-SR-TE-flex-algo-in-MPBB-design.JPG
+teaser: images/2019-08-01-using-SR-TE-flex-algo-in-MPBB-design.JPG
 ---

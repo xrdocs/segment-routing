@@ -8,5 +8,5 @@ eurl: https://xrdocs.github.io/cloud-scale-networking/blogs/2018-05-03-cisco-ios
 technology: 'SRMPLS'
 excerpt: >-
   Read Jose Liste’s blog documenting the prominent role that SR played at MPLS WC 2018 interop. This event provides the latest proof-point of overwhelming multi-vendor support for SR.
-teaser: /images/mpls-wc-18.png
+teaser: images/mpls-wc-18.png
 ---

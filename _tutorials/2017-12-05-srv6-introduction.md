@@ -14,6 +14,6 @@ Learn about the power of SRv6 network programming concept. Find out how SRv6 pro
 
 {% capture "pdf-link" %}/images/srv6-intro-rev1d_for_PDF.pdf{% endcapture %}
 
-<script src="{{ 'assets/js/pdfobject.min.js' }}"></script>
+<script src="{{ relative_url '/assets/js/pdfobject.min.js' }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "100%"});</script>
+<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

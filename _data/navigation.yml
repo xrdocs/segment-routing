@@ -4,36 +4,36 @@ main:
   - title: "SRv6"
     subfolderitems:
       - page: "News" 
-        url: "/srv6-news/"
+        url: srv6-news/"
 
       - page: "Demos" 
-        url: "/srv6-demos/"
+        url: "srv6-demos"
 
       - page: "Tutorials" 
-        url: "/srv6-tutorials/"
+        url: "srv6-tutorials"
 
       - page: "Conferences" 
-        url: "/srv6-conferences/"
+        url: "srv6-conferences"
 
   - title: "SR MPLS"
     subfolderitems:
       - page: "News" 
-        url: "/srmpls-news/"
+        url: "srmpls-news"
 
       - page: "Demos" 
-        url: "/srmpls-demos/"
+        url: "srmpls-demos"
 
       - page: "Tutorials" 
-        url: "/srmpls-tutorials/"
+        url: "srmpls-tutorials"
 
       - page: "Conferences" 
-        url: "/srmpls-conferences/"
+        url: "srmpls-conferences"
   
   - title: "IETF" 
-    url: "/ietf/"
+    url: "ietf"
 
   - title: "Open Software"
-    url: "/open-software/"
+    url: "open-software"
 
   - title: "Scientific Papers"
-    url: "/scientific-papers/"
+    url: "scientific-papers"

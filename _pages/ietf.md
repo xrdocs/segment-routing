@@ -81,6 +81,9 @@ list_usecases:
   - title: Segment Routing Traffic Engineering Leveraging Existing IPv6 Interface Addresses
     url: https://datatracker.ietf.org/doc/draft-dukes-6man-sr-te-intf-address/
     status: Draft
+  - title: SR For SDWAN: VPN with Underlay SLA
+    url: https://datatracker.ietf.org/doc/draft-dukes-spring-sr-for-sdwan/
+    status: Draft
 
 list_deploy:
   - title: SRv6 Implementation and Deployment Status
@@ -117,6 +120,12 @@ list_oam:
   - title: MPLS Data Plane Encapsulation for In-situ OAM Data
     url: https://datatracker.ietf.org/doc/draft-gandhi-mpls-ioam-sr/
     status: Draft
+  - title: OAM for Service Programming with Segment Routing
+    url: https://datatracker.ietf.org/doc/draft-ali-spring-sr-service-programming-oam/
+    status: Draft
+  - title: LSP Ping/Traceroute for Prefix SID in Presence of Multi-Algorithm/Multi-Topology Networks
+    url: https://datatracker.ietf.org/doc/draft-iqbal-spring-mpls-ping-algo/
+    status: Draft
 
 list_pm:
   - title: A Two-Way Active Measurement Protocol (TWAMP)
@@ -125,7 +134,7 @@ list_pm:
   - title: Simple Two-Way Active Measurement Protocol
     url: https://datatracker.ietf.org/doc/rfc8762/
     status: RFC 8762
-  - title: Enhanced Performance Delay and Liveness Monitoring in Segment Routing Networks
+  - title: Enhanced Performance and Liveness Monitoring in Segment Routing Networks
     url: https://datatracker.ietf.org/doc/draft-gandhi-spring-sr-enhanced-plm/
     status: Draft
   - title: Performance Measurement Using Simple TWAMP (STAMP) for Segment Routing Networks
@@ -136,6 +145,9 @@ list_pm:
     status: WG Document
   - title: Simple TWAMP (STAMP) Extensions for Segment Routing Networks
     url: https://datatracker.ietf.org/doc/draft-gandhi-ippm-stamp-srpm/
+    status: Draft
+  - title: Simple Two-Way Direct Loss Measurement Procedure
+    url: https://datatracker.ietf.org/doc/draft-gandhi-ippm-simple-direct-loss
     status: Draft
 
 list_mcast:
@@ -149,8 +161,8 @@ list_mcast:
     url: https://datatracker.ietf.org/doc/draft-ietf-pim-sr-p2mp-policy/
     status: WG Document
   - title: Multicast and Ethernet VPN with Segment Routing Point-to-Multipoint Trees
-    url: https://datatracker.ietf.org/doc/draft-parekh-bess-mvpn-evpn-sr-p2mp/
-    status: Draft
+    url: https://datatracker.ietf.org/doc/draft-ietf-bess-mvpn-evpn-sr-p2mp/
+    status: WG Document
 
 list_extensions:
 
@@ -170,6 +182,9 @@ list_srv6:
   - title: SRv6 Network Programming Overhead Analysis
     url: https://datatracker.ietf.org/doc/draft-dukes-spring-srv6-overhead-analysis/
     status: Draft
+  - title: Structured Flow Label
+    url: https://datatracker.ietf.org/doc/draft-filsfils-6man-structured-flow-label/
+    status: Draft
 
 list_srmpls:
   - title: Segment Routing interworking with LDP
@@ -181,11 +196,20 @@ list_srmpls:
   - title: SR-MPLS Data Plane with IPv6 Control Plane
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-mpls-ipv6-control-plane/
     status: Draft
+  - title: Using Entropy Label for Network Slice Identification in MPLS networks
+    url: https://datatracker.ietf.org/doc/draft-decraene-mpls-slid-encoded-entropy-label-id/
+    status: Draft
 
 list_bgp:
   - title: Segment Routing Prefix SID extensions for BGP
     url: https://datatracker.ietf.org/doc/rfc8669/
     status: RFC 8669
+  - title: BGP Color-Aware Routing Problem Statement
+    url: https://datatracker.ietf.org/doc/draft-dskc-bess-bgp-car-problem-statement/
+    status: Draft
+  - title: BGP Color-Aware Routing (CAR)
+    url: https://datatracker.ietf.org/doc/draft-dskc-bess-bgp-car/
+    status: Draft
   - title: Advertising Segment Routing Policies in BGP
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-segment-routing-te-policy/
     status: WG Document
@@ -213,8 +237,8 @@ list_bgp_ls:
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-srv6-ext/
     status: WG Document
   - title: BGP Link-State Extensions for BGP-only Fabric
-    url: https://datatracker.ietf.org/doc/draft-ketant-idr-bgp-ls-bgp-only-fabric/
-    status: Draft
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-bgp-only-fabric/
+    status: WG Document
   - title: BGP-LS Advertisement of Segment Routing Service Segments
     url: https://datatracker.ietf.org/doc/draft-dawra-idr-bgp-ls-sr-service-segments/
     status: Draft

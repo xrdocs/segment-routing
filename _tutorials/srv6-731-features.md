@@ -12,7 +12,7 @@ excerpt: SRv6 7.3.1 features
 ## SRv6 uSID Configuration
 This document describes simple SRv6 uSID configuration in IOS XR 7.3.1. It covers SRv6 uSID itself, L3VPN for IPv4 and IPv6, TI-LFA and microloop avoidance and Flexible Algorithm. This document is collateral to the 7.3.1 feature introduction: [Title of youtube video](https://www.youtube.com/watch?v=rcBZc5uF00Q).
 
-## Introduction
+### Introduction
 Simple network with 5 routers. Platforms are NCS540 and NCS5501. But configurations are same across IOS XR portfolio.
 
 ![](/images/731_SRv6_features/image1.png)
@@ -24,9 +24,9 @@ Here we will provide configuration templates and at the end of the document you 
 
 `hw-module profile segment-routing srv6 mode micro-segment format f3216`
 
-## Basic SRv6 Configuration
+### Basic SRv6 Configuration
 
-### Interfaces:
+#### Interfaces:
 
 ```
 interface TenGigE0/0/0/0
@@ -39,7 +39,7 @@ interface TenGigE0/0/0/1
 ```
 
 
-### SRv6 locator:
+#### SRv6 locator:
 
 ```
 segment-routing
@@ -57,7 +57,7 @@ etc
 
 ![](/images/731_SRv6_features/image2.png)
 
-## ISIS Configuration
+### ISIS Configuration
 
 
 ```
@@ -80,9 +80,9 @@ router isis 1
 
 ![](/images/731_SRv6_features/image3.png)
 
-## L3VPN and BGP Configuration
+### L3VPN and BGP Configuration
 
-### VRF Configuration
+#### VRF Configuration
 
 ```
 vrf 1
@@ -99,7 +99,7 @@ interface Loopback101
 
 ![](/images/731_SRv6_features/image4.png)
 
-### BGP Configuration R1:
+#### BGP Configuration R1:
 
 ```
 int lo0
@@ -133,7 +133,7 @@ router bgp 1
    redistribute connected
 ```
 
-### BGP Configuration R2-R5:
+#### BGP Configuration R2-R5:
 ```
 int lo0
 ipv6 addr fcbb:bb00:X::1/128
@@ -158,7 +158,7 @@ router bgp 1
 
 ![](/images/731_SRv6_features/image5.png)
 
-## TI-LFA and microloop avoidance
+### TI-LFA and microloop avoidance
 
 ```
 isis 1
@@ -174,7 +174,7 @@ isis 1
    fast-reroute per-prefix ti-lfa
 ```
 
-## Performance Measurement
+### Performance Measurement
 
 ```
 performance-measurement
@@ -186,9 +186,9 @@ performance-measurement
 
 ![](/images/731_SRv6_features/image6.png)
 
-## Flexible Algorithm
+### Flexible Algorithm
 
-### Locator:
+#### Locator:
 
 ```
 segment-routing
@@ -200,7 +200,7 @@ segment-routing
     algorithm 128
 ```
 
-### ISIS:
+#### ISIS:
 
 ```
 router isis 1
@@ -215,7 +215,7 @@ router isis 1
 
 ![](/images/731_SRv6_features/image7.png)
 
-### VRF:
+#### VRF:
 
 ```
 vrf 2
@@ -230,7 +230,7 @@ interface Loopback102
   ipv6 address 2001:7543::X/128
 ```
 
-### BGP:
+#### BGP:
 
 ```
 router bgp 1
@@ -245,7 +245,7 @@ vrf 1
 
 ![](/images/731_SRv6_features/image8.png)
 
-## Configurations:
+### Configurations:
 [Router1](/images/731_SRv6_features/m1.txt),
 [Router2](/images/731_SRv6_features/m2.txt),
 [Router3](/images/731_SRv6_features/m3.txt),

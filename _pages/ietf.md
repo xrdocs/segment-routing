@@ -81,7 +81,7 @@ list_usecases:
   - title: Segment Routing Traffic Engineering Leveraging Existing IPv6 Interface Addresses
     url: https://datatracker.ietf.org/doc/draft-dukes-6man-sr-te-intf-address/
     status: Draft
-  - title: SR For SDWAN: VPN with Underlay SLA
+  - title: SR For SDWAN VPN with Underlay SLA
     url: https://datatracker.ietf.org/doc/draft-dukes-spring-sr-for-sdwan/
     status: Draft
 

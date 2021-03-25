@@ -10,7 +10,8 @@ excerpt: SRv6 7.3.1 features
 ---
 
 ## SRv6 uSID Configuration
-This document describes simple SRv6 uSID configuration in IOS XR 7.3.1. It covers SRv6 uSID itself, L3VPN for IPv4 and IPv6, TI-LFA and microloop avoidance and Flexible Algorithm. This document is collateral to the 7.3.1 feature introduction: [Title of youtube video](https://www.youtube.com/watch?v=rcBZc5uF00Q).
+###### Author:Jakub Horn
+This document describes simple SRv6 uSID configuration in IOS XR 7.3.1. It covers SRv6 uSID itself, L3VPN for IPv4 and IPv6, TI-LFA and microloop avoidance and Flexible Algorithm. This document is collateral to the 7.3.1 feature introduction: [Video](https://www.youtube.com/watch?v=Dna59DZlLmQ).
 
 ### Introduction
 Simple network with 5 routers. Platforms are NCS540 and NCS5501. But configurations are same across IOS XR portfolio.

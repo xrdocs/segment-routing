@@ -5,9 +5,7 @@
 {% endif %}
 
 <div class="accordion-item conf">
-
     <article class="conf-item" itemscope itemtype="http://schema.org/CreativeWork">
-
         <div class="conf-image">
           {% if post.source-url %}
             <a href="{{ post.source-url }}" rel="permalink">
@@ -21,18 +19,14 @@
         {% else %}
           <img class="conf-img" src="{{ post.teaser | relative_url }}">
         {% endif %}
-          
         </div>
         <div class="conf-description">
-        
             <h3 class="archive__item-title" itemprop="headline">
               {{ title }}
             </h3>
         </a>
             {% if post.excerpt and post.source-url %}
-                <a href="{{ post.source-url }}" rel="permalink">
                   <p class="article-excerpt"> {{ post.excerpt }} </p>
-                </a>
              {% elsif post.excerpt and post.url %}   
                 <a href="{{ post.url | relative_url }}" rel="permalink">
                   <p class="article-excerpt"> {{ post.excerpt }} </p>
@@ -43,7 +37,5 @@
                 </a>
             {% endif %}
         </div>
-        
     </article>
-
 </div> 

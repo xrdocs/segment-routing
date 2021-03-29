@@ -661,6 +661,7 @@ label.underline:before, .nav-link > a.underline:before {
   line-height: 1.2em;
   font-weight: 400;
   letter-spacing: 0.5px;
+  text-align: left;
 }
 .article-title {
   margin: 0px;
@@ -677,7 +678,8 @@ label.underline:before, .nav-link > a.underline:before {
   font-size: 1em;
   line-height: 2em;
   font-weight: 300;
-}
+  text-align: left; 
+  }
 .paper-publishing,
 .news-info > a,
 .news-info {

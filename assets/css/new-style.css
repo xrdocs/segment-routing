@@ -816,7 +816,7 @@ details {
 }
 .conf-img {
   max-width: 100%;
-  mac-height: 100%;
+  max-height: 100%;
   object-fit: cover;
   border-radius: 20px;
 }

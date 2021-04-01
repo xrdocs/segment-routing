@@ -1,19 +1,29 @@
-<div class="container">
-  <article itemscope itemtype="http://schema.org/CreativeWork">
-    <a href="{{ post.eurl }}" class="news-link">
-      <div class="news-box">
-        <div class="news-title">{{ post.title }}</div>
-        <p class="news-excerpt">{{ post.excerpt }}</p>
-        <div class="news-info">
-          {% if post.author %}
-            {{ post.author }}, 
-          {% else %}
-            Author Unknown,
-          {% endif %}
-          <a href="{% if post.source %} {{ post.source-url }} {% endif %} " class="publication-link">{{ post.source }}</a>
-          - {{ post.date | date: '%B %d, %Y' }}
-        </div>
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="accordion-item conf">
+    <article class="conf-item" itemscope itemtype="http://schema.org/CreativeWork">
+      <div class="conf-image">
+        {% if post.source-url  %}
+          <a href="{{ post.source-url }}" rel="permalink">
+        {% elsif post.eurl %}
+          <a href="{{ post.eurl | relative_url }}" rel="permalink">
+        {% endif %}
+      {% if post.header.teaser %}
+        <img class="conf-img" src="{{ post.header.teaser | relative_url }}">
+      {% else %}
+        <img class="conf-img" src="{{ post.teaser | relative_url }}">
+      {% endif %}
       </div>
-    </a>
-  </article>
-</div>
+      <div class="conf-description">
+        <h3 class="archive__item-title" itemprop="headline">
+          {{ title }}
+        </h3>
+      </a>
+      <p class="article-excerpt"> {{ post.excerpt }} </p>
+      </div>
+    </article>
+</div> 

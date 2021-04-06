@@ -661,6 +661,8 @@ label.underline:before, .nav-link > a.underline:before {
   line-height: 1.2em;
   font-weight: 400;
   letter-spacing: 0.5px;
+}
+.news-title {
   text-align: left;
 }
 .article-title {

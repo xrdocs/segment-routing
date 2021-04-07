@@ -9,8 +9,8 @@
       <div class="demo-image">
         <img class="demo-img" src="{{ post.teaser | relative_url }}">
       </div>
-      <div class="news-title">{{ post.title }}</div>
-      <p class="news-excerpt">{{ post.excerpt }}</p>
+      <div class="demo-title">{{ post.title }}</div> 
+      <p class="demo-excerpt">{{ post.excerpt }}</p>
       <div class="news-info">
         {% if post.author %}
           {{ post.author }} 

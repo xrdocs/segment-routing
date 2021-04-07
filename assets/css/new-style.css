@@ -341,6 +341,7 @@ label.underline:before, .nav-link > a.underline:before {
   line-height: 40px;
   font-weight: 300;
 }
+.demo-excerpt,
 .feature-excerpt {
   margin-bottom: 10px;
   font-family: 'Cisco Sans TT', sans-serif;
@@ -653,7 +654,8 @@ label.underline:before, .nav-link > a.underline:before {
   transform: translate(0px, -1.5px);
 }
 .archive__item-title,
-.news-title {
+.news-title,
+.demo-title {
   margin-top: 20px;
   margin-bottom: 10px;
   color: #149ed9;
@@ -662,7 +664,8 @@ label.underline:before, .nav-link > a.underline:before {
   font-weight: 400;
   letter-spacing: 0.5px;
 }
-.news-title {
+.news-title,
+.conf-title  {
   text-align: left;
 }
 .article-title {
@@ -719,6 +722,7 @@ a.publication-link {
 .demo-img { 
   width: 100%;
   display: block;
+  object-fit: cover;
 }
 /* Open Software Page */
 .projects-grid-container {

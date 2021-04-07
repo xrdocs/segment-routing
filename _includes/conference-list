@@ -21,13 +21,13 @@
         {% endif %}
         </div>
         <div class="conf-description">
-            <h3 class="archive__item-title" itemprop="headline">
+            <h3 class="conf-title" itemprop="headline">
               {{ title }}
             </h3>
         </a>
             {% if post.link %}
                 <a href="{{ post.link | relative_url }}">
-                  <p class="article-excerpt"> {{ post.excerpt }} </p>
+                  <p class="conf-excerpt"> {{ post.excerpt }} </p>
                 </a>
             {% elsif post.excerpt and post.url %}   
                 <a href="{{ post.url | relative_url }}" rel="permalink">

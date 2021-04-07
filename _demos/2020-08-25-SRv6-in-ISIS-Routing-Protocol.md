@@ -6,7 +6,7 @@ title: 'SRv6 ISIS Routing Protocol Interoperability'
 author: 'Jakub Horn, Cisco'
 technology: 'SRv6'
 excerpt: 'Jakub Horn demonstrates ISIS interoperability for SRv6.'
-teaser: 'https://img.youtube.com/vi/IQWis2rKUsw/mqdefault.jpg'
+teaser: images/SRv6 ISIS Routing Protocol Interoperability.jpeg
 ---    
 Jakub Horn demonstrates ISIS interoperability for SRv6. it has two Cisco routers and one Arrcus router. You can learn how SRv6 locator is encoded and how certain uSID functions are distributed.
 

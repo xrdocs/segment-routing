@@ -19,7 +19,7 @@
       {% endif %}
       </div>
       <div class="conf-description">
-        <h3 class="archive__item-title" itemprop="headline">
+        <h3 class="news-title" itemprop="headline">
           {{ title }}
         </h3>
       </a>

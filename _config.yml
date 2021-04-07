@@ -113,7 +113,7 @@ collections:
   conferences:
     output: true
     permalink: /:collection/:path/
-  open-software:
+  open-software: 
     output: true
     permalink: /:collection/:path/
   scientific-papers:
@@ -125,7 +125,25 @@ collections:
   srv6-news:
     output: true
     permalink: /:collection/:path/
+  srv6-demos:
+    output: true
+    permalink: /:collection/:path/
+  srv6-tutorials:
+    output: true
+    permalink: /:collection/:path/
+  srv6-conferences:
+    output: true
+    permalink: /:collection/:path/
   srmpls-news:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-demos:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-tutorials:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-conferences:
     output: true
     permalink: /:collection/:path/
   demos:

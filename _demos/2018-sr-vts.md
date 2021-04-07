@@ -6,7 +6,7 @@ title: 'CO Orchestration using SR-VTS'
 author: 'Lim Fung, Cisco'
 technology: 'SRv6, SRMPLS'
 excerpt: 'Demonstration on SP Central Office Fabric Orchestration using Cisco VTS with Segment Routing.'
-teaser: 'https://img.youtube.com/vi/N4H2S0YDJbo/mqdefault.jpg'
+teaser: 'https://img.youtube.com/vi/N4H2S0YDJbo/maxresdefault.jpg'
 ---
 Traditional service provider networks are often divided into different domains, implemented using different underlay technologies. This makes it difficult to implement end-to-end services. SDN and Segment Routing provides the ability to simplify and allow the same transport technology to be deployed across different network domains. 
   

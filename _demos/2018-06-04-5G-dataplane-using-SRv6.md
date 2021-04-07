@@ -6,7 +6,7 @@ title: '5G dataplane using SRv6'
 author: 'Jakub Horn, Cisco'
 technology: 'SRv6'
 excerpt: 'Jakub Horn shows SRv6 as an alternative for GTP protocol for 5G networks, and demonstrates the advantages of such approach.'
-teaser: 'https://img.youtube.com/vi/naph379CtdY/mqdefault.jpg'
+teaser: 'https://img.youtube.com/vi/naph379CtdY/maxresdefault.jpg'
 categories:
   - SRv6
 ---    

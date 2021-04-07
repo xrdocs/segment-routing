@@ -123,7 +123,25 @@ collections:
   srv6-news:
     output: true
     permalink: /:collection/:path/
+  srv6-demos:
+    output: true
+    permalink: /:collection/:path/
+  srv6-tutorials:
+    output: true
+    permalink: /:collection/:path/
+  srv6-conferences:
+    output: true
+    permalink: /:collection/:path/
   srmpls-news:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-demos:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-tutorials:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-conferences:
     output: true
     permalink: /:collection/:path/
   demos:
@@ -156,7 +174,7 @@ defaults:
       read_time: false
       related: true
       position: "top"
-# _open-software
+# _open-software 
   - scope:
       path: ""
       type: open-software

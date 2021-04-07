@@ -6,7 +6,7 @@ title: 'SRv6 Flexible Algorithm'
 author: 'Jakub Horn, Cisco'
 technology: 'SRv6'
 excerpt: 'Jakub Horn demonstrates SRv6 Flexible Algorithm. Flexible Algorithm enables an operator to create network slices mapping to specific transport SLA requirements such as low-delay.'
-teaser: 'https://img.youtube.com/vi/GdLtEz-Av8U/mqdefault.jpg'
+teaser: 'https://img.youtube.com/vi/GdLtEz-Av8U/maxresdefault.jpg'
 categories:
   - SRv6
 ---

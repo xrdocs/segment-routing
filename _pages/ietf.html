@@ -92,6 +92,16 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
   {% endfor %}
   </details>
 
+  {% assign articles = site.data.ietf["list_srv6"] %}
+  <details>
+    <summary>SRv6</summary>
+  {% for post in articles %}
+    <div>
+      {% include rfc_list %}
+    </div>
+  {% endfor %}
+  </details>
+
   {% assign articles = site.data.ietf["list_bgp"] %}
   <details>
     <summary>BGP</summary>

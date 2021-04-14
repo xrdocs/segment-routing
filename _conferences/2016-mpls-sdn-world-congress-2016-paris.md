@@ -4,6 +4,7 @@ breadnav: true
 date: '2016-11-22 04:29 -0700'
 title: 'MPLS/SDN World Congress 2016, Paris'
 author: Segment Routing Team
+technology: 'SRMPLS'
 excerpt: >-
   MPLS/SDN world congress, 2016 held in Paris:  Segment Routing: Deployment
   Experience and Technology Update
@@ -23,7 +24,7 @@ header:
 ### Video  
 
 
-<iframe width="320" height="190" class="fitvidsignore" src="https://www.youtube.com/embed/VORGW0bBHLs" frameborder="0" allowfullscreen></iframe>  
+<iframe width="100%" height="400px" class="fitvidsignore" src="https://www.youtube.com/embed/VORGW0bBHLs" frameborder="0" allowfullscreen></iframe>  
 
   
 
@@ -33,14 +34,14 @@ header:
 
 <script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>  
+<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>  
 
 ### Longer video  
   
 Recorded post conference.  
 {: .notice--info}  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EUxm9EH1wyQ" frameborder="0" allowfullscreen></iframe>  
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/EUxm9EH1wyQ" frameborder="0" allowfullscreen></iframe>  
 
 
 ## Segment Routing On-Demand Next-hop (ODN) Demo  
@@ -48,7 +49,7 @@ Recorded post conference.
 **Jose Liste, Cisco**
 {: .notice--info}  
     
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0xtysG86Fik" frameborder="0" allowfullscreen></iframe>  
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/0xtysG86Fik" frameborder="0" allowfullscreen></iframe>  
   
   
 ## Segment Routing Agile Carrier Ethernet (ACE) Demo  
@@ -56,7 +57,7 @@ Recorded post conference.
 **Alex Preusche, Cisco**
 {: .notice--info}  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/biYqyAn9rl0" frameborder="0" allowfullscreen></iframe>  
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/biYqyAn9rl0" frameborder="0" allowfullscreen></iframe>  
   
 
 ## Segment Routing TI-LFA FRR Node Protection Demo  
@@ -64,7 +65,7 @@ Recorded post conference.
 **Kris Michielsen, Cisco**
 {: .notice--info}  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dttw2nc5FrA" frameborder="0" allowfullscreen></iframe>  
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/dttw2nc5FrA" frameborder="0" allowfullscreen></iframe>  
   
     
 ## Segment Routing Microloop Avoidance Demo 
@@ -72,13 +73,13 @@ Recorded post conference.
 **Kris Michielsen, Cisco**
 {: .notice--info}  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7nfnp-dnUHk" frameborder="0" allowfullscreen></iframe>  
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/7nfnp-dnUHk" frameborder="0" allowfullscreen></iframe>  
   
     
 ## Segment Routing and EPE for Application Optimization   
   
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RzsyUfS4lb0" frameborder="0" allowfullscreen></iframe>  
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/RzsyUfS4lb0" frameborder="0" allowfullscreen></iframe>  
   
 
   

@@ -1,0 +1,60 @@
+{% if include.id %}
+  {% assign slider = page.[include.id] %}
+{% else %}
+  {% assign slider = page.slider %}
+{% endif %}
+
+<div class="slider">
+  
+  <div class="slideshow-container feature__wrapper">
+    <div class="prev" onclick="plusSlides(-1, '{{ slider[0].class }}')">
+      <div class="icon-slider-left"><i class="fas fa-chevron-left"></i></div>
+    </div>
+    <div class="next" onclick="plusSlides(1, '{{ slider[0].class }}')">
+      <div class="icon-slider-right"><i class="fas fa-chevron-right"></i></div>
+    </div>
+    <div class="feature-slide feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      {% if slider[0].class == "book-slide" %}
+        <h2 class="section-title">Segment Routing book series</h2>
+      {% endif %}
+
+      {% for f in slider %}
+        {% if f.url contains "://" %}
+          {% capture f_url %}{{ f.url }}{% endcapture %}
+        {% else %}
+          {% capture f_url %}{{ f.url | relative_url }}{% endcapture %}
+        {% endif %}
+          
+            <div class="{{f.class}} fade archive__item">
+              {% if f.image_path %}
+                <div class="archive__item-teaser">
+                  <img class="slide-image" src=
+                    {% if f.image_path contains "://" %}
+                      "{{ f.image_path }}"
+                    {% else %}
+                      "{{ f.image_path | relative_url }}"
+                    {% endif %}
+                  alt="{% if f.alt %}{{ f.alt }}{% endif %}" {% if f.image_width %} style="width:100%å;"{% endif %}>
+                </div>
+              {% endif %}
+
+              <div class="quote-block archive__item-body">
+              {% if f.excerpt %}
+                  <div class="slide-excerpt archive__item-excerpt">
+                    {{ f.excerpt | markdownify }}
+                  </div>
+                {% endif %}
+
+                {% if f.title %}
+                  <h2 class="slide-title archive__item-title">{{ f.title }}</h2>
+                {% endif %}
+
+                {% if f.url %}
+                  <a href="{{ f_url }}" class="btn {{ f.btn_class }}"><button>{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</button></a>
+                {% endif %}
+              </div>
+            </div>
+      {% endfor %}      
+    </div>
+  </div>
+</div>

@@ -5,6 +5,7 @@ source: Cisco Systems
 source-url: https://www.cisco.com/c/dam/m/digital/elq-cmcglobal/OCA/Assets/Federal/The_Multiplanar_Backbone_MPBB.pdf
 date: 2019-08-01
 eurl: https://www.cisco.com/c/dam/m/digital/elq-cmcglobal/OCA/Assets/Federal/The_Multiplanar_Backbone_MPBB.pdf
+technology: 'SRv6, SRMPLS'
 excerpt: >-
   This whitepaper describes the drivers, use cases, and design of the multiplanar backbone.<br />
   
@@ -18,5 +19,5 @@ excerpt: >-
   The MPBB design leverages the flexibility and simplicity of SR-TE IGP Flex-Algo. 
   Read this document to find out how Flex-Algo helps realizing the MPBB goals.
 
-teaser: /images/2019-08-01-using-SR-TE-flex-algo-in-MPBB-design.JPG
+teaser: images/2019-08-01-using-SR-TE-flex-algo-in-MPBB-design.JPG
 ---

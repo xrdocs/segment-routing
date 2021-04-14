@@ -1,3 +1,4 @@
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -10,12 +11,15 @@ locale                   : "en-US"
 title                    : "Segment Routing"
 title_separator          : "-"
 name                     : &name "Cisco Systems Inc"
+
+
+
 description              : &description "Documentation, Blogs and Tutorials for all things Segment Routing "
-url                      : "https://www.segment-routing.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://www.segment-routing.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/xrdocs/segment-routing"
-teaser                   : "/images/sr-teaser-icon.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-logo                     : "/images/sr-logo-blue.png"
+teaser                   : "images/new-design/SR-Background-Image-3.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+logo                     : "images/sr-logo-blue.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 
@@ -55,7 +59,8 @@ exclude:
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
-  - .sass-cache
+  - .sass-cache  
+  - [vendor]
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
@@ -85,7 +90,7 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-incremental: false
+incremental: true
 
 
 # Markdown Processing
@@ -108,13 +113,37 @@ collections:
   conferences:
     output: true
     permalink: /:collection/:path/
-  open-software:
+  open-software: 
     output: true
     permalink: /:collection/:path/
   scientific-papers:
     output: true
     permalink: /:collection/:path/
-  news:
+  news: 
+    output: true
+    permalink: /:collection/:path/
+  srv6-news:
+    output: true
+    permalink: /:collection/:path/
+  srv6-demos:
+    output: true
+    permalink: /:collection/:path/
+  srv6-tutorials:
+    output: true
+    permalink: /:collection/:path/
+  srv6-conferences:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-news:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-demos:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-tutorials:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-conferences:
     output: true
     permalink: /:collection/:path/
   demos:
@@ -182,6 +211,7 @@ defaults:
       related: true
       position: "top"
 
+
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
@@ -190,7 +220,7 @@ timezone:  Europe/Madrid# http://en.wikipedia.org/wiki/List_of_tz_database_time_
 future: true
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -242,6 +272,7 @@ prose:
   ignore:
     - index.md
     - _config.yml
+    - /_sass
     - /_layouts
     - /_includes
     - /_posts
@@ -251,6 +282,7 @@ prose:
     - /_drafts
     - /_includes
     - /_layouts
+    - /_pages
     - /_pets
     - /_portfolio
     - /_posts
@@ -271,6 +303,7 @@ prose:
     - feed.xml
     - search.html
     - .travis.yml
+    - _config.pdf.yml
     - _config.travis.yml
   metadata:
     _tutorials:

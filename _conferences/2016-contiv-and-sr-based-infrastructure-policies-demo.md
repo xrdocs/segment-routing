@@ -3,6 +3,7 @@ published: true
 breadnav: true
 date: '2016-09-25 02:15 -0700'
 title: Contiv and SR-based infrastructure Policies Demo
+technology: 'SRv6, SRMPLS'
 author: Segment Routing Team
 excerpt: >-
   Cisco Live Las Vegas 2016: Segment Routing with contiv for Infrastructure
@@ -13,4 +14,4 @@ header:
 
 ## Segment Routing with Contiv for Infrastructure Policy Enforcement
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rLUHFfx3i64" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/rLUHFfx3i64" frameborder="0" allowfullscreen></iframe>

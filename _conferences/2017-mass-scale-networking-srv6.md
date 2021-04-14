@@ -4,9 +4,10 @@ breadnav: true
 date: '2017-09-12 03:06 -0700'
 title: 'Mass Scale Networking with SRv6'
 author: Segment Routing Team
+technology: 'SRv6'
 excerpt: 'In this cisco webinar Clarence Filsfils gives an overview on how Segment Routing for IPv6 helps Mass Scale Networking.'
 header:
-  teaser: '/images/sr-logo-blue.png'
+  teaser: 'images/sr-logo-blue.png'
 ---    
 Check out the webinar in this link:
 

@@ -1,47 +1,24 @@
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
-<div class="bloglist__item">
-  <article itemscope itemtype="http://schema.org/CreativeWork">
-    {% if post.teaser %}
-      <div class="bloglist__item-teaser">
-        <a href="{{ post.url | relative_url }}" rel="permalink">
-            <img src=
-              {% if post.teaser contains "://" %}
-                "{{ post.teaser }}"
-              {% else %}
-                "{{ post.teaser | relative_url }}"
-              {% endif %}
-              alt="">
-        </a>
+<article itemscope itemtype="http://schema.org/CreativeWork">
+  {% if post.link %}
+    <a href="{{ post.link }}">
+  {% else %}
+    <a href="{{ post.url | relative_url }}" rel="permalink">
+  {% endif %}
+  
+    <div class="demo-box">
+      <div class="demo-image">
+        <img class="demo-img" src="{{ post.teaser | relative_url }}">
       </div>
-    {% endif %}
-    <div class="bloglist__item-body">
-      <h3 class="bloglist__item-title" itemprop="headline">
-          <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
-      </h3>
-      {% if post.author or post.date or post.excerpt %}
-        <p class="bloglist__item-excerpt">
-          {% if post.excerpt %}{{ post.excerpt }}{% endif %}<br />
-          <em>
-            {% if post.author %}
-              {{ post.author }}{% if post.source %},{% endif %}
-            {% endif %}
-            {% if post.source %}
-              {% if post.source-url %}
-                <a href="{{ post.source-url }}" rel="external">{{ post.source }}</a>
-              {% else %}
-                {{ post.source }}
-              {% endif %}
-            {% endif %}
-            &mdash;
-            {% if post.date %}{{ post.date | date: '%B %d, %Y' }}{% endif %}
-          </em>
-        </p>
-      {% endif %}
+      <div class="demo-title">{{ post.title }}</div> 
+      <p class="demo-excerpt">{{ post.excerpt }}</p>
+      <div class="news-info">
+        {% if post.author %}
+          {{ post.author }} 
+        {% else %}
+          Author Unknown,
+        {% endif %}
+        - {{ post.date | date: '%B %d, %Y' }}
       </div>
-  </article>
-</div>
+    </div>
+  </a>
+</article> 

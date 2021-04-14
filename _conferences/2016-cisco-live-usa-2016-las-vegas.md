@@ -3,6 +3,7 @@ published: true
 breadnav: true
 date: '2016-10-06 16:48 -0700'
 title: 'Cisco Live 2016, Las Vegas'
+technology: 'SRv6, SRMPLS'
 header:
   teaser: 'https://www.dns-as.org/wp-content/uploads/2016/05/CiscoLiveLasVegas2016.jpg'
 author: Segment Routing Team

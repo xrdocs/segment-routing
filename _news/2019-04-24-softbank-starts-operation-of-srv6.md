@@ -5,6 +5,7 @@ source: Softbank Corporation News
 source-url: https://www.softbank.jp/corp/news/press/sbkk/2019/20190424_03/
 date: 2019-04-24
 eurl: https://www.softbank.jp/corp/news/press/sbkk/2019/20190424_03/
+technology: 'SRv6'
 excerpt: >-
   Softbank Corporation announced that they introduced SRv6 and began full-scale operation on a commercial network from April 2019.<br/>
   Softbank aims to further enhance the efficiency and functionality of the network by introducing the latest technologies such as SRv6, and aims to realize a highly reliable mobile network that can cope with the future traffic for the age of 5G and IoT.<br/>

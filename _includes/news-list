@@ -4,52 +4,26 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="bloglist__item">
-  <article itemscope itemtype="http://schema.org/CreativeWork">
-    {% if post.teaser %}
-      <div class="bloglist__item-teaser">
-        {% if post.eurl %}
-          <a href="{{ post.eurl }}" rel="external">
+<div class="accordion-item conf">
+    <article class="conf-item" itemscope itemtype="http://schema.org/CreativeWork">
+      <div class="conf-image">
+        {% if post.source-url  %}
+          <a href="{{ post.source-url }}" rel="permalink">
+        {% elsif post.eurl %}
+          <a href="{{ post.eurl | relative_url }}" rel="permalink">
         {% endif %}
-            <img src=
-              {% if post.teaser contains "://" %}
-                "{{ post.teaser }}"
-              {% else %}
-                "{{ post.teaser | relative_url }}"
-              {% endif %}
-              alt="">
-        {% if post.eurl %}
-          </a>
-        {% endif %}
-      </div>
-    {% endif %}
-    <div class="bloglist__item-body">
-      <h3 class="bloglist__item-title" itemprop="headline">
-        {% if post.eurl %}
-          <a href="{{ post.eurl }}" rel="external">{{ title }}</a>
-        {% else %}
-          {{ title }}
-        {% endif %}
-      </h3>
-      {% if post.author or post.date or post.excerpt %}
-        <p class="bloglist__item-excerpt">
-          {% if post.excerpt %}{{ post.excerpt }}{% endif %}<br />
-          <em>
-            {% if post.author %}
-              {{ post.author }}{% if post.source %},{% endif %}
-            {% endif %}
-            {% if post.source %}
-              {% if post.source-url %}
-                <a href="{{ post.source-url }}" rel="external">{{ post.source }}</a>
-              {% else %}
-                {{ post.source }}
-              {% endif %}
-            {% endif %}
-            &mdash;
-            {% if post.date %}{{ post.date | date: '%B %d, %Y' }}{% endif %}
-          </em>
-        </p>
+      {% if post.header.teaser %}
+        <img class="conf-img" src="{{ post.header.teaser | relative_url }}">
+      {% else %}
+        <img class="conf-img" src="{{ post.teaser | relative_url }}">
       {% endif %}
       </div>
-  </article>
-</div>
+      <div class="conf-description">
+        <h3 class="news-title" itemprop="headline">
+          {{ title }}
+        </h3>
+      </a>
+      <p class="article-excerpt"> {{ post.excerpt }} </p>
+      </div>
+    </article>
+</div> 

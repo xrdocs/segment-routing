@@ -4,6 +4,7 @@ author: Clarence Filsfils - APNIC blog
 source-url: https://blog.apnic.net/2020/05/01/what-is-srv6-network-programming/
 date: 2020-05-01
 eurl: https://blog.apnic.net/2020/05/01/what-is-srv6-network-programming/
+technology: 'SRv6'
 excerpt: >-
   Since the start of the Segment Routing over IPv6 dataplane (SRv6) project in 2017, the ecosystem has grown unabated.
   <br/>

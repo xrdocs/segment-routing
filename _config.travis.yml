@@ -13,9 +13,12 @@ name                     : &name "Cisco Systems Inc"
 description              : &description "Documentation, Blogs and Tutorials for all things Segment Routing "
 url                      : "http://www.segment-routing.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
+
+
+
 gh_repo                  : "https://github.com/xrdocs/segment-routing"
-teaser                   : "/images/sr-teaser-icon.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-logo                     : "/images/sr-logo-blue.png"
+teaser                   : "images/new-design/SR-Background-Image-3.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+logo                     : "images/sr-logo-blue.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 
@@ -117,6 +120,30 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
+  srv6-news:
+    output: true
+    permalink: /:collection/:path/
+  srv6-demos:
+    output: true
+    permalink: /:collection/:path/
+  srv6-tutorials:
+    output: true
+    permalink: /:collection/:path/
+  srv6-conferences:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-news:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-demos:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-tutorials:
+    output: true
+    permalink: /:collection/:path/
+  srmpls-conferences:
+    output: true
+    permalink: /:collection/:path/
   demos:
     output: true
     permalink: /:collection/:path/
@@ -147,7 +174,7 @@ defaults:
       read_time: false
       related: true
       position: "top"
-# _open-software
+# _open-software 
   - scope:
       path: ""
       type: open-software
@@ -163,7 +190,7 @@ defaults:
       layout: single-full
       related: true
       position: "top"
-# _news
+# demos
   - scope:
       path: ""
       type: news
@@ -181,6 +208,7 @@ defaults:
       read_time: false
       related: true
       position: "top"
+
 
 # Outputting
 permalink: /:categories/:title/
@@ -269,9 +297,6 @@ prose:
     - CHANGELOG.md
     - README.md
     - feed.xml
-    - search.html
-    - .travis.yml
-    - _config.travis.yml
   metadata:
     _tutorials:
       - name: "title"

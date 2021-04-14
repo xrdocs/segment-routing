@@ -4,6 +4,7 @@ author: Cisco Newsroom
 source-url: https://newsroom.cisco.com/press-release-content?type=webcontent&articleId=2057092
 date: 2020-02-25
 eurl: https://newsroom.cisco.com/press-release-content?type=webcontent&articleId=2057092
+technology: 'SRv6, SRMPLS'
 excerpt: >-
   NTT DOCOMO selected Cisco NCS routers and Segment Routing technology for network slicing to help optimize its 5G mobile backhaul in preparation for the commercial service.
   <br/>

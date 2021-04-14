@@ -1,19 +1,30 @@
 ---
 layout: archive-full
-permalink: /open-software/
+permalink: /open-software
+hero-image: images/new-design/SR-Background-Image-2.png
 title: "Open Software Projects"
+description: 
 ---
-<div class="feature__wrapper">
-  {% assign sorted = (site.open-software | where:"app","false" | sort: 'title') %}
-  {% for post in sorted %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
+<div class="container">
+  <div class="projects-grid-container">
+    {% assign sorted = (site.open-software | where:"app","false" | sort: 'title') %}
+    {% for post in sorted %}
+      {% include archive-single.html type="grid" %}
+    {% endfor %}
+  </div>
+</div>  
+
+<div class="middle-hero" style="background-image: url('{{ page.hero-image | relative_url }}');">
+  <div class="container">
+    <h1 class="middle-hero-title">SR-aware applications</h1>
+  </div>
 </div>
 
-<h2 id="openapps">SR-aware applications</h2>
-<div class="feature__wrapper">
-  {% assign sorted = (site.open-software | where:"app","true" | sort: 'title') %}
-  {% for post in sorted %}
-    {% include archive-single.html %}
-  {% endfor %}
+<div class="container">
+  <div class="projects-container">
+    {% assign sorted = (site.open-software | where:"app","true" | sort: 'title') %}
+    {% for post in sorted %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </div> 
 </div>

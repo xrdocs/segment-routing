@@ -1,0 +1,28 @@
+---
+layout: articles
+permalink: /srmpls-news
+hero-image: images/new-design/SR-Background-Image-4.png
+technology: "SR MPLS"
+type: "News"
+description: "Discover the latest and breaking news on SR MPLS"
+---
+
+
+{% capture written_year %}'None'{% endcapture %}
+  <div class="container accordion">
+    {% assign sorted = (site.news | where_exp:"item", "item.technology contains 'SRMPLS'" | sort:date | reverse) %}
+    {% for post in sorted %}
+      {% capture year %}{{ post.date | slice: 0, 4 }}{% endcapture %}
+      {% if year != written_year %}
+        </details>
+        {% if post == sorted[0] %}
+        <details open>
+        {% else %}
+        <details>
+        {% endif %}
+          <summary> {{ year }} </summary>
+          {% capture written_year %}{{ year }}{% endcapture %}
+      {% endif %}
+      {% include news-list %} 
+    {% endfor %} 
+  </div> 

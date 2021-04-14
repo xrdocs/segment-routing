@@ -5,6 +5,7 @@ source: EANTC News
 source-url: http://www.eantc.de/showcases/mpls_sdn_2019/intro.html
 date: 2019-04-09
 eurl: http://www.eantc.de/showcases/mpls_sdn_2019/intro.html
+technology: 'SRv6, SRMPLS'
 excerpt: >-
   EANTC AG, the European Advanced Networking Test Center published the
   results of the latest massive multi-vendor interoperability test with 174 successful test combinations
@@ -17,7 +18,7 @@ excerpt: >-
   <a href="http://www.eantc.de/fileadmin/eantc/downloads/events/2017-2020/MPLS2019/EANTC-MPLSSDNNFV2019-WhitePaper-v1.3.pdf">
   Click here to access the EANTC whitepaper PDF.</a>
   
-teaser: /images/eantc-logo.png
+teaser: images/eantc-logo.png
 categories:
   - SRv6
   - SRMPLS

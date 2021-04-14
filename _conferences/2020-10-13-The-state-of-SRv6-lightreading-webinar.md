@@ -4,12 +4,13 @@ breadnav: true
 date: '2020-10-13 10:00 -0700'
 title: 'The state of SRv6 - Webinar'
 author: Sterling Perrin, Daniel Bernier, Clarence Filsfils
+technology: 'SRv6, SRMPLS'
 excerpt: 'In this webinar, representatives from LightReading, Cisco and Bell Canada explore the state of SRv6 (SR with IPv6 data plane) and explain how it enhances all SR MPLS capabilities – simplification, resiliency, traffic engineering.'
 header:
-  teaser: '/images/lightreading-srv6-webinar-thumbnail.png'
+  teaser: 'images/lightreading-srv6-webinar-thumbnail.png'
 ---    
 
-[<img src="/images/lightreading-srv6-webinar.png"/>](https://www.lightreading.com/webinar.asp?webinar_id=1709)
+[<img src="{{ 'images/lightreading-srv6-webinar.png' | relative_url }}"/>](https://www.lightreading.com/webinar.asp?webinar_id=1709)
 
 [Click here to access the Lightreading webinar "The state of SRv6".](https://www.lightreading.com/webinar.asp?webinar_id=1709)
 

@@ -4,6 +4,7 @@ published: true
 breadnav: true
 date: '2014-09-25 20:54 -0700'
 title: MPLS/SDN World Congress 2014
+technology: 'SRMPLS'
 excerpt: >-
   MPLS/SDN world Congress 2014, Paris: Segment Routing based Traffic Engineering
   Introduction.
@@ -17,4 +18,4 @@ header:
 {: .notice--info}  
   
   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8qGVmrArU7o" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/8qGVmrArU7o" frameborder="0" allowfullscreen></iframe>

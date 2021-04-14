@@ -1,29 +1,39 @@
 # main links links
 main:
 
-  - title: "News"
-    url: "/news/"
+  - title: "SRv6"
+    subfolderitems:
+      - page: "News" 
+        url: "srv6-news"
 
-  - title: "Demos"
-    url: "/demos/"
+      - page: "Demos" 
+        url: "srv6-demos"
 
-  - title: "Tutorials"
-    url: "/tutorials/"
+      - page: "Tutorials" 
+        url: "srv6-tutorials"
 
-  - title: "Conferences"
-    short: "Conf"
-    url: "/conferences/"
+      - page: "Conferences" 
+        url: "srv6-conferences"
 
-  - title: "IETF"
-    url: "/ietf/"
+  - title: "SR MPLS"
+    subfolderitems:
+      - page: "News" 
+        url: "srmpls-news"
+
+      - page: "Demos" 
+        url: "srmpls-demos"
+
+      - page: "Tutorials" 
+        url: "srmpls-tutorials"
+
+      - page: "Conferences" 
+        url: "srmpls-conferences"
+  
+  - title: "IETF" 
+    url: "ietf"
 
   - title: "Open Software"
-    short: "Open SW"
-    url: "/open-software/"
+    url: "open-software"
 
   - title: "Scientific Papers"
-    short: "Acad"
-    url: "/scientific-papers/"
-
-#  - title: "Search"
-#    url: "/search/"
+    url: "scientific-papers"

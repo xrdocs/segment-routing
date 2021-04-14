@@ -1,0 +1,35 @@
+{% if include.id %}
+  {% assign feature_key = page.[include.id] %}
+{% else %}
+  {% assign feature_key = page.feature_key %}
+{% endif %}
+
+<div class="key-section features-key">
+  <div class="container feature-keys-content feature__wrapper">
+
+    {% for f in feature_key %}
+        <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+
+          <div class="features-column-block archive__item">
+            <div class="archive__item-body">
+              {% if f.title %}
+                <h1 class="features-title archive__item-title">{{ f.title }}</h1>
+              {% endif %}
+
+              {% if f.excerpt %}
+                <div class="feature-excerpt archive__item-excerpt">
+                  {{ f.excerpt | markdownify }}
+                </div>
+              {% endif %}
+
+              {% if f.url %}
+                <p><a href="{{ f_url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+              {% endif %}
+            </div>
+          </div>
+      </div>
+
+    {% endfor %}
+
+  </div>
+</div>

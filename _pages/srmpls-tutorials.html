@@ -1,0 +1,72 @@
+---
+layout: articles 
+permalink: /srmpls-tutorials
+hero-image: images/new-design/SR-Background-Image-4.png
+title: "SR MPLS Tutorials"
+technology: "SR MPLS"
+type: "Tutorials"
+description: "Whatever your SR MPLS training need, we have you covered"
+---
+ 
+{% include base_path %}
+<div class="container accordion">
+  {% assign sorted = (site.tutorials | where:"category","concepts" | sort: 'order') %}
+  <details open>
+    <summary>SR concepts</summary>
+  {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
+    <div>
+      {% include archive-single.html %}
+    </div>
+    {% endif %}
+  {% endfor %}
+  </details>
+
+  {% assign sorted = (site.tutorials | where:"category","igp" | sort: 'order') %}
+  <details>
+    <summary>SR IGP</summary>
+  {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
+    <div>
+      {% include archive-single.html %}
+    </div>
+    {% endif %}
+  {% endfor %}
+  </details>
+
+  {% assign sorted = (site.tutorials | where:"category","ldp" | sort: 'order') %}
+  <details>
+    <summary>SR and LDP</summary>
+  {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
+    <div>
+      {% include archive-single.html %}
+    </div>
+    {% endif %}
+  {% endfor %}
+  </details>
+
+  {% assign sorted = (site.tutorials | where:"category","te" | sort: 'order') %}
+  <details>
+    <summary>SR Traffic Engineering</summary>
+  {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
+    <div>
+      {% include archive-single.html %}
+    </div>
+    {% endif %}
+  {% endfor %}
+  </details>
+
+  {% assign sorted = (site.tutorials | where:"category","oam" | sort: 'order') %}
+  <details>
+    <summary>SR Operations and Monitoring</summary>
+  {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
+    <div>
+      {% include archive-single.html %}
+    </div>
+    {% endif %}
+  {% endfor %}
+  </details>
+</div>

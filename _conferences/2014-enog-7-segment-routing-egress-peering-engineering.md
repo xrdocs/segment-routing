@@ -4,6 +4,7 @@ published: true
 breadnav: true
 date: '2014-09-25 20:51 -0700'
 title: 'ENOG 7: Segment Routing - Egress Peering Engineering'
+technology: 'SRv6, SRMPLS'
 excerpt: ENOG 7 / RIPE NCC Regional Meeting took place in Moscow from 26-27 May 2014.
 header:
   teaser: 'https://img.youtube.com/vi/lujkWfdB4NM/mqdefault.jpg'
@@ -21,6 +22,6 @@ header:
 
 {% capture "pdf-link" %}https://www.enog.org/presentations/enog-7/263-EPE-ENOG7.pdf{% endcapture %}
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

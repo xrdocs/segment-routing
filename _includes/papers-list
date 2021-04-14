@@ -3,7 +3,7 @@
 {% else %}
   {% assign teaser = site.teaser %}
 {% endif %}
-
+ 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
@@ -27,7 +27,7 @@
   {% endcase %}{% endcapture %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<div class="accordion-item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       <h3 class="archive__item-title" itemprop="headline">
         {% if post.doi %}
@@ -37,13 +37,20 @@
         {% endif %}
       </h3>
       {% if post.authors %}
-        <p class="archive__item-excerpt">
-          {{ post.authors }}<br />
-          {% if post.publisher %}<em>{{ post.publisher }}</em>,{% endif %}
-          {% if post.location %}{{ post.location }},{% endif %}
-          {% if month %}{{ month }}{% endif %}
-          {{ post.year }}.
-        </p>
+        <p class="paper-author"> {{ post.authors }} </p>
+      <p class="paper-publishing">
+        {% if post.publisher %}
+          {{ post.publisher }},
+        {% endif %}
+        {% if post.location %}
+          {{ post.location }},
+        {% endif %}
+        {% if month %}
+          {{ month }}
+        {% endif %}
+            {{ post.year }}.
+      </p>
+
       {% endif %}
   </article>
 </div>

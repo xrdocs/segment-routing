@@ -9,7 +9,7 @@ description:
 
 
 
-{% assign sorted = (site.demos | where_exp:"item", "item.technology contains 'SRMPLS'" | sort:date | reverse) %}
+{% assign sorted = site.demos | where_exp:"item", "item.technology contains 'SRMPLS'" | sort:date | reverse %}
 {% for post in sorted %}
   {% include demos-list %}
 {% endfor %}

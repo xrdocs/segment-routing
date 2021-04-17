@@ -7,7 +7,7 @@ description:
 ---
 <div class="container">
   <div class="projects-grid-container">
-    {% assign sorted = (site.open-software | where:"app","false" | sort: 'title') %}
+    {% assign sorted = site.open-software | where:"app","false" | sort: 'title' %}
     {% for post in sorted %}
       {% include archive-single.html type="grid" %}
     {% endfor %}
@@ -22,7 +22,7 @@ description:
 
 <div class="container">
   <div class="projects-container">
-    {% assign sorted = (site.open-software | where:"app","true" | sort: 'title') %}
+    {% assign sorted = site.open-software | where:"app","true" | sort: 'title' %}
     {% for post in sorted %}
       {% include archive-single.html %}
     {% endfor %}

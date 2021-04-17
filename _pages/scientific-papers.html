@@ -8,7 +8,7 @@ title: "Scientific Papers and Research Publications"
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 <div class="container accordion">
-  {% assign sorted = (site.scientific-papers | reverse) %}
+  {% assign sorted = site.scientific-papers | reverse %}
   {% for post in sorted %}
     {% capture year %}{{ post.year }}{% endcapture %}
     {% if year != written_year %}

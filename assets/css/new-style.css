@@ -850,7 +850,10 @@ details {
 .single {
   text-align: justify;
 }
-.pdfobject-container,
+.pdfobject-container {
+  position: relative;
+  padding-bottom: 56.2%;
+}
 .single iframe,
 .single img {
   width: 100%;
@@ -859,7 +862,10 @@ details {
   border-radius: 4px;
 }
 .pdfobject {
+  position: absolute !important;
+  object-fit: cover !important;
   width: 100% !important;
+  height: 100% !important;
 }
 .single a {
   font-weight: 500;
@@ -896,6 +902,23 @@ details {
   font-size: 1.1em;
   line-height: 30px;
   letter-spacing: 0.5px;
+}
+
+@media screen and (min-width: 1200px) {
+  /* Demos Page */
+.cards-grid-container {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  text-align: left;
+}
 }
 
 @media screen and (min-width: 991px) {

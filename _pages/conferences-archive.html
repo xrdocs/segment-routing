@@ -4,7 +4,7 @@ permalink: /conferences
 title: "Conferences and Events"
 ---
 <div class="grid__wrapper">
-  {% assign sorted = (site.conferences | sort: 'date') %}
+  {% assign sorted = site.conferences | sort: 'date' %}
   {% for post in sorted reversed %}
     {% include archive-single.html type="grid" %}
   {% endfor %}

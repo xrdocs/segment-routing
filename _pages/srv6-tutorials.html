@@ -9,7 +9,7 @@ description: "Whatever your SRv6 training need, we have you covered"
 ---
 
 <div class="container accordion">
-  {% assign sorted = (site.tutorials | where:"category","srv6" | sort: 'order') %}
+  {% assign sorted = site.tutorials | where:"category","srv6" | sort: 'order' %}
   <details open>
     <summary>SRv6</summary>
     {% for post in sorted %}

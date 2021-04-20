@@ -5,7 +5,7 @@ source: Cisco Systems
 source-url: https://www.cisco.com/c/dam/m/digital/elq-cmcglobal/OCA/Assets/Federal/The_Multiplanar_Backbone_MPBB.pdf
 date: 2019-08-01
 eurl: https://www.cisco.com/c/dam/m/digital/elq-cmcglobal/OCA/Assets/Federal/The_Multiplanar_Backbone_MPBB.pdf
-technology: 'SRv6, SRMPLS'
+technology: 'SRMPLS'
 excerpt: >-
   This whitepaper describes the drivers, use cases, and design of the multiplanar backbone.<br />
   

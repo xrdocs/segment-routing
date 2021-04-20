@@ -5,7 +5,7 @@ source: Cisco Newsroom
 source-url: https://newsroom.cisco.com/press-release-content?type=webcontent&articleId=2154652 
 date: 2021-04-15
 eurl: https://newsroom.cisco.com/press-release-content?type=webcontent&articleId=2154652 
-technology: 'SRv6,SRMPLS'
+technology: 'SRMPLS'
 excerpt: >-
   Cisco and SFR announced major updates to SFR’s network infrastructure to help businesses in France speed their digitization plans and best prepare for a better, stronger internet for the future.<br />
   SFR uses Cisco’s newest ASR 9000 routers, along with segment routing to strengthen its backbone to support upcoming 5G and IoT services.<br />

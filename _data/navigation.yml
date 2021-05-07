@@ -37,3 +37,6 @@ main:
 
   - title: "Scientific Papers"
     url: "scientific-papers"
+
+  - title: "Search"
+    url: "search"

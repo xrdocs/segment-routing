@@ -903,6 +903,25 @@ details {
   line-height: 30px;
   letter-spacing: 0.5px;
 }
+.search-form {
+  position: relative;
+}
+.search-input:focus-visible {
+  outline: none;
+}
+.search-input {
+  margin: 50px auto;
+  padding: 10px 15px;
+  height: 37px;
+  border: 2px solid #1994c9;
+  border-radius: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.form-button {
+  margin: 80px auto;
+  float: none;
+}
 
 @media screen and (min-width: 1200px) {
   /* Demos Page */
@@ -1408,6 +1427,9 @@ details {
   }
   .conf-image {
     height: 150px;
+  }
+  .form-button {
+    margin: 0px auto;
   }
 }
 

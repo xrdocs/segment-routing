@@ -1,0 +1,32 @@
+---
+layout: archive-full
+permalink: /search
+hero-image: images/new-design/SR-Background-Image-2.png
+title: "Search"
+---
+
+{% include base_path %}
+
+<div class="search-form" value="{{ base_path }}" id="base_url" >
+<form action="get" id="site_search">
+  <input style="font-size:20px;" class="search-input" type="text" id="search_box" placeholder="">
+  <button type="submit" value="Send" class="btn form-button" id="submit">Search</button>
+</form>
+</div>
+
+<div class="container accordion" id="search_results">
+
+
+</div>
+
+
+<!-- <div class="container accordion">
+    <details open>
+        <summary> News </summary>
+        
+    </details>
+</div> -->
+
+<script src="/assets/js/lunr.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/assets/js/search.js"></script>

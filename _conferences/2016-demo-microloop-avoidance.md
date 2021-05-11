@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 breadnav: true
 date: '2016-11-06 16:48 -0700'
 title: 'Demo: Microloop Avoidance'

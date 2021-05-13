@@ -6,6 +6,10 @@ jQuery(function() {
       this.field('author');
       this.field('url');
       this.field('tags');
+      this.field('eurl');
+      this.field('source-url');
+      this.field('doi');
+      this.field('link');
     });
 
 //    var base_url =  document.getElementById('base_url').getAttribute("value")
@@ -28,6 +32,7 @@ jQuery(function() {
   
     function display_search_results(results) {
       var $search_results = $("#search_results");
+      var $hero = $(".hero-block");
 
       window.data.then(function(loaded_data) {
         if (results.length) {
@@ -45,26 +50,61 @@ jQuery(function() {
             var source = item.url.split('/');
 
             if (source[1] == 'news') {
-                appendStringNews = appendStringNews + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.url + '">' + item.title + '</a></span></article></div>'
+              if(item.eurl) {
+                appendStringNews = appendStringNews + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.eurl +'" target="_blank">' + item.title + '</a></span></article></div>'
+              } else {
+                appendStringNews = appendStringNews + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.source-url +'" target="_blank">' + item.title + '</a></span></article></div>'
+              }
+                
             }
             if (source[1] == 'scientific-papers') {
-                appendStringScientific = appendStringScientific + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.url + '">' + item.title + '</a></span></article></div>'
+              if(item.doi) {
+                appendStringScientific = appendStringScientific + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="https://doi.org/'+ item.doi + '" target="_blank">' + item.title + '</a></span></article></div>'
+              } else {
+                appendStringScientific = appendStringScientific + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.eurl + '" target="_blank">' + item.title + '</a></span></article></div>'
+              }
             }
             if (source[1] == 'open-software') {
-                appendStringOpen = appendStringOpen + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.url + '">' + item.title + '</a></span></article></div>'
+              if(item.link){
+                appendStringOpen = appendStringOpen + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.link + '" target="_blank">' + item.title + '</a></span></article></div>'
+              } else {
+                appendStringOpen = appendStringOpen + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.url + '" target="_blank">' + item.title + '</a></span></article></div>'
+              }
             }
             if (source[1] == 'conferences') {
-                appendStringConferences = appendStringConferences + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.url + '">' + item.title + '</a></span></article></div>'
+              if(item.link){
+                appendStringConferences = appendStringConferences + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.link + '" target="_blank">' + item.title + '</a></span></article></div>'
+              } else {
+                appendStringConferences = appendStringConferences + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.url + '" target="_blank">' + item.title + '</a></span></article></div>'
+              }
             }
             if (source[1] == 'demos') {
-                appendStringDemos = appendStringDemos + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.url + '">' + item.title + '</a></span></article></div>'
+              if(item.link){
+                appendStringDemos = appendStringDemos + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.link + '" target="_blank">' + item.title + '</a></span></article></div>'
+              } else {
+                appendStringDemos = appendStringDemos + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.url + '" target="_blank">' + item.title + '</a></span></article></div>'
+              }
             }
             if (source[1] == 'tutorials') {
-                appendStringTutorials = appendStringTutorials + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.url + '">' + item.title + '</a></span></article></div>'
+              if(item.link){
+                appendStringTutorials = appendStringTutorials + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.link + '" target="_blank">' + item.title + '</a></span></article></div>'
+              } else {
+                appendStringTutorials = appendStringTutorials + '<div class="accordion-item" <article><span class="underline-on-hover"><a href="'+ item.url + '" target="_blank">' + item.title + '</a></span></article></div>'
+              }
             }
           });
-          $search_results.append(appendStringNews,appendClosing,appendStringScientific,appendClosing,appendStringOpen,appendClosing,appendStringConferences,appendClosing,appendStringDemos,appendClosing,appendStringTutorials,appendClosing);
+          $hero.remove();
+          var headings = [appendStringNews, appendStringScientific, appendStringOpen, appendStringConferences, appendStringDemos, appendStringTutorials]
+          headings.forEach(item => {
+            console.log(item)
+            console.log(item.length)
+            if(item.length > 46) {
+              $search_results.append(item, appendClosing)
+            }
+            $search_results.append();
+          });
         } else {
+          $hero.remove();
           $search_results.html('<li>No results found.<br/>Please check spelling, spacing, etc....</li>');
         }
       });

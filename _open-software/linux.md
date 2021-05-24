@@ -24,13 +24,13 @@ For any question regarding this implementation, please reach out to the [develop
 
 ## srext - a Linux kernel module for the SRv6 Network Programming model
 
-In parallel, the [Networking Group](http://netgroup.uniroma2.it) from University of Rome Tor Vergata, Italy, is developing a new kernel module providing more advanced Segment Routing functions. This module is intended to be eventually fully compliant with the SRv6 Network Programming model defined in [draft-filsfils-spring-srv6-network-programming](https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-network-programming/).
+In parallel, the [Networking Group](http://netgroup.uniroma2.it) from University of Rome Tor Vergata, Italy, is developing a new kernel module providing more advanced Segment Routing functions. This module is intended to be eventually fully compliant with the SRv6 Network Programming model defined in [RFC8986](https://datatracker.ietf.org/doc/html/rfc8986).
 
 The srext module is [available on GitHub](https://netgroup.github.io/SRv6-net-prog/).
 
 ## SR behaviors support
 
-The following tables show the availability in Linux of each SRv6 behavior defined in [draft-filsfils-spring-srv6-network-programming](https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-network-programming/).
+The following tables show the availability in Linux of each SRv6 behavior defined in [RFC8986](https://datatracker.ietf.org/doc/html/rfc8986).
 
 New entries will be added to these tables as more SRv6 behaviors are defined in IETF documents.
 
@@ -47,7 +47,7 @@ Endpoint functions are triggered when the IPv6 Destination Address of an incomin
 | End.DX6 | Endpoint with decapsulation and IPv6 cross-connect | <span style="color:green">**4.14** (November 2017)</span>, <span style="color:#049FD9">**srext**</span> |
 | End.DX4 | Endpoint with decapsulation and IPv4 cross-connect | <span style="color:green">**4.14** (November 2017)</span>, <span style="color:#049FD9">**srext**</span> |
 | End.DT6 | Endpoint with decapsulation and IPv6 table lookup | <span style="color:green">**4.14** (November 2017)</span> |
-| End.DT4 | Endpoint with decapsulation and IPv4 table lookup | <span style="color:orange">In development</span> |
+| End.DT4 | Endpoint with decapsulation and IPv4 table lookup | <span style="color:orange">December 2020</span> |
 | End.B6 | Endpoint bound to an SRv6 policy | <span style="color:green">**4.14** (November 2017)</span> |
 | End.B6.Encaps | Endpoint bound to an SRv6 encapsulation Policy | <span style="color:green">**4.14** (November 2017)</span> |
 | End.BM | Endpoint bound to an SR-MPLS Policy | <span style="color:orange">In development</span> |

@@ -48,7 +48,7 @@ Endpoint functions are triggered when the IPv6 Destination Address of an incomin
 | End.DX4 | Endpoint with decapsulation and IPv4 cross-connect | <span style="color:green">**4.14** (November 2017)</span>, <span style="color:#049FD9">**srext**</span> |
 | End.DT6 | Endpoint with decapsulation and IPv6 table lookup | <span style="color:green">**4.14** (November 2017)</span> |
 | End.DT4 | Endpoint with decapsulation and IPv4 table lookup | <span style="color:green">**5.11** (December 2020)</span> |
-| End.DT46 | Endpoint with decapsulation and IP table lookup | <span style="color:orange">In development</span> |
+| End.DT46 | Endpoint with decapsulation and IP table lookup | <span style="color:orange">**5.14** </span> |
 | End.B6 | Endpoint bound to an SRv6 policy | <span style="color:green">**4.14** (November 2017)</span> |
 | End.B6.Encaps | Endpoint bound to an SRv6 encapsulation Policy | <span style="color:green">**4.14** (November 2017)</span> |
 | End.BM | Endpoint bound to an SR-MPLS Policy | <span style="color:orange">In development</span> |

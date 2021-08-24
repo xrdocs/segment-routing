@@ -105,7 +105,7 @@ jQuery(function() {
           });
         } else {
           $hero.remove();
-          $search_results.html('<li>No results found.<br/>Please check spelling, spacing, etc....</li>');
+          $search_results.html('<p>No results found.<br/>Please check spelling, spacing, etc...</p>');
         }
       });
     }

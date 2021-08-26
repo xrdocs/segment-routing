@@ -10,14 +10,11 @@ title: Topology Independent LFA (TI-LFA) and uloop avoidance
 excerpt: >-
   An introduction to the Topology Independent LFA and micro-loop (uloop) avoidance technology. See how Topology
   Independent LFA provides a simple, automatic, optimal and topology independent
-  sub-50ms per-prefix protection to the network. Further, see how TI-LFA
-  protects Segment Routing, LDP and eventually IP traffic, and learn how
-  to verify TI-LFA using some examples.<br />
-  In the end, see what uloops are and how SR effectively prevents uloops.
+  sub-50ms per-prefix protection to the network. Further, see what uloops are and how SR effectively prevents these uloops.
 ---
 
 An introduction to the Topology Independent LFA and micro-loop (uloop) avoidance technology. See how Topology Independent LFA provides a simple, automatic, optimal and topology independent sub-50ms per-prefix protection to the network. Further, see how TI-LFA protects Segment Routing, LDP and eventually IP traffic, and learn how to verify TI-LFA using some examples.<br />
-In the end, see what uloops are and how SR effectively prevents uloops.
+In the end, see what uloops are and how SR effectively prevents these uloops.
 {: .notice}  
 
 {% capture "pdf-link" %}/images/0080-SR-TOI-SR_TI-LFA_v17_EXTERNAL.pdf{% endcapture %}

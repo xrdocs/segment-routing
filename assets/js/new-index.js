@@ -2,9 +2,12 @@
 $(document).ready(function(){
 	$('#nav-icon').click(function(){
     $(this).toggleClass('open');
-    $("#mylinks").toggleClass('show');
+    $(".nav-container").toggleClass('open');
+    $(".hide-on-tablet").toggleClass('show');
+    $(".hide-on-portrait").toggleClass('show');
+    $(".hide-on-mobile").toggleClass('show');
 	});
-});
+}); 
 
 // Video popup
 window.document.onkeydown = function(e) {

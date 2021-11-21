@@ -1,14 +1,14 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   }
 body {
-    font-family: 'Cisco Sans TT', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    letter-spacing: 2px;
-    margin: 0px;
+  font-family: 'Cisco Sans TT', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0px;
 }
 p {
   margin-bottom: 10px;
@@ -81,22 +81,34 @@ button:hover {
   background-size: cover;
 }
 /* Top Nav  */
+nav {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;;
+  align-items: center;
+  justify-content: space-around;
+}
 .nav-container {
   display: block;
   margin: 30px auto;
   max-width: 100%;
 }
+.nav-container.open {
+  height: 100vw;
+}
 .nav-logo {
   max-height: 80px;
-  margin-bottom: -5px;
+  margin: 0 20px -5px;
 }
 .navbar {
   overflow: hidden;
-  display: inline-block;
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
 }
+
 .navbar a, .navbar label {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 1px;
@@ -105,8 +117,8 @@ button:hover {
   width: fit-content;
 }
 .nav-link {
-  display: inline-block;
-  padding: 14px 20px;
+  display: inline-block; 
+  padding: 15px 10px;
 }
 .dropdown-content {
   display: none;
@@ -162,12 +174,15 @@ label.underline:before, .nav-link > a.underline:before {
   display: inline-block;
   position: relative;
   padding: 5px;
-  margin-bottom: -10px;
+  margin-bottom: -17px;
 }
 .menu-icon {
   display: none;
 }
-
+.overlay.open {
+  height: 100vw;
+  background-color: #fff;
+}
 /* Footer Section */
 .footer {
   margin: 45px auto 60px;
@@ -925,19 +940,19 @@ details {
 
 @media screen and (min-width: 1200px) {
   /* Demos Page */
-.cards-grid-container {
-  display: -ms-grid;
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-column-gap: 40px;
-  grid-row-gap: 40px;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto auto auto;
-  grid-template-rows: auto auto auto;
-  grid-template-columns: auto auto auto;
-  text-align: left;
-}
+  .cards-grid-container {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 991px) {
@@ -967,29 +982,13 @@ details {
     float: left;
     max-height: 65px;
   }
-  .navbar {
-    display: none;
-    width: 100%;
-  }
   .show {
     display: block;
   }
-  .nav-container a {
-    margin: 0 auto;
-    text-decoration: none;
-  }
-  .navbar a, .navbar label {
-    font-size: 24px;
-  }
-  .nav-link{
-    display: block;
-  }
   #nav-icon{
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 20px;
-    width: 60px;
+    display: flex;
+    margin: 0 0 35px;
+    width: 50px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -999,12 +998,13 @@ details {
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
+    z-index: 2;
   }
   #nav-icon span {
     display: block;
     position: absolute;
-    height: 5px;
-    width: 85%;
+    height: 4px;
+    width: 80%;
     background: #1994c9;
     border-radius: 9px;
     opacity: 1;
@@ -1022,10 +1022,10 @@ details {
     top: 0px;
   }
   #nav-icon span:nth-child(2),#nav-icon span:nth-child(3) {
-    top: 18px;
+    top: 15px;
   }
   #nav-icon span:nth-child(4) {
-    top: 36px;
+    top: 30px;
   }
   #nav-icon.open span:nth-child(1) {
     top: 18px;
@@ -1050,26 +1050,50 @@ details {
     left: 50%;
   }
   .dropdown-content {
-    position: relative;
     margin-top: 20px;
   }
   #toggle:checked + div {
     display: block;
   }
   .social {
-    display: block;
+    display: none;
     margin: 30px auto;
     max-width: 260px;
+  }
+  .hide-on-tablet {
+    display: none;
   }
   .social-icon {
     display: inline-block;
     position: relative;
     padding: 5px;
   }
+  .hide-on-tablet.show {
+    display: block;
+    position: absolute;
+  }
+  .nav-link:nth-child(6) {
+    top: 60px;
+  }
 }
 
 @media screen and (max-width: 991px) {
-  
+  .hide-on-portrait {
+    display: none;
+  }
+  .hide-on-portrait.show {
+    display: block;
+    position: absolute;
+  }
+  .nav-link:nth-child(4) {
+    top: 60px;
+  }
+  .nav-link:nth-child(5) {
+    top: 90px;
+  }
+  .nav-link:nth-child(6) {
+    top: 120px;
+  }
   /* Hero Section */
   .hero-section {
     max-height: 602px;
@@ -1155,12 +1179,10 @@ details {
   .social-icon{
       width: 50px;
   }
-  .navbar a, .navbar label {
-    font-size: 20px;
-  }
   #nav-icon span {
     width: 60%;
   }
+
   /* Hero Section */
   .hero-title {
     font-size: 2.5em;
@@ -1225,6 +1247,26 @@ details {
 }
 
 @media screen and (max-width: 635px) {
+  .nav-link {
+    padding: 15px 6px;
+  }
+  #nav-icon{
+    width: 30px;
+    margin: 0 0 25px;
+  }
+  #nav-icon span {
+    height: 3px;
+    width: 100%;
+  }
+  #nav-icon span:nth-child(1) {
+    top: 0px;
+  }
+  #nav-icon span:nth-child(2),#nav-icon span:nth-child(3) {
+    top: 10px;
+  }
+  #nav-icon span:nth-child(4) {
+    top: 20px;
+  }
   /* News Page */
   .breadcrumbs-technology {
     padding: 0px;
@@ -1247,28 +1289,31 @@ details {
     max-width: 95%;
   }
   /* Top Nav  */
-  .navbar a, .navbar label {
-    font-size: 20px;
-  }
   .dropdown-content a,
   .nav-link {
     padding: 10px;
   }
-  #nav-icon{
-    width: 30px;
+  .nav-logo {
+    margin: 0;
   }
-  #nav-icon span {
-    height: 3px;
-    width: 100%;
+  .hide-on-mobile {
+    display: none;
   }
-  #nav-icon span:nth-child(1) {
-    top: 0px;
+  .hide-on-mobile.show {
+    display: block;
+    position: absolute;
   }
-  #nav-icon span:nth-child(2),#nav-icon span:nth-child(3) {
-    top: 10px;
+  .nav-link:nth-child(3) {
+    top: 60px;
   }
-  #nav-icon span:nth-child(4) {
-    top: 20px;
+  .nav-link:nth-child(4) {
+    top: 90px;
+  }
+  .nav-link:nth-child(5) {
+    top: 120px;
+  }
+  .nav-link:nth-child(6) {
+    top: 150px;
   }
   /* Hero Section */
   .hero-section{

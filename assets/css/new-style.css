@@ -108,7 +108,7 @@ nav {
 }
 
 .navbar a, .navbar label {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 1px;
@@ -1072,6 +1072,11 @@ details {
     display: block;
     position: absolute;
   }
+  .social.show {
+    display: block;
+    position: absolute;
+    top: 90px;
+  }
   .nav-link:nth-child(6) {
     top: 60px;
   }
@@ -1093,6 +1098,9 @@ details {
   }
   .nav-link:nth-child(6) {
     top: 120px;
+  }
+  .social.show {
+    top: 150px;
   }
   /* Hero Section */
   .hero-section {
@@ -1314,6 +1322,9 @@ details {
   }
   .nav-link:nth-child(6) {
     top: 150px;
+  }
+  .social.show {
+    top: 180px;
   }
   /* Hero Section */
   .hero-section{

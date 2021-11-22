@@ -1,11 +1,12 @@
 // Nav toggle 
 $(document).ready(function(){
 	$('#nav-icon').click(function(){
-    $(this).toggleClass('open');
-    $(".nav-container").toggleClass('open');
-    $(".hide-on-tablet").toggleClass('show');
-    $(".hide-on-portrait").toggleClass('show');
-    $(".hide-on-mobile").toggleClass('show');
+	    $(this).toggleClass('open');
+	    $(".nav-container").toggleClass('open');
+	    $(".hide-on-tablet").toggleClass('show');
+	    $(".hide-on-portrait").toggleClass('show');
+	    $(".hide-on-mobile").toggleClass('show');
+	    $(".social").toggleClass('show');
 	});
 }); 
 

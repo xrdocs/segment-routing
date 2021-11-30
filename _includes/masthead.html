@@ -18,9 +18,13 @@
                   <div class="nav-link hide-on-mobile">
                     <a href="{{ item.url | relative_url }}" class="underline">{{ item.title }}</a>
                   </div>
-                {% elsif item.title == "Search" or item.title == "Scientific Papers" %}
+                {% elsif item.title == "Search" %}
                   <div class="nav-link hide-on-tablet">
                     <a href="{{ item.url | relative_url }}" class="underline">{{ item.title }} <i class="fa fa-search font-awesome-icon"></i></a>
+                  </div>
+                {% elsif item.title == "Scientific Papers" %}
+                  <div class="nav-link hide-on-tablet">
+                    <a href="{{ item.url | relative_url }}" class="underline">{{ item.title }}</a>
                   </div>
                 {% else %}
                   <div class="nav-link hide-on-portrait">

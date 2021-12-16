@@ -1075,10 +1075,13 @@ details {
   .social.show {
     display: block;
     position: absolute;
-    top: 90px;
+    top: 120px;
+  }
+  .nav-link:nth-child(5) {
+    top: 60px;
   }
   .nav-link:nth-child(6) {
-    top: 60px;
+    top: 90px;
   }
 }
 

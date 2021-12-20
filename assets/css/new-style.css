@@ -125,7 +125,7 @@ nav {
   position: fixed;
   background-color: #fff;
   min-width: 160px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 0px;
   padding-bottom: 15px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -154,7 +154,7 @@ a.underline:before, label.underline:before {
   transition: all 0.3s ease-in-out;
 }
 label.underline:before, .nav-link > a.underline:before {
-  top: 25px;
+  top: 20px;
   left: 0px;
 }
 #toggle {

@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 breadnav: true
 date: '2022-03-29 10:00 -0700'
 title: 'SRv6 ultra-scale - Imposition of 26 SRv6 uSIDs at Linerate'

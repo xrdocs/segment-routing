@@ -3,8 +3,8 @@ published: false
 breadnav: true
 date: '2022-03-29 10:00 -0700'
 source: 'Cisco SR team'
-source-url: https://www.segment-routing.net/demos/2022-03-29-j2-26-usid-imposition-demo/
-eurl: https://www.segment-routing.net/demos/2022-03-29-j2-26-usid-imposition-demo/
+source-url: https://www.segment-routing.net/demos/26-usid-push-linerate/
+eurl: https://www.segment-routing.net/demos/26-usid-push-linerate/
 title: 'SRv6 Ultra-Scale - Imposition of 26 SRv6 uSIDs at Linerate'
 author: 'Kris Michielsen'
 technology: 'SRv6'

@@ -7,7 +7,7 @@ description:
 ---
 <div class="container">
   <div class="projects-grid-container">
-    {% assign sorted = site.path-tracing | where:"app","false" | sort: 'title' %}
+    {% assign sorted = site.path-tracing | sort: 'title' %}
     {% for post in sorted %}
       {% include archive-single.html type="grid" %}
     {% endfor %}

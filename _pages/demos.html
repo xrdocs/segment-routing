@@ -6,7 +6,9 @@ title: "It's demo time!"
 
 {% include base_path %}
 
+{% comment %}
 {% assign sorted = site.demos | sort: post.date | reverse %}
 {% for post in sorted %}
   {% include demos-list %}
 {% endfor %}
+{% endcomment %}

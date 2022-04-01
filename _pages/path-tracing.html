@@ -1,0 +1,15 @@
+---
+layout: archive-full
+permalink: /path-tracing
+hero-image: images/new-design/SR-Background-Image-2.png
+title: "Path Tracing"
+description: 
+---
+<div class="container">
+  <div class="projects-grid-container">
+    {% assign sorted = site.path-tracing | where:"app","false" | sort: 'title' %}
+    {% for post in sorted %}
+      {% include archive-single.html type="grid" %}
+    {% endfor %}
+  </div>
+</div> 

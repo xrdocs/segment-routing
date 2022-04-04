@@ -1,7 +1,6 @@
 ---
 published: true
 breadnav: true
-hidden: true
 date: '2022-04-01 15:00 +0200'
 title: 'SRv6 uSID Unreachable Prefix Announcement'
 author: 'Jakub Horn, Cisco'

@@ -9,9 +9,7 @@ technology: 'SRv6'
 excerpt: 'SRv6 uSID Unreachable Prefix Announcement'
 teaser: images/demo-upa/teaser.png
 ---    
-
 ### *Demo Video*
-
 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/i28RgnUcD4w" frameborder="0" allowfullscreen></iframe>
 
 ## Overview
@@ -25,6 +23,13 @@ For simplicity, we split our network into 30 domains with 1000 nodes each. But w
 SRv6 offers a very elegant solution to that problem: summarization. Every border router will propagate a few summary prefixes instead of all locators. This concept requires a careful creation of an addressing plan. 
 
 ![Figure 1 - Summarization](/images/demo-upa/UPA_fig1.png)
+<p align = "left">
+ <i>Figure 1 - Summarization</i> 
+</p>
+
+
+
+
 
 In Figure 1 we can see an example of summarization. 1000 /48 Locator prefixes are summarized into the core as four /40 networks. As a result, in the core there will only be 1200 summary routes instead of 30k, while still providing any-to-any connectivity. 1200 networks in a single domain are simple to handle for any IGP routing protocol and easy to handle for any HW platform. 
 
@@ -40,10 +45,14 @@ However, with summarization, the ingress PE will never be notified about an egre
 
 This demonstration shows how BGP PIC can be triggered within very large networks where summarization is in place. Technology to achieve it is called UPA: Unreachable Prefix Announcement.
 
+
 ## Demonstration network description
 Our demonstration network is shown in Figure 2. 
 
 ![Figure 2 - Network](/images/demo-upa/UPA_fig2.png)
+<p align = "left">
+ <i>Figure 2 - Demonstration network</i> 
+</p>
 
 There are basically two ISIS domains. For this presentation, we are using different ISIS levels, but the solution will work the same way with redistribution between two IS-IS instances. 
 
@@ -131,6 +140,9 @@ i ia fccc:cc00:2012::/48
 Once we trigger the PE11 failure, IGP deletes the locator prefix of PE11 and PE1 triggers BGP PIC.
 
 ![Figure 3 - IXIA - Failure without summarization](/images/demo-upa/UPA_fig3.png)
+<p align = "left">
+ <i>Figure 3 - IXIA - Failure without summarization</i> 
+</p>
 
 The IXIA measurement shows that convergence is very fast: 353 milliseconds. This is the sequence of events during that time:
 
@@ -162,6 +174,9 @@ i ia fccc:cc00:2000::/40
 Therefore, the IGP of domain 1 no longer receives PE11 failure notifications and BGP PIC can’t be triggered anymore on PE1.
 
 ![Figure 4 - IXIA - Failure with summarization](/images/demo-upa/UPA_fig4.png)
+<p align = "left">
+ <i>Figure 4 - IXIA - Failure with summarization</i> 
+</p>
 
 In this measurement, the convergence was very slow (more than 50 seconds) due to the delay of BGP detecting and propagating the failure. This is the sequence of events:
 
@@ -182,11 +197,16 @@ The unreachability property of the prefix is carried by using an “unreachable�
 The figure below shows the example network in stable state. The IGP of PE11 advertises its LSP with locator /48 into domain 2. The ABR receives this LSP and advertises the /40 summary prefix into domain 1. PE1 receives this summary prefix that provides reachability to PE11.
 
 ![Figure 5 - UPA Stable state](/images/demo-upa/UPA_fig5.png)
+<p align = "left">
+ <i>Figure 5 - UPA Stable state</i> 
+</p>
 
 When the ABR loses reachability to PE11 in domain 2, the ABR recognizes that the locator of PE11 is part of the summary prefix and generates a UPA for the locator of PE11. The UPA is flooded throughout domain 1. The IGP of PE1 receives the UPA and triggers BGP PIC for all BGP prefixes learned via PE11.
 
 ![Figure 6 - UPA Remote PE failure](/images/demo-upa/UPA_fig6.png)
-
+<p align = "left">
+ <i>Figure 5 - UPA Remote PE failure</i> 
+</p>
 The goal of UPA is to notify about unreachability of prefixes so routers that are part of a remote domain can act upon this notification. Thus, UPA prefixes are not intended to be persistent.
 
 After some time period the ABRs automatically withdraw the UPA. This time period is to allow full BGP convergence and is configurable.
@@ -212,7 +232,9 @@ address-family ipv6 unicast
 Now we can simulate a PE11 failure and measure convergence using IXIA.
 
 ![Figure 7 - IXIA - Failure with summarization and UPA](/images/demo-upa/UPA_fig7.png)
-
+<p align = "left">
+ <i>Figure 7 - Failure with summarization and UPA</i> 
+</p>
 We can see that the convergence time is exactly the same as without summarization, precisely 353 milliseconds. 
 This is the sequence of events during that time:
 1.	The IGP in domain 2 detects PE11’s failure

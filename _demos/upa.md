@@ -196,14 +196,14 @@ The unreachability property of the prefix is carried by using an â€œunreachableâ
 
 The figure below shows the example network in stable state. The IGP of PE11 advertises its LSP with locator /48 into domain 2. The ABR receives this LSP and advertises the /40 summary prefix into domain 1. PE1 receives this summary prefix that provides reachability to PE11.
 
-![Figure 5 - UPA Stable state](/images/demo-upa/UPA_fig5.png)
+![Figure 5 - UPA Stable state](/images/demo-upa/UPA_fig5.png)          
 <p align = "left">
  <i>Figure 5 - UPA Stable state</i> 
 </p>
 
 When the ABR loses reachability to PE11 in domain 2, the ABR recognizes that the locator of PE11 is part of the summary prefix and generates a UPA for the locator of PE11. The UPA is flooded throughout domain 1. The IGP of PE1 receives the UPA and triggers BGP PIC for all BGP prefixes learned via PE11.
 
-![Figure 6 - UPA Remote PE failure](/images/demo-upa/UPA_fig6.png)
+![Figure 6 - UPA Remote PE failure](/images/demo-upa/UPA_fig6.png)          
 <p align = "left">
  <i>Figure 5 - UPA Remote PE failure</i> 
 </p>

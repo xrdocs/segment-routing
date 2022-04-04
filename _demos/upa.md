@@ -18,7 +18,7 @@ Among many reasons for the wide adoption of SRv6 uSID technology is ultimate sca
 Let’s say we have a midsized network with 30k routers. It is obvious that we cannot handle such a network as a single IGP domain. We must split it into multiple IGP domains. Either using the hierarchical structure of IGP protocols (ISIS levels or OSPF areas) or even using different IGP processes. 
 
 
-For simplicity, we split our network into 30 domains with 1000 nodes each. But we need to maintain any-to-any connectivity. An obvious option is to redistribute all SRv6 locators everywhere. But IGP protocols have their scalability limits as well. Attempt to redistribute all locators across would reach IGP limits. 
+For simplicity, we split our network into 30 domains with 1000 nodes each. As we need to maintain any-to-any connectivity, an obvious option is to redistribute all SRv6 locators everywhere. But IGP protocols have their scalability limits as well. Attempt to redistribute all locators across would reach IGP limits. 
 
 SRv6 offers a very elegant solution to that problem: summarization. Every border router will propagate a few summary prefixes instead of all locators. This concept requires a careful creation of an addressing plan. 
 
@@ -31,7 +31,7 @@ SRv6 offers a very elegant solution to that problem: summarization. Every border
 
 
 
-In Figure 1 we can see an example of summarization. 1000 /48 Locator prefixes are summarized into the core as four /40 networks. As a result, in the core there will only be 1200 summary routes instead of 30k, while still providing any-to-any connectivity. 1200 networks in a single domain are simple to handle for any IGP routing protocol and easy to handle for any HW platform. 
+In Figure 1 we can see an example of summarization. 1000 /48 Locator prefixes are summarized into the core as four /40 networks. As a result, in the core there will only be 120 summary routes instead of 30k, while still providing any-to-any connectivity. 120 networks in a single domain are simple to handle for any IGP routing protocol and easy to handle for any HW platform. 
 
 For a network of this size, we will probably not do any additional summarization towards Domain 0, but for very large networks hierarchical summarization will be necessary.
 
@@ -181,7 +181,7 @@ Therefore, the IGP of domain 1 no longer receives PE11 failure notifications and
 In this measurement, the convergence was very slow (more than 50 seconds) due to the delay of BGP detecting and propagating the failure. This is the sequence of events:
 
 1.	The Route Reflector detects the failure of the BGP session to PE11
-2.	The Route Reflector sends BGP withdraw messages to PE1for all prefixes, one by one 
+2.	The Route Reflector sends BGP withdraw messages to PE1 for all prefixes, one by one 
 3.	PE1 reprograms the FIB entry for each prefix
 
 The overall convergence time depends on the number of prefixes. The more prefixes the longer the convergence time will be. But we need fast BGP PIC convergence even in very large networks where summarization is used!

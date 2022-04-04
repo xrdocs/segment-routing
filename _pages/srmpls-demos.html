@@ -11,5 +11,7 @@ description:
 
 {% assign sorted = site.demos | where_exp:"item", "item.technology contains 'SRMPLS'" | sort:date | reverse %}
 {% for post in sorted %}
-  {% include demos-list %}
+   {% if post.hidden == null or post.hidden == false %}
+      {% include demos-list %}
+   {% endif %}
 {% endfor %}

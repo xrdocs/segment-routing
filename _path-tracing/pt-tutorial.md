@@ -5,10 +5,27 @@ breadnav: true
 date: '2022-04-05 00:06 -0700'
 title: 'Path Tracing Introduction'
 author: 'Ahmed Abdelsalam, Cisco'
-excerpt: 'Path Tracing Introduction'
+excerpt: 'Path Tracing allows operator to deterministically detect ECMP paths. Path Tracing is implemented in HW at linerate in the normal forwarding pipeline and provides an Ultra-MTU-Efficiency. Path Tracing enjoys strong operator interest and rich ecosystem. Cisco is shipping Path Tracing in calendar year 2022 across the portfolio. Some operators are already testing Path Tracing in their lab.'
 header:
   teaser: 'images/path-tracing/pt-tutorial-teaser.png'
 ---
+ECMP is a key in today’s IP network. It provides both efficiency and resilience. 
+Between any two nodes in the network, we are going to have several ECMP Paths. 
+However, the detecting and troubleshooting of these ECMP paths remains a big challenge that faces many operators
+A FIB corruption or FIB misconfiguration at any node is one among many issues that can happen and may lead packets to follow a non ECMP Path. 
+
+Path Tracing reveals all unknowns about ECMP. It allows operators to detect the currently available ECMP paths. They can also detect the ECMP Paths that were available at a given time in the past.
+
+With Path Tracing, the operator will be able to know whether the packets are following an ECMP Path or not. They can also detect where the packet are being drifted from the ECMP Paths 
+
+Path Tracing achieves all of this by collecting only 3 byte of data from each hop on the packet path. 
+
+Path Tracing is implemented at linerate in the HW forwarding pipeline. It provides the most accurate information about the packet path. 
+We never offload packet processing to CPU or NPU co-processors because they won’t record the actual packet experience
+
+Cisco is shipping Path Tracing in calendar year 2022 across the portfolio. Some operators are already testing Path Tracing in their lab. 
+
+In this tutorial we provide an introduction to the Path Tracing Solution. 
 
 ## Video
 

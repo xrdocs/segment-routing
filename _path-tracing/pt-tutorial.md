@@ -5,7 +5,7 @@ breadnav: true
 date: '2022-04-05 00:06 -0700'
 title: 'Path Tracing Introduction'
 author: 'Ahmed Abdelsalam, Cisco'
-excerpt: 'Path Tracing allows operator to deterministically detect ECMP paths. Path Tracing is implemented in HW at linerate in the normal forwarding pipeline and provides an Ultra-MTU-Efficiency. Path Tracing enjoys strong operator interest and rich ecosystem. Cisco is shipping Path Tracing in calendar year 2022 across the portfolio. Some operators are already testing Path Tracing in their lab.'
+excerpt: 'Path Tracing allows operator to deterministically detect ECMP paths. It is implemented in HW at linerate in the normal forwarding pipeline and provides an Ultra-MTU-Efficiency.'
 header:
   teaser: 'images/path-tracing/pt-tutorial-teaser.png'
 ---

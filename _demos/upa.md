@@ -19,7 +19,7 @@ Let’s say we have a midsized network with 30k routers. It is obvious that we c
 
 For simplicity, we split our network into 30 domains with 1000 nodes each. As we need to maintain any-to-any connectivity, an obvious option is to redistribute all SRv6 locators everywhere. But IGP protocols have their scalability limits as well. Attempt to redistribute all locators across would reach IGP limits. 
 
-SRv6 offers a very elegant solution to that problem: summarization. Every border router will propagate a few summary prefixes instead of all locators. This concept requires a careful creation of an addressing plan. 
+SRv6 offers a very elegant solution to that problem: summarization. Every border router will propagate a few summary prefixes instead of all locators. 
 
 ![Figure 1 - Summarization](/images/demo-upa/UPA_fig1.png)
 <p align = "left">

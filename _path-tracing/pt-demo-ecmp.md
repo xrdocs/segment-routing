@@ -1,11 +1,11 @@
 ---
 published: true
 breadnav: true
-date: '2022-04-05 08:00 +0200'
+date: '2022-03-31 08:00 +0200'
 title: 'Path Tracing Demo'
 author: 'Segment Routing Team'
 excerpt: 'Cisco Segment Routing Team demonstrates showcase Path Tracing demo.'
-teaser:images/20220331-pt-tutorial-teaser.png
+teaser: images/20220331-pt-demo-teaser.png
 ---    
 **Coming soon**
 

@@ -52,6 +52,7 @@ The demo setup as illustrated in <a href="#fig1">Figure 1</a> contains the ingre
 ![]({{ 'images/2022-03-29-j2-26usid-demo/fig1.png' | relative_url }})
 *Figure 1: Demo setup*
 </a>
+{% include figure image_path="/images/2022-03-29-j2-26usid-demo/fig1.png" alt="no placeholder" caption="Figure 1: Demo setup" %}
 
 PE1 in this demo is a Cisco NCS-5508 chassis with NC57-18DD-SE linecard.
 
@@ -71,9 +72,7 @@ Note: the configuration commands are subject to change.
 <a id="ex1">
 *Example 1: Configuration of SR Policy POL1 with explicit segment-list SL1*
 </a>
-<div class="highlighter-rouge">
-<pre class="highlight">
-<code>
+{% highlight console %}
 segment-routing
  traffic-eng
   segment-list SL1
@@ -109,9 +108,7 @@ segment-routing
    candidate-paths
     preference 100
      explicit segment-list SL1
-</code>
-</pre>
-</div>
+{% endhighlight %}
 
 The forwarding entry for SR Policy POL1 on PE1 is shown in <a href="#ex2">Example 2</a>. The Binding SID fcbb:bb00:1:e013:: and the SID stack with 24 SIDs are highlighted in the output.
 
@@ -120,9 +117,7 @@ The Binding SID is the key into the SR Policy. Any packet sent via this Binding 
 <a id="ex2">
 *Example 2: Forwarding entry of SR Policy POL1*
 </a>
-<div class="highlighter-rouge">
-<pre class="highlight" style="white-space: pre-wrap; text-align: left">
-<code>
+{% highlight console %}
 RP/0/RP0/CPU0:J2-PE1# show segment-routing traffic-eng forwarding policy color 100
 
 SR-TE Policy Forwarding database
@@ -145,9 +140,7 @@ Color: 100, End-point: fcbb:bb00:26::1
             FRR Pure Backup: No
             ECMP/LFA Backup: No
             SID stack (Top -> Bottom): <mark>{fcbb:bb00:2::, fcbb:bb00:3::, fcbb:bb00:4::, fcbb:bb00:5::, fcbb:bb00:6::, fcbb:bb00:7::, fcbb:bb00:8::, fcbb:bb00:9::, fcbb:bb00:10::, fcbb:bb00:11::, fcbb:bb00:12::, fcbb:bb00:13::, fcbb:bb00:14::, fcbb:bb00:15::, fcbb:bb00:16::, fcbb:bb00:17::, fcbb:bb00:18::, fcbb:bb00:19::, fcbb:bb00:20::, fcbb:bb00:21::, fcbb:bb00:22::, fcbb:bb00:23::, fcbb:bb00:24::, fcbb:bb00:25::}</mark>
-</code>
-</pre>
-</div>
+{% endhighlight %}
 
 Looking on PE1 at the CEF entry of the SR Policy’s Binding SID fcbb:bb00:1:e013::, as illustrated in <a href="#ex3">Example 3</a>, shows that the segment-list with 24 segments is compressed into four uSID containers with six uSID in each container.
 

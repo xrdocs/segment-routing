@@ -3,11 +3,11 @@ published: true
 breadnav: true
 date: '2022-04-05 00:06 -0700'
 order: 20
-title: 'Segment Routing Path Tracing (SR PT)'
+title: 'Path Tracing (PT)'
 author: Segment Routing Team
 technology: 'SRv6'
 category: srv6
-excerpt: 'Segment Routing Path Tracing (SR PT)'
+excerpt: 'Path Tracing (PT)'
 header:
   teaser: 'https://img.youtube.com/vi/QyU5bb4q_0I/hqdefault.jpg'
 ---
@@ -18,7 +18,7 @@ header:
 
 ## Slides
 
-{% capture "pdf-link" %}/images/path-tracing/SR-PT-Introduction-rev1b.pdf{% endcapture %}
+{% capture "pdf-link" %}/images/path-tracing/PT-Introduction-rev1b.pdf{% endcapture %}
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
 <script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

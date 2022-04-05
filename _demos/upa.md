@@ -285,4 +285,6 @@ By not requiring any protocol extension, UPA is very simple to deploy and needs 
 ***Amit Dhamija*** *, Principal Architect – Strategy & Architecture, Rakuten*
 
 
+*"The idea developed behind UPA solves the problem of “PE unreachable when route summarization is used”, in the most easy way, by reusing unreachable metric as depicted in RFC5308. This is going to great stability for a greatly scalable design."*
 
+***Daniel Voyer*** *, Technical Fellow - Network, Bell Canada*

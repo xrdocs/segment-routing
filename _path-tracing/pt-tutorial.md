@@ -6,8 +6,7 @@ date: '2022-04-05 00:06 -0700'
 title: 'Path Tracing Introduction'
 author: 'Ahmed Abdelsalam, Cisco'
 excerpt: 'Path Tracing allows operator to deterministically detect ECMP paths. It is implemented in HW at linerate in the normal forwarding pipeline and provides an Ultra-MTU-Efficiency.'
-header:
-  teaser: 'images/path-tracing/pt-tutorial-teaser.png'
+teaser: 'images/path-tracing/pt-tutorial-teaser.png'
 ---
 ECMP is a key in today’s IP network. It provides both efficiency and resilience. 
 Between any two nodes in the network, we are going to have several ECMP Paths. 

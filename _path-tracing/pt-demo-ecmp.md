@@ -6,8 +6,7 @@ date: '2022-03-31 08:00 +0200'
 title: 'Path Tracing Demo'
 author: 'Segment Routing Team'
 excerpt: 'Cisco Segment Routing Team demonstrates showcase Path Tracing demo.'
-header:
-    teaser: images/20220331-pt-demo-teaser.png
+teaser: images/20220331-pt-demo-teaser.png
 ---    
 **Coming soon**
 

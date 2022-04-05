@@ -1,4 +1,5 @@
 ---
+regenerate: true
 layout: archive-full
 permalink: /path-tracing
 hero-image: images/new-design/SR-Background-Image-2.png
@@ -7,9 +8,9 @@ description:
 ---
 <div class="container">
   <div class="projects-grid-container">
-    {% assign sorted = site.path-tracing | sort: 'title' %}
+    {% assign sorted = site.path-tracing | sort: 'order' %}
     {% for post in sorted %}
       {% include archive-single.html type="grid" %}
     {% endfor %}
   </div>
-</div> 
+</div>

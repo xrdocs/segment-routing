@@ -213,6 +213,15 @@ defaults:
       read_time: false
       related: true
       position: "top"
+# _path-tracing
+  - scope:
+      path: ""
+      type: path-tracing
+    values:
+      layout: single-full
+      read_time: false
+      related: true
+      position: "top"
 
 
 # Outputting

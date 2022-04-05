@@ -1,16 +1,14 @@
 ---
 regenerate: true
-layout: archive-full
+layout: pt-articles
 permalink: /path-tracing
 hero-image: images/new-design/SR-Background-Image-2.png
 title: "Path Tracing"
 description: 
 ---
-<div class="container">
-  <div class="projects-grid-container">
-    {% assign sorted = site.path-tracing | sort: 'order' %}
-    {% for post in sorted %}
-      {% include archive-single.html type="grid" %}
-    {% endfor %}
-  </div>
-</div>
+{% assign sorted = site.path-tracing | sort: 'order' %}
+{% for post in sorted %}
+  {% comment %} if needed, we can create a "pt-list" include {% endcomment %}
+  {% include demos-list %}
+{% endfor %}
+

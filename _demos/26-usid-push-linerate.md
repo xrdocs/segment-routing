@@ -25,6 +25,10 @@ div.highlighter-rouge, figure.highlight {
     margin: 0;
     padding: 1em;
 }
+div.highlighter-rouge pre.highlight {
+    white-space: pre-wrap;
+    text-align: left;
+}
 a em {
     font-size: 1em;
 }
@@ -71,8 +75,8 @@ Note: the configuration commands are subject to change.
 <a id="ex1">
 *Example 1: Configuration of SR Policy POL1 with explicit segment-list SL1*
 </a>
-{% highlight console %}
-segment-routing
+<div class="highlighter-rouge">
+<pre class="highlight"><code>segment-routing
  traffic-eng
   segment-list SL1
    index 10 srv6 sid fcbb:bb00:2::
@@ -107,7 +111,8 @@ segment-routing
    candidate-paths
     preference 100
      explicit segment-list SL1
-{% endhighlight %}
+</code></pre>
+</div>
 
 The forwarding entry for SR Policy POL1 on PE1 is shown in <a href="#ex2">Example 2</a>. The Binding SID fcbb:bb00:1:e013:: and the SID stack with 24 SIDs are highlighted in the output.
 
@@ -116,8 +121,8 @@ The Binding SID is the key into the SR Policy. Any packet sent via this Binding 
 <a id="ex2">
 *Example 2: Forwarding entry of SR Policy POL1*
 </a>
-{% highlight console %}
-RP/0/RP0/CPU0:J2-PE1# show segment-routing traffic-eng forwarding policy color 100
+<div class="highlighter-rouge">
+<pre class="highlight"><code>RP/0/RP0/CPU0:J2-PE1# show segment-routing traffic-eng forwarding policy color 100
 
 SR-TE Policy Forwarding database
 --------------------------------
@@ -139,7 +144,8 @@ Color: 100, End-point: fcbb:bb00:26::1
             FRR Pure Backup: No
             ECMP/LFA Backup: No
             SID stack (Top -> Bottom): <mark>{fcbb:bb00:2::, fcbb:bb00:3::, fcbb:bb00:4::, fcbb:bb00:5::, fcbb:bb00:6::, fcbb:bb00:7::, fcbb:bb00:8::, fcbb:bb00:9::, fcbb:bb00:10::, fcbb:bb00:11::, fcbb:bb00:12::, fcbb:bb00:13::, fcbb:bb00:14::, fcbb:bb00:15::, fcbb:bb00:16::, fcbb:bb00:17::, fcbb:bb00:18::, fcbb:bb00:19::, fcbb:bb00:20::, fcbb:bb00:21::, fcbb:bb00:22::, fcbb:bb00:23::, fcbb:bb00:24::, fcbb:bb00:25::}</mark>
-{% endhighlight %}
+</code></pre>
+</div>
 
 Looking on PE1 at the CEF entry of the SR Policy’s Binding SID fcbb:bb00:1:e013::, as illustrated in <a href="#ex3">Example 3</a>, shows that the segment-list with 24 segments is compressed into four uSID containers with six uSID in each container.
 
@@ -147,9 +153,7 @@ Looking on PE1 at the CEF entry of the SR Policy’s Binding SID fcbb:bb00:1:e01
 *Example 3: CEF entry of SR Policy POL1 Binding SID fcbb:bb00:1:e013::*
 </a>
 <div class="highlighter-rouge">
-<pre class="highlight" style="white-space: pre-wrap; text-align: left">
-<code>
-RP/0/RP0/CPU0:J2-PE1# show cef ipv6 fcbb:bb00:1:e013:: detail
+<pre class="highlight"><code>RP/0/RP0/CPU0:J2-PE1# show cef ipv6 fcbb:bb00:1:e013:: detail
 fcbb:bb00:1:e013::/64, version 2649, SRv6 Endpoint uB6 (Insert.Red), internal 0x1000001 0x0 (ptr 0x9563c8e8) [5], 0x400 (0x94657670), 0x0 (0xa8fed168)
 Updated Mar  7 22:34:32.190 
  local adjacency to FourHundredGigE0/4/0/16
@@ -171,8 +175,7 @@ LW-LDI-TS Mar  7 22:34:32.190
 
     Hash  OK  Interface                 Address
     0     Y   FourHundredGigE0/4/0/16   2001::1:2:2
-</code>
-</pre>
+</code></pre>
 </div>
 
 <br />
@@ -191,9 +194,7 @@ To increase BGP Update packing efficiency, PE26 uses the “transposition” fun
 *Example 4: BGP VPNv4 route 10.0.0.0/8 on PE1 as advertised by PE26*
 </a>
 <div class="highlighter-rouge">
-<pre class="highlight" style="white-space: pre-wrap; text-align: left">
-<code>
-RP/0/RP0/CPU0:J2-PE1# show bgp vrf vrf-main 10.0.0.0/8 detail
+<pre class="highlight"><code>RP/0/RP0/CPU0:J2-PE1# show bgp vrf vrf-main 10.0.0.0/8 detail
 BGP routing table entry for 10.0.0.0/8, Route Distinguisher: 100:1
 Versions:
   Process           bRIB/RIB  SendTblVer
@@ -233,9 +234,7 @@ This VRF route resolves on the Binding SID fcbb:bb00:1:e013:: of SR Policy POL1 
 *Example 5: VRF CEF entry of route 10.0.0.0/8 on PE1*
 </a>
 <div class="highlighter-rouge">
-<pre class="highlight" style="white-space: pre-wrap; text-align: left">
-<code>
-RP/0/RP0/CPU0:J2-PE1# show cef vrf vrf-main 10.0.0.0/8
+<pre class="highlight"><code>RP/0/RP0/CPU0:J2-PE1# show cef vrf vrf-main 10.0.0.0/8
 10.0.0.0/8, version 2014, SRv6 Headend, internal 0x5000001 0x30 (ptr 0xa7ad1868) [1], 0x0 (0x0), 0x0 (0x9c5d5d38)
  Updated Mar 23 14:01:09.907
  Prefix Len 30, traffic index 0, precedence n/a, priority 3

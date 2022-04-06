@@ -52,7 +52,6 @@ The demo setup as illustrated in <a href="#fig1">Figure 1</a> contains the ingre
 ![]({{ 'images/2022-03-29-j2-26usid-demo/fig1.png' | relative_url }})
 *Figure 1: Demo setup*
 </a>
-{% include figure image_path="/images/2022-03-29-j2-26usid-demo/fig1.png" alt="no placeholder" caption="Figure 1: Demo setup" %}
 
 PE1 in this demo is a Cisco NCS-5508 chassis with NC57-18DD-SE linecard.
 

@@ -28,6 +28,9 @@ main:
 
       - page: "Conferences" 
         url: "srmpls-conferences"
+
+  - title: "Path Tracing"
+    url: "path-tracing"
   
   - title: "IETF" 
     url: "ietf"

@@ -14,13 +14,17 @@
                         {% endfor %}
                       </div>
                   </div>  
-                {% elsif item.title == "IETF" %}
+                {% elsif item.title == "Path Tracing" %}
                   <div class="nav-link hide-on-mobile">
                     <a href="{{ item.url | relative_url }}" class="underline">{{ item.title }}</a>
                   </div>
-                {% elsif item.title == "Search" %}
+                {% elsif item.title == "dummy-Search" %}
                   <div class="nav-link hide-on-tablet">
                     <a href="{{ item.url | relative_url }}" class="underline">{{ item.title }} <i class="fa fa-search font-awesome-icon"></i></a>
+                  </div>
+                {% elsif item.title == "Search" %}
+                  <div class="nav-link hide-on-tablet">
+                    <a href="{{ item.url | relative_url }}" class="underline"><i class="fa fa-search font-awesome-icon"></i></a>
                   </div>
                 {% elsif item.title == "Scientific Papers" %}
                   <div class="nav-link hide-on-tablet">

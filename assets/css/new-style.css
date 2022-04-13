@@ -969,7 +969,8 @@ details {
   }
 }
 
-@media screen and (max-width: 1100px) {
+/* adjusted from 1100px to 1176px after adding Path Tracing menu item */
+@media screen and (max-width: 1176px) {
   /* Top Nav  */
   .nav-container {
     overflow: hidden;
@@ -1081,11 +1082,15 @@ details {
     top: 60px;
   }
   .nav-link:nth-child(6) {
+    top: 60px;
+  }
+  .nav-link:nth-child(7) {
     top: 90px;
   }
 }
 
-@media screen and (max-width: 991px) {
+/* adjusted from 991px to 1000px after adding Path Tracing */
+@media screen and (max-width: 1000px) {
   .hide-on-portrait {
     display: none;
   }
@@ -1102,8 +1107,11 @@ details {
   .nav-link:nth-child(6) {
     top: 120px;
   }
-  .social.show {
+  .nav-link:nth-child(7) {
     top: 150px;
+  }
+  .social.show {
+    top: 180px;
   }
   /* Hero Section */
   .hero-section {
@@ -1295,7 +1303,8 @@ details {
   }
 }
 
-@media screen and (max-width: 479px) {
+/* adjusted from 479px to 562px after adding Path Tracing */
+@media screen and (max-width: 562px) {
   .container {
     max-width: 95%;
   }
@@ -1326,8 +1335,11 @@ details {
   .nav-link:nth-child(6) {
     top: 150px;
   }
-  .social.show {
+  .nav-link:nth-child(7) {
     top: 180px;
+  }
+  .social.show {
+    top: 210px;
   }
   /* Hero Section */
   .hero-section{

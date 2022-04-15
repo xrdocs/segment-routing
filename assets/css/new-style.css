@@ -910,6 +910,9 @@ details {
   line-height: 30px;
   font-weight: 300;
   letter-spacing: 1px;
+  /* KM 15/04/2022 text justified titles are annoying */
+  display: inline-block;
+  text-align: left;
 }
 .single li {
   margin-bottom: 10px;
@@ -1186,7 +1189,9 @@ details {
 @media screen and (max-width: 768px) {
   p {
     font-size: 1em;
-    margin: 0 auto;
+    /* this makes text too condensed, no difference between paragraphs
+    margin: 0 auto; */
+    margin: 0 auto 0.5em auto;
   }
   .container {
     max-width: 90%;

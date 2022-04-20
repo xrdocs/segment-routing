@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2022-04-05 20:00 -0700'
-title: 'MPLS WC 2022 - SRv6: Status update and latest Innovations'
+title: 'MPLS WC 2022 - Cisco: SRv6 Technology Status and Deployment Update'
 author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At the MPLS WC in Paris, April 2022, Clarence Filsfils presented "SRv6: Status update and latest Innovations".Reviewing the IETF status, the latest deployments and introducing some exciting innovations.'

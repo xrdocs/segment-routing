@@ -10,7 +10,7 @@ header:
   teaser: 'images/MPLS-WC-2022/MPLS-WC-teaser.png'
 ---
 
-The [**MPLS WC 2022**](<https://www.uppersideconferences.com/mpls-sdn-nfv/mplswc_2022_agenda_day_1.html>), April 2022 in Paris paid particular attention to SRv6: Technical Progress, Interop, and next steps. Moreover, an impressive set of service providers describe current deployments and introduce some exciting innovations.
+The [**MPLS WC 2022**](<https://www.uppersideconferences.com/mpls-sdn-nfv/mplswc_2022_agenda_day_1.html>) Conference, April 2022 in Paris, paid particular attention to SRv6: Technical Progress, Interop, and next steps. Moreover, an impressive set of service providers describe current deployments and introduce some exciting innovations.
 
 This page highlights a selection of SRv6 topics presented at this conference, and several demos and innovations that have been announced at that time.
 

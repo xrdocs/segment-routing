@@ -9,6 +9,14 @@ excerpt: 'The MPLS WC 2022 Conference in Paris paid particular attention to SRv6
 header:
   teaser: 'images/MPLS-WC-2022/MPLS-WC-teaser.png'
 ---
+<style>
+.indent {
+    padding-left: 20px;
+}
+.single h4.indent {
+    display: block;
+}
+</style>
 
 The [**MPLS WC 2022**](<https://www.uppersideconferences.com/mpls-sdn-nfv/mplswc_2022_agenda_day_1.html>) Conference, April 2022 in Paris, paid particular attention to SRv6: Technical Progress, Interop, and next steps. Moreover, an impressive set of service providers describe current deployments and introduce some exciting innovations.
 
@@ -25,16 +33,21 @@ _**Amit Dhamija** of Rakuten_
 Introducing the SRv6 uSID deployment use-case for Mobile Backhaul (MBH) and network slicing services.
 
 <br />
-#### [Bell Canada: SRv6 Deployment – Service programming Reduces Cost](/conferences/MPLS-WC-2022-Daniel-Bernier-Jesper-Eriksson)
-_**Daniel Bernier** of Bell Canada and **Jesper Eriksson** of NoviFlow inc._
-<br />
-Showing how SRv6 and a P4 programmable switch fabric can reduce carrier network services costs by up to 90%, footprint by 75%, and power consumption by as much as 66% and thus facilitate a cost effective migration of latency sensitive applications to the network edge. Including actual network deployment experiences.
-
-<br />
-#### [Bell Canada: SRv6 uSID Deployment – Benefits of an SRv6 uSID Fabric](/conferences/MPLS-WC-2022-Daniel-Voyer)
+#### **Bell Canada: SRv6 uSID Deployment**
+#### [Benefits of an SRv6 uSID Fabric](/conferences/MPLS-WC-2022-Daniel-Voyer)
+{: .indent}
 _**Daniel Voyer** of Bell Canada_
 <br />
 Motivation to migrate from SR-MPLS to SRv6 uSID. Reviewing the benefits of an SRv6 uSID fabric.
+{: .indent}
+
+<br />
+#### [Service programming Reduces Cost](/conferences/MPLS-WC-2022-Daniel-Bernier-Jesper-Eriksson)
+{: .indent}
+_**Daniel Bernier** of Bell Canada and **Jesper Eriksson** of NoviFlow inc._
+<br />
+Showing how SRv6 and a P4 programmable switch fabric can reduce carrier network services costs by up to 90%, footprint by 75%, and power consumption by as much as 66% and thus facilitate a cost effective migration of latency sensitive applications to the network edge. Including actual network deployment experiences.
+{: .indent}
 
 <br />
 #### [Alibaba: Full stack SRv6 Deployment](/conferences/MPLS-WC-2022-Yuanchao-Su)

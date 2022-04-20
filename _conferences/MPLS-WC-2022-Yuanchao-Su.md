@@ -5,7 +5,7 @@ date: '2022-04-05 17:00 -0700'
 title: 'MPLS WC 2022 - Alibaba: Full Stack SRv6 Deployment'
 author: Segment Routing Team
 technology: 'SRv6'
-excerpt: 'At the MPLS WC in Paris, April 2022, Yuanchao Su, Alibaba, presented "Alibaba: Full stack SRv6 towards a ''Predictable Network''". Unified SRv6 dataplane from socket to peering link.
+excerpt: 'At the MPLS WC in Paris, April 2022, Yuanchao Su, Alibaba, presented "Alibaba: Full stack SRv6 towards a ''Predictable Network''". Unified SRv6 dataplane from socket to peering link.'
 header:
   teaser: 'https://img.youtube.com/vi/izE4eh1q6ts/mqdefault.jpg'
 ---

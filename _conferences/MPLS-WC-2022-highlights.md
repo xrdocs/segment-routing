@@ -5,7 +5,7 @@ date: '2022-04-05 21:00 -0700'
 title: 'Highlights of the SRv6 Conference in Paris, April 2022'
 author: Segment Routing Team
 technology: 'SRv6'
-excerpt: 'The MPLS WC 2022 in Paris paid particular attention to SRv6: Technical Progress, Interop, and next steps. Moreover, an impressive set of service providers describe current deployments and introduce some exciting innovations.'
+excerpt: 'The MPLS WC 2022 Conference in Paris paid particular attention to SRv6: Technical Progress, Interop, and next steps. Moreover, an impressive set of service providers describe current deployments and introduce some exciting innovations.'
 header:
   teaser: 'images/MPLS-WC-2022/MPLS-WC-teaser.png'
 ---

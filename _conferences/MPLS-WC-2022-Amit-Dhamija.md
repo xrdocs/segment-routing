@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2022-04-05 18:00 -0700'
-title: 'MPLS WC 2022 - Rakuten: SRv6 uSID in deployment to deliver end-to-end 5G Network Slicing'
+title: 'MPLS WC 2022 - Rakuten: SRv6 uSID in Deployment to Deliver End-to-end 5G Network Slicing'
 author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At the MPLS WC in Paris, April 2022, Amit Dhamija, Rakuten, presented "Rakuten end-to-end 5G Network Slicing using SRv6 uSID". Introducing the SRv6 uSID deployment use-case for Mobile Backhaul (MBH) and network slicing services.'

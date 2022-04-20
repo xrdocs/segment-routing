@@ -9,6 +9,14 @@ excerpt: 'At the MPLS WC in Paris, April 2022, Amit Dhamija, Rakuten, presented 
 header:
   teaser: 'https://img.youtube.com/vi/GJYq_gWUuk8/mqdefault.jpg'
 ---
+<style>
+.single iframe, .single img {
+    width: 712px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+</style>
 **Amit Dhamija** of Rakuten presented "Rakuten end-to-end 5G Network Slicing using SRv6 uSID" at the [**MPLS WC 2022**](<https://www.uppersideconferences.com/mpls-sdn-nfv/mplswc_2022_agenda_day_1.html>), April 2022 in Paris.
 Introducing the SRv6 uSID deployment use-case for Mobile Backhaul (MBH) and network slicing services.
 

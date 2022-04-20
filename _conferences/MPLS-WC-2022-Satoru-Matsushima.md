@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2022-04-05 19:00 -0700'
-title: 'MPLS WC 2022 - Softbank SRv6 MUP: Evolution of Mobile Network Enabled by SRv6'
+title: 'MPLS WC 2022 - Softbank: SRv6 Mobile User Plane (MUP)'
 author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At the MPLS WC in Paris, April 2022, Satoru Matsushima, SoftBank, presented "Softbank SRv6 MUP: Evolution of Mobile Network Enabled by SRv6". Introducing the Segment Routing IPv6 Mobile User Plane (SRv6 MUP) architecture.'

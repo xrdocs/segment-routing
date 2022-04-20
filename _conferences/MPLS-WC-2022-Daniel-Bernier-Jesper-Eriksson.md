@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2022-04-05 15:00 -0700'
-title: 'MPLS WC 2022 - Leveraging SRv6 and P4 Programmable Switch Fabric at the Network Edge'
+title: 'MPLS WC 2022 - Bell Canada: SRv6 Deployment – Service Programming Reduces Cost'
 author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At the MPLS WC in Paris, April 2022, Daniel Bernier, Bell Canada, and Jesper Eriksson, NoviFlow inc., presented "Leveraging SRv6 and P4 Programmable Switch Fabric at the Network Edge".'

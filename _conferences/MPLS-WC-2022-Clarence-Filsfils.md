@@ -9,6 +9,22 @@ excerpt: 'At the MPLS WC in Paris, April 2022, Clarence Filsfils presented "SRv6
 header:
   teaser: 'https://img.youtube.com/vi/D0y7UZ9SrXw/mqdefault.jpg'
 ---
+<style>
+.single iframe, .single img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+@media screen and (min-width: 893px) {
+    .single iframe, .single img {
+        width: 712px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+</style>
 
 **Clarence Filsfils** of Cisco Systems presented "SRv6: Status update and latest Innovations" at the [**MPLS WC 2022**](<https://www.uppersideconferences.com/mpls-sdn-nfv/mplswc_2022_agenda_day_1.html>), April 2022 in Paris.
 Reviewing the IETF status, the latest deployments and introducing some exciting innovations.

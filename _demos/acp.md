@@ -1,6 +1,7 @@
 ---
 published: true
 breadnav: true
+hidden: true
 date: '2022-03-31 15:00 +0200'
 title: 'Automated Capacity Planning'
 author: 'Segment Routing Team'
@@ -10,5 +11,5 @@ teaser: images/demo-acp.png
 ---    
 **Coming soon**
 
-This video will be available by April 15, 2022.
+This video will be available by May 6, 2022.
 

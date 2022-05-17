@@ -12,5 +12,5 @@ teaser: images/sr-logo-blue.png
 
 **Coming soon**
 
-The SRv6 Stateless Slicing demo will be available in second half of April 2022.
+The SRv6 Stateless Slicing demo will be available later this year.
 

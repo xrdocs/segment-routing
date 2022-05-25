@@ -19,8 +19,5 @@ Introducing the Segment Routing IPv6 Mobile User Plane (SRv6 MUP) architecture.
 
 ### Slides
 
-{% capture "pdf-link" %}/images/MPLS-WC-2022/MATSUSHIMA-MPLSWC2022-SRv6MUP-SoftBank-POST.pdf{% endcapture %}
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+{% include pdf link="/images/MPLS-WC-2022/MATSUSHIMA-MPLSWC2022-SRv6MUP-SoftBank-POST.pdf" %}
 

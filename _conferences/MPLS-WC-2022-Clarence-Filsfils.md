@@ -32,12 +32,9 @@ Reviewing the IETF status, the latest deployments and introducing some exciting 
 
 ### Video
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/D0y7UZ9SrXw" frameborder="0" allowfullscreen></iframe>
+{% include video id="D0y7UZ9SrXw" provider="youtube" %}
 
 ### Slides
 
-{% capture "pdf-link" %}/images/MPLS-WC-2022/20220405-Paris-SRv6-Update-rev3f.pdf{% endcapture %}
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+{% include pdf link="/images/MPLS-WC-2022/20220405-Paris-SRv6-Update-rev3f.pdf" %}
 

@@ -31,12 +31,9 @@ Unified SRv6 dataplane from socket to peering link leveraging SRv6’s scalabili
 
 ### Video
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/izE4eh1q6ts" frameborder="0" allowfullscreen></iframe>
+{% include video id="izE4eh1q6ts" provider="youtube" %}
 
 ### Slides
 
-{% capture "pdf-link" %}/images/MPLS-WC-2022/d1-18-30-su-yuanchao.pdf{% endcapture %}
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+{% include pdf link="/images/MPLS-WC-2022/d1-18-30-su-yuanchao.pdf" %}
 

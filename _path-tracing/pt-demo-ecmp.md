@@ -10,4 +10,4 @@ teaser: images/20220331-pt-demo-teaser.png
 ---    
 **Coming soon**
 
-This video will be available by April 15, 2022.
+This video will be available soon.

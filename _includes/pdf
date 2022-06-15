@@ -1,0 +1,11 @@
+{% capture pdf_link %}{{ include.link }}{% endcapture %}
+{% assign pdf_link = pdf_link | strip | relative_url %}
+{% capture pdf_id %}{{ include.id }}{% endcapture %}
+{% if pdf_id == "" %}{% assign pdf_id = "pdf" %}{% endif %}
+
+{% unless pdf_link == "" %}
+<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
+<div class="fitvidsignore" id="{{ pdf_id }}"></div>
+<script>PDFObject.embed(" {{ pdf_link }} ", "#{{ pdf_id }}", {height: "21.5em", width: "31.3em"});</script>
+{% endunless %}
+

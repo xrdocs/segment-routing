@@ -1,6 +1,0 @@
-[submodule "avatars"]
-	path = avatars
-	url = https://github.com/xrdocs/avatars.git
-[submodule "images/avatars"]
-	path = images/avatars
-	url = https://github.com/xrdocs/avatars.git

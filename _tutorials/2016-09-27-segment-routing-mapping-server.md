@@ -15,7 +15,7 @@ excerpt: >-
 Learn about the objective of the Mapping Server and see how one may configure it. Further, verify the mapping server functionality.
 {: .notice}  
 
-{% capture "pdf-link" %}/images/0060-SR-TOI-SR_Mapping-Server_v8.pdf{% endcapture %}
+{% capture "pdf-link" %}/images/tutorials/0060-SR-TOI-SR_Mapping-Server_v8.pdf{% endcapture %}
 
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>

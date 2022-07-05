@@ -13,7 +13,7 @@ excerpt: An introduction to Segment Routing and its concepts.
 An introduction to Segment Routing and its concepts.
 {: .notice}
 
-{% capture "pdf-link" %}/images/0010-SR-TOI-SR_intro_v10.pdf{% endcapture %}
+{% capture "pdf-link" %}/images/tutorials/0010-SR-TOI-SR_intro_v10.pdf{% endcapture %}
 
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>

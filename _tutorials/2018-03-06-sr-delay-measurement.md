@@ -15,7 +15,7 @@ The Delay Measurement solution, as part of the Performance Monitoring functional
 [Click here to see the video of this presentation.](http://www.segment-routing.net/conferences/2018-sr-mpls-performance-monitoring/)
 {: .notice}  
 
-{% capture "pdf-link" %}/images/sr-mpls-pm-rev1g-km1.pdf{% endcapture %}
+{% capture "pdf-link" %}/images/tutorials/sr-mpls-pm-rev1g-km1.pdf{% endcapture %}
 
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>

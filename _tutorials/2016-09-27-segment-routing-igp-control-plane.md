@@ -16,7 +16,7 @@ excerpt: >-
 Learn how to use IS-IS or OSPF to distribute segments, how to configure segment routing and how segment routing works in a multi-area or multi-level network. Further, learn how to verify segment routing advertisements.
 {: .notice}
 
-{% capture "pdf-link" %}/images/0040-SR-TOI-SR_IGP_control_plane_v11a.pdf{% endcapture %}
+{% capture "pdf-link" %}/images/tutorials/0040-SR-TOI-SR_IGP_control_plane_v11a.pdf{% endcapture %}
 
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>

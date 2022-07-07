@@ -15,7 +15,7 @@ excerpt: >-
 See how segment routing leverages the existing MPLS data plane and learn how to verify segment routing MPLS forwarding.
 {: .notice}  
 
-{% capture "pdf-link" %}/images/0020-SR-TOI-MPLS_dataplane_v9.pdf{% endcapture %}
+{% capture "pdf-link" %}/images/tutorials/0020-SR-TOI-MPLS_dataplane_v9.pdf{% endcapture %}
 
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>

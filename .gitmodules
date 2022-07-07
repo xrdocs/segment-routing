@@ -1,6 +1,8 @@
 [submodule "avatars"]
-	path = avatars
-	url = https://github.com/xrdocs/avatars.git
+    active = false
+    path = avatars
+    url = https://github.com/xrdocs/avatars.git
 [submodule "images/avatars"]
-	path = images/avatars
-	url = https://github.com/xrdocs/avatars.git
+    active = false
+    path = images/avatars
+    url = https://github.com/xrdocs/avatars.git

@@ -11,5 +11,5 @@ teaser: images/demo-acp.png
 ---    
 **Coming soon**
 
-This video will be available by June 10, 2022.
+This video will be available soon.
 

@@ -72,6 +72,16 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
   {% endfor %}
   </details>
 
+  {% assign articles = site.data.ietf["list_path_tracing"] %}
+  <details>
+    <summary>Path Tracing</summary>
+  {% for post in articles %}
+    <div>
+      {% include rfc_list %}
+    </div>
+  {% endfor %}
+  </details>
+
   {% assign articles = site.data.ietf["list_mcast"] %}
   <details>
     <summary>Replication</summary>

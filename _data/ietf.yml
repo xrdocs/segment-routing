@@ -23,8 +23,8 @@ list_architecture:
     url: https://datatracker.ietf.org/doc/rfc8986/
     status: RFC 8986
   - title: Compressed SRv6 Segment List Encoding in SRH
-    url: https://datatracker.ietf.org/doc/draft-filsfilscheng-spring-srv6-srh-comp-sl-enc/
-    status: Draft
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-srv6-srh-compression/
+    status: WG Document
   - title: "Network Programming extension: SRv6 uSID instruction"
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-net-pgm-extension-srv6-usid/
     status: Draft
@@ -34,6 +34,12 @@ list_architecture:
   - title: Service Programming with Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-sr-service-programming/
     status: WG Document
+  - title: Structured Flow Label
+    url: https://datatracker.ietf.org/doc/draft-filsfils-6man-structured-flow-label/
+    status: Draft
+  - title: Stateless and Scalable Network Slice Identification for SRv6
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-stateless-slice-id/
+    status: Draft
   - title: SR-MPLS over IP
     url: https://datatracker.ietf.org/doc/rfc8663/
     status: RFC 8663
@@ -106,8 +112,8 @@ list_oam:
     url: https://datatracker.ietf.org/doc/rfc8287/
     status: RFC 8287
   - title: Operations, Administration, and Maintenance (OAM) in Segment Routing Networks with IPv6 Data plane (SRv6)
-    url: https://datatracker.ietf.org/doc/draft-ietf-6man-spring-srv6-oam/
-    status: WG Document
+    url: https://datatracker.ietf.org/doc/rfc9259/
+    status: RFC 9259
   - title: Bidirectional Forwarding Detection (BFD) for Segment Routing Policies for Traffic Engineering
     url: https://datatracker.ietf.org/doc/draft-ali-spring-bfd-sr-policy/
     status: Draft
@@ -150,6 +156,14 @@ list_pm:
     url: https://datatracker.ietf.org/doc/draft-gandhi-ippm-simple-direct-loss
     status: Draft
 
+list_path_tracing:
+  - title: Path Tracing in SRv6 networks
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing/
+    status: Draft
+  - title: Path Tracing in SR-MPLS networks
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing-srmpls/
+    status: Draft
+
 list_mcast:
   - title: PCEP extensions for p2mp sr policy
     url: https://datatracker.ietf.org/doc/draft-hsd-pce-sr-p2mp-policy/
@@ -175,15 +189,6 @@ list_srv6:
     status: Draft
   - title: User Plane Message Encoding
     url: https://datatracker.ietf.org/doc/draft-murakami-dmm-user-plane-message-encoding/
-    status: Draft
-  - title: Analysis Framework For Extensions of SRv6 Encapsulation
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-analysis-fmwk-ext-srv6-encap/
-    status: Draft
-  - title: SRv6 Network Programming Overhead Analysis
-    url: https://datatracker.ietf.org/doc/draft-dukes-spring-srv6-overhead-analysis/
-    status: Draft
-  - title: Structured Flow Label
-    url: https://datatracker.ietf.org/doc/draft-filsfils-6man-structured-flow-label/
     status: Draft
 
 list_srmpls:
@@ -214,9 +219,8 @@ list_bgp:
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-segment-routing-te-policy/
     status: WG Document
   - title: SRv6 BGP based Overlay services
-    url: https://datatracker.ietf.org/doc/draft-ietf-bess-srv6-services/
-    status: WG Document
-
+    url: https://datatracker.ietf.org/doc/rfc9252/
+    status: RFC 9252
 list_bgp_ls:
   - title: BGP Link-State extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-segment-routing-ext/

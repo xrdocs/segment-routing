@@ -2,7 +2,3 @@
     active = false
     path = avatars
     url = https://github.com/xrdocs/avatars.git
-[submodule "images/avatars"]
-    active = false
-    path = images/avatars
-    url = https://github.com/xrdocs/avatars.git

@@ -12,6 +12,6 @@ excerpt: >-
   network operators and architects, according to a <a href="https://www.fedscoop.com/segment-routing-and-US-fed-network-architectures-report/">new report</a>. This report highlights the key benefits of
   segment routing and explains that it is designed to work with legacy systems too.
 
-teaser: https://s3.amazonaws.com/fedscoopwp-media/wp-content/uploads/2016/12/23204231/FedScoop-RGB-Color.png
+teaser: images/FedScoop-RGB-Color.png
 ---
 

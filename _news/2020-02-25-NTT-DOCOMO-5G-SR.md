@@ -10,5 +10,5 @@ excerpt: >-
   <br/>
   Mobile backhaul is the transport network that connects the 5G radio (in the cell tower) to the core network that feeds into the data centers. DOCOMO needed a blueprint for more cost effective transport to meet its future 5G base station facility plan capable of achieving 400 Gigabit Ethernet (GE) speeds.
 
-teaser: https://www.nttdocomo.co.jp/english/images_osp/common/header/logo_header_01.png
+teaser: images/logo_header_01.png
 ---

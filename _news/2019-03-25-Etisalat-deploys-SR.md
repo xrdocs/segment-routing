@@ -11,6 +11,6 @@ excerpt: >-
   international network with closed-loop automation, introducing automation and software-defined networking (SDN) to the 
   service provider’s Emirates Internet Exchange (EMIX) network, deploying cutting-edge technologies that set the foundation 
   for new opportunities and business models.
-teaser: https://alln-extcloud-storage.cisco.com/blogs/101/2020/11/IL20201110092255-file-20190421051507-6107-600x200.jpg
+teaser: images/etisalat.jpg
 ---
 

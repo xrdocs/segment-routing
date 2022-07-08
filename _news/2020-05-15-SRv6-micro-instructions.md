@@ -10,6 +10,6 @@ excerpt: >-
   <br/>
   In this post, we introduce a straightforward extension to the SRv6 network program: each 16-byte instruction may contain up to six micro-instructions. The SRv6 Segment Routing Extension Header (SRH) data plane (RFC 8754) and the SRv6 control plane are leveraged without any change.
 
-teaser: https://blog.apnic.net/wp-content/uploads/2020/04/Segment_purple_banner-768x281.png?v=40618139cfbbca611a3aaee27ade89b6
+teaser: images/Segment_purple_banner-768x281.png
 ---
 

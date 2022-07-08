@@ -11,5 +11,5 @@ excerpt: >-
   The Chinese government issued an ‘Action Plan for the Large-scale Deployment of IPv6’ in November 2017, which seeks to build the world’s largest IPv6 business network in the coming eight years. By the end of 2025, <i>all</i> networks and websites in China, with more than a billion users, will be running IPv6.<br />
   In this blog, Yuedong Zhang, Assistant Director of the System Operations, IP Business, Technical Administration at CNNIC, discusses the current state of the IPv6 deployment and gives some insight in what they expect to see in the next years.
 
-teaser: https://blog.apnic.net/wp-content/themes/apnic-corporate-identity/dist/images/apnic.svg
+teaser: images/apnic.svg
 ---

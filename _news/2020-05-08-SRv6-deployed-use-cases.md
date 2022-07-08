@@ -10,5 +10,5 @@ excerpt: >-
   <br/>
   In this post, we will go through the numerous use cases that have been deployed as of February 2019.
 
-teaser: https://blog.apnic.net/wp-content/uploads/2020/04/Segment_red_banner-768x281.png?v=a4dbe6f69e0fc7db59f92ff1d91a5e0a
+teaser: images/Segment_red_banner-768x281.png
 ---

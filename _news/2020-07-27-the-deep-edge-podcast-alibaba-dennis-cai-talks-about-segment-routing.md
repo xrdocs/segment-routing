@@ -14,5 +14,5 @@ excerpt: >-
   - The use-cases Alibaba plans to address with SRv6.<br />
   - SRv6 micro-instructions.<br />
   - Alibaba recommends particulars to ensure successful SRv6 implementation.
-teaser: https://storage.buzzsprout.com/variants/ro5x7eb1n4bz1nluijqed2cqv4gl/74cb75bab2243992e98fab5156007185827084cf97936f24c0c66a651388df90.jpg
+teaser: images/buzzsprout-dennis-cai.jpg
 ---

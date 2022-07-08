@@ -10,7 +10,7 @@ excerpt: >-
   Stephane Litkowski, Orange)
 header:
   teaser: >-
-    http://image.slidesharecdn.com/mplswc2014-segmentroutingtilfa-151216192029/95/mpls-wc-2014-segment-routing-tilfa-fast-reroute-1-638.jpg
+    images/mpls-wc-2014-segment-routing-tilfa-fast-reroute-1-638.jpg
 ---
 
 # TILFA FRR with SR 

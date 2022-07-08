@@ -10,5 +10,5 @@ excerpt: >-
   Segment Routing Traffic Engineering or SR-TE in conjunction with Automated Steering dramatically simplifies the Traffic Engineering configuration model and eliminates the RSVP soft state requirement, in favor of a Source Packet Routing model also known as SPRING.<br />
   In this blog, Mike DiVincenzo, Technical Solutions Architect MPLS/Segment Routing at WWT, decribes how Segment Routing Traffic Engineering drives scalability and network intelligence while improving capacity utilization and reducing costs.
 
-teaser: https://www.wwt.com/api/attachments/5ec2d4b99e0dc8008784aaf9/thumbnail?width=1000
+teaser: images/wwt-TE-thumbnail.png
 ---

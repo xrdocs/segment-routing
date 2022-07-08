@@ -7,7 +7,7 @@ author: Segment Routing Team
 technology: 'SRMPLS'
 excerpt: 'Isocore SDN/MPLS 2015: Segment Routed Traffic Engineering '
 header:
-  teaser: 'https://www.isocore.com/2015/images/logo/MPLS_SDN_logo.bmp'
+  teaser: 'images/MPLS_SDN_logo.bmp'
 ---
 
 

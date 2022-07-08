@@ -9,5 +9,5 @@ technology: 'SRv6'
 excerpt: >-
   Indosat Ooredoo is proud to announce that they are now ready to build a 5G-ready transport network based on new converged Software-defined Networking (SDN) and Segment Routing IPv6 (SRv6) architecture, powered by Cisco.<br />
  
-teaser: https://im3-img.indosatooredoo.com/dataprod/portalcontent/portal/images/group/637391532639042455.jpg
+teaser: images/indosatooredoo.jpg
 ---

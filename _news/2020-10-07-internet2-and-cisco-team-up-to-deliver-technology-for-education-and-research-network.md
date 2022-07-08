@@ -11,5 +11,5 @@ excerpt: >-
   Internet2 will deploy Cisco’s latest 8200 series routing platform powered by Cisco Silicon One ASICs, running IOS® XR7 and Network Services Orchestration (NSO) software as part of the packet infrastructure upgrade to its national backbone.<br />
   A move to segment routing with multiprotocol label switching (SR-MPLS) and Ethernet virtual private network (EVPN) will allow researcher applications to eventually claim up to an entire 400G link for a particular application while other network uses are dynamically moved to other paths.
 
-teaser: https://internet2.edu/wp-content/uploads/2020/01/internet2-6.png
+teaser: images/internet2-6.png
 ---

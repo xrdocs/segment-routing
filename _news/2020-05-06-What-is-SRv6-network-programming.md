@@ -10,5 +10,5 @@ excerpt: >-
   <br/>
   SRv6 has been deployed in eight public, large-scale commercial networks, including Softbank, Iliad, China Telecom, LINE Corporation, China Unicom, CERNET2, China Bank and Uganda MTN.
 
-teaser: https://blog.apnic.net/wp-content/uploads/2020/04/Segment_orange_banner-768x281.png?v=1d8aa1728f1d03dc51a05aa8940ec4ab
+teaser: images/Segment_orange_banner-768x281.png
 ---

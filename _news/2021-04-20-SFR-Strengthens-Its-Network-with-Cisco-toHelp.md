@@ -12,5 +12,5 @@ excerpt: >-
   Businesses looking to accelerate digitization plans and cloud ambitions need network resiliency.<br />
   SFR continues to invest in its high-speed broadband network spanning fiber, 4G and 5G to support increased demands for always on connections.
  
-teaser: https://static.s-sfr.fr/media/v2/assets/images/png/sfr-logo.png
+teaser: images/sfr-logo.png
 ---

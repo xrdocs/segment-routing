@@ -8,8 +8,8 @@ list_architecture:
     url: https://datatracker.ietf.org/doc/rfc8402/
     status: RFC 8402
   - title: Segment Routing Policy Architecture
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-policy/
-    status: WG Document
+    url: https://datatracker.ietf.org/doc/rfc9256/
+    status: RFC 9256
   - title: SR Policy Implementation and Deployment Considerations
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-policy-considerations/
     status: Draft
@@ -209,6 +209,9 @@ list_bgp:
   - title: Segment Routing Prefix SID extensions for BGP
     url: https://datatracker.ietf.org/doc/rfc8669/
     status: RFC 8669
+  - title: SRv6 BGP based Overlay services
+    url: https://datatracker.ietf.org/doc/rfc9252/
+    status: RFC 9252
   - title: BGP Color-Aware Routing Problem Statement
     url: https://datatracker.ietf.org/doc/draft-dskc-bess-bgp-car-problem-statement/
     status: Draft
@@ -218,9 +221,6 @@ list_bgp:
   - title: Advertising Segment Routing Policies in BGP
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-segment-routing-te-policy/
     status: WG Document
-  - title: SRv6 BGP based Overlay services
-    url: https://datatracker.ietf.org/doc/rfc9252/
-    status: RFC 9252
 list_bgp_ls:
   - title: BGP Link-State extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-segment-routing-ext/

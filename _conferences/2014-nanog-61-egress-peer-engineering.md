@@ -8,10 +8,10 @@ technology: 'SRv6, SRMPLS'
 excerpt: 'Nanog 61: Segment Routing Centralized Egress Peer Engineering'
 header:
   teaser: >-
-    https://networks.nokia.com/sites/live/files/styles/alu_events_node/public/meeting61.jpg?itok=QFIu-IXE
+    images/tuesday_lightning_filsfils_segment.png
 ---
 
-{% capture "pdf-link" %}https://www.nanog.org/sites/default/files/tuesday_lightning_filsfils_segment.pdf{% endcapture %}
+{% capture "pdf-link" %}images/tuesday_lightning_filsfils_segment.pdf{% endcapture %}
 
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>

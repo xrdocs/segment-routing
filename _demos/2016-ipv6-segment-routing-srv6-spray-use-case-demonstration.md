@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 breadnav: true
 date: '2016-09-25 01:08 -0700'
 title: 'IPv6 Segment Routing (SRv6) '

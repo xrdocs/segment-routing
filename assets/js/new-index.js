@@ -6,6 +6,7 @@ $(document).ready(function(){
 	    $(".hide-on-tablet").toggleClass('show');
 	    $(".hide-on-portrait").toggleClass('show');
 	    $(".hide-on-mobile").toggleClass('show');
+	    $(".hide-on-xxs").toggleClass('show');
 	    $(".social").toggleClass('show');
 	});
 }); 
@@ -35,8 +36,18 @@ lightBoxVideo.pause();
 //Slider
 var quoteSlideIndex = 0;
 var bookSlideIndex = 0;
-showSlides(quoteSlideIndex, "quote-slide");
-showSlides(bookSlideIndex, "book-slide");
+if (document.getElementsByClassName("quote-slide").length > 0) {
+  showSlides(quoteSlideIndex, "quote-slide");
+  setInterval(function() {
+    plusSlides(1, "quote-slide");
+  }, 5000);
+}
+if (document.getElementsByClassName("book-slide").length > 0) {
+  showSlides(bookSlideIndex, "book-slide");
+  setInterval(function() {
+    plusSlides(1, "book-slide");
+  }, 5000);
+}
 
 function plusSlides(n, slide) {
   if (slide == "book-slide") {
@@ -46,11 +57,6 @@ function plusSlides(n, slide) {
     showSlides(quoteSlideIndex += n, slide);
   }
 }
-
-setInterval(function() {
-  plusSlides(1, "book-slide");
-  plusSlides(1, "quote-slide");
-}, 5000);
 
 function showSlides(slideIndex, slide=false) {
   var slides;

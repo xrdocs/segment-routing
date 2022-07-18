@@ -4,7 +4,7 @@ breadnav: true
 date: '2022-06-08 00:00 -0700'
 title: 'NANOG85 Path Tracing'
 author: Segment Routing Team
-technology: 'SMPLS, SRv6, PT'
+technology: 'SRMPLS, SRv6, PT'
 excerpt: 'At NANOG85, June 2022, Mike Valentine (Goldman Sachs) presented "Path Tracing". Path Tracing is a new solution that reveals all the unknows about ECMP.'
 header:
   teaser: 'images/2022-06-08-NANOG85-path-tracing-teaser.png'

@@ -9,22 +9,6 @@ excerpt: 'At the MPLS WC in Paris, April 2022, Yuanchao Su, Alibaba, presented "
 header:
   teaser: 'https://img.youtube.com/vi/izE4eh1q6ts/mqdefault.jpg'
 ---
-<style>
-.single iframe, .single img {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-@media screen and (min-width: 893px) {
-    .single iframe, .single img {
-        width: 712px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-}
-</style>
 
 **Yuanchao Su** of Alibaba presented "Alibaba: Full stack SRv6 towards a 'Predictable Network'" at the [**MPLS WC 2022**](<https://www.uppersideconferences.com/mpls-sdn-nfv/mplswc_2022_agenda_day_1.html>), April 2022 in Paris.
 Unified SRv6 dataplane from socket to peering link leveraging SRv6’s scalability, simplicity & programmability in all layers to provide predictable network services to every single application.

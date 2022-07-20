@@ -870,6 +870,7 @@ details {
   padding-bottom: 56.2%;
 }
 .single iframe,
+.single embed,
 .single img {
   width: 100%;
   margin: 20px 0;
@@ -1525,16 +1526,37 @@ details {
 }
 
 /* make video include iframe responsive */
-.single iframe.responsive-iframe {
-    width: 100%;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-@media screen and (min-width: 893px) {
-  .single iframe.responsive-iframe {
-    width: 712px;
-  }
-}
+/* KM: does not work properly - comment out
+ *.single iframe.responsive-iframe {
+ *    width: 100%;
+ *    height: 400px;
+ *    margin-left: auto;
+ *    margin-right: auto;
+ *    display: block;
+ *}
+ *@media screen and (min-width: 893px) {
+ *  .single iframe.responsive-iframe {
+ *    width: 712px;
+ *  }
+ *}
+ */
 
+/* responsive video embed */
+.outer-embed.video {
+    max-width: 854px;
+    margin: auto;
+}
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.embed-container iframe,.embed-container object,.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -10,4 +10,4 @@ teaser: images/SR-circuit-style-video-thumbnail.png
 ---    
 In this video Betrand Duvivier introduces the Circuit-style Segment Routing Solution. As most of the installed SONET/SDH/PDH equipment reaches end of life, providers are looking for ways to leverage the more cost-effective packet switching networks for circuit-style services. The Circuit-style SR solution solves the challenges of running classic circuit services over a packet switching network in a simple and scalable manner.
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/mtRNzrUvFBE" frameborder="0" allowfullscreen></iframe>
+{% include video id="/mtRNzrUvFBE" provider="youtube" %}

@@ -9,22 +9,6 @@ excerpt: 'At the MPLS WC in Paris, April 2022, Daniel Voyer, Bell Canada, presen
 header:
   teaser: 'https://img.youtube.com/vi/fWlzWt-mniM/mqdefault.jpg'
 ---
-<style>
-.single iframe, .single img {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-@media screen and (min-width: 893px) {
-    .single iframe, .single img {
-        width: 712px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-}
-</style>
 
 **Daniel Voyer** of Bell Canada presented "Bell SRv6 uSID Deployment" at the [**MPLS WC 2022**](<https://www.uppersideconferences.com/mpls-sdn-nfv/mplswc_2022_agenda_day_1.html>), April 2022 in Paris.
 Motivation to migrate from SR-MPLS to SRv6 uSID. Reviewing the benefits of an SRv6 fabric.

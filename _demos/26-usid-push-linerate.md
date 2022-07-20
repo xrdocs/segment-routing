@@ -47,7 +47,7 @@ While reducing the number of layers (MPLS, VxLAN, and NSH are no longer needed),
 <br />
 ### *Demo Video*
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/2d6UAi0gUIM" frameborder="0" allowfullscreen></iframe>
+{% include video id="2d6UAi0gUIM" provider="youtube" %}
 
 ### *Demo Setup*
 The demo setup as illustrated in <a href="#fig1">Figure 1</a> contains the ingress PE1 that will do the uSID imposition, connected to Ixia traffic generator ports via 400GbE interfaces.

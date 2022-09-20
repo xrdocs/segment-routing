@@ -354,7 +354,7 @@ list_yang:
     status: Draft
 
 list_discussions:
-  - title: State of SRv6 - October 2019
+  - title: State of SRv6 - February 2020
     url: srv6-status
 
 ---

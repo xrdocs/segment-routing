@@ -10,12 +10,14 @@ list_architecture:
   - title: Segment Routing Policy Architecture
     url: https://datatracker.ietf.org/doc/rfc9256/
     status: RFC 9256
-  - title: SR Policy Implementation and Deployment Considerations
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-policy-considerations/
-    status: Draft
-  - title: Segment Routing with MPLS data plane
-    url: https://datatracker.ietf.org/doc/rfc8660/
-    status: RFC 8660
+    #  - title: SR Policy Implementation and Deployment Considerations
+    #    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-policy-considerations/
+    #    status: Draft
+    #  - title: "SRv6 NET-PGM extension: Insertion"
+    #    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-net-pgm-insertion/
+    #    status: Draft
+
+list_srv6:
   - title: IPv6 Segment Routing Header (SRH)
     url: https://datatracker.ietf.org/doc/rfc8754/
     status: RFC 8754
@@ -28,24 +30,35 @@ list_architecture:
   - title: "Network Programming extension: SRv6 uSID instruction"
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-net-pgm-extension-srv6-usid/
     status: Draft
-  - title: "SRv6 NET-PGM extension: Insertion"
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-net-pgm-insertion/
+    #  - title: Deployments With Insertion of IPv6 Segment Routing Headers
+    #    url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion/
+    #    status: Draft
+  - title: Illustrations for SRv6 Network Programming
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-net-pgm-illustration/
     status: Draft
-  - title: Service Programming with Segment Routing
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-sr-service-programming/
-    status: WG Document
-  - title: Structured Flow Label
-    url: https://datatracker.ietf.org/doc/draft-filsfils-6man-structured-flow-label/
+  - title: User Plane Message Encoding
+    url: https://datatracker.ietf.org/doc/draft-murakami-dmm-user-plane-message-encoding/
     status: Draft
-  - title: Stateless and Scalable Network Slice Identification for SRv6
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-stateless-slice-id/
+
+list_srmpls:
+  - title: Segment Routing with MPLS data plane
+    url: https://datatracker.ietf.org/doc/rfc8660/
+    status: RFC 8660
+  - title: Segment Routing interworking with LDP
+    url: https://datatracker.ietf.org/doc/rfc8661/
+    status: RFC 8661
+  - title: Recommendations for RSVP-TE and Segment Routing LSP co-existance
+    url: https://datatracker.ietf.org/doc/rfc8426/
+    status: RFC 8426
+  - title: SR-MPLS Data Plane with IPv6 Control Plane
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-mpls-ipv6-control-plane/
+    status: Draft
+  - title: Using Entropy Label for Network Slice Identification in MPLS networks.
+    url: https://datatracker.ietf.org/doc/draft-decraene-mpls-slid-encoded-entropy-label-id/
     status: Draft
   - title: SR-MPLS over IP
     url: https://datatracker.ietf.org/doc/rfc8663/
     status: RFC 8663
-  - title: Introducing Resource Awareness to SR Segments
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-resource-aware-segments/
-    status: WG Document
 
 list_usecases:
   - title: Source Packet Routing in Networking (SPRING) Problem Statement and Requirements
@@ -104,6 +117,40 @@ list_frr:
     url: https://datatracker.ietf.org/doc/draft-bashandy-rtgwg-segment-routing-uloop/
     status: Draft
 
+list_network_resource_partitioning:
+  - title: Structured Flow Label
+    url: https://datatracker.ietf.org/doc/draft-filsfils-6man-structured-flow-label/
+    status: Draft
+  - title: Stateless and Scalable Network Slice Identification for SRv6
+    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-stateless-slice-id/
+    status: Draft
+  - title: Introducing Resource Awareness to SR Segments
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-resource-aware-segments/
+    status: WG Document
+
+list_pm:
+  - title: A Two-Way Active Measurement Protocol (TWAMP)
+    url: https://datatracker.ietf.org/doc/rfc5357/
+    status: RFC 5357
+  - title: Simple Two-Way Active Measurement Protocol
+    url: https://datatracker.ietf.org/doc/rfc8762/
+    status: RFC 8762
+  - title: Enhanced Performance Measurement Using Simple TWAMP in Segment Routing Networks
+    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-enhanced-srpm/
+    status: Draft
+  - title: Performance Measurement Using Simple TWAMP (STAMP) for Segment Routing Networks
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-stamp-srpm/
+    status: WG Document
+  - title: Performance Measurement Using RFC 6374 for Segment Routing Networks with MPLS Data Plane
+    url: https://datatracker.ietf.org/doc/draft-ietf-mpls-rfc6374-sr/
+    status: WG Document
+  - title: Simple TWAMP (STAMP) Extensions for Segment Routing Networks
+    url: https://datatracker.ietf.org/doc/draft-ietf-ippm-stamp-srpm/
+    status: WG Document
+  - title: Simple Two-Way Direct Loss Measurement Procedure
+    url: https://datatracker.ietf.org/doc/draft-gandhi-ippm-simple-direct-loss
+    status: Draft
+
 list_oam:
   - title: A Scalable and Topology-Aware MPLS Dataplane Monitoring System
     url: https://datatracker.ietf.org/doc/rfc8403/
@@ -133,29 +180,6 @@ list_oam:
     url: https://datatracker.ietf.org/doc/draft-iqbal-spring-mpls-ping-algo/
     status: Draft
 
-list_pm:
-  - title: A Two-Way Active Measurement Protocol (TWAMP)
-    url: https://datatracker.ietf.org/doc/rfc5357/
-    status: RFC 5357
-  - title: Simple Two-Way Active Measurement Protocol
-    url: https://datatracker.ietf.org/doc/rfc8762/
-    status: RFC 8762
-  - title: Enhanced Performance Measurement Using Simple TWAMP in Segment Routing Networks
-    url: https://datatracker.ietf.org/doc/draft-gandhi-spring-enhanced-srpm/
-    status: Draft
-  - title: Performance Measurement Using Simple TWAMP (STAMP) for Segment Routing Networks
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-stamp-srpm/
-    status: WG Document
-  - title: Performance Measurement Using RFC 6374 for Segment Routing Networks with MPLS Data Plane
-    url: https://datatracker.ietf.org/doc/draft-ietf-mpls-rfc6374-sr/
-    status: WG Document
-  - title: Simple TWAMP (STAMP) Extensions for Segment Routing Networks
-    url: https://datatracker.ietf.org/doc/draft-ietf-ippm-stamp-srpm/
-    status: WG Document
-  - title: Simple Two-Way Direct Loss Measurement Procedure
-    url: https://datatracker.ietf.org/doc/draft-gandhi-ippm-simple-direct-loss
-    status: Draft
-
 list_path_tracing:
   - title: Path Tracing in SRv6 networks
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing/
@@ -164,46 +188,10 @@ list_path_tracing:
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing-srmpls/
     status: Draft
 
-list_mcast:
-  - title: PCEP extensions for p2mp sr policy
-    url: https://datatracker.ietf.org/doc/draft-hsd-pce-sr-p2mp-policy/
-    status: Draft
-  - title: SR Replication Segment for Multi-point Service Delivery
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-sr-replication-segment/
+list_service_programming:
+  - title: Service Programming with Segment Routing
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-sr-service-programming/
     status: WG Document
-  - title: Segment Routing Point-to-Multipoint Policy
-    url: https://datatracker.ietf.org/doc/draft-ietf-pim-sr-p2mp-policy/
-    status: WG Document
-  - title: Multicast and Ethernet VPN with Segment Routing P2MP and Ingress Replication
-    url: https://datatracker.ietf.org/doc/draft-ietf-bess-mvpn-evpn-sr-p2mp/
-    status: WG Document
-
-list_extensions:
-
-list_srv6:
-  - title: Deployments With Insertion of IPv6 Segment Routing Headers
-    url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion/
-    status: Draft
-  - title: Illustrations for SRv6 Network Programming
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-net-pgm-illustration/
-    status: Draft
-  - title: User Plane Message Encoding
-    url: https://datatracker.ietf.org/doc/draft-murakami-dmm-user-plane-message-encoding/
-    status: Draft
-
-list_srmpls:
-  - title: Segment Routing interworking with LDP
-    url: https://datatracker.ietf.org/doc/rfc8661/
-    status: RFC 8661
-  - title: Recommendations for RSVP-TE and Segment Routing LSP co-existance
-    url: https://datatracker.ietf.org/doc/rfc8426/
-    status: RFC 8426
-  - title: SR-MPLS Data Plane with IPv6 Control Plane
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-mpls-ipv6-control-plane/
-    status: Draft
-  - title: Using Entropy Label for Network Slice Identification in MPLS networks.
-    url: https://datatracker.ietf.org/doc/draft-decraene-mpls-slid-encoded-entropy-label-id/
-    status: Draft
 
 list_bgp:
   - title: Segment Routing Prefix SID extensions for BGP
@@ -221,6 +209,7 @@ list_bgp:
   - title: Advertising Segment Routing Policies in BGP
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-segment-routing-te-policy/
     status: WG Document
+
 list_bgp_ls:
   - title: Border Gateway Protocol - Link State (BGP-LS) Extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/rfc9085/
@@ -296,10 +285,10 @@ list_ospf:
     url: https://datatracker.ietf.org/doc/draft-ietf-lsr-ospf-l2bundles/
     status: WG Document
 
-list_lisp:
-  - title: LISP Control Plane for SRv6 Endpoint Mobility
-    url: https://datatracker.ietf.org/doc/draft-rodrigueznatal-lisp-srv6/
-    status: Draft
+    #list_lisp:
+    #  - title: LISP Control Plane for SRv6 Endpoint Mobility
+    #    url: https://datatracker.ietf.org/doc/draft-rodrigueznatal-lisp-srv6/
+    #    status: Draft
 
 list_pcep:
   - title: PCEP Extensions for Segment Routing
@@ -320,6 +309,20 @@ list_pcep:
   - title: Carrying SID Algorithm information in PCE-based Networks.
     url: https://datatracker.ietf.org/doc/draft-tokar-pce-sid-algo/
     status: Draft
+
+list_mcast:
+  - title: PCEP extensions for p2mp sr policy
+    url: https://datatracker.ietf.org/doc/draft-hsd-pce-sr-p2mp-policy/
+    status: Draft
+  - title: SR Replication Segment for Multi-point Service Delivery
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-sr-replication-segment/
+    status: WG Document
+  - title: Segment Routing Point-to-Multipoint Policy
+    url: https://datatracker.ietf.org/doc/draft-ietf-pim-sr-p2mp-policy/
+    status: WG Document
+  - title: Multicast and Ethernet VPN with Segment Routing P2MP and Ingress Replication
+    url: https://datatracker.ietf.org/doc/draft-ietf-bess-mvpn-evpn-sr-p2mp/
+    status: WG Document
 
 list_yang:
   - title: YANG Data Model for Segment Routing Policy
@@ -353,8 +356,8 @@ list_yang:
     url: https://datatracker.ietf.org/doc/draft-majumdar-spring-bgp-sr-yang/
     status: Draft
 
-list_discussions:
-  - title: State of SRv6 - February 2020
-    url: srv6-status
+    #list_discussions:
+    #  - title: State of SRv6 - February 2020
+    #    url: srv6-status
 
 ---

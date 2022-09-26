@@ -22,6 +22,26 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
   {% endfor %}
   </details>
 
+  {% assign articles = site.data.ietf["list_srv6"] %}
+  <details open>
+    <summary>SRv6</summary>
+  {% for post in articles %}
+    <div>
+      {% include rfc_list %}
+    </div>
+  {% endfor %}
+  </details>
+
+  {% assign articles = site.data.ietf["list_srmpls"] %}
+  <details>
+    <summary>SR-MPLS</summary>
+  {% for post in articles %}
+    <div>
+      {% include rfc_list %}
+    </div>
+  {% endfor %}
+  </details>
+
   {% assign articles = site.data.ietf["list_usecases"] %}
   <details>
     <summary>Uses-Case and Requirements</summary>
@@ -52,9 +72,9 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
   {% endfor %}
   </details>
 
-  {% assign articles = site.data.ietf["list_oam"] %}
+  {% assign articles = site.data.ietf["list_network_resource_partitioning"] %}
   <details>
-    <summary>OAM</summary>
+    <summary>Network Resource Partitioning</summary>
   {% for post in articles %}
     <div>
       {% include rfc_list %}
@@ -72,6 +92,16 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
   {% endfor %}
   </details>
 
+  {% assign articles = site.data.ietf["list_oam"] %}
+  <details>
+    <summary>OAM</summary>
+  {% for post in articles %}
+    <div>
+      {% include rfc_list %}
+    </div>
+  {% endfor %}
+  </details>
+
   {% assign articles = site.data.ietf["list_path_tracing"] %}
   <details>
     <summary>Path Tracing</summary>
@@ -82,29 +112,9 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
   {% endfor %}
   </details>
 
-  {% assign articles = site.data.ietf["list_mcast"] %}
+  {% assign articles = site.data.ietf["list_service_programming"] %}
   <details>
-    <summary>Replication</summary>
-  {% for post in articles %}
-    <div>
-      {% include rfc_list %}
-    </div>
-  {% endfor %}
-  </details>
-
-  {% assign articles = site.data.ietf["list_srmpls"] %}
-  <details>
-    <summary>SR-MPLS</summary>
-  {% for post in articles %}
-    <div>
-      {% include rfc_list %}
-    </div>
-  {% endfor %}
-  </details>
-
-  {% assign articles = site.data.ietf["list_srv6"] %}
-  <details>
-    <summary>SRv6</summary>
+    <summary>Service Programming</summary>
   {% for post in articles %}
     <div>
       {% include rfc_list %}
@@ -162,6 +172,17 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
   {% endfor %}
   </details>
 
+  {% assign articles = site.data.ietf["list_mcast"] %}
+  <details>
+    <summary>Replication</summary>
+  {% for post in articles %}
+    <div>
+      {% include rfc_list %}
+    </div>
+  {% endfor %}
+  </details>
+
+  {% comment %} ############################################
   {% assign articles = site.data.ietf["list_lisp"] %}
   <details>
     <summary>LISP</summary>
@@ -171,6 +192,7 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
     </div>
   {% endfor %}
   </details>
+  ############################################ {% endcomment %}
 
   {% assign articles = site.data.ietf["list_yang"] %}
   <details>
@@ -182,6 +204,7 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
   {% endfor %}
   </details>
 
+  {% comment %} ############################################
   {% assign articles = site.data.ietf["list_discussions"] %}
   <details>
     <summary>IETF Discussions</summary>
@@ -191,4 +214,5 @@ Protocol extensions are handled in their specific protocol working group (ISIS, 
     </div>
   {% endfor %}
   </details>
+  ############################################ {% endcomment %}
 </div>

@@ -33,6 +33,12 @@ list_srv6:
     #  - title: Deployments With Insertion of IPv6 Segment Routing Headers
     #    url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion/
     #    status: Draft
+  - title: SRv6 BGP based Overlay services
+    url: https://datatracker.ietf.org/doc/rfc9252/
+    status: RFC 9252
+  - title: Operations, Administration, and Maintenance (OAM) in Segment Routing Networks with IPv6 Data plane (SRv6)
+    url: https://datatracker.ietf.org/doc/rfc9259/
+    status: RFC 9259
   - title: Illustrations for SRv6 Network Programming
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-net-pgm-illustration/
     status: Draft
@@ -52,9 +58,6 @@ list_srmpls:
     status: RFC 8426
   - title: SR-MPLS Data Plane with IPv6 Control Plane
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-mpls-ipv6-control-plane/
-    status: Draft
-  - title: Using Entropy Label for Network Slice Identification in MPLS networks.
-    url: https://datatracker.ietf.org/doc/draft-decraene-mpls-slid-encoded-entropy-label-id/
     status: Draft
   - title: SR-MPLS over IP
     url: https://datatracker.ietf.org/doc/rfc8663/
@@ -118,15 +121,18 @@ list_frr:
     status: Draft
 
 list_network_resource_partitioning:
+  - title: Building blocks for Slicing in Segment Routing Network
+    url: https://datatracker.ietf.org/doc/draft-ali-spring-network-slicing-building-blocks/
+    status: Draft
   - title: Structured Flow Label
     url: https://datatracker.ietf.org/doc/draft-filsfils-6man-structured-flow-label/
     status: Draft
   - title: Stateless and Scalable Network Slice Identification for SRv6
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-stateless-slice-id/
     status: Draft
-  - title: Introducing Resource Awareness to SR Segments
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-resource-aware-segments/
-    status: WG Document
+  - title: Using Entropy Label for Network Slice Identification in MPLS networks.
+    url: https://datatracker.ietf.org/doc/draft-decraene-mpls-slid-encoded-entropy-label-id/
+    status: Draft
 
 list_pm:
   - title: A Two-Way Active Measurement Protocol (TWAMP)

@@ -24,6 +24,12 @@ list_srv6:
   - title: SRv6 Network Programming
     url: https://datatracker.ietf.org/doc/rfc8986/
     status: RFC 8986
+  - title: SRv6 BGP based Overlay services
+    url: https://datatracker.ietf.org/doc/rfc9252/
+    status: RFC 9252
+  - title: Operations, Administration, and Maintenance (OAM) in Segment Routing Networks with IPv6 Data plane (SRv6)
+    url: https://datatracker.ietf.org/doc/rfc9259/
+    status: RFC 9259
   - title: Compressed SRv6 Segment List Encoding in SRH
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-srv6-srh-compression/
     status: WG Document
@@ -33,12 +39,6 @@ list_srv6:
     #  - title: Deployments With Insertion of IPv6 Segment Routing Headers
     #    url: https://datatracker.ietf.org/doc/draft-voyer-6man-extension-header-insertion/
     #    status: Draft
-  - title: SRv6 BGP based Overlay services
-    url: https://datatracker.ietf.org/doc/rfc9252/
-    status: RFC 9252
-  - title: Operations, Administration, and Maintenance (OAM) in Segment Routing Networks with IPv6 Data plane (SRv6)
-    url: https://datatracker.ietf.org/doc/rfc9259/
-    status: RFC 9259
   - title: Illustrations for SRv6 Network Programming
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-net-pgm-illustration/
     status: Draft
@@ -291,11 +291,6 @@ list_ospf:
     url: https://datatracker.ietf.org/doc/draft-ietf-lsr-ospf-l2bundles/
     status: WG Document
 
-    #list_lisp:
-    #  - title: LISP Control Plane for SRv6 Endpoint Mobility
-    #    url: https://datatracker.ietf.org/doc/draft-rodrigueznatal-lisp-srv6/
-    #    status: Draft
-
 list_pcep:
   - title: PCEP Extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/rfc8664/
@@ -361,9 +356,5 @@ list_yang:
   - title: YANG data model for BGP Segment Routing Extensions
     url: https://datatracker.ietf.org/doc/draft-majumdar-spring-bgp-sr-yang/
     status: Draft
-
-    #list_discussions:
-    #  - title: State of SRv6 - February 2020
-    #    url: srv6-status
 
 ---

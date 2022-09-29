@@ -27,6 +27,9 @@ list_srv6:
   - title: SRv6 BGP based Overlay services
     url: https://datatracker.ietf.org/doc/rfc9252/
     status: RFC 9252
+  - title: IS-IS Extensions to Support Segment Routing over IPv6 Dataplane
+    url: https://datatracker.ietf.org/doc/draft-ietf-lsr-isis-srv6-extensions/
+    status: WG Document
   - title: Operations, Administration, and Maintenance (OAM) in Segment Routing Networks with IPv6 Data plane (SRv6)
     url: https://datatracker.ietf.org/doc/rfc9259/
     status: RFC 9259

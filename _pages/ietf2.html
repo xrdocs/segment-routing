@@ -1,0 +1,56 @@
+---
+layout: archive-full
+permalink: /ietf2
+regenerate: true
+hero-image: images/new-design/SR-Background-Image-2.png
+title: "IETF"
+type: "IETF"
+description: "Segment Routing is being standardized by the IETF.
+<b>The architecture and use-cases are handled in the SPRING working group.</b>
+Protocol extensions are handled in their specific protocol working group (ISIS, OSPF, IDR, PCEP, 6MAN)."
+---
+
+
+{% include base_path %}
+{% assign articles = site.data.ietf2["list_rfcs"] %}
+<div class="container accordion">
+  <details open>
+    <summary>RFCs</summary>
+  {% for post in articles %}
+    <div>
+      {% include rfc_list %}
+    </div>
+  {% endfor %}
+  </details>
+
+  {% assign articles = site.data.ietf2["list_wg_drafts"] %}
+  <details open>
+    <summary>Workgroup Drafts</summary>
+  {% for post in articles %}
+    <div>
+      {% include rfc_list %}
+    </div>
+  {% endfor %}
+  </details>
+
+  {% assign articles = site.data.ietf2["list_drafts"] %}
+  <details>
+    <summary>Drafts</summary>
+  {% for post in articles %}
+    <div>
+      {% include rfc_list %}
+    </div>
+  {% endfor %}
+  </details>
+
+  {% assign articles = site.data.ietf2["list_3gpp"] %}
+  <details>
+    <summary>3GPP documents</summary>
+  {% for post in articles %}
+    <div>
+      {% include rfc_list %}
+    </div>
+  {% endfor %}
+  </details>
+
+</div>

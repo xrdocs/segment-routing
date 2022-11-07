@@ -7,6 +7,7 @@ order: 2
 category: concepts
 title: Segment Routing MPLS data plane
 technology: 'SRMPLS'
+pdf2txt: images/tutorials/0020-SR-TOI-MPLS_dataplane_v9.txt
 excerpt: >-
   See how segment routing leverages the existing MPLS data plane and learn how
   to verify segment routing MPLS forwarding.
@@ -15,8 +16,5 @@ excerpt: >-
 See how segment routing leverages the existing MPLS data plane and learn how to verify segment routing MPLS forwarding.
 {: .notice}  
 
-{% capture "pdf-link" %}/images/tutorials/0020-SR-TOI-MPLS_dataplane_v9.pdf{% endcapture %}
+{% include pdf link="/images/tutorials/0020-SR-TOI-MPLS_dataplane_v9.pdf" %}
 
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

@@ -1,0 +1,589 @@
+---
+regenerate: true
+layout: archive-full
+permalink: /new-news1
+hero-image: images/new-design/SR-Background-Image-2.png
+title: "News1"
+description: "Discover the latest news on Segment Routing"
+---
+<!--
+regenerate: true
+layout: articles
+permalink: /new-news
+hero-image: images/new-design/SR-Hero-Background-Image-8.png
+technology: "SRv6"
+type: "News"
+description: "Discover the latest news on Segment Routing"
+-->
+
+<style>
+.filterDiv {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+button.btn {
+  font-family: 'Cisco Sans TT', sans-serif;
+  font-size: 1.1em;
+    margin-right: 10px;
+    margin-top: 5px;
+        position: relative;
+}
+button.btn:not(.active):hover {
+  //background-color: red;
+}
+/* override hover behavior of active button
+   should really fix button:hover using button:not(.active):hover
+*/
+Qbutton.btn.active:hover {
+    padding: 10px 40px;
+    border: 1px solid #1994c9;
+    border-radius: 20px;
+    background-color: #149ed9;
+    /* font-size: 18px; */
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: inherit;
+    -webkit-transform: inherit;
+    -ms-transform: inherit;
+    transform: inherit;
+}
+button.btn.active:hover {
+    /* border-color: #6abf4b; */
+    /* background-color: #6abf4b; */
+    padding: 10px 40px;
+    border-radius: 20px;
+    /* font-size: 18px; */
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: inherit;
+    -webkit-transform: inherit;
+    -ms-transform: inherit;
+    transform: inherit;
+}
+button.btn.active {
+    border-color: #6abf4b;
+    background-color: #6abf4b;
+}
+div.btnRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+  font-family: 'Cisco Sans TT', sans-serif;
+  font-size: 1.1em;
+}
+div.btnRow > * {
+    margin-bottom: 10px;
+}
+button.active {
+  //background-color: red;
+}
+#filterContainer {
+    max-width: 80%;
+    margin: auto;
+}
+#btnContainer {
+    margin-left: 2em;
+}
+div.label {
+    margin: 5px 5px 0 0;
+    padding: 10px 40px 10px 0;
+    font-size: 1.1em;
+    font-family: 'Cisco Sans TT', sans-serif;
+    text-align: left;
+}
+.article-postfix {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #bdbdbd;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+button.btn .fa-check {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #fff;
+    font-weight: normal;
+	display: none;
+}
+button.btn.active .fa-check {
+	display: block;
+}
+</style>
+
+<style>
+button.chip-btn{
+  cursor:pointer;
+}
+.chip-group{
+  display:flex;
+  flex-wrap:wrap;
+}
+.chip.chip-checkbox > .chip-add-icon::after {
+  content:"add"
+}
+.chip.chip-checkbox.active > .chip-add-icon::after {
+  content:"done"
+}
+.chip > * {
+  margin-right:2px;
+  margin-left:2px;
+  /* color: #757373; */
+}
+.chip input {
+  display: none;
+}
+.chip.chip-checkbox,
+.chip.chip-toggle,
+.chip.clickable{
+  cursor: pointer;
+}
+.chip.active {
+  background-color: #d3d2d2;
+  border-color:#c3c2c2;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12)
+}
+.chip:hover, .chip:focus {
+  background-color: #e3e2e2;
+}
+.chip:active:focus{
+  background-color: #d3d2d2;  
+}
+.chip button{
+  border:none;
+  margin-top:0;
+  margin-bottom:0;
+  padding:0;
+  background:none;
+  display:inline-flex;
+}
+.chip {
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 1px solid #d3d2d2;
+  display: inline-flex;
+  align-items:center;
+  padding: 4px 6px 4px 6px;
+  margin-right:6px;
+  margin-bottom:6px;
+    padding: 10px 40px;
+    border: 1px solid #1994c9;
+    border-radius: 20px;
+    background-color: #149ed9;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+}
+.chip i.material-icons {
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button.chip-btn:hover {
+    border-color: inherit;
+    background-color: inherit;
+    box-shadow: inherit;
+    -webkit-transform: inherit;
+    -ms-transform: inherit;
+    transform: inherit;
+}
+</style>
+
+<style>
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+//$glass: rgba(255, 255, 255, 0.2);
+//$glass-icon: rgba(255, 255, 255, 0.3);
+//$gradient: linear-gradient(35deg, red, purple);
+//$option: #320a28;
+
+body {
+  background: purple;
+}
+
+.chip-btn2 {
+/*  background: url(https://upload.wikimedia.org/wikipedia/commons/c/c1/High-contrast-dialog-close.svg)
+      no-repeat right 0.8em center / 1.4em,
+    linear-gradient(to left, rgba(255, 255, 255, 0.0) 3em, #149ed9 3em);
+  background: url(images/white-x.svg)
+      no-repeat right 0.8em center / 1.4em,
+    linear-gradient(to left, #149ed9 3em, #149ed9 3em);
+ */
+    align-items: center;
+    display: flex;
+    padding: 10px 1em 10px 40px;
+}
+.chip-btn2 span {
+	margin-right: 1em;
+}
+.chip-btn2 img {
+	height: 1em;
+}
+.chip-btn2 img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+button.chip-btn2:hover {
+    border-color: #1994c9;
+    background-color: #149ed9;
+    box-shadow: inherit;
+    -webkit-transform: inherit;
+    -ms-transform: inherit;
+    transform: inherit;
+}
+
+/* <select> styles */
+select {
+  /* Reset */
+  appearance: none;
+  border: 0;
+  /* outline: 0; */
+  /* font: inherit; */
+  /* Personalize */
+  /* width: 20em; */
+  /* height: 3em; */
+  padding: 0 4em 0 1em;
+  background: url(images/Caret_down_font_awesome_whitevariation.svg)
+      no-repeat right 0.8em center / 1.4em,
+    linear-gradient(to left, rgba(255, 255, 255, 0.0) 3em, #149ed9 3em);
+  color: white;
+  border-radius: 0.25em;
+  /*box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);*/
+  cursor: pointer;
+
+  font-family: 'Cisco Sans TT', sans-serif;
+  font-size: 1.1em;
+  margin-right: 10px;
+  /* margin-top: 5px; */
+  position: relative;
+
+  padding: 10px 40px;
+  border: 1px solid #1994c9;
+  border-radius: 20px;
+  background-color: #149ed9;
+  /* font-size: 18px; */
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #fff;
+  /* text-align: center; */
+  align-items: flex-start;
+  display: block;
+  /* height: 100%;*/
+}
+/* <option> colors */
+option {
+  color: black;
+  background-color: white;
+}
+/* Remove focus outline */
+option:focus {
+  outline: none;
+}
+/* Remove IE arrow */
+option::-ms-expand {
+  display: none;
+}
+
+/* Button */
+button.btn {
+    font-family: 'Cisco Sans TT', sans-serif;
+    font-size: 1.1em;
+    margin-right: 10px;
+    margin-top: 0px; /* is 5px in button css */
+    position: relative;
+}
+.btn {
+    float: left;
+}
+button {
+    padding: 10px 40px;
+    border: 1px solid #1994c9;
+    border-radius: 20px;
+    background-color: #149ed9;
+    /* font-size: 18px; */
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    /* height: 100%;*/
+    margin-bottom: 10px;
+}
+
+summary.filter {
+    color: white;
+    border: 1px solid #1994c9;
+    border-radius: 20px;
+    background-color: #149ed9;
+    display: inline-block;
+    font-size: 1.1em;
+    padding-right: 0.8em;
+}
+details.filter {
+    text-align: left;
+}
+details[open] summary.filter::after {
+    content: '\25B2'; /* triangle up */
+}
+summary.filter::after {
+    content: '\25BC'; /* triangle down */
+    padding-left: 2em;
+}
+summary.filter::before {
+    content: '';
+    margin-right: 0;
+}
+details[open] summary.filter::before {
+    content: '';
+    margin-right: 0;
+}
+</style>
+
+<div id="filterContainer">
+	<details class="filter">
+		<summary class="filter"> Filter... </summary>
+<div id="btnContainer">
+  <div class="label">Technology:</div>
+  <div class="btnRow">
+   <div class="select">
+    <select id="filterTechnology" onchange="{console.log('@@', this.options[this.selectedIndex]);if(this.options[this.selectedIndex].onclick != null){this.options[this.selectedIndex].onclick(this);}}" onfocus="this.selectedIndex=-1;" onblur="this.selectedIndex=0; console.log('blurred it ', this);">
+	<option value='' selected disabled>Filter...</option>
+	<option value='Show All' onclick="{doFilter(this);}">Show All</option>
+	<option value='SRv6' onclick="{doFilter(this);}">SRv6</option>
+	<option value='SR MPLS' onclick="{doFilter(this);}">SR MPLS</option>
+    </select>
+   </div>
+
+    <div id='chipContainerTechnology'>
+	<!-- add chips... -->
+    </div>
+  </div>
+
+  <div class="label">Category:</div>
+  <div class="btnRow">
+   <div class="select">
+    <select id="filterCategory" onchange="{console.log('##', this.options[this.selectedIndex]);if(this.options[this.selectedIndex].onclick != null){this.options[this.selectedIndex].onclick(this);}}" onfocus="this.selectedIndex=-1;" onblur="this.selectedIndex=0; console.log('blurred it ', this);">
+	<option value='' selected disabled>Filter...</option>
+	<option value='Show All' onclick="{doFilter(this);}">Show All</option>
+	<option value='Demos' onclick="{doFilter(this);}">Demos</option>
+	<option value='Blogs' onclick="{doFilter(this);}">Blogs</option>
+	<option value='News' onclick="{doFilter(this);}">News</option>
+	<option value='Test' onclick="{doFilter(this);}">Test</option>
+	<option value='Conferences' onclick="{doFilter(this);}">Conferences</option>
+    </select>
+   </div>
+
+    <div id='chipContainerCategory'>
+	<!-- add chips here... -->
+    </div>
+  </div>
+</div> <!-- end btn container -->
+	</details>
+</div> <!-- end filter container -->
+
+
+	<script>
+
+
+function doFilter(el) {
+	const chipContainerCategory = document.getElementById("chipContainerCategory");
+	const chipContainerTechnology = document.getElementById("chipContainerTechnology");
+	//console.log("doFilter: ", el);
+	var chipContainer = chipContainerTechnology;
+	if (el.parentNode.id === 'filterCategory') {
+		chipContainer = chipContainerCategory;
+	}
+	// if el already in chips, remove it
+	// if el not yet in chips, add it
+	// if el is "show all", remove all chips
+
+	const isRemoved = delChip(chipContainer, el.value);
+	if (!isRemoved && el.value !== 'Show All') {
+		addChip(chipContainer, el.value);
+	}
+	el.parentNode.selectedIndex=0;
+	el.blur();
+}
+
+function addChip(chipContainer, elValue) {
+	//console.log("chipContainer.id=", chipContainer.id);
+	//console.log("adding chip to ", chipContainer, " with value ", elValue);
+	let newChip = document.createElement('button');
+	newChip.setAttribute("id", elValue);
+	newChip.className = "btn";
+	newChip.classList.add("chip-btn2");
+	newChip.innerHTML = '<span>' + elValue + '</span><img src="images/white-x.svg">';
+	newChip.addEventListener("click", handleChipClick);
+	chipContainer.appendChild(newChip);
+	applyFilter();
+}
+
+function delChip(chipContainer, elValue) {
+	//console.log("chipContainer.id=", chipContainer.id);
+	//console.log("deleting chip of ", chipContainer, " with value ", elValue);
+	let isRemoved=false;
+	// first remove the chip if present
+	const chips = chipContainer.children;
+	//console.log("chips ", chips, " ", chips.length);
+	for (let i = chips.length - 1; i >= 0; i--) {
+		if (chips[i].localName !== "button") {
+			// there should not be any other elements
+			continue;
+		}
+		//console.log("loop chips ", chips[i].innerText);
+		// don't break out to let "Show All" clean up all chips
+		if(elValue === 'Show All' || chips[i].innerText === elValue) {
+			//console.log("removing chip ", chips[i].innerText);
+			chipContainer.removeChild(chips[i]);
+			isRemoved=true;
+		}
+	}
+	if (isRemoved) {
+		// handle new filter setting
+		applyFilter();
+	}
+	return isRemoved;
+}
+
+function handleChipClick(e){
+	//console.log("handleChipClick ", e);
+	//console.log("Removing chip", e.target, e, e.target.tagName);
+	//console.log("Current Target=", e.currentTarget);
+	if (e.target.tagName !== 'IMG') {
+		// if the image is not clicked, do nothing
+		return;
+	}
+	const chipContainer = e.currentTarget.parentNode;
+	// value is in the span element
+	const span = e.currentTarget.querySelectorAll('span')[0];
+	//console.log("span=", span);
+	const elValue = span.innerText;
+	//console.log("elValue=", elValue);
+	const result = delChip(chipContainer, elValue);
+	return result;
+}
+
+function applyFilter() {
+	console.log("exec applyFilter");
+	// which chips are present per chipContainer?
+	const chipContainerCategory = document.getElementById("chipContainerCategory");
+	const chipContainerTechnology = document.getElementById("chipContainerTechnology");
+	let techList =[];
+	Array.from(chipContainerTechnology.children).forEach(function (chip) {
+		techList.push(chip.innerText.toLowerCase().replace(/\s/g, ''));
+	})
+	//console.log("techlist=", techList);
+	let catList =[];
+	Array.from(chipContainerCategory.children).forEach(function (chip) {
+		catList.push(chip.innerText.toLowerCase().replace(/\s/g, ''));
+	})
+	//console.log("catlist=", catList);
+
+	// the actual filtering
+	let details = document.querySelectorAll(".container.accordion + details");
+	let firstUnhiddenDetails = true;
+	// assume no entry passes the filter
+	let noFilterResults = true;
+	details.forEach(function (details) {
+		// keep track if all entries are hidden, we initially assume they are
+		let allHidden = true;
+		// all items have filterDiv class
+		let divs = details.querySelectorAll("div.filterDiv");
+		for (let div of divs) {
+			let passedTech = false || techList.length === 0;
+			let passedCat = false || catList.length === 0;
+			// does it have any of the techList classes?
+			techList.forEach(function (tech) {
+				if (div.className.toLowerCase().indexOf(tech) > -1) {
+					passedTech = true;
+				}
+			})
+			// does it have any of the catList classes?
+			catList.forEach(function (cat) {
+				if (div.className.toLowerCase().indexOf(cat) > -1) {
+					passedCat = true;
+				}
+			})
+			// passedCat can only be true if passedTech is also true
+			if (passedTech && passedCat) {
+				div.classList.add("show");
+				// at least one entry passed the filter
+				allHidden = false;
+			} else {
+				div.classList.remove("show");
+			}
+		}
+		if (allHidden) {
+			// console.log(details, "ALL entries are hidden");
+			// hide details as well
+			details.hidden = true;
+		} else {
+			//console.log(details, "NOT all entries are hidden");
+			noFilterResults = false;
+			// open first year with non-hidden items
+			if (firstUnhiddenDetails) {
+				firstUnhiddenDetails = false;
+				details.setAttribute("open", "");
+			}
+			details.style.display = "";
+			details.hidden = false;
+		}
+	});
+	let notice = document.getElementById("notice-no-items-found");
+	if (noFilterResults) {
+		notice.hidden = false;
+	} else {
+		notice.hidden = true;
+	}
+}
+
+window.onload = function(){
+	applyFilter();
+};
+	</script>
+
+
+{% capture written_year %}'None'{% endcapture %}
+{% comment %}
+  collect the list of all documents
+  and filter out the unusable pages and OS, SP, and TOI pages
+  filter out any duplicates
+  sort in reverse chronological order
+{% endcomment %}
+{% assign all_content = site.documents 
+| where_exp:"item", "item.id.size"
+| where_exp:"item", "item.date"
+| where_exp:"item", "item.collection != 'open-software'"
+| where_exp:"item", "item.collection != 'scientific-papers'"
+| where_exp:"item", "item.collection != 'tutorials'"
+| sort: date 
+| uniq
+| reverse %}
+  <div class="container accordion">
+    {% for post in all_content %}
+      {% capture year %}{{ post.date | slice: 0, 4 }}{% endcapture %}
+      {% if year != written_year %}
+        </details>
+        {% if post == all_content[0] %}
+	<details open>
+        {% else %}
+	<details>
+        {% endif %}
+          <summary> {{ year }} </summary>
+          {% capture written_year %}{{ year }}{% endcapture %}
+      {% endif %}
+      {% include new-news-list %} 
+    {% endfor %} 
+  </div>
+  <p id="notice-no-items-found" hidden>No items found.</p>
+

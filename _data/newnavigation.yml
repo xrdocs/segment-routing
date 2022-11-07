@@ -1,0 +1,32 @@
+# main links links
+main:
+
+  - title: "News"
+    url: "new-news"
+    class: ""
+
+  - title: "Tutorials"
+    url: "tutorials"
+    class: "hide-on-xxs"
+
+  - title: "Path Tracing"
+    url: "path-tracing"
+    class: "hide-on-mobile"
+  
+  - title: "IETF" 
+    url: "ietf"
+    class: "hide-on-portrait"
+
+  - title: "Open Software"
+    url: "open-software"
+    class: "hide-on-tablet"
+
+  - title: "Scientific Papers"
+    url: "scientific-papers"
+    class: "hide-on-tablet"
+
+  - title: ""
+    url: "search"
+    class: ""
+    icon: '<i class="fa fa-search font-awesome-icon"></i>'
+

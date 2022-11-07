@@ -1,0 +1,37 @@
+{% capture pdf_id %}{{ include.id }}{% endcapture %}
+{% capture pdf_provider %}{{ include.provider }}{% endcapture %}
+
+{% capture pdf_src %}
+  {% case pdf_provider %}
+  {% when "slideshare" %}
+    https://www.slideshare.net/slideshow/embed_code/key/{{ pdf_id }}
+  {% when "custom" %}
+    {{ pdf_id }}
+  {% endcase %}
+{% endcapture %}
+{% assign pdf_src = pdf_src | strip %}
+
+{% unless pdf_src == "" %}
+<div class="iframe-slideshare fitvidsignore">    
+    <iframe class="fitvidsignore"
+        src="{{ pdf_src }}"
+        width="100%"
+        height="400px"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        scrolling="no"
+        style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;"
+        webkitAllowFullScreen mozallowfullscreen allowfullscreen>
+    </iframe>
+</div>
+{% endunless %}
+
+{% comment %}
+{% include pdf_iframe id="XsxDH4HcOWA" provider="slideshare" %}
+{% include pdf_iframe id="https://www.janog.gr.jp/meeting/janog43/application/files/4615/4820/8009/janog43-tkamata-srv6.pdf" provider="custom" %}
+
+Example:
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/cKMY1g6bT2LGMn" width="100%" height="400px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+{% endcomment %}

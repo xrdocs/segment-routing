@@ -10,4 +10,4 @@ header:
   teaser: 'https://img.youtube.com/vi/aaQAq5lj0_I/mqdefault.jpg'
 ---    
        
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/aaQAq5lj0_I" frameborder="0" allowfullscreen></iframe>
+{% include video id="aaQAq5lj0_I" provider="youtube" %}

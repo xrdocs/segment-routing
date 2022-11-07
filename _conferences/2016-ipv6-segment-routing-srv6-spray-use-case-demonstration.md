@@ -13,4 +13,4 @@ header:
 ---
 ## “Spray” use case demonstration   
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/e6wEhJOJ4Vw" frameborder="0" allowfullscreen></iframe>
+{% include video id="e6wEhJOJ4Vw" provider="youtube" %}

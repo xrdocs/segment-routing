@@ -16,4 +16,4 @@ header:
 At the [**MPLS WC 2019**](<https://www.uppersideconferences.com/mpls-sdn-nfv/2019/mplswc2019_agenda_day_02_01.html>) in Paris,
 **Rizwan Jamal** of Equinix presents his SR deployment experience.
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/hchiMeYLNuk" frameborder="0" allowfullscreen></iframe>
+{% include video id="hchiMeYLNuk" provider="youtube" %}

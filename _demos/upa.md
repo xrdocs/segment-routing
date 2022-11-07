@@ -9,7 +9,7 @@ excerpt: 'SRv6 uSID Unreachable Prefix Announcement'
 teaser: images/demo-upa/teaser.png
 ---    
 ### *Demo Video*
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/i28RgnUcD4w" frameborder="0" allowfullscreen></iframe>
+{% include video id="i28RgnUcD4w" provider="youtube" %}
 
 ## Overview
 Among many reasons for the wide adoption of SRv6 uSID technology is ultimate scalability. SRv6 uSID currently provides full feature parity with SR-MPLS but in a much simpler manner, and with much higher scalability. The key concept for infinite scalability is the applicability of classless routing (CIDR) to SRv6 uSID networks.

@@ -10,15 +10,12 @@ header:
   teaser: 'https://img.youtube.com/vi/ZUN68P6UAn0/mqdefault.jpg'
 ---    
        
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/ZUN68P6UAn0" frameborder="0" allowfullscreen></iframe>
+{% include video id="ZUN68P6UAn0" provider="youtube" %}
 
 Check out the presentation here:
  
-{% capture "pdf-link" %}https://pc.nanog.org/static/published/meetings/NANOG71/1445/20171005_Dawra_Segment_Routing_Ipv6_v1.pdf{% endcapture %}
+{% include pdf link="https://pc.nanog.org/static/published/meetings/NANOG71/1445/20171005_Dawra_Segment_Routing_Ipv6_v1.pdf" %}
 
 
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 
-<div class="fitvidsignore" id="pdf"></div>
 
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

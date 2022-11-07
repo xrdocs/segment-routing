@@ -7,15 +7,30 @@ title: "Search"
 
 {% include base_path %}
 
+<style>
+#search_results a[href$=".pdf"]::after {
+  content: " (PDF)";
+  color: lightgrey;
+}
+#search_results .accordion-item {
+  padding-bottom: 0;
+}
+.date {
+  color: grey;
+  font-size: 0.9em;
+}
+</style>
+
 <div class="search-form" value="{{ base_path }}" id="base_url" >
 <form action="get" id="site_search">
-  <input style="font-size:20px;" class="search-input" type="text" id="search_box" placeholder="">
+  <input style="font-size:20px;" class="search-input" type="text" id="search_box" autocomplete="on" placeholder="">
   <button type="submit" value="Send" class="btn form-button" id="submit">Search</button>
+  <input type="submit" style="display:none"/>
 </form>
 </div>
 
 <div class="container " id="search_results"></div>
 
-<script src="/assets/js/lunr.min.js"></script>
+<script src="{{ '/assets/js/lunr.min.js' | relative_url }}"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/assets/js/search.js"></script>
+<script src="{{ '/assets/js/search.js' | relative_url }}"></script>

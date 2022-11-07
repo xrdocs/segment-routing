@@ -12,4 +12,4 @@ Demonstration showcasing Segment Routing Data Plane Monitoring (SR-DPM) solution
 A node uses SR-DPM to test its own data plane for any traffic received from any incoming interface towards any ECMP path. SR-DPM uses existing MPLS OAM tools and leverages SR to enforce test traffic path.
 SR-DPM can be used in Proactive and Reactive modes of operation. Jose Liste demonstrates it in this video.
        
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/LAVelovqyRA" frameborder="0" allowfullscreen></iframe>
+{% include video id="LAVelovqyRA" provider="youtube" %}

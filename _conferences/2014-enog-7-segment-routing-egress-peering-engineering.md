@@ -15,13 +15,10 @@ header:
 
 ## Video  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lujkWfdB4NM" frameborder="0" allowfullscreen></iframe>
+{% include video id="lujkWfdB4NM" provider="youtube" %}
 
 
 ## Slides  
 
-{% capture "pdf-link" %}https://www.enog.org/presentations/enog-7/263-EPE-ENOG7.pdf{% endcapture %}
+{% include pdf link="https://www.enog.org/presentations/enog-7/263-EPE-ENOG7.pdf" %}
 
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

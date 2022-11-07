@@ -31,11 +31,10 @@ Segment Routing (SR) works by encoding a path across a network as an ordered lis
 
 ## Video 
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/6Mnx6Y3MZMo" frameborder="0" allowfullscreen></iframe>
+{% include video id="6Mnx6Y3MZMo" provider="youtube" %}
 
 
 ## Slides  
 
-
-<iframe src="https://app.box.com/embed/preview/zrdz0m4omx5jm2fxtav6q5o6raw7238f?theme=dark" width="100%" height="400px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+Download pptx file from chinog.org: [Segment Routing - Traffic Engineering (pptx) (chinog.org)](http://chinog.org/wp-content/uploads/2016/05/09.-Segment-Routing-%E2%80%93-Traffic-Engineering.pptx)
 

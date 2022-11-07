@@ -16,4 +16,4 @@ This video demonstrates the application of Flexible Algorithm to SRv6.
 We also show Performance Measurement to dynamically measure the link delays that can be used in Flexible Algorithm.
 L3VPN functionality automatically leverages the Flexible Algorithm paths, providing low-delay paths as an example.
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/GdLtEz-Av8U" frameborder="0" allowfullscreen></iframe>
+{% include video id="GdLtEz-Av8U" provider="youtube" %}

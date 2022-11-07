@@ -12,4 +12,4 @@ author: Segment Routing Team
 ---
 Watch Bertrand Duvivier, Cisco's Principal Engineer, on the genesis and future for Segment Routing
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/nJVpJgu4QrQ" frameborder="0" allowfullscreen></iframe>
+{% include video id="nJVpJgu4QrQ" provider="youtube" %}

@@ -18,4 +18,4 @@ header:
 {: .notice--info}  
   
   
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/8qGVmrArU7o" frameborder="0" allowfullscreen></iframe>
+{% include video id="8qGVmrArU7o" provider="youtube" %}

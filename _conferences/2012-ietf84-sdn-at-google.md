@@ -15,17 +15,16 @@ header:
 **Edward Crabbe, Vytautas Valancius**
 {: .notice--info}  
 
-{% capture "pdf-link" %}https://www.ietf.org/proceedings/84/slides/slides-84-sdnrg-4.pdf {% endcapture %}
+Download pdf from ietf.org: [SDN at Google - Opportunities for WAN Optimization (ietf.org)](https://www.ietf.org/proceedings/84/slides/slides-84-sdnrg-4.pdf)
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url  }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+{% comment %}
+{% include pdf link="https://www.ietf.org/proceedings/84/slides/slides-84-sdnrg-4.pdf" id="pdf1"%}
+{% endcomment %}
 
+<br />
 ## Additional references:
-><https://perspectives.mvdirona.com/2012/05/urs-holzle-open-networking-summit-2012/>
 
-{% capture "pdf-alt-link" %}/images/hoelzle-tue-openflow.pdf {% endcapture %}
+[Urs Holzle @ Open Networking Summit 2012 (mvdirona.com)](https://perspectives.mvdirona.com/2012/05/urs-holzle-open-networking-summit-2012/)
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf2"></div>
-<script>PDFObject.embed(" {{ pdf-alt-link | relative_url }} ", "#pdf2", {height: "21.5em", width: "31.3em"});</script>
+{% include pdf link="/images/hoelzle-tue-openflow.pdf" id="pdf2"%}
+

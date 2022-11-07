@@ -11,4 +11,4 @@ header:
 ---    
 Clarence Filsfils presented at the SD-WAN Summit 2017 SRv6 for the SD-WAN. His presentation gives an introduction to Segment Routing and highlights the benefits of SRv6 for the SD-WAN. 
        
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/A_PcVVMeaX8" frameborder="0" allowfullscreen></iframe>
+{% include video id="A_PcVVMeaX8" provider="youtube" %}

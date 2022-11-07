@@ -1,5 +1,6 @@
 ---
-title: Segment Routing IPv6 &mdash; Interoperability demo is already there!
+title: >-
+  Segment Routing IPv6 — Interoperability demo is already there!
 author: Frederic Trate
 source: SP360 Cisco Blog
 source-url: https://blogs.cisco.com/sp/segment-routing-ipv6-interoperability-demo-is-already-there

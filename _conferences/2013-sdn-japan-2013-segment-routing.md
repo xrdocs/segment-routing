@@ -20,6 +20,6 @@ header:
 
 ## Video  
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/FiK58HURdHo" frameborder="0" allowfullscreen></iframe>
+{% include video id="FiK58HURdHo" provider="youtube" %}
 
 

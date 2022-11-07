@@ -14,4 +14,4 @@ header:
 This presentation was part of [UKNOF30](https://indico.uknof.org.uk/event/32/) held in London.**
 {: .notice--info}  
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/K0Lz7_3I2ZA" frameborder="0" allowfullscreen></iframe>
+{% include video id="K0Lz7_3I2ZA" provider="youtube" %}

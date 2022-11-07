@@ -12,8 +12,18 @@ header:
   teaser: 'https://img.youtube.com/vi/VORGW0bBHLs/mqdefault.jpg'
 ---
 
+{% comment %}
 {% include toc icon="table" title="MPLS/SDN World Congress 2016" %}
-  
+{% endcomment %}
+
+## Contents:
+- [Segment Routing: Deployment Experience and Technology Update](#segment-routing-deployment-experience-and-technology-update)
+- [Segment Routing On-Demand Next-hop (ODN) Demo](#segment-routing-on-demand-next-hop-odn-demo) 
+- [Segment Routing Agile Carrier Ethernet (ACE) Demo](#segment-routing-agile-carrier-ethernet-ace-demo)
+- [Segment Routing TI-LFA FRR Node Protection Demo](#segment-routing-ti-lfa-frr-node-protection-demo)
+- [Segment Routing Microloop Avoidance Demo](#segment-routing-microloop-avoidance-demo)
+- [Segment Routing and EPE for Application Optimization](#segment-routing-and-epe-for-application-optimization)
+- [Avoiding Micro-loops in MPLS Networks using Segment-routing](#avoiding-micro-loops-in-mpls-networks-using-segment-routing)
   
 ## Segment Routing: Deployment Experience and Technology Update  
   
@@ -24,24 +34,21 @@ header:
 ### Video  
 
 
-<iframe width="100%" height="400px" class="fitvidsignore" src="https://www.youtube.com/embed/VORGW0bBHLs" frameborder="0" allowfullscreen></iframe>  
+{% include video id="VORGW0bBHLs" provider="youtube" %}
 
   
 
 ### Slides
 
-{% capture "pdf-link" %}/images/1551544-sr-mpls-sdn-2016-rev2b.pdf{% endcapture %}
+{% include pdf link="/images/1551544-sr-mpls-sdn-2016-rev2b.pdf" %}
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>  
 
 ### Longer video  
   
 Recorded post conference.  
 {: .notice--info}  
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/EUxm9EH1wyQ" frameborder="0" allowfullscreen></iframe>  
+{% include video id="EUxm9EH1wyQ" provider="youtube" %}
 
 
 ## Segment Routing On-Demand Next-hop (ODN) Demo  
@@ -49,7 +56,7 @@ Recorded post conference.
 **Jose Liste, Cisco**
 {: .notice--info}  
     
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/0xtysG86Fik" frameborder="0" allowfullscreen></iframe>  
+{% include video id="0xtysG86Fik" provider="youtube" %}
   
   
 ## Segment Routing Agile Carrier Ethernet (ACE) Demo  
@@ -57,7 +64,7 @@ Recorded post conference.
 **Alex Preusche, Cisco**
 {: .notice--info}  
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/biYqyAn9rl0" frameborder="0" allowfullscreen></iframe>  
+{% include video id="biYqyAn9rl0" provider="youtube" %}
   
 
 ## Segment Routing TI-LFA FRR Node Protection Demo  
@@ -65,7 +72,7 @@ Recorded post conference.
 **Kris Michielsen, Cisco**
 {: .notice--info}  
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/dttw2nc5FrA" frameborder="0" allowfullscreen></iframe>  
+{% include video id="dttw2nc5FrA" provider="youtube" %}
   
     
 ## Segment Routing Microloop Avoidance Demo 
@@ -73,13 +80,13 @@ Recorded post conference.
 **Kris Michielsen, Cisco**
 {: .notice--info}  
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/7nfnp-dnUHk" frameborder="0" allowfullscreen></iframe>  
+{% include video id="7nfnp-dnUHk" provider="youtube" %}
   
     
 ## Segment Routing and EPE for Application Optimization   
   
   
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/RzsyUfS4lb0" frameborder="0" allowfullscreen></iframe>  
+{% include video id="RzsyUfS4lb0" provider="youtube" %}
   
 
   
@@ -88,5 +95,6 @@ Recorded post conference.
 
 **Stephane Litkowski, Network Architect, Orange**
 {: .notice--info}
-   
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/cMIG9HCKFOus70" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/StephaneLitkowski/mpls-sdn-2016-microloop-avoidance-with-segment-routing-63809004" title="MPLS SDN 2016 - Microloop avoidance with segment routing" target="_blank">MPLS SDN 2016 - Microloop avoidance with segment routing</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/StephaneLitkowski">Stephane Litkowski</a></strong> </div>
+
+{% include pdf_iframe id="cMIG9HCKFOus70" provider="slideshare" %}
+<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/StephaneLitkowski/mpls-sdn-2016-microloop-avoidance-with-segment-routing-63809004" title="MPLS SDN 2016 - Microloop avoidance with segment routing">MPLS SDN 2016 - Microloop avoidance with segment routing (slideshare.net)</a> </strong></div>

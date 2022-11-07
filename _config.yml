@@ -15,13 +15,20 @@ name                     : &name "Cisco Systems Inc"
 
 
 description              : &description "Documentation, Blogs and Tutorials for all things Segment Routing "
-url                      : "http://www.segment-routing.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-gh_repo                  : "https://github.com/xrdocs/segment-routing"
+# url                      : "http://www.segment-routing.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://kmichiel.github.io"
+# baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/SRnet"
+# gh_repo                  : "https://github.com/xrdocs/segment-routing"
+gh_repo                  : "https://github.com/kmichiel/SRnet"
 teaser                   : "images/new-design/SR-Background-Image-3.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-logo                     : "images/sr-logo-blue.png"
+logo                     : "images/sr-logo-blue-160x160.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
+
+# cookie consent
+after_footer_scripts     :
+  - /assets/js/cookie-consent.js
 
 # SEO Related
 google_site_verification :
@@ -32,7 +39,7 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : &twitter "segmentrouting"
-og_image                 : "sr-logo-blue.png" # Open Graph/Twitter default site image
+og_image                 : "sr-logo-blue-160x160.png" # Open Graph/Twitter default site image
 
 # Analytics
 analytics:
@@ -149,6 +156,9 @@ collections:
   demos:
     output: true
     permalink: /:collection/:path/    
+  blogs:
+    output: true
+    permalink: /:collection/:path/    
   path-tracing:
     output: true
     permalink: /:collection/:path/
@@ -208,6 +218,15 @@ defaults:
   - scope:
       path: ""
       type: demos
+    values:
+      layout: single-full
+      read_time: false
+      related: true
+      position: "top"
+# _blogs
+  - scope:
+      path: ""
+      type: blogs
     values:
       layout: single-full
       read_time: false

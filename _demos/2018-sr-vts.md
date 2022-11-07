@@ -12,4 +12,4 @@ Traditional service provider networks are often divided into different domains, 
   
 Cisco VTS provides native virtual-machine manager (VMM) integration, allowing for the automated orchestration of services on the NCS5500 series. This allows homogenous capabilities to be delivered across the different domains. This demonstration showcases Cisco VTS’s capabilities in performing Central Office Fabric Orchestration using a Segment Routing based Underlay, including the provisioning of L2 EVPN and L3 MPLS VPN services.  
        
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/N4H2S0YDJbo" frameborder="0" allowfullscreen></iframe>
+{% include video id="N4H2S0YDJbo" provider="youtube" %}

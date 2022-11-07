@@ -10,15 +10,12 @@ header:
   teaser: 'https://img.youtube.com/vi/l_RThbdDnko/mqdefault.jpg'
 ---    
        
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/l_RThbdDnko" frameborder="0" allowfullscreen></iframe>
+{% include video id="l_RThbdDnko" provider="youtube" %}
 
 Check out the presentation here:
  
-{% capture "pdf-link" %}https://pc.nanog.org/static/published/meetings/NANOG75/1910/20190220_Liste_Unleashing_Sr_Traffic_v1.pdf{% endcapture %}
+{% include pdf link="https://pc.nanog.org/static/published/meetings/NANOG75/1910/20190220_Liste_Unleashing_Sr_Traffic_v1.pdf" %}
 
 
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 
-<div class="fitvidsignore" id="pdf"></div>
 
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

@@ -1,0 +1,93 @@
+---
+regenerate: true
+layout: articles 
+permalink: /new-tutorials
+hero-image: images/new-design/SR-Background-Image-4.png
+title: "SR Tutorials"
+technology: "SR MPLS, SRv6"
+type: "Tutorials"
+description: "Whatever your SR training need, we have you covered"
+---
+<style>
+details.sub {
+    padding-left: 35px;
+}
+</style>
+{% include base_path %}
+<div class="container accordion">
+  <details open>
+    <summary>SR MPLS</summary>
+  {% assign sorted = site.tutorials | where:"category","concepts" | sort: 'order' %}
+  <details class="sub">
+    <summary>SR concepts</summary>
+  {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
+    <div>
+      {% include archive-single.html %}
+    </div>
+    {% endif %}
+  {% endfor %}
+  </details>
+
+  {% assign sorted = site.tutorials | where:"category","igp" | sort: 'order' %}
+  <details class="sub">
+    <summary>SR IGP</summary>
+  {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
+    <div>
+      {% include archive-single.html %}
+    </div>
+    {% endif %}
+  {% endfor %}
+  </details>
+
+  {% assign sorted = site.tutorials | where:"category","ldp" | sort: 'order' %}
+  <details class="sub">
+    <summary>SR and LDP</summary>
+  {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
+    <div>
+      {% include archive-single.html %}
+    </div>
+    {% endif %}
+  {% endfor %}
+  </details>
+
+  {% assign sorted = site.tutorials | where:"category","te" | sort: 'order' %}
+  <details class="sub">
+    <summary>SR Traffic Engineering</summary>
+  {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
+    <div>
+      {% include archive-single.html %}
+    </div>
+    {% endif %}
+  {% endfor %}
+  </details>
+
+  {% assign sorted = site.tutorials | where:"category","oam" | sort: 'order' %}
+  <details class="sub">
+    <summary>SR Operations and Monitoring</summary>
+  {% for post in sorted %}
+    {% if post.technology contains 'SRMPLS' %}
+    <div>
+      {% include archive-single.html %}
+    </div>
+    {% endif %}
+  {% endfor %}
+  </details>
+  </details>
+
+  {% assign sorted = site.tutorials | where:"category","srv6" | sort: 'order' %}
+  <details open>
+    <summary>SRv6</summary>
+    {% for post in sorted %}
+      {% if post.technology contains 'SRv6' %}
+    <div>
+      {% include archive-single.html %}
+    </div>
+      {% endif %}
+    {% endfor %}
+  </details>
+
+</div>

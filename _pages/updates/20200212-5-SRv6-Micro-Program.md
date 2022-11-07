@@ -11,7 +11,7 @@ header:
 ---
 
 # Micro-program
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/EHbx_e0Oybg" frameborder="0" allowfullscreen></iframe>
+{% include video id="EHbx_e0Oybg" provider="youtube" %}
 
 ## Slides
 

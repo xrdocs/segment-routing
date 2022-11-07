@@ -10,4 +10,4 @@ teaser: 'https://img.youtube.com/vi/I0_-fTmcxZU/maxresdefault.jpg'
 ---    
 Demonstration showcasing the newest SRTE building block: Segment Routing IGP Flexible Algorithms. In this demo, SR Flex Algorithms are used to create delay-optimized network slices created according to measured per-link delay using MPLS performance management. Lastly, viewer will experience how the solution can leverage SR on-demand next hop (ODN) and Automated Steering for intent-based instantiation of traffic engineered paths. In this video Jose Liste demonstrates it.
        
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/I0_-fTmcxZU" frameborder="0" allowfullscreen></iframe>
+{% include video id="I0_-fTmcxZU" provider="youtube" %}

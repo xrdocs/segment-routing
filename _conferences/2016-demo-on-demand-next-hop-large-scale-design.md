@@ -11,4 +11,4 @@ excerpt: >-
 ---
 Watch Jose Liste's demonstration of SR ODN. Learn how SR enables end-to-end SLA from datacenter to metro to backbone at scale.
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/0xtysG86Fik" frameborder="0" allowfullscreen></iframe>
+{% include video id="0xtysG86Fik" provider="youtube" %}

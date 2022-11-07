@@ -17,9 +17,9 @@
 {% assign video_src = video_src | strip %}
 
 {% unless video_src == "" %}
-<div class="outer-embed video">
-  <div class='embed-container'>
-    <iframe class="responsive-iframe" src="{{ video_src }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+<div class="outer-embed video fitvidsignore">
+  <div class="embed-container fitvidsignore">
+    <iframe class="fitvidsignore responsive-iframe" src="{{ video_src }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
   </div>
 </div>
 {% endunless %}

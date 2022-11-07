@@ -11,7 +11,7 @@ header:
 ---
 
 ## LinkedIn /Infra/Web Scale Event
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/An9neQzho1Q" frameborder="0" allowfullscreen></iframe> 
+{% include video id="An9neQzho1Q" provider="youtube" %}
  
 ## Segment Routing (Clarence Filsfils, Cisco Fellow)
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/zoSmj8JzBMM" frameborder="0" allowfullscreen></iframe> 
+{% include video id="zoSmj8JzBMM" provider="youtube" %}

@@ -5,6 +5,7 @@ date: '2022-03-29 10:00 -0700'
 title: 'SRv6 ultra-scale - Imposition of 26 SRv6 uSIDs at Linerate'
 author: 'Kris Michielsen, Cisco'
 technology: 'SRv6'
+category: 'Blogs'
 excerpt: 'Rakuten, Bell Canada and Cisco Systems are happy to report the successful validation of line rate insertion of 26 SRv6 uSIDs on the NCS 5700 Series platforms running Cisco IOS XR. Watch the video or read the demo report here.'
 header:
 teaser: 'images/2022-03-29-j2-26usid-demo/teaser.png'

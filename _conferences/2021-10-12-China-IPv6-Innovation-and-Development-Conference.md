@@ -16,7 +16,4 @@ The video capture of the presentation (English with Chinese subtitles) can be wa
 
 ## Slides
 
-{% capture "pdf-link" %}/images/2021-10-12-China-IPv6-Innovation-and-Development-Conference.pdf{% endcapture %}
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+{% include pdf link="/images/2021-10-12-China-IPv6-Innovation-and-Development-Conference.pdf" %}

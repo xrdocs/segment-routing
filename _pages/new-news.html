@@ -1,0 +1,763 @@
+---
+regenerate: true
+layout: archive-full
+permalink: /new-news
+hero-image: images/new-design/SR-Background-Image-2.png
+title: "News"
+description: "Discover the latest news on Segment Routing"
+---
+<!--
+regenerate: true
+layout: articles
+permalink: /new-news
+hero-image: images/new-design/SR-Hero-Background-Image-8.png
+technology: "SRv6"
+type: "News"
+description: "Discover the latest news on Segment Routing"
+-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet"/>
+
+<style>
+.filterDiv {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+button.btn {
+  font-family: 'Cisco Sans TT', sans-serif;
+  font-size: 1.1em;
+    margin-right: 10px;
+    margin-top: 5px;
+        position: relative;
+}
+button.btn:not(.active):hover {
+  //background-color: red;
+}
+/* override hover behavior of active button
+   should really fix button:hover using button:not(.active):hover
+*/
+Qbutton.btn.active:hover {
+    padding: 10px 40px;
+    border: 1px solid #1994c9;
+    border-radius: 20px;
+    background-color: #149ed9;
+    /* font-size: 18px; */
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: inherit;
+    -webkit-transform: inherit;
+    -ms-transform: inherit;
+    transform: inherit;
+}
+button.btn.active:hover {
+    /* border-color: #6abf4b; */
+    /* background-color: #6abf4b; */
+    padding: 10px 40px;
+    border-radius: 20px;
+    /* font-size: 18px; */
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: inherit;
+    -webkit-transform: inherit;
+    -ms-transform: inherit;
+    transform: inherit;
+}
+button.btn.active {
+    border-color: #6abf4b;
+    background-color: #6abf4b;
+}
+div.btnRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+  font-family: 'Cisco Sans TT', sans-serif;
+  font-size: 1.1em;
+}
+div.btnRow > * {
+    margin-bottom: 10px;
+}
+button.active {
+  //background-color: red;
+}
+#filterContainer {
+    /*max-width: 80%;*/
+    /*margin: auto;*/
+}
+#btnContainer {
+    margin-left: 2em;
+}
+div.label {
+    margin: 5px 5px 0 0;
+    padding: 10px 40px 10px 0;
+    font-size: 1.1em;
+    font-family: 'Cisco Sans TT', sans-serif;
+    text-align: left;
+}
+.article-postfix {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #bdbdbd;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+button.btn .fa-check {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #fff;
+    font-weight: normal;
+	display: none;
+}
+button.btn.active .fa-check {
+	display: block;
+}
+</style>
+
+<style>
+button.chip-btn{
+  cursor:pointer;
+}
+.chip-group{
+  display:flex;
+  flex-wrap:wrap;
+}
+.chip.chip-checkbox > .chip-add-icon::after {
+  content:"add"
+}
+.chip.chip-checkbox.active > .chip-add-icon::after {
+  content:"done"
+}
+.chip > * {
+  margin-right:2px;
+  margin-left:2px;
+  /* color: #757373; */
+}
+.chip input {
+  display: none;
+}
+.chip.chip-checkbox,
+.chip.chip-toggle,
+.chip.clickable{
+  cursor: pointer;
+}
+.chip.active {
+  background-color: #d3d2d2;
+  border-color:#c3c2c2;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12)
+}
+.chip:hover, .chip:focus {
+  background-color: #e3e2e2;
+}
+.chip:active:focus{
+  background-color: #d3d2d2;  
+}
+.chip button{
+  border:none;
+  margin-top:0;
+  margin-bottom:0;
+  padding:0;
+  background:none;
+  display:inline-flex;
+}
+.chip {
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 1px solid #d3d2d2;
+  display: inline-flex;
+  align-items:center;
+  padding: 4px 6px 4px 6px;
+  margin-right:6px;
+  margin-bottom:6px;
+    padding: 10px 40px;
+    border: 1px solid #1994c9;
+    border-radius: 20px;
+    background-color: #149ed9;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+}
+.chip i.material-icons {
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button.chip-btn:hover {
+    border-color: inherit;
+    background-color: inherit;
+    box-shadow: inherit;
+    -webkit-transform: inherit;
+    -ms-transform: inherit;
+    transform: inherit;
+}
+</style>
+
+<style>
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+//$glass: rgba(255, 255, 255, 0.2);
+//$glass-icon: rgba(255, 255, 255, 0.3);
+//$gradient: linear-gradient(35deg, red, purple);
+//$option: #320a28;
+
+body {
+  background: purple;
+}
+
+.chip-btn2 {
+/*  background: url(https://upload.wikimedia.org/wikipedia/commons/c/c1/High-contrast-dialog-close.svg)
+      no-repeat right 0.8em center / 1.4em,
+    linear-gradient(to left, rgba(255, 255, 255, 0.0) 3em, #149ed9 3em);
+  background: url(images/white-x.svg)
+      no-repeat right 0.8em center / 1.4em,
+    linear-gradient(to left, #149ed9 3em, #149ed9 3em);
+ */
+    align-items: center;
+    display: flex;
+    padding: 10px 1em 10px 40px;
+}
+.chip-btn2 span {
+	margin-right: 1em;
+}
+.chip-btn2 img {
+	height: 1em;
+}
+.chip-btn2 img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+button.chip-btn2:hover {
+    border-color: #1994c9;
+    background-color: #149ed9;
+    box-shadow: inherit;
+    -webkit-transform: inherit;
+    -ms-transform: inherit;
+    transform: inherit;
+}
+
+/* <select> styles */
+select {
+  /* Reset */
+  appearance: none;
+  border: 0;
+  /* outline: 0; */
+  /* font: inherit; */
+  /* Personalize */
+  /* width: 20em; */
+  /* height: 3em; */
+  padding: 0 4em 0 1em;
+  background: url(images/Caret_down_font_awesome_whitevariation.svg)
+      no-repeat right 0.8em center / 1.4em,
+    linear-gradient(to left, rgba(255, 255, 255, 0.0) 3em, #149ed9 3em);
+  color: white;
+  border-radius: 0.25em;
+  /*box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);*/
+  cursor: pointer;
+
+  font-family: 'Cisco Sans TT', sans-serif;
+  font-size: 1.1em;
+  margin-right: 10px;
+  /* margin-top: 5px; */
+  position: relative;
+
+  padding: 10px 40px;
+  border: 1px solid #1994c9;
+  border-radius: 20px;
+  background-color: #149ed9;
+  /* font-size: 18px; */
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #fff;
+  /* text-align: center; */
+  align-items: flex-start;
+  display: block;
+  /* height: 100%;*/
+}
+/* <option> colors */
+option {
+  color: black;
+  background-color: white;
+}
+/* Remove focus outline */
+option:focus {
+  outline: none;
+}
+/* Remove IE arrow */
+option::-ms-expand {
+  display: none;
+}
+
+/* Button */
+button.btn {
+    font-family: 'Cisco Sans TT', sans-serif;
+    fpadding-top: 0;ont-size: 1.1em;
+    margin-right: 10px;
+    margin-top: 0px; /* is 5px in button css */
+    position: relative;
+}
+.btn {
+    float: left;
+}
+button {
+    padding: 10px 40px;
+    border: 1px solid #1994c9;
+    border-radius: 20px;
+    background-color: #149ed9;
+    /* font-size: 18px; */
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    /* height: 100%;*/
+    margin-bottom: 10px;
+}
+
+summary.filter {
+    color: white;
+    border: 1px solid #1994c9;
+    border-radius: 20px;
+    background-color: #149ed9;
+    display: inline-block;
+    font-size: 1.1em;
+    padding-right: 0.8em;
+}
+details.filter {
+    text-align: left;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-left: 1.5em;
+    padding-right: 0;
+}
+details[open] summary.filter::after {
+    content: '\25B2'; /* triangle up */
+}
+summary.filter::after {
+    content: '\25BC'; /* triangle down */
+    padding-left: 2em;
+}
+summary.filter::before {
+    content: '';
+    margin-right: 0;
+}
+details[open] summary.filter::before {
+    content: '';
+    margin-right: 0;
+}
+</style>
+
+
+<style>
+.filterContainer {
+    /* max-width: 80%; */
+    /* margin: auto; */
+}
+.container.accordion.filtered {
+    padding-top: 0;
+}
+ul.ks-cboxtags {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+ul.ks-cboxtags li{
+  display: inline;
+}
+ul.ks-cboxtags li label{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #adadad;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;
+}
+
+ul.ks-cboxtags li label {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+ul.ks-cboxtags li label::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 12px;
+    padding: 2px 6px 2px 2px;
+    content: "\f067";
+    transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label::before {
+    content: "\f00c";
+    /* transform: rotate(-360deg); */
+    transition: transform .3s ease-in-out;
+}
+
+ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+    border: 1px solid #1994c9;
+    background-color: #149ed9;
+    color: #fff;
+    transition: all .2s;
+}
+
+ul.ks-cboxtags li input[type="checkbox"] {
+  display: absolute;
+}
+ul.ks-cboxtags li input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+ul.ks-cboxtags li input[type="checkbox"]:focus + label {
+  /*border: 2px solid #e9a1ff;*/
+}
+.filter-name {
+  padding-right: 1em;
+}
+.filter.technology, .filter.category {
+    display: flex;
+    align-items: center;
+}
+@media screen and (min-width: 991px) {
+  .filter.technology, .filter.category {
+    margin-left: 0px;
+  }
+}
+</style>
+
+<style>
+#news-navbar-container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#filterContainer {
+  margin: 0;
+}
+#unfold-container, #fold-container {
+    margin: 0;
+}
+#unfold-container .button, #fold-container .button {
+    text-align: left;
+    margin-bottom: 0;
+    max-width: 100%;
+    padding: 15px 20px 15px 0px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 1.5em;
+}
+#unfold-container .button .unfold-label,  #fold-container .button .fold-label {
+    color: white;
+    border: 1px solid #1994c9;
+    border-radius: 20px;
+    background-color: #149ed9;
+    display: inline-block;
+    font-size: 1.1em;
+    padding-right: 0.8em;
+    padding-left: 20px;
+    text-align: left;
+    margin-top: 0px;
+    /*-webkit-box-flex: 1;*/
+    /*-webkit-flex: 1;*/
+    /*-ms-flex: 1;*/
+    /*flex: 1;*/
+    /*color: #333;*/
+    /*font-size: 30px;*/
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 300;
+    cursor: pointer;
+    list-style: none;
+}
+#btnContainer {
+    /* margin-left: 2em; */
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    /* margin-top: 1em; */
+    /* background-color: var(--color-canvas-overlay); */
+    background-clip: padding-box;
+    /* border: 1pxsolidvar(--color-border-default);*/
+    border-radius: 6px;
+    box-shadow: rgb(140 149 159 / 20%) 0px 8px 24px 0px;
+    /* top: 100%; */
+    /* left: 0; */
+    z-index: 100;
+    /* width: 160px; */
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    /* margin-top: 2px; */
+    list-style: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    /* margin-right: 2em; */
+    /* margin-right: 1em; */
+}
+</style>
+
+<style>
+#toggleLabel {
+    color: white;
+    border: 1px solid #1994c9;
+    border-radius: 20px;
+    background-color: #149ed9;
+    display: inline-block;
+    font-size: 1.1em;
+    padding-right: 0.8em;
+    padding-left: 20px;
+    text-align: left;
+    margin-top: 0px;
+    /* -webkit-box-flex: 1; */
+    /* -webkit-flex: 1; */
+    /* -ms-flex: 1; */
+    /* flex: 1; */
+    /* color: #333; */
+    /* font-size: 30px; */
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 300;
+    cursor: pointer;
+    list-style: none;
+}
+#toggleFold {
+    opacity: 0;
+    position: absolute;
+}
+#toggle-container.button {
+    text-align: left;
+    margin-bottom: 0;
+    max-width: 100%;
+    padding: 15px 20px 15px 0px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 1.5em;
+}
+</style>
+
+{% capture written_year %}'None'{% endcapture %}
+{% comment %}
+  collect the list of all documents
+  and filter out the unusable pages and OS, SP, and TOI pages
+  filter out any duplicates
+  sort in reverse chronological order
+{% endcomment %}
+{% assign all_content = site.documents 
+| where_exp:"item", "item.id.size"
+| where_exp:"item", "item.date"
+| where_exp:"item", "item.collection != 'open-software'"
+| where_exp:"item", "item.collection != 'scientific-papers'"
+| where_exp:"item", "item.collection != 'tutorials'"
+| sort: date 
+| uniq
+| reverse %}
+  <div class="container accordion filtered">
+    <div id="news-navbar-container">
+      <div id="filterContainer" class="container">
+        <details id="details-filter" class="filter">
+          <summary class="filter"> Filter... </summary>
+          <div id="btnContainer">
+            <div class="filter technology">
+              <div class="filter-name">
+                Technology:
+              </div>
+              <ul class="ks-cboxtags">
+                <li><input type="checkbox" autocomplete="on" id="checkboxTOne" value="srv6" onchange="filterSelection()"><label for="checkboxTOne">SRv6</label></li>
+                <li><input type="checkbox" autocomplete="on" id="checkboxTTwo" value="srmpls" onchange="filterSelection()"><label for="checkboxTTwo">SR MPLS</label></li>
+              </ul>
+            </div>
+      
+            <div class="filter category">
+              <div class="filter-name">
+                Category:
+              </div>
+              <ul class="ks-cboxtags">
+                <li><input type="checkbox" autocomplete="on" id="checkboxTwo" value="blogs" onchange="filterSelection()"><label for="checkboxTwo">Blogs</label></li>
+                <li><input type="checkbox" autocomplete="on" id="checkboxThree" value="conferences" onchange="filterSelection()"><label for="checkboxThree">Conferences</label></li>
+                <li><input type="checkbox" autocomplete="on" id="checkboxFour" value="demos" onchange="filterSelection()"><label for="checkboxFour">Demos</label></li>
+                <li><input type="checkbox" autocomplete="on" id="checkboxOne" value="other" onchange="filterSelection()"><label for="checkboxOne">Other</label></li>
+              </ul>
+            </div>
+          </div> <!-- end btn container -->
+        </details>
+      </div> <!-- end filter container -->
+      {% comment %} remove separate fold/unfold buttons
+      <div id="unfold-container" class="container" onclick="unfoldAll()">
+        <div class="button">
+          <div class="unfold-label">
+            Unfold All
+          </div>
+        </div>
+      </div>
+      <div id="fold-container" class="container" onclick="foldAll()">
+        <div class="button">
+          <div class="fold-label">
+            Fold All
+          </div>
+        </div>
+      </div>
+      {% endcomment %}
+      <div id="toggle-container" class="button">
+        <input type="checkbox" autocomplete="on" id="toggleFold" value="expandAll" onchange="toggleFold()"><label id="toggleLabel" for="toggleFold">Expand All</label>
+      </div>
+    </div> <!-- end news-navbar-container -->
+    {% for post in all_content %}
+      {% capture year %}{{ post.date | slice: 0, 4 }}{% endcapture %}
+      {% if year != written_year %}
+        </details>
+        {% if post == all_content[0] %}
+	<details open>
+        {% else %}
+	<details>
+        {% endif %}
+          <summary> {{ year }} </summary>
+          {% capture written_year %}{{ year }}{% endcapture %}
+      {% endif %}
+      {% include new-news-list-tags %} 
+    {% endfor %} 
+  </div>
+  <p id="notice-no-items-found" hidden>No items match your filter.</p>
+
+<script>
+/* from https://stackoverflow.com/questions/68644260/how-to-close-details-tag-when-other-is-open-or-a-click-is-made-outside-the-tag */
+/* can be simplified */
+let details = [...document.querySelectorAll('#details-filter')];
+document.addEventListener('click', function(e) {
+  if (!details.some(f => f.contains(e.target))) {
+    details.forEach(f => f.removeAttribute('open'));
+  }
+})
+function unfoldAll() {
+  let details = document.querySelectorAll(".container.accordion.filtered > details");
+  details.forEach(detail => detail.setAttribute("open", ""));
+}
+function foldAll() {
+  let details = document.querySelectorAll(".container.accordion.filtered > details");
+  details.forEach(detail => detail.removeAttribute('open'));
+}
+function toggleFold() {
+  console.log("Triggered toggleFold");
+  let toggleElement = document.querySelector("#toggleFold");
+  console.log(toggleElement);
+  let toggleLabel = document.querySelector("#toggleLabel");
+  console.log(toggleLabel);
+  let details = document.querySelectorAll(".container.accordion.filtered > details");
+  if (toggleElement.checked) {
+    // expand all
+    details.forEach(detail => detail.setAttribute("open", ""));
+    toggleLabel.innerHTML = "Collapse All"
+  } else {
+    details.forEach(detail => detail.removeAttribute('open'));
+    toggleLabel.innerHTML = "Expand All"
+  }
+}
+</script>
+
+<script>
+// run filter at pageshow, keeping settings when user comes back
+window.addEventListener('pageshow', function(event) {
+  console.log("invoke filterSelection from pageshow");
+  filterSelection();
+});
+
+function filterSelection() {
+  console.log("filterSelection invoked");
+  // start building the user-selected filters
+  const catList = document.querySelectorAll(".filter.category input");
+  // list of categories that are not part of the "other" category
+  const notOtherCatList = [...catList].map( el => el.value ).filter( el => el !== "other" );
+  //console.log("catList=", catList);
+  //console.log("notOtherCatList=", notOtherCatList);
+  const catFilter = [...catList].filter( el => el.checked ).map( el => el.value );
+
+  const techList = document.querySelectorAll(".filter.technology input");
+  //console.log(techList);
+  const techFilter = [...techList].filter( el => el.checked ).map( el => el.value );
+
+  console.log("Filtering: tech=", techFilter, " cat=", catFilter);
+
+  // the actual filtering
+  const details = document.querySelectorAll(".container.accordion.filtered > details");
+  console.log("# details entries=", details.length);
+  let firstUnhiddenDetails = true;
+  // assume no entry passes the filter
+  let noFilterResults = true;
+  details.forEach(function (detail) {
+    // keep track if all entries are hidden, we initially assume they are
+    let allHidden = true;
+    // all items have filterDiv class
+    let divs = detail.querySelectorAll("div.filterDiv");
+    console.log("# divs entries=", divs.length);
+    for (let div of divs) {
+      let catTagArr = div.dataset.cat_tags.split(",").map(s => s.trim())
+      let techTagArr = div.dataset.tech_tags.split(",").map(s => s.trim())
+      //console.log("catTagArr=", catTagArr);
+      //console.log("techTagArr=", techTagArr);
+      let passedTech = false || techFilter.length === 0;
+      let passedCat = false || catFilter.length === 0;
+
+      // does the div have any of the catFilter classes?
+      // true if >0 elements of catTagArr is in catFilter array
+      passedCat |= catTagArr.some( el => catFilter.includes(el) );
+      if (catFilter.includes("other")) {
+        //console.log("'other' is selected");
+        //console.log("does array ", catTagArr, " contain any of the ", notOtherCatList);
+        //console.log(!(catTagArr.some( el => notOtherCatList.includes(el) )));
+        passedCat |= !(catTagArr.some( el => notOtherCatList.includes(el) ))
+      }
+
+      // does the div have any of the techFilter classes?
+      passedTech |= techTagArr.some( el => techFilter.includes(el) );
+
+      if (passedTech && passedCat) {
+        div.classList.add("show");
+        // at least one entry passed the filter
+        allHidden = false;
+      } else {
+	//console.log("NOT SHOWN:", div, " cat=", passedCat, " tech=", passedTech);
+        div.classList.remove("show");
+      }
+    }
+    if (allHidden) {
+      // console.log(detail, "ALL entries are hidden");
+      // hide details as well
+      detail.hidden = true;
+    } else {
+      //console.log(detail, "NOT all entries are hidden");
+      noFilterResults = false;
+      // open first year with non-hidden items
+      if (firstUnhiddenDetails) {
+        firstUnhiddenDetails = false;
+        detail.setAttribute("open", "");
+      }
+      detail.style.display = "";
+      detail.hidden = false;
+    }
+  });
+  let notice = document.getElementById("notice-no-items-found");
+  if (noFilterResults) {
+    notice.hidden = false;
+  } else {
+    notice.hidden = true;
+  }
+}
+</script>

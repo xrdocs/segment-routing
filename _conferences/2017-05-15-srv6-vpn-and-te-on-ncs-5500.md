@@ -13,4 +13,4 @@ header:
   teaser: 'https://img.youtube.com/vi/8mwhagiNv9s/mqdefault.jpg'
 ---
 Watch this demo that showcases the first hardware implementation of SRv6 VPN and TE. The hardware-based forwarding is demonstrated on Cisco NCS 5500 Series.
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/8mwhagiNv9s" frameborder="0" allowfullscreen></iframe>
+{% include video id="8mwhagiNv9s" provider="youtube" %}

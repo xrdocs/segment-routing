@@ -21,7 +21,7 @@ header:
 {: .notice--info}  
  
 
-<iframe width="100%" height="400px" class="fitvidsignore" src="https://www.youtube.com/embed/0IVk3WnrROs" frameborder="0" allowfullscreen></iframe>    
+{% include video id="0IVk3WnrROs" provider="youtube" %}
 
   
 ## Microsoft MPLS MPLS SDN World Congress 2015     
@@ -29,7 +29,7 @@ header:
 **Tim LaBerge, Microsoft**
 {: .notice--info}  
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/S1WlMSf4j_4" frameborder="0" allowfullscreen></iframe>  
+{% include video id="S1WlMSf4j_4" provider="youtube" %}
 
 
 ## SPRING interoperability testing  
@@ -38,7 +38,8 @@ header:
 **Stephane Litkowski, Network Architect, Orange.**
 {: .notice--info}  
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/MzWsXnjKzuHNhO" width="100%" height="400px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/StephaneLitkowski/mpls-sdn-2015-spring-interoperability-testing" title="MPLS SDN 2015 - SPRING interoperability testing" target="_blank">MPLS SDN 2015 - SPRING interoperability testing</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/StephaneLitkowski">Stephane Litkowski</a></strong> </div>  
+{% include pdf_iframe id="MzWsXnjKzuHNhO" provider="slideshare" %}
+<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/StephaneLitkowski/mpls-sdn-2015-spring-interoperability-testing" title="MPLS SDN 2015 - SPRING interoperability testing">MPLS SDN 2015 - SPRING interoperability testing (slideshare.net)</a> </strong></div>  
   
   
 ## Role of Inter Data Center Technologies: Application Performance  
@@ -46,4 +47,4 @@ header:
 **Dave Ward, Cisco**
 {: .notice--info}     
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/aNBxxPZJUjg" frameborder="0" allowfullscreen></iframe>
+{% include video id="aNBxxPZJUjg" provider="youtube" %}

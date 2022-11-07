@@ -10,14 +10,11 @@ header:
   teaser: 'https://img.youtube.com/vi/66M8ipFaTeM/mqdefault.jpg'
 ---    
        
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/66M8ipFaTeM" frameborder="0" allowfullscreen></iframe>
+{% include video id="66M8ipFaTeM" provider="youtube" %}
 
 
-{% capture "pdf-link" %}/images/Bell_Canada_SR_Paris_2017.pdf{% endcapture %}
+{% include pdf link="/images/Bell_Canada_SR_Paris_2017.pdf" %}
 
 
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 
-<div class="fitvidsignore" id="pdf"></div>
 
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

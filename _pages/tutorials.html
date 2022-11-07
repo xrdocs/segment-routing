@@ -1,0 +1,209 @@
+---
+regenerate: true
+layout: tutorial-articles 
+permalink: /tutorials
+hero-image: images/new-design/SR-Background-Image-4.png
+title: "Tutorials"
+technology: ""
+type: "Tutorials"
+description: "Whatever your SR training need, we have you covered"
+---
+ 
+<style>
+/**
+ * Tabs
+ */
+.tabcontainer {
+  max-width: 1200px;
+  margin: auto;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.tabs label {
+  order: 1;
+  display: block;
+  padding: 1rem 2rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+  /* background: #90CAF9; */
+  /* font-weight: bold; */
+  transition: background ease 0.2s;
+  border: 1px solid lightgrey;
+  border-bottom-width: 0px;
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
+}
+
+.tabs .tab {
+  order: 99;
+  flex-grow: 1;
+  width: 100%;
+  display: none;
+  padding: 1rem;
+  /*background: whitesmoke;*/
+}
+
+.tabs h1 {
+  font-weight: 300;
+}
+.tabs input[type=radio] {
+  display: none;
+}
+
+.tabs input[type=radio]:checked + label {
+  background: white;
+  position: relative;
+}
+
+.tabs input[type=radio]:not(:checked) + label {
+  background: whitesmoke;
+}
+
+.tabs input[type=radio]:checked + label + .tab {
+  display: block;
+  border: 1px solid lightgrey;
+  border-radius: 0em 0.3em 0.3em 0.3em;
+}
+
+.tabs input[type=radio]:checked + label:after {
+    content: "";
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+/* two tabs only, better to keep, even for small screens
+@media (max-width: 45em) {
+  .tabs .tab, .tabs label {
+    order: initial;
+  }
+
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+    border-bottom-width: 0px;
+  }
+}
+*/
+/**
+ * Generic Styling
+*/
+body {
+  /*background: #eee;*/
+  /*min-height: 100vh;*/
+  box-sizing: border-box;*/
+  /*padding-top: 10vh;*/
+  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+  /*font-weight: 300;*/
+  /*line-height: 1.5;*/
+  /*max-width: 60rem;*/
+  /*margin: 0 auto;*/
+  /*font-size: 112%;*/
+}
+</style>
+
+{% include base_path %}
+<div class="tabcontainer">
+  <div class="tabs">
+    <input type="radio" name="tabs" id="tabone" checked="checked">
+    <label for="tabone">SRv6</label>
+    <div class="tab">
+      <h1>SRv6 tutorials</h1>
+      <div class="container accordion">
+        {% assign sorted = site.tutorials | where:"category","srv6" | sort: 'order' %}
+        <details open>
+          <!-- hiding the summary for now since there is only a single entry -->
+          <summary style="display:none;">SRv6 concepts</summary>
+          {% for post in sorted %}
+            {% if post.technology contains 'SRv6' %}
+          <div>
+            {% include archive-single.html %}
+          </div>
+            {% endif %}
+          {% endfor %}
+        </details>
+      </div>
+    </div>
+    
+    <input type="radio" name="tabs" id="tabtwo">
+    <label for="tabtwo">SR MPLS</label>
+    <div class="tab">
+      <h1>SR MPLS tutorials</h1>
+  
+      <div class="container accordion">
+        {% assign sorted = site.tutorials | where:"category","concepts" | sort: 'order' %}
+        <details open>
+          <summary>SR concepts</summary>
+        {% for post in sorted %}
+          {% if post.technology contains 'SRMPLS' %}
+          <div>
+            {% include archive-single.html %}
+          </div>
+          {% endif %}
+        {% endfor %}
+        </details>
+      
+        {% assign sorted = site.tutorials | where:"category","igp" | sort: 'order' %}
+        <details>
+          <summary>SR IGP</summary>
+        {% for post in sorted %}
+          {% if post.technology contains 'SRMPLS' %}
+          <div>
+            {% include archive-single.html %}
+          </div>
+          {% endif %}
+        {% endfor %}
+        </details>
+      
+        {% assign sorted = site.tutorials | where:"category","ldp" | sort: 'order' %}
+        <details>
+          <summary>SR and LDP</summary>
+        {% for post in sorted %}
+          {% if post.technology contains 'SRMPLS' %}
+          <div>
+            {% include archive-single.html %}
+          </div>
+          {% endif %}
+        {% endfor %}
+        </details>
+      
+        {% assign sorted = site.tutorials | where:"category","te" | sort: 'order' %}
+        <details>
+          <summary>SR Traffic Engineering</summary>
+        {% for post in sorted %}
+          {% if post.technology contains 'SRMPLS' %}
+          <div>
+            {% include archive-single.html %}
+          </div>
+          {% endif %}
+        {% endfor %}
+        </details>
+      
+        {% assign sorted = site.tutorials | where:"category","oam" | sort: 'order' %}
+        <details>
+          <summary>SR Operations and Monitoring</summary>
+        {% for post in sorted %}
+          {% if post.technology contains 'SRMPLS' %}
+          <div>
+            {% include archive-single.html %}
+          </div>
+          {% endif %}
+        {% endfor %}
+        </details>
+      </div>
+    </div>
+  </div>
+</div>
+

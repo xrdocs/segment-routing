@@ -1,0 +1,49 @@
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{% capture my_url %}
+  {% if post.source-url  %}
+    {{ post.source-url }}
+  {% elsif post.eurl %}
+    {{ post.eurl | relative_url }}
+  {% elsif post.url %}
+    {{ post.url | relative_url }}
+  {% endif %}
+{% endcapture %}
+
+{% capture all_categories %}{{ post.collection }}{% if  post.category %}, {{ post.category | downcase }}{% endif %}{% endcapture %}
+<!--all_categories={{all_categories}}-->
+<div class="accordion-item filterDiv {{ all_categories | split: ", " | uniq | join: " " }} {{ post.technology | split: ", " | join: " " }} show">
+    <article class="conf-item" itemscope itemtype="http://schema.org/CreativeWork">
+      <div class="conf-image">
+        <a href="{{ my_url }}" rel="permalink">
+        {% if post.header.teaser %}
+          <img class="conf-img" src="{{ post.header.teaser | relative_url }}">
+        {% else %}
+          <img class="conf-img" src="{{ post.teaser | relative_url }}">
+        {% endif %}
+      </div>
+      <div class="conf-description">
+        <a href="{{ my_url }}" rel="permalink">
+          <h3 class="news-title" itemprop="headline">
+            {{ title }}
+          </h3>
+        </a>
+        <p class="article-excerpt"> {{ post.excerpt }} </p>
+        <p class="article-postfix">{{ post.date | date: '%B %d, %Y' }} -
+        {{ all_categories
+          | replace: "demos", "Demos"
+          | replace: "blogs", "Blogs"
+          | replace: "conferences", "Conferences"
+          | replace: "news", "News"
+          | replace: "path-tracing", "PT"
+        }}{% if post.technology %}, {{ post.technology 
+          | replace: "SRMPLS", "SR-MPLS" }}
+        {% endif %}
+        </p>
+      </div>
+    </article>
+</div> 

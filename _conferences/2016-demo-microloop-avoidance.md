@@ -11,4 +11,4 @@ excerpt: >-
 ---
 Watch Kris Michielsen's demonstration of Microloop Avoidance. Experience first hand how SR eliminates microloops, a day-1 problem of IP networks.
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/7nfnp-dnUHk" frameborder="0" allowfullscreen></iframe>
+{% include video id="7nfnp-dnUHk" provider="youtube" %}

@@ -15,8 +15,5 @@ header:
 {: .notice--info}  
 
 
-{% capture "pdf1-link" %}https://cellistmiya.typepad.jp/temp/MK_InterOp_Routing_2013.pdf{% endcapture %}
+{% include pdf link="https://cellistmiya.typepad.jp/temp/MK_InterOp_Routing_2013.pdf" %}
 
-<script src="{{ '/assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

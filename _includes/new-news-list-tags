@@ -1,0 +1,75 @@
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{% capture my_url %}
+  {% if post.source-url  %}
+    {{ post.source-url }}
+  {% elsif post.eurl %}
+    {{ post.eurl | relative_url }}
+  {% elsif post.url %}
+    {{ post.url | relative_url }}
+  {% endif %}
+{% endcapture %}
+{% assign my_url = my_url | strip %}
+
+{% comment %}
+  to notify users that a link to an item is external to the site,
+  add the domain name of the external site to the link
+{% endcomment %}
+{% if my_url contains "http://" or my_url contains "https://" %}
+  {% assign my_dom_name = my_url | remove:'http://' | remove:'https://' | split:'/' | first | strip %}
+  {% assign part_array = my_dom_name | split:'.' %}
+  {% assign parts_to_remove = part_array.size | minus: 2 %}
+  {% for i in (1..parts_to_remove) %}
+     {% assign part_array = part_array | shift %}
+  {% endfor %}
+  {% assign my_red_dom_name = part_array | join:'.' %}
+{% else %}
+  {% assign my_red_dom_name = '' %}
+{% endif %}
+
+{% capture all_categories %}{{ post.collection }}{% if  post.category %}, {{ post.category | downcase }}{% endif %}{% endcapture %}
+<!--all_categories={{all_categories}}-->
+<div class="accordion-item filterDiv show" data-cat_tags="{{ all_categories | downcase }}" data-tech_tags="{{ post.technology | downcase }}">
+    <article class="conf-item" itemscope itemtype="http://schema.org/CreativeWork">
+      <div class="conf-image">
+        <a href="{{ my_url | strip }}" rel="permalink">
+{% if post.header.teaser %}
+          <img class="conf-img" src="{{ post.header.teaser | relative_url }}">
+{% else %}
+          <img class="conf-img" src="{{ post.teaser | relative_url }}">
+{% endif %}
+        </a>
+      </div>
+      <div class="conf-description">
+        <a href="{{ my_url | strip }}" rel="permalink">
+          <h3 class="news-title" itemprop="headline">
+{% if my_red_dom_name.size == 0 %}
+            {{ title }}
+{% else %}
+            {{ title }} ({{ my_red_dom_name }})
+{% endif %}
+          </h3>
+        </a>
+        <p class="article-excerpt"> {{ post.excerpt }} </p>
+        <p class="article-postfix">{{ post.date | date: '%B %d, %Y' }} –
+        {{ all_categories
+          | replace: "demos", "Demos"
+          | replace: "blogs", "Blogs"
+          | replace: "conferences", "Conferences"
+          | replace: "news", "News"
+          | replace: "path-tracing", "PT"
+          | replace: ", PT", ""
+          | replace: "PT, ", ""
+        }}{% if post.technology %} – {{ post.technology 
+          | replace: "srv6", "SRv6"
+          | replace: "path-tracing", "PT"
+          | replace: "srmpls", "SR-MPLS" }}
+        {% endif %}
+        </p>
+      </div>
+    </article>
+</div> 

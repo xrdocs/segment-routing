@@ -12,4 +12,4 @@ categories:
 ---    
 This video shows SRv6 as alternative for GTP protocol for 5G networks, and demonstrates advantages of such approach.
        
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/naph379CtdY" frameborder="0" allowfullscreen></iframe>
+{% include video id="naph379CtdY" provider="youtube" %}

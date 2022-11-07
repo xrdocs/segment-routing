@@ -1,5 +1,6 @@
 ---
-title: Segment Routing &mdash; Ready to Surf the v6 Wave?
+title: >-
+  Segment Routing — Ready to Surf the v6 Wave?
 author: Brendan Gibbs
 source: SP360 Cisco Blog
 source-url: https://blogs.cisco.com/sp

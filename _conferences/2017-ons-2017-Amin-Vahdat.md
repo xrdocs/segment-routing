@@ -11,4 +11,4 @@ header:
 ---    
 
        
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/1xBZ5DGZZmQ?start=1637" frameborder="0" allowfullscreen></iframe>
+{% include video id="1xBZ5DGZZmQ?start=1637" provider="youtube" %}

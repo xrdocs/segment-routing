@@ -9,4 +9,4 @@ excerpt: 'Segment Routing: Technology deep-dive and advanced use cases: SRv6'
 header:
   teaser: 'https://img.youtube.com/vi/2wNC3hrWhuM/mqdefault.jpg'
 ---
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/2wNC3hrWhuM" frameborder="0" allowfullscreen></iframe>
+{% include video id="2wNC3hrWhuM" provider="youtube" %}

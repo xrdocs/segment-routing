@@ -15,8 +15,15 @@ header:
 **ROB SHAKIR, End-to-End Network Architect, BT TSO**
 {: .notice--info}
 
-{% capture "pdf-link" %}https://indico.uknof.org.uk/event/29/material/slides/0?contribId=8{% endcapture %}
+[UKNOF27 - Spring Forward(ing) - Evolving IP/MPLS Networks with Segment Routing](https://indico.uknof.org.uk/event/29/contributions/310/)
 
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+### Video
+
+{% include video id="od7vO6odPAA" provider="youtube" %}
+
+### Slides
+
+{% include pdf link="https://indico.uknof.org.uk/event/29/contributions/310/attachments/346/399/rjs_Spring-Forwarding_uknof27_v2.pdf" %}
+
+{% comment %}Also at https://cdn.rob.sh/files/rjs_Spring-Forwarding_uknof27_v2.pdf{% endcomment %}
+

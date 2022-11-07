@@ -14,4 +14,4 @@ header:
 
 ## Segment Routing with Contiv for Infrastructure Policy Enforcement
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/rLUHFfx3i64" frameborder="0" allowfullscreen></iframe>
+{% include video id="rLUHFfx3i64" provider="youtube" %}

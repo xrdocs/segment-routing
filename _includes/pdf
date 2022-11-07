@@ -9,8 +9,8 @@ Each PDF uses a container identified by a unique ID per page
 {% unless pdf_link == "" %}
 {% comment %} see https://pdfobject.com/ {% endcomment %}
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="outer-embed pdf">
-  <div id="{{ pdf_id }}"></div>
+<div class="outer-embed pdf fitvidsignore">
+  <div id="{{ pdf_id }}" class="fitvidsignore"></div>
 </div>
 <script>PDFObject.embed(" {{ pdf_link }} ", "#{{ pdf_id }}");</script>
 {% endunless %}

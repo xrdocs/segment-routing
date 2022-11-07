@@ -7,6 +7,7 @@ order: 8
 category: igp
 technology: 'SRv6, SRMPLS'
 title: Topology Independent LFA (TI-LFA) and uloop avoidance
+pdf2txt: images/tutorials/0080-SR-TOI-SR_TI-LFA_v17_EXTERNAL.txt
 excerpt: >-
   An introduction to the Topology Independent LFA and micro-loop (uloop) avoidance technology. See how Topology
   Independent LFA provides a simple, automatic, optimal and topology independent
@@ -17,8 +18,5 @@ An introduction to the Topology Independent LFA and micro-loop (uloop) avoidance
 In the end, see what uloops are and how SR effectively prevents these uloops.
 {: .notice}  
 
-{% capture "pdf-link" %}/images/tutorials/0080-SR-TOI-SR_TI-LFA_v17_EXTERNAL.pdf{% endcapture %}
+{% include pdf link="/images/tutorials/0080-SR-TOI-SR_TI-LFA_v17_EXTERNAL.pdf" %}
 
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "100%"});</script>

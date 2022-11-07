@@ -17,17 +17,14 @@ At the [**MPLS WC 2019**](<https://www.uppersideconferences.com/mpls-sdn-nfv/201
 **Mark Ferreira** of Bell Canada presents his SR deployment experience.
 
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/kANeJhY5doA" frameborder="0" allowfullscreen></iframe>
+{% include video id="kANeJhY5doA" provider="youtube" %}
 
 <img src="{{ 'images/MPLSWC2019_Mark_Ferreira_1.jpg' | relative_url }}">
 
 ### Check out the presentation here:
  
-{% capture "pdf-link" %}/images/20190411-MPLS-SDN-Bell-SDWAN-Mark-Ferreira.pdf{% endcapture %}
+{% include pdf link="/images/20190411-MPLS-SDN-Bell-SDWAN-Mark-Ferreira.pdf" %}
 
 
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 
-<div class="fitvidsignore" id="pdf"></div>
 
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

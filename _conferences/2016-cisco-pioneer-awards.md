@@ -20,4 +20,4 @@ This is the Segment Routing team:
 
 Event video:
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/9DtgkclKj7c" frameborder="0" allowfullscreen></iframe>
+{% include video id="9DtgkclKj7c" provider="youtube" %}

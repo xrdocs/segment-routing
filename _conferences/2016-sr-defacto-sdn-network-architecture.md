@@ -11,4 +11,4 @@ excerpt: >-
 ---
 Watch Colin Kincaid, Cisco's SP CTO, views on how virtualization is transforming Service Providers and the role played by IPv6 and Segment Routing as the de-facto next-gen architecture.
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/Ndb3RCIlix8" frameborder="0" allowfullscreen></iframe>
+{% include video id="Ndb3RCIlix8" provider="youtube" %}

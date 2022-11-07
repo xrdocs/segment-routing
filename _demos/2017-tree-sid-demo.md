@@ -10,4 +10,4 @@ teaser: 'https://img.youtube.com/vi/8qXdPODSrOM/maxresdefault.jpg'
 ---    
 Tree-SID is modern controller driven multicast technology based on Segment Routing. In this video Jakub Horn demonstrates it.
        
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/8qXdPODSrOM" frameborder="0" allowfullscreen></iframe>
+{% include video id="8qXdPODSrOM" provider="youtube" %}

@@ -10,5 +10,10 @@ header:
   teaser: 'images/MPLS_SDN_logo.bmp'
 ---
 
+[Segment Routing for SDN - a declarative network programmability (pilab.jp)](https://www.pilab.jp/ipop2015/info/onlineproceedings.html#T3-2)
+<br />
+<strong>Miya Kohno, Cisco, Japan and Siva Sivabalan, Cisco, USA</strong>
 
-<iframe src="https://app.box.com/embed/preview/7vgf94iert9v9jni6dylhj0zr2440twe?theme=dark" width="100%" height="400px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+{% comment %}
+{% include pdf_iframe id="https://app.box.com/embed/preview/7vgf94iert9v9jni6dylhj0zr2440twe?theme=dark" provider="custom" %}
+{% endcomment %}

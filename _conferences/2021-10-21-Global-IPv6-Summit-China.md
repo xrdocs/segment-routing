@@ -15,7 +15,4 @@ The <a href="http://www.conference.cn/ipv6/2021/">Global IPv6 Summit</a> is the 
 
 ## Slides (Chinese)
 
-{% capture "pdf-link" %}/images/2021-10-21-Global-IPv6-Summit-China.pdf{% endcapture %}
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+{% include pdf link="/images/2021-10-21-Global-IPv6-Summit-China.pdf" %}

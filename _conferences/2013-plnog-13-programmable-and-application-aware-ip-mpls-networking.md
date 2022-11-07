@@ -24,8 +24,9 @@ In this session, the concept of support for Segment Routing based on Open Daylig
 
 
 ## Video
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/2jjgrq805VU" frameborder="0" allowfullscreen></iframe>
+{% include video id="2jjgrq805VU" provider="youtube" %}
 
 
 ## Slides
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/JcAbz0R3seKrVC" width="100%" height="400px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/proidea_conferences/plnog-13-jeff-tantsura-programmable-and-application-aware-ipmpls-networking" title="PLNOG 13: Jeff Tantsura: Programmable and Application aware IP/MPLS networking" target="_blank">PLNOG 13: Jeff Tantsura: Programmable and Application aware IP/MPLS networking</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/proidea_conferences">PROIDEA</a></strong> </div>
+{% include pdf_iframe id="JcAbz0R3seKrVC" provider="slideshare" %}
+<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/proidea_conferences/plnog-13-jeff-tantsura-programmable-and-application-aware-ipmpls-networking" title="PLNOG 13: Jeff Tantsura: Programmable and Application aware IP/MPLS networking">PLNOG 13: Jeff Tantsura: Programmable and Application aware IP/MPLS networking (slideshare.net)</a> </strong></div>

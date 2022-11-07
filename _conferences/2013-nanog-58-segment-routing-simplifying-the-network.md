@@ -15,13 +15,10 @@ header:
 ## Segment Routing - Simplifying the Network
 
 ## Slides
-{% capture "pdf1-link" %}https://www.nanog.org/sites/default/files/wed.general.segment.filsfils.13.pdf{% endcapture %}
+{% include pdf link="https://www.nanog.org/sites/default/files/wed.general.segment.filsfils.13.pdf" %}
 
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
 
 
 ## Video
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/embed/371DUGHjPwk" frameborder="0" allowfullscreen></iframe>
+{% include video id="371DUGHjPwk" provider="youtube" %}

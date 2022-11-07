@@ -80,7 +80,7 @@ list_usecases:
     url: https://datatracker.ietf.org/doc/rfc8670/
     status: RFC 8670
   - title: Segment Routing Centralized BGP Egress Peer Engineering
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-segment-routing-central-epe/
+    url: https://datatracker.ietf.org/doc/rfc9087/
     status: RFC 9087
   - title: Interconnecting Millions Of Endpoints With Segment Routing
     url: https://datatracker.ietf.org/doc/rfc8604/

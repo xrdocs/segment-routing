@@ -15,12 +15,9 @@ name                     : &name "Cisco Systems Inc"
 
 
 description              : &description "Documentation, Blogs and Tutorials for all things Segment Routing "
-# url                      : "http://www.segment-routing.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-url                      : "https://kmichiel.github.io"
-# baseurl                  : "" # the subpath of your site, e.g. "/blog"
-baseurl                  : "/SRnet"
-# gh_repo                  : "https://github.com/xrdocs/segment-routing"
-gh_repo                  : "https://github.com/kmichiel/SRnet"
+url                      : "http://www.segment-routing.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+gh_repo                  : "https://github.com/xrdocs/segment-routing"
 teaser                   : "images/new-design/SR-Background-Image-3.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 logo                     : "images/sr-logo-blue-160x160.png"
 breadcrumbs              : false # true, false (default)

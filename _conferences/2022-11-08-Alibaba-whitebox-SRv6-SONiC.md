@@ -33,5 +33,5 @@ The device runs with AliNOS, Alibaba's in-house Network OS that is based on SONi
 
 **The recording of the conference will be available soon.**
 
-To learn more about [how SRv6 uSID is supported in SONiC click here](open-software/SONiC).
+**To learn more about [how SRv6 uSID is supported in SONiC click here](open-software/SONiC).**
 

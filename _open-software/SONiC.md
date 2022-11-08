@@ -14,7 +14,7 @@ excerpt: >-
 ## SAI
 
 The Switch Abstraction Interface (SAI) is an abstraction layer to program any silicon, regardless of its vendor. The community has worked on a standard API that models SRv6 uSID configuration on a router.
-Since June 2021, there is a SAI definition with full support for SRv6 uSID. You can find more details in the [PR](https://github.com/opencomputeproject/SAI/pull/1231).
+Since June 2021, there is a SAI definition with full support for SRv6 uSID. You can find more details in the [Github Pull Request (github.com)](https://github.com/opencomputeproject/SAI/pull/1231).
 
 The Cisco Silicon One has native support for SRv6 uSID in its SDK, and implements the SAI adaptor.
 
@@ -24,7 +24,7 @@ SONiC (Software for Open Networking in the Cloud) is a free NetworkOS based on L
 
 The major release v202212 contains support for SRv6 uSID. These changes were included in June 2022, and include support for the underlay SRv6 Endpoint Behaviors uN and uA; as well as the support of L3VPN constructs (End.DT/DX SIDs). 
 
-Find more details in [the PR](https://github.com/sonic-net/sonic-swss/pull/2335).
+Find more details in the [Github Pull Request (github.com)](https://github.com/sonic-net/sonic-swss/pull/2335).
 
 ## FRR
 

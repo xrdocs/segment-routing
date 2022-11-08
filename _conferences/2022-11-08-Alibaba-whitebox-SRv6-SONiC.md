@@ -27,11 +27,11 @@ The device runs with AliNOS, Alibaba's in-house Network OS that is based on SONi
 <img src="{{ 'images/2022-11-08-APSARA-Alibaba-SRv6-router-AliNOS.jpeg' | relative_url }}">
 &nbsp;
 
-**Yuanchao Su** captured this major breakthrough:
+**Yuanchao Su** of Alibaba captured this major breakthrough on LinkedIn:
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6994516951448375296" height="428" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 **The recording of the conference will be available soon.**
 
-**To learn more about [how SRv6 uSID is supported in SONiC click here](open-software/SONiC).**
+**To learn more about [how SRv6 uSID is supported in SONiC click here]({{ 'open-software/SONiC' | relative_url }}).**
 

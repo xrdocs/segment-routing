@@ -12,19 +12,19 @@ header:
 
 On November 5th 2022, **Dennis Cai** has announced a breakthrough in Alibaba's networking with the new **Alibaba Routing platform**, an SRv6-enabled SONiC router.
 
-<img src="{{ 'images/2022-11-08-APSARA-DennisCai.jpg' | relative_url }}" width="300">
+<img src="{{ 'images/2022-11-08-APSARA-DennisCai.jpg' | relative_url }}" width="80%">
 &nbsp;
 
 **This device is a 12.8Tbps router that is SRv6 enabled**. The device also supports deep buffers, line-rate MACSec support, and HW-based telemetry.
 
-<img src="{{ 'images/2022-11-08-APSARA-Alibaba-SRv6-router.jpeg' | relative_url }}" width="300">
+<img src="{{ 'images/2022-11-08-APSARA-Alibaba-SRv6-router.jpeg' | relative_url }}" width="60%">
 &nbsp;
-<img src="{{ 'images/2022-11-08-APSARA-Hardware.jpg' | relative_url }}" width="300">
+<img src="{{ 'images/2022-11-08-APSARA-Hardware.jpg' | relative_url }}" width="80%">
 &nbsp;
 
 The device runs with AliNOS, Alibaba's in-house Network OS that is based on SONiC with some customs extensions.
 
-<img src="{{ 'images/2022-11-08-APSARA-Alibaba-SRv6-router-AliNOS.jpeg' | relative_url }}" width="300">
+<img src="{{ 'images/2022-11-08-APSARA-Alibaba-SRv6-router-AliNOS.jpeg' | relative_url }}" width="80%">
 &nbsp;
 
 **Yuanchao Su** of Alibaba captured this major breakthrough on LinkedIn:

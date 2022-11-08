@@ -1,7 +1,7 @@
 ---
 published: true
 breadnav: true
-date: '2022-11-98 08:52 -0700'
+date: '2022-11-08 08:52 -0700'
 title: SAI/SONiC
 app: false
 header:

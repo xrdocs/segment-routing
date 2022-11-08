@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2022-11-08 00:00 -0700'
-title: 'Apsara Conference 2022: Alibaba's new SRv6-enabled router'
+title: "Apsara Conference 2022: Alibaba's new SRv6-enabled router"
 author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'During Alibaba Apsara 2022 conference, Alibaba has announced a Alibaba Routing Platform, a new SRv6-enabled whitebox router. This is a 12.8Tbps device based on SONiC with SRv6 support.'

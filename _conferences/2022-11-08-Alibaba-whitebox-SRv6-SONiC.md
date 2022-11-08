@@ -10,7 +10,7 @@ header:
   teaser: 'images/2022-11-08-APSARA-DennisCai.jpg'
 ---
 
-On November 5th 2022, **Dennis Cai** has announced a breakthrough in Alibaba's development with the new **Alibaba Routing platform**, an SRv6-enabled SONiC router.
+On November 5th 2022, **Dennis Cai** has announced a breakthrough in Alibaba's networking with the new **Alibaba Routing platform**, an SRv6-enabled SONiC router.
 
 <img src="{{ 'images/2022-11-08-APSARA-DennisCai.jpg' | relative_url }}">
 &nbsp;

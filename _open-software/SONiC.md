@@ -16,7 +16,7 @@ excerpt: >-
 The Switch Abstraction Interface (SAI) is an abstraction layer to program any silicon, regardless of its vendor. The community has worked on a standard API that models SRv6 uSID configuration on a router.
 Since June 2021, there is a SAI definition with full support for SRv6 uSID. You can find more details in the [PR](https://github.com/opencomputeproject/SAI/pull/1231).
 
-The Cisco Silicon One has native support for SRv6 uSID in its SDK, and implements the SRv6 uSID SAI adaptor.
+The Cisco Silicon One has native support for SRv6 uSID in its SDK, and implements the SAI adaptor.
 
 ## SONiC
 

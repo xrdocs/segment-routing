@@ -2,10 +2,10 @@
 published: true
 breadnav: true
 date: '2022-11-08 00:00 -0700'
-title: 'Apsara Conference 2022: Alibaba announces SRv6 whitebox'
+title: 'Apsara Conference 2022: Alibaba's new SRv6-enabled router'
 author: Segment Routing Team
 technology: 'SRv6'
-excerpt: 'During Alibaba Apsara 2022 conference, Alibaba has announced a new whitebox router. This router is based based on SONiC, and has full support of SRv6.'
+excerpt: 'During Alibaba Apsara 2022 conference, Alibaba has announced a Alibaba Routing Platform, a new SRv6-enabled whitebox router. This is a 12.8Tbps device based on SONiC with SRv6 support.'
 header:
   teaser: 'images/2022-11-08-APSARA-DennisCai.jpg'
 ---
@@ -24,7 +24,7 @@ On November 5th 2022, **Dennis Cai** has announced a breakthrough in Alibaba's d
 
 The device runs with AliNOS, Alibaba's in-house Network OS that is based on SONiC with some customs extensions.
 
-<img src="{{ 'images/2022-11-08-APSARA-Alibaba-SRv6-router-AliNOS.jpg' | relative_url }}">
+<img src="{{ 'images/2022-11-08-APSARA-Alibaba-SRv6-router-AliNOS.jpeg' | relative_url }}">
 &nbsp;
 
 **Yuanchao Su** captured this major breakthrough:

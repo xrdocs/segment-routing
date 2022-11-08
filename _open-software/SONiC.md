@@ -28,4 +28,4 @@ Find more details in [the PR](https://github.com/sonic-net/sonic-swss/pull/2335)
 
 ## FRR
 
-The default routing stacked used together with SONiC is FRRouting. FRRouting has support for SRv6 uSID, including the configuration of L3VPNs (RFC9252). 
+The default routing stacked used together with SONiC is FRRouting. FRRouting has support for SRv6 uSID, including the configuration of L3VPNs among others. 

@@ -4,7 +4,7 @@ published: true
 breadnav: true
 date: '2022-12-2 08:52 -0700'
 title: srv6_traceroute 
-app: flase
+app: false
 header:
   teaser: images/open-software/srv6-traceroute.png
 excerpt: >-

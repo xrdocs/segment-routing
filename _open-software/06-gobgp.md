@@ -4,6 +4,8 @@ published: true
 breadnav: true
 title: GoBGP
 app: false
+header:
+  teaser: images/open-software/gobgp.png
 excerpt: >-
   GoBGP is an open source BGP implementation designed from scratch for modern environment and implemented in a the Go Programming Language.
 ---

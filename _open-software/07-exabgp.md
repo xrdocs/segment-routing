@@ -4,6 +4,8 @@ published: true
 breadnav: true
 title: ExaBGP
 app: false
+header:
+  teaser: images/open-software/exabgp.png
 excerpt: >-
   ExaBGP provides a convenient way to implement Software Defined Networking by transforming BGP messages into friendly plain text or JSON, which can then be easily handled by simple scripts or your BSS/OSS.
 ---

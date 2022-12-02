@@ -6,7 +6,7 @@ date: '2022-11-08 08:52 -0700'
 title: SAI/SONiC
 app: false
 header:
-  teaser: images/new-design/SONiC.png
+  teaser: images/open-software/sonic.png
 excerpt: >-
   Cisco, among other ecosystem partners, has collaborated in the development of the SRv6 uSID implementation in SONiC/SAI.
   Find out how to leverage this platform in your network architecture.

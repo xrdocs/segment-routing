@@ -4,6 +4,8 @@ published: true
 breadnav: true
 title: srv6_traceroute 
 app: flase
+header:
+  teaser: images/open-software/srv6-traceroute.png
 excerpt: >-
   SRv6 aware tool for analyzing SRv6 packets on the wild internet.
 ---

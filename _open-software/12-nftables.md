@@ -2,10 +2,11 @@
 position: 12
 published: true
 breadnav: true
+date: '2022-12-2 08:52 -0700'
 title: nftables
 app: false
 header:
-  teaser: images/open-software/sera.png
+  teaser: images/open-software/snort.png
 excerpt: >-
   nftables replaces the popular {ip,ip6,arp,eb}tables. This software provides a new in-kernel packet classification framework. We have added SR capabilities to it.
 ---

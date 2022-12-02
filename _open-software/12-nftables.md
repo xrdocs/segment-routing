@@ -3,7 +3,7 @@ position: 12
 published: true
 breadnav: true
 title: nftables
-app: true
+app: false
 excerpt: >-
   nftables replaces the popular {ip,ip6,arp,eb}tables. This software provides a new in-kernel packet classification framework. We have added SR capabilities to it.
 ---

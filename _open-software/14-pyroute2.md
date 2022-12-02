@@ -3,7 +3,7 @@ position: 14
 published: true
 breadnav: true
 title: Pyroute2
-app: true
+app: false
 excerpt: >-
   The pyroute2 is a python library to interact with Linux ip route using netlink socket.
 ---

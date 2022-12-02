@@ -1,8 +1,9 @@
 ---
+position: 11
 published: true
 breadnav: true
 title: Snort
-app: true
+app: false
 excerpt: >-
   Snort is an open-source network intrustion detection and prevention system. SR-Snort is an extended version of Snort with added capabilities.
 ---

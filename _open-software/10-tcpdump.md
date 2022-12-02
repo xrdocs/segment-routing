@@ -3,7 +3,7 @@ position: 10
 published: true
 breadnav: true
 title: TCPdump
-app: true
+app: false
 excerpt: >-
   TCPdump is a common packet analyzer.
 ---

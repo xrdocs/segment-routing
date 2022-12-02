@@ -3,7 +3,7 @@ position: 08
 published: true
 breadnav: true
 title: GoBMP
-app: true
+app: false
 excerpt: >-
   GoBMP is an implementation of Open BMP (RFC 7854) protocol’s collector in go language. Collected BGP information can be published to kafka topics, stored in the file in JSON format or printed to stdout.
 ---

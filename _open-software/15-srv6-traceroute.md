@@ -3,7 +3,7 @@ position: 15
 published: true
 breadnav: true
 title: srv6_traceroute 
-app: true
+app: flase
 excerpt: >-
   SRv6 aware tool for analyzing SRv6 packets on the wild internet.
 ---

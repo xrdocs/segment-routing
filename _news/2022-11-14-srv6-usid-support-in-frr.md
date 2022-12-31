@@ -14,6 +14,6 @@ excerpt: >-
   <p class="article-excerpt">
   The SRv6 uSID implementation in FRR has been developed by Carmine Scarpitta from the university of Rome tor Vergata.
   
-teaser: /images/frr.svg
+teaser: images/open-software/frr.svg
 ---
 

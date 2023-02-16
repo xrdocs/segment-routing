@@ -20,4 +20,6 @@ By using SRv6, SoftBank can create a more programmable and flexible network that
 
 {% include video id="7QT9c7FEvv8" provider="youtube" %}
 
+## Slides
 
+{% include pdf link="/images/2023-01-25-Softbank-SRv6-Deployment.pdf" %}

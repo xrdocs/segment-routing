@@ -22,3 +22,7 @@ A key advantage of SRv6 is its extensibility without boundaries, allowing it to 
 
 {% include video id="T4Zk1LybTXY" provider="youtube" %}
 
+### Slides
+
+{% include pdf link="/images/2023-01-26-Rakuten-uSID-5G-Slicing-Dubia_Workshop-Amit.pdf" %}
+

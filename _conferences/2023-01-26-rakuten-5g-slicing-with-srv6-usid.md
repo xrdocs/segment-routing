@@ -14,7 +14,7 @@ header:
 **Amit Dhamija of Rakuten** presents "Rakuten - SRv6 uSID with network slicing use cases".
 
 Exploring the benefits of deploying SRv6 uSID, the application of slicing and key learnings.
-SRv6 simplifies the Rakuten network while improving its effieciency.
+SRv6 simplifies the Rakuten network while improving its efficiency.
 Using native IPv6 forwarding, the SRv6 uSID architecture supports ultra scalability in 5G SA deployments.
 A key advantage of SRv6 is its extensibility without boundaries, allowing it to be extended to the Mobile Network RAN and Core domains.
 

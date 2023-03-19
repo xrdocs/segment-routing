@@ -13,7 +13,7 @@ header:
 
 **Mounir Mohamed, Systems Architect at Cisco** presents "SRv6 uSID and Path Tracing at MENOG 22 in Manama, Bahrain".
 
-Mounir gave an update on SRv6 Standardization, Deployment and Ecosystem. As part of the session, he gave an update on Path Tracing (Cisco Latest innovation that provides full visibility into ECMP Paths and much more). 
+Mounir gives an update on SRv6 Standardization, Deployment and Ecosystem. As part of the session, he gives an update on Path Tracing (Cisco Latest innovation that provides full visibility into ECMP Paths and much more). 
 
 ### Video
 

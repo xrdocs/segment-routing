@@ -4,7 +4,7 @@ breadnav: true
 date: '2022-12-07 00:00 -0700'
 title: 'Pv6 Segment Routing (SRv6): Technology and Deployment Update'
 author: 'Mounir Mohamed, Cicso'
-technology: 'SRv6'
+technology: 'SRv6, PT'
 excerpt: 'Mounir Mohamed  Dhamija of Rakuten presents "Rakuten - SRv6 uSID with network slicing use cases". Exploring the benefits of deploying SRv6 uSID, the application of slicing and key learnings.'
 dummy: 'https://www.youtube.com/watch?v=XyLDb3Ld0PI'
 header:

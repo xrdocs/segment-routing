@@ -3,7 +3,7 @@ published: true
 breadnav: true
 date: '2022-12-07 00:00 -0700'
 title: 'IPv6 Segment Routing (SRv6): Technology and Deployment Update'
-author: 'Mounir Mohamed, Cicso'
+author: 'Mounir Mohamed, Cisco'
 technology: 'SRv6, PT'
 excerpt: 'Mounir Mohamed, Systems Architect at Cisco presents SRv6 uSID and Path Tracing at MENOG 22 in Manama, Bahrain'
 dummy: 'https://www.youtube.com/watch?v=XyLDb3Ld0PI'

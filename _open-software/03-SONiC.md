@@ -23,7 +23,7 @@ The Cisco Silicon One has native support for SRv6 uSID in its SDK, and implement
 
 SONiC (Software for Open Networking in the Cloud) is a free NetworkOS based on Linux and currenty being developed by the Open Compute Project. SONiC includes the networking software components necessary for a fully functional L3 device, and was designed to meet the requirements of a cloud data center.
 
-The major release v202212 contains support for SRv6 uSID. These changes were included in June 2022, and include support for the underlay SRv6 Endpoint Behaviors uN and uA; as well as the support of L3VPN constructs (End.DT/DX SIDs). 
+The major release v202211 contains support for SRv6 uSID. These changes were included in June 2022, and include support for the underlay SRv6 Endpoint Behaviors uN and uA; as well as the support of L3VPN constructs (End.DT/DX SIDs).
 
 Find more details in the [Github Pull Request (github.com)](https://github.com/sonic-net/sonic-swss/pull/2335).
 

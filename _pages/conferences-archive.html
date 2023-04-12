@@ -3,9 +3,12 @@ layout: archive-full
 permalink: /conferences
 title: "Conferences and Events"
 ---
+<a href="{{ 'new-news' | relative_url }}">Click here for an overview of all conferences</a>
+{% comment %}
 <div class="grid__wrapper">
   {% assign sorted = site.conferences | sort: 'date' %}
   {% for post in sorted reversed %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
+{% endcomment %}

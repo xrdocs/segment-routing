@@ -19,15 +19,28 @@ Overall, the workshop provided a great opportunity for networking professionals 
 ![](/images/2023-03-30-lead-operators-at-srv6-workshop-japan.jpg)
 
 ## A selection of workshop highlights
+<br/>
+
 ### Alibaba – IPv6 Predictable Network
 **Presenter Dennis Cai / Eddie Ruan of Alibaba**
 
-#### Slides
-{% include pdf link="/images/2023-03-30-srv6-workshop-alibaba.pdf" %}
-
-<br/>
 #### Video
 {% include video id="h0WAt8WMTPk" provider="youtube" %}
+
+<br/>
+#### Slides
+{% include pdf link="/images/2023-03-30-srv6-workshop-alibaba.pdf" id="alibaba" %}
+
+<br/>
+### Bell Canada – SRv6 uSID deployment
+**Presenter Dan Voyer**
+
+#### Video
+{% include video id="6XjCGw6HL3U" provider="youtube" %}
+
+<br/>
+#### Slides
+{% include pdf link="/images/2023-03-30-srv6-workshop-bell-canada.pdf" id="bell-canada" %}
 
 <br/>
 <br/>
@@ -36,11 +49,6 @@ Overall, the workshop provided a great opportunity for networking professionals 
 {: style="text-align: center;"}
 
 {% comment %}
-Bell Canada – SRv6 uSID deployment
-Presenter Dan Voyer
-Slides
-Video
-
 Rakuten – SRv6 journey and experience
 Presenter Praveen Kumar
 Slides

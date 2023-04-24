@@ -35,6 +35,15 @@ This page highlights a selection of SRv6 topics presented at this conference, an
 ### Highlighted presentations:
 
 <div markdown="1">
+#### [Cisco: SRv6 Technology Status and Deployment Update](/conferences/Paris23-Cisco-Clarence-Filsfils)
+_**Clarence Filsfils** of Cisco Systems_
+{: .indent}
+Reviewing the IETF status, the latest deployments and introducing some exciting innovations.
+{: .indent}
+</div>
+{: .notice}
+
+<div markdown="1">
 #### [Colt: Building an Hyper-scale PCE](/conferences/Paris23-Colt-Bart-Janssens)
 _**Bart Janssens** of Colt_
 {: .indent}
@@ -77,14 +86,8 @@ Presenting a DC uSID design use case, a new state of the art innovation.
 </div>
 {: .notice}
 
-<div markdown="1">
-#### [Cisco: SRv6 Technology Status and Deployment Update](/conferences/Paris23-Cisco-Clarence-Filsfils)
-_**Clarence Filsfils** of Cisco Systems_
-{: .indent}
-Reviewing the IETF status, the latest deployments and introducing some exciting innovations.
-{: .indent}
-</div>
-{: .notice}
+### SRv6 uSID Interoperability Test Report
+EANTC published the results of the annual multi-vendor MPLS SDN interoperability test event. The results were showcased at the MPLS SD & AI World Congress 2023. Detailed descriptions of each test and its results are published in the test report that can be found [**here** (eantc.de)](https://eantc.de/fileadmin/eantc/downloads/events/2023/EANTC-InteropTest2023-TestReport.pdf).
 
 {% comment %}
 ### Demonstrations:

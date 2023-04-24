@@ -1,7 +1,7 @@
 ---
 published: true
 breadnav: true
-date: '2023-04-19 01:00'
+date: '2023-04-19 06:30'
 title: 'Cisco: SRv6 Technology Status and Deployment Update'
 author: Segment Routing Team
 technology: 'SRv6'

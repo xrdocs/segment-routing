@@ -60,8 +60,8 @@ _**Daniel Bernier** of Bell Canada_
 {: .notice}
 
 <div markdown="1">
-#### [Softbank: Mobile User Plane (MUP) Use-case](/conferences/Paris23-Softbank-Satoru-Matsushita)
-_**Satoru Matsushita** of Softbank_
+#### [Softbank: Mobile User Plane (MUP) Use-case](/conferences/Paris23-Softbank-Satoru-Matsushima)
+_**Satoru Matsushima** of Softbank_
 {: .indent}
 Discussing the actual PoC and understanding how to resolve the problem at scale.
 {: .indent}

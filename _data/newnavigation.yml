@@ -10,7 +10,7 @@ main:
     class: "hide-on-xxs"
 
   - title: "Path Tracing"
-    url: "path-tracing"
+    url: "path-tracing-new"
     class: "hide-on-mobile"
   
   - title: "IETF" 

@@ -30,7 +30,7 @@ main:
         url: "srmpls-conferences"
 
   - title: "Path Tracing"
-    url: "path-tracing"
+    url: "path-tracing-new"
   
   - title: "IETF" 
     url: "ietf"

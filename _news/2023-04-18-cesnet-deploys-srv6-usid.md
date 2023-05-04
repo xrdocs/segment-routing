@@ -2,9 +2,9 @@
 title: Czech Education and Scientific is First NREN to deploy SRv6 uSID
 author: 'Cisco SR team'
 source: 'Cisco SR team'
-source-url: https://www.cesnet.cz/?lang=en
+source-url: news/2023-04-18-cesnet-deploys-srv6-usid/
 date: '2023-04-18 01:00'
-eurl: https://www.cesnet.cz/?lang=en
+eurl: news/2023-04-18-cesnet-deploys-srv6-usid/
 technology: 'SRv6'
 excerpt: >-
   <p class="article-excerpt">

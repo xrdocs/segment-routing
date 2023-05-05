@@ -48,6 +48,12 @@ published: true
 Path Tracing allows operators to deterministically detect ECMP paths. It is implemented in HW at linerate, in the normal forwarding pipeline and provides an Ultra-MTU-Efficiency. 
 Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracing data and computes key metrics for operators to monitor the health of their network.  
     </div>
+      <a href="{{ 'path-tracing/pt-tutorial' | base_url }}" target="_blank">
+        <button>Turorial </button>
+      </a>
+      <a href="{{ 'path-tracing/pt-tutorial' | base_url }}" target="_blank">
+        <button>Demo </button>
+      </a>
   </div>
 </div>
 

@@ -651,6 +651,12 @@ label.underline:before, .nav-link > a.underline:before {
   background-size: cover;
   height: auto;
 }
+.feature-keys-pt {
+  padding: 100px 20px;
+  background-position: 0% 50%;
+  background-size: cover;
+  height: auto;
+}
 .feature-keys-content {
   width: 45%;
 }

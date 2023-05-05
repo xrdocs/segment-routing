@@ -67,6 +67,13 @@ button:hover {
   letter-spacing: 0.5px;
   line-height: 30px;
 }
+.section-description-pt-ietf {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
 .hero-block {
   display: block;
   padding-top: 20px;

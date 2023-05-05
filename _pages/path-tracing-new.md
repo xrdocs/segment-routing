@@ -42,6 +42,12 @@ slider_quote:
     btn_label: Watch presentation
     class: quote-slide
     button_class: plusQuoteSlides
+  - title: "Ahmed Abdelsalam of Cisco demonstrates Path Tracing: Revealing the Unknowns about ECMP"
+    image_path: images/path-tracing/P4-programming-language-logo.png
+    url: 'https://www.segment-routing.net/demos/20220524-P4-PT-demo/'
+    btn_label: Watch presentation
+    class: quote-slide
+    button_class: plusQuoteSlides
 
 published: true
 ---
@@ -69,7 +75,7 @@ Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracin
 <div class="feature-keys">
   <div class="container feature-keys-content">
     <h2 class="section-title white">IETF</h2>
-    <div class="section-description white">
+    <div style="margin"class="section-description-pt-ietf white">
 Path Tracing is being standardized by the IETF.
     </div>
       <a href="https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing/" target="_blank">
@@ -82,6 +88,18 @@ Path Tracing is being standardized by the IETF.
 </div>
 
 {% include slider id="slider_quote" %}
+
+<table>
+  <tr>
+    <td><img src="images/open-software/vpp.png" width="300"></td>
+    <td><img src="images/open-software/vpp.png" width="300"></td>
+  </tr>
+  
+  <tr>
+    <td><img src="images/open-software/vpp.png" width="300" ></td>
+    <td><img src="images/open-software/vpp.png" width="300"></td>
+  </tr>
+</table>
 
 <div style="clear: both;"></div>
 

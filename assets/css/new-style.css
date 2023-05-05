@@ -590,6 +590,12 @@ label.underline:before, .nav-link > a.underline:before {
 .feature-row:after {
   clear: both;
 }
+.features-row-pt {
+  margin: 30px auto;
+  max-width: 80%;
+  min-height: 200px;
+}
+
 .features-column {
   padding: 0 10px;
   border-right: 1px solid rgba(0,0,0,0.06);
@@ -851,6 +857,11 @@ label.underline:before, .nav-link > a.underline:before {
 }
 .discover-tech-link {
   -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  font-size: 1.5em;
+}
+.discover-tech-link-pt {
+  -webkit-transition: #0051AF 200ms ease;
   transition: color 200ms ease;
   font-size: 1.5em;
 }

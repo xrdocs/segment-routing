@@ -31,14 +31,14 @@ feature_key:
 slider_quote: 
   - title: Goldman Sachs's Technology Fellow and Network Architect Mike Valentine present Path Tracing at NANOG85
     image_path: images/path-tracing/Goldman_Sachs.png
-    url: 'https://amzn.com/B01I58LSUO'
+    url: 'https://www.segment-routing.net/path-tracing/2022-06-08-NANOG85-path-tracing/'
     btn_label: Watch presentation
     class: quote-slide
     button_class: plusQuoteSlides
 
 published: true
 ---
-{% include feature_row id="feature_row_benefits" %}
+{% include feature_row_pt id="feature_row_benefits" %}
 <div style="clear: both;"></div>
 
 <div class="feature-keys">
@@ -49,14 +49,12 @@ Path Tracing allows operators to deterministically detect ECMP paths. It is impl
 Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracing data and computes key metrics for operators to monitor the health of their network.  
     </div>
     <div class="discover-tech">
-  <div class="discover-tech-content">
     <div class="discover-tech-content-block">
       <div class="descover-tech-links">
-        <a href="{{ 'pt-tutorial' | base_url }}" class="discover-tech-link">Demos <i class="fas fa-arrow-circle-right"></i></a>
-        <a href="{{ 'pt-demo' | base_url }}" class="discover-tech-link">Tutorials <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'path-tracing/pt-tutorial' | base_url }}" class="discover-tech-link-pt">Tutorials <i class="fas fa-arrow-circle-right"><i><a>
+        <a href="{{ 'path-tracing/pt-demo' | base_url }}" class="discover-tech-link-pt">Demos <i class="fas fa-arrow-circle-right"></i></a>
       </div>
     </div>
-  </div>
 </div>
   </div>
 </div>

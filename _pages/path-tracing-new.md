@@ -52,6 +52,10 @@ slider_quote:
 published: true
 ---
 {% include feature_row_pt id="feature_row_benefits" %}
+{% include slider id="slider_quote" %}
+{% include feature_key id="feature_key" %}
+
+
 <div style="clear: both;"></div>
 
 <div class="feature-keys">
@@ -70,7 +74,6 @@ Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracin
   </div>
 </div>
 
-{% include feature_key id="feature_key" %}
 
 <div class="feature-keys">
   <div class="container feature-keys-content">
@@ -87,7 +90,6 @@ Path Tracing is being standardized by the IETF.
   </div>
 </div>
 
-{% include slider id="slider_quote" %}
 
 <div class="feature-keys">
   <div class="container feature-keys-content">

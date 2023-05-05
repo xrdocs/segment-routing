@@ -28,19 +28,13 @@ feature_key:
   - title: Identify the trajectory and time taken for NFV processing
     excerpt: >-
       Path Tracing reports the trajectory, so the service chain exercised by the packets, and the time taken overall to execute that service chain.
-slider_quote: 
-  - title: Goldman Sachs's Technology Fellow and Network Architect Mike Valentine present Path Tracing at NANOG85
+slider_book:
     image_path: images/path-tracing/Goldman_Sachs.png
+    title: Goldman Sachs's Technology Fellow and Network Architect Mike Valentine presents Path Tracing at NANOG85
     url: 'https://www.segment-routing.net/path-tracing/2022-06-08-NANOG85-path-tracing/'
     btn_label: Watch presentation
-    class: quote-slide
-    button_class: plusQuoteSlides
-  - title: Goldman Sachs's Technology Fellow and Network Architect Mike Valentine present Path Tracing at NANOG85
-    image_path: images/path-tracing/Goldman_Sachs.png
-    url: 'https://www.segment-routing.net/path-tracing/2022-06-08-NANOG85-path-tracing/'
-    btn_label: Watch presentation
-    class: quote-slide
-    button_class: plusQuoteSlides
+    class: book-slide
+    button_class: plusBookSlides
 
 published: true
 ---
@@ -58,7 +52,7 @@ Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracin
     <div class="discover-tech-content-block">
       <div class="descover-tech-links">
         <a style="color:#0D274D" href="{{ 'path-tracing/pt-tutorial' | base_url }}" class="discover-tech-link-pt color">Tutorials <i class="fas fa-arrow-circle-right"><i><a>
-        <a style="color:#0D274D" href="{{ 'path-tracing/pt-tutorial' | base_url }}" class="discover-tech-link-pt">Demos <i class="fas fa-arrow-circle-right"></i></a>
+        <a style="color:#0D274D" href="{{ 'path-tracing/pt-tutorial' | base_url }}" class="discover-tech-link-pt color">Tutorials <i class="fas fa-arrow-circle-right"><i><a>
       </div>
     </div>
 </div>
@@ -67,7 +61,7 @@ Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracin
 
 {% include feature_key id="feature_key" %}
 
-{% include slider id="slider_quote" %}
+{% include slider id="slider_book" %}
 
 <div style="clear: both;"></div>
 

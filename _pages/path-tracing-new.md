@@ -35,6 +35,13 @@ slider_book:
     btn_label: Watch presentation
     class: book-slide
     button_class: plusBookSlides
+slider_quote: 
+  - title: Goldman Sachs's Technology Fellow and Network Architect Mike Valentine present Path Tracing at NANOG85
+    image_path: images/path-tracing/Goldman_Sachs.png
+    url: 'https://www.segment-routing.net/path-tracing/2022-06-08-NANOG85-path-tracing/'
+    btn_label: Watch presentation
+    class: quote-slide
+    button_class: plusQuoteSlides
 
 published: true
 ---
@@ -49,7 +56,7 @@ Path Tracing allows operators to deterministically detect ECMP paths. It is impl
 Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracing data and computes key metrics for operators to monitor the health of their network.  
     </div>
       <a href="{{ 'path-tracing/pt-tutorial' | base_url }}" target="_blank">
-        <button>Turorial </button>
+        <button>Tutorial </button>
       </a>
       <a href="{{ 'path-tracing/pt-tutorial' | base_url }}" target="_blank">
         <button>Demo </button>
@@ -59,7 +66,22 @@ Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracin
 
 {% include feature_key id="feature_key" %}
 
-{% include slider id="slider_book" %}
+<div class="feature-keys">
+  <div class="container feature-keys-content">
+    <h2 class="section-title white">IETF</h2>
+    <div class="section-description white">
+Path Tracing is being standardized by the IETF.
+    </div>
+      <a href="https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing/" target="_blank">
+        <button>Path Tracing in SRv6 networks </button>
+      </a>
+      <a href="https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing-srmpls/" target="_blank">
+        <button>Path Tracing in SR-MPLS networks </button>
+      </a>
+  </div>
+</div>
+
+{% include slider id="slider_quote" %}
 
 <div style="clear: both;"></div>
 

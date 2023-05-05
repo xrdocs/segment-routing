@@ -51,6 +51,12 @@ button:hover {
 .white {
   color: #fff;
 }
+.blue {
+  color: #149ed9;
+}
+.grey{
+  color: #676767
+}
 .container {
   margin: 0px auto;
   max-width: 80%;
@@ -653,9 +659,8 @@ label.underline:before, .nav-link > a.underline:before {
 }
 .feature-keys-pt {
   padding: 100px 20px;
-  background-position: 0% 50%;
-  background-size: cover;
   height: auto;
+  margin: 80px;
 }
 .feature-keys-content {
   width: 45%;

@@ -35,6 +35,12 @@ slider_quote:
     btn_label: Watch presentation
     class: quote-slide
     button_class: plusQuoteSlides
+  - title: Goldman Sachs's Technology Fellow and Network Architect Mike Valentine present Path Tracing at NANOG85
+    image_path: images/path-tracing/Goldman_Sachs.png
+    url: 'https://www.segment-routing.net/path-tracing/2022-06-08-NANOG85-path-tracing/'
+    btn_label: Watch presentation
+    class: quote-slide
+    button_class: plusQuoteSlides
 
 published: true
 ---
@@ -51,8 +57,8 @@ Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracin
     <div class="discover-tech">
     <div class="discover-tech-content-block">
       <div class="descover-tech-links">
-        <a href="{{ 'path-tracing/pt-tutorial' | base_url }}" class="discover-tech-link-pt">Tutorials <i class="fas fa-arrow-circle-right"><i><a>
-        <a href="{{ 'path-tracing/pt-demo' | base_url }}" class="discover-tech-link-pt">Demos <i class="fas fa-arrow-circle-right"></i></a>
+        <a style="color:#0D274D" href="{{ 'path-tracing/pt-tutorial' | base_url }}" class="discover-tech-link-pt color">Tutorials <i class="fas fa-arrow-circle-right"><i><a>
+        <a style="color:#0D274D" href="{{ 'path-tracing/pt-tutorial' | base_url }}" class="discover-tech-link-pt">Demos <i class="fas fa-arrow-circle-right"></i></a>
       </div>
     </div>
 </div>

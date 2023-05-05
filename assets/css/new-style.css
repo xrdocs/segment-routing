@@ -73,6 +73,7 @@ button:hover {
   font-size: 1.1em;
   letter-spacing: 0.5px;
   line-height: 30px;
+  color: #fff;
 }
 .hero-block {
   display: block;
@@ -1643,4 +1644,8 @@ details {
     left: 0;
     width: 100%;
     height: 100%;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }

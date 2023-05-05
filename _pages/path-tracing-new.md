@@ -75,7 +75,7 @@ Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracin
 <div class="feature-keys">
   <div class="container feature-keys-content">
     <h2 class="section-title white">IETF</h2>
-    <div class="section-description-pt-ietf white">
+    <div class="section-description-pt-ietf">
 Path Tracing is being standardized by the IETF.
     </div>
       <a href="https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing/" target="_blank">
@@ -92,23 +92,23 @@ Path Tracing is being standardized by the IETF.
 <div class="feature-keys">
   <div class="container feature-keys-content">
     <h2 class="section-title white">Open-source softwares supporting Path Tracing</h2>
-      <table>
-        <tr>
-          <td><img src="images/open-software/linux.png" width="300"></td>
-          <td><img src="images/open-software/vpp.png" width="300"></td>
-          <td><img src="images/open-software/sonic.png" width="300"></td>
-          <td><img src="images/path-tracing/open-compute-project.png" width="300" ></td>
-        </tr>
-        <tr>
-          <td><img src="images/open-software/p4.png" width="300"></td>
-          <td><img src="images/open-software/tcpdump.png" width="300"></td>
-          <td><img src="images/path-tracing/wireshark.png" width="300" ></td>
-        </tr>
-        <tr>
-        </tr>
-      </table>
   </div>
 </div>
+<table class="center">
+  <tr>
+    <td><img src="images/open-software/linux.png" width="300"></td>
+    <td><img src="images/open-software/vpp.png" width="300"></td>
+    <td><img src="images/open-software/sonic.png" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="images/open-software/p4.png" width="300"></td>
+    <td><img src="images/open-software/tcpdump.png" width="300"></td>
+    <td><img src="images/path-tracing/wireshark.png" width="300" ></td>
+  </tr>
+  <tr>
+      <td colspan="3"><img src="images/path-tracing/open-compute-project.png" width="300" ></td>
+  </tr>
+</table>
 
 
 <div style="clear: both;"></div>

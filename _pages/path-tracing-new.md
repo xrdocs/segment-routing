@@ -6,7 +6,7 @@ date: null
 excerpt:
 
 feature_row_benefits: 
-  - title: Per-hop interface-id
+  - title: Per-hop Interface-id
     image_path: images/new-home/Seamless-Deployment.svg
   - title: Per-hop Latency and Load
     image_path: images/path-tracing/latency-icon.svg
@@ -15,19 +15,19 @@ feature_row_benefits:
 feature_key: 
   - title: Detect blackholes
     excerpt: >-
-      Path Tracing is capable of reporting if any paths in the network are blackholing the trafic. 
-  - title: Detect wrong paths
+      Path Tracing is capable of reporting if any paths in the network are blackholing trafic. 
+  - title: Detect corruptions
     excerpt: >-
-      With Path Tracing, check if there are any wrong paths in the forwarding that do not match the control plane. 
+      Path Tracing detects if there's any unexpected forwarding path that doesn't match the control plane. 
   - title: Detect ECMP paths with incoherent latency
     excerpt: >-
       Measure the latency of each ECMP path in your network and report any path with a non-coherent latency with respect to the others. 
-  - title: Measure jitter on a per node/per interface basis
+  - title: Measure jitter on a per-interface/queue basis
     excerpt: >-
-      Path Tracing delivers, for the first time in history, accurate jitter measurements in the WAN!
+      Path Tracing delivers, for the first time in history, accurate jitter measurements in the live WAN!
   - title: Identify the trajectory and time taken for NFV processing
     excerpt: >-
-      Path Tracing reports the trajectory, so the service chain exercised by the packets, and the time taken overall to execute that service chain.
+      Path Tracing reports the trajectory (proof of transit) and the time taken overall to execute that service chain.
 slider_book:
     image_path: images/path-tracing/Goldman_Sachs.png
     title: Goldman Sachs's Technology Fellow and Network Architect Mike Valentine presents Path Tracing at NANOG85
@@ -61,9 +61,9 @@ published: true
 <div class="feature-keys">
   <div class="container feature-keys-content">
     <h2 class="section-title white">Path Tracing Tutorial and Demo</h2>
-    <div class="section-description white">
-Path Tracing allows operators to deterministically detect ECMP paths. It is implemented in HW at linerate, in the normal forwarding pipeline and provides an Ultra-MTU-Efficiency. 
-Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracing data and computes key metrics for operators to monitor the health of their network.  
+    <div class="section-description white" style="margin-bottom:15px;">
+Path Tracing allows operators to deterministically monitor ECMP paths. It is implemented in HW at linerate, in the normal forwarding pipeline to report accurate data. 
+Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracing data, correlates it with routing information, and computes key metrics for operators to monitor the health of their network.  
     </div>
       <a href="{{ 'path-tracing/pt-tutorial' | base_url }}" target="_blank">
         <button>Tutorial </button>
@@ -82,10 +82,10 @@ Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracin
 Path Tracing is being standardized by the IETF.
     </div>
       <a href="https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing/" target="_blank">
-        <button>Path Tracing in SRv6 networks </button>
+        <button>PT in SRv6 networks </button>
       </a>
       <a href="https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing-srmpls/" target="_blank">
-        <button>Path Tracing in SR-MPLS networks </button>
+        <button>PT in SR-MPLS networks </button>
       </a>
   </div>
 </div>
@@ -106,9 +106,6 @@ Path Tracing is being standardized by the IETF.
     <td><img src="images/open-software/p4.png" width="300"></td>
     <td><img src="images/open-software/tcpdump.jpeg" width="300"></td>
     <td><img src="images/open-software/wireshark.png" width="300" ></td>
-  </tr>
-  <tr>
-      <td colspan="3"><img src="images/path-tracing/open-compute-project.png" width="300" ></td>
   </tr>
 </table>
 

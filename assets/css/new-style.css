@@ -658,9 +658,8 @@ label.underline:before, .nav-link > a.underline:before {
   height: auto;
 }
 .feature-keys-pt {
-  padding: 100px 20px;
   height: auto;
-  margin: 80px;
+  margin: 60px;
 }
 .feature-keys-content {
   width: 45%;

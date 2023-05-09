@@ -68,7 +68,7 @@ Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracin
       <a href="{{ 'path-tracing/pt-tutorial' | base_url }}" target="_blank">
         <button>Tutorial </button>
       </a>
-      <a href="{{ 'path-tracing/pt-tutorial' | base_url }}" target="_blank">
+      <a href="{{ 'path-tracing/pt-demo-ecmp' | base_url }}" target="_blank">
         <button>Demo </button>
       </a>
   </div>
@@ -78,7 +78,7 @@ Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracin
 <div class="feature-keys-pt">
   <div class="container feature-keys-content">
     <h2 class="section-title blue">IETF</h2>
-    <div style="margin-bottom:30px; margin-top:30px;" class="section-description-pt-ietf grey">
+    <div style="margin-bottom:30px; margin-top:30px; color:#676767" class="section-description-pt-ietf">
 Path Tracing is being standardized by the IETF.
     </div>
       <a href="https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing/" target="_blank">
@@ -91,9 +91,9 @@ Path Tracing is being standardized by the IETF.
 </div>
 
 
-<div class="feature-keys">
-  <div class="container feature-keys-content">
-    <h2 class="section-title white">Open-source softwares supporting Path Tracing</h2>
+<div class="hero-block" style="background-image: url('images/new-design/SR-Background-Image-2.png');">
+  <div class="container">
+    <h1 class="large-hero-title">Open-source softwares supporting Path Tracing</h1>
   </div>
 </div>
 <table style="margin-left: auto; margin-right: auto">

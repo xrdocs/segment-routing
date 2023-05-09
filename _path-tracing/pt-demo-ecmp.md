@@ -7,7 +7,10 @@ title: 'Path Tracing Analytics Demo'
 author: 'Segment Routing Team'
 excerpt: 'Cisco Segment Routing Team presents a demo of Path Tracing Analytics.'
 ---    
-Path Tracing is coupled with an SDN analytical tool : Path Tracing Analytics. The tool analyzes the Path Tracing data, correlates it with routing information, and computes key metrics for operators to monitor the health of their network.
+
+**Content will be posted soon**
+
+<!-- Path Tracing is coupled with an SDN analytical tool : Path Tracing Analytics. The tool analyzes the Path Tracing data, correlates it with routing information, and computes key metrics for operators to monitor the health of their network.
 
 In this tutorial, we provide a demo of the first app of Path Tracing Analytics : ECMP Analytics.
 
@@ -22,4 +25,4 @@ ECMP Analytics compares the control plane information and the forwarding plane i
 {% capture "pdf-link" %}/images/path-tracing/pta-ecmp-demo-rev1b.pdf{% endcapture %}
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script> -->

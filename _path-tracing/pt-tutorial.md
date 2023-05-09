@@ -31,7 +31,7 @@ In this tutorial, we provide an introduction to the Path Tracing Solution.
 
 ## Slides
 
-{% capture "pdf-link" %}/images/path-tracing/pt-demo-rev1a.pdf{% endcapture %}
+{% capture "pdf-link" %}/images/path-tracing/pt-demo-rev1b.pdf{% endcapture %}
 <script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
 <div class="fitvidsignore" id="pdf"></div>
 <script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>

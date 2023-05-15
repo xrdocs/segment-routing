@@ -1,6 +1,6 @@
 ---
 layout: path-tracing
-permalink: /path-tracing-new
+permalink: /path-tracing
 sitemap: true
 date: null
 excerpt:

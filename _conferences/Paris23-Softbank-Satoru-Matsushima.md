@@ -17,8 +17,7 @@ Discussing the actual PoC and understanding how to resolve the problem at scale.
 
 {% include video id="5z6QE2JgSDI" provider="youtube" %}
 
-{% comment %}
 ### Slides
 
 {% include pdf link="/images/MPLS-WC-2023/20230419-SR-Paris-Softbank-slides.pdf" %}
-{% endcomment %}
+

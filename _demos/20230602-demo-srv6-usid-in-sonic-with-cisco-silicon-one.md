@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 hidden: true
-Qdate: '2023-06-02 00:00'
+date: '2023-06-02 00:00'
 title: 'Demo: SRv6 uSID in SONiC with Cisco Silicon One'
 author: 'Segment Routing Team'
 technology: 'SRv6'

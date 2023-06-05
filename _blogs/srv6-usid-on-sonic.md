@@ -163,6 +163,8 @@ The non-SRv6 enabled leaf node is simply routing the traffic using standard IP L
 
 My IPv6/SRv6 uSID fabric comes with several other benefits. uSID gives me up to 6 steering hops or 5 steering hops and VPN function bits in a single IPv6 destination address, so I get both granular traffic steering and VPN segmentation with lower overhead than VxLAN. And because its IPv6, my fabric achieves perfect load balancing with the IPv6 Flow Label that provides HW-friendly entropy at a shallow and fixed position.
 
+## Traffic Engineering
+
 My next POC goal was to validate traffic engineering in the fabric using SRv6 uSID. To do this I built a little packet generator script using [Scapy (scapy.net)](https://scapy.net/). The script forms UDP packets that are encapsulated in an outer IPv6 header where the destination address is a set of SRv6 uSID values that I’ve manipulated such that packets will traverse the path sonic01 &rarr; 03 &rarr; 07 &rarr; sonic11 &rarr; VPN decaps. 
 
 For the purpose for this demo, I used this hard-coded packets. However, this can be achieved using the SRv6 Policy constructs. Here’s an example tcpdump output from transit leaf sonic03:
@@ -187,6 +189,8 @@ listening on Ethernet8, link-type EN10MB (Ethernet), snapshot length 262144 byte
 
 The tcpdump output shows uSID shift-and-forward behavior in action. Now I have a fabric I can traffic engineer!
 
+## Service Insertion
+
 My final goal for the POC was to demonstrate service insertion -a simple service chain- using SRv6 uSID. For this I attached a VPP instance with a scrubber appliance to the sonic02 ToR. This enables the source node to steer traffic through the "srubber" VNF in addition to the traffic engineering capabilities. 
 
 Just in case your eyes haven’t entirely glazed over looking at tcpdumps, here is an example outbound packet as leaves sonic01 on its way to the scrubber VNF. 
@@ -210,7 +214,11 @@ Egress-Scrubber VNF:
 </code></pre>
 </div>
 
+## Conclusion
+
 All in all, the POC succeeded in its goals of demonstrating an SRv6/eBGP based DC fabric capable of supporting multi-tenancy and traffic steering, including service chaining. I was able to spin up a fabric quickly and easily, apply configs, and run both default path traffic and traffic that took a path I explicitly engineered. In theory this SONiC SRv6 fabric could come from the factory with the unnumbered configs pre-loaded and quite literally be plug and play. The GitHub repo referenced in this post is public so please feel free to download it for your own testing. We’re also happy to accept contributions if you have things to add or suggestions for improvement.
+
+In our SONiC blog we'll explain how SRv6 uSID outperforms traditional ECMP-based fabrics for AI/ML training clusters, where the synchronization event in the network causes GPUs to be idle while waiting for the slowest path through the network to complete.
 <br />
 <hr />
 <span id="1">¹</span> SRv6 uSID is available in SONiC since release 202211. SONiC 202305 provides several scale enhancements for SRv6 VPN and SRv6 Policy.[⏎](#a1)<br>

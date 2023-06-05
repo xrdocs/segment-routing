@@ -6,7 +6,7 @@ title: 'Building an SRv6 uSID Data Center Fabric with SONiC'
 author: 'Bruce McDougall, Cisco'
 technology: 'SRv6'
 category:
-excerpt: 'Discover how the decoupled architecture of SONiC, coupled with SRv6 uSID, offers operational simplicity, unified forwarding, and cost-effectiveness for network deployments. This blog provides insights into the proof-of-concept testing and the potential for highly automated, plug-and-play fabrics in data centers. Explore the configurations, benefits, and real-world examples of SRv6 uSID in SONiC, showcasing its capabilities in traffic engineering and service chaining.'
+excerpt: 'Discover how the decoupled architecture of SONiC, combined with SRv6 uSID, offers operational simplicity, unified forwarding, and cost-effectiveness for network deployments. This blog provides insights into the proof-of-concept testing and the potential for highly automated, plug-and-play fabrics in data centers. Explore the configurations, benefits, and real-world examples of SRv6 uSID in SONiC, showcasing its capabilities in traffic engineering and service chaining.'
 header:
 teaser: 'images/open-software/sonic.png'
 ---    
@@ -46,12 +46,11 @@ a em {
 
 SONiC has been building momentum the last few years and is becoming a viable option for networks beyond the initial Hyperscaler deployments. A major driver of that momentum is SONiC’s decoupled software architecture, which makes a break from traditional monolithic network operating systems. A SONiC router is fundamentally a Linux machine plus containerized components which make up the routing and/or switching application.
 
-This decoupled architecture offers a power combination of operational simplicity (Linux!) and software and feature agility, which align very nicely with the goals of SRv6 and SRv6 Network Programming.  SRv6 uSID gives us a very powerful tool to simplify networks as it operates over IPv6 and offers the ability to run a unified forwarding plane across network domains, while removing the expensive gateways performing encapsulation stitching at domain boundaries.
+This decoupled architecture offers a power combination of operational simplicity (Linux!) and software and feature agility, which align very nicely with the goals of SRv6 and SRv6 Network Programming.  SRv6 uSID gives us a very powerful tool to simplify networks as it operates natively over IPv6 and offers the ability to run a unified forwarding plane across network domains, while removing the expensive gateways performing encapsulation stitching at domain boundaries.
 
 The SRv6 uSID solution outperforms the per-silo solutions. Over the last decade or so the networking industry has evolved an alphabet soup of different encapsulation types to perform different forwarding functions, such as VXLAN for overlays, NSH for service chaining, and MPLS for traffic engineering. This technology fragmentation leads to siloed operational environments and the need to invest in costly encap-stitching gateways. With SRv6 uSID we can unify all encapsulation services (Segmentation, Steering, Service Chain, etc.) under a common forwarding architecture which operates natively over IP. An IP-based Unified Forwarding Architecture that provides massive scale, operational simplicity, and is cost-effective as we eliminate expensive gateways and optimize functionality per MTU overhead.
 
-uSID’s outperformance applies to the MPLS dataplane as well (e.g., hardware can push 3 times more uSIDs than MPLS labels; reduces the FIB entries and counters by 4 compared to MPLS). More info on SRv6 uSID scale compared to MPLS is available in the "Bell Canada: SRv6 uSID deployment" video and pdf on this page: [Lead operators present at the SRv6 workshop in Tokyo, Japan]({{ '/conferences/2023-03-30-lead-operators-at-srv6-workshop-japan/' | relative_url }}).
-{% comment %}([SRv6 workshop Tokyo, March 2023 - Bell Canada: SRv6 uSID deployment (youtube.com)](https://www.youtube.com/watch?v=6XjCGw6HL3U&t=6s)){% endcomment %}
+uSID’s outperformance applies to the MPLS dataplane as well (e.g., hardware can push 3 times more uSIDs than MPLS labels; reduces the FIB entries and counters by 4 compared to MPLS; optimal load-balancing entropy). More info on SRv6 uSID scale compared to MPLS is available in the "Bell Canada: SRv6 uSID deployment" presentation at MPLS World Congress 2022 [MPLS WC 2022 - Bell Canada: SRv6 uSID Deployment – Benefits of an SRv6 uSID Fabric]({{ '/conferences/MPLS-WC-2022-Daniel-Voyer/' | relative_url }}).
  
 ![]({{ 'images/blogs/uSID-unified-solution.png' | relative_url }})
    
@@ -61,14 +60,14 @@ My goal with the POC was to demonstrate SRv6 uSID capability, and more important
 
 For POC’ing it was easiest for me to start with the SONiC-VS image. SONiC-VS is a kvm/qemu virtual machine image with a light CPU and memory footprint and is easy to use with tools such as virsh or gns3. In my testing I used virsh and built a 12-node CLOS topology consisting of a pair of ToRs, 4 leaf nodes, 4 spine nodes, and a pair of border leafs. 
 
-SRv6 uSID is also available in SONiC with Cisco Silicon One ASIC. A demo of SRv6 uSID in SONiC with Cisco Silicon One is available here: [Demo: SRv6 uSID in SONiC with Cisco Silicon One]({{ '/demos/20230602-demo-srv6-usid-in-sonic-with-cisco-silicon-one' | relative_url }}).
+In this blog I built the fabric in a fully virtualized fashion. However this is fully avialble with Cisco 8000 (or any Cisco Silicon One-based whitebox). A demo of SRv6 uSID in SONiC with Cisco Silicon One is available here: [Demo: SRv6 uSID in SONiC with Cisco Silicon One]({{ '/demos/20230602-demo-srv6-usid-in-sonic-with-cisco-silicon-one' | relative_url }}).
 
 ![](https://github.com/segmentrouting/srv6-labs/raw/main/sonic-vs/diagrams/sonic-vs-clos.png)
  
 
 The 202305 SONiC release has support for SRv6 uSID (including SAI and FRR)<span id="a1">[¹](#1)</span>. In this POC, our engineering team applied some patches on top of SONiC 202305 to enable the static allocation of the uN and uA functionality. They are in the process of upstreaming the patch to the community. In the meantime, you can find the VS build here: 
 
-[sonic-srv6-vs-rev4.img (2.5GB)(live.com)](https://onedrive.live.com/download?cid=266D2E4F35D86653&resid=266D2E4F35D86653%21138084&authkey=AN9P9j7tPoEU3iU)
+[sonic-srv6-vs-rev4.img (2.5GB)](https://onedrive.live.com/download?cid=266D2E4F35D86653&resid=266D2E4F35D86653%21138084&authkey=AN9P9j7tPoEU3iU)
  
 One of the features I was most excited to test with SONiC was SRv6 over BGP unnumbered. With BGP unnumbered we’re able to establish eBGP peering sessions over IPv6 link-local connections, and thus significantly simplify our router configuration and addressing scheme. For completeness I also built out a ‘numbered’ version of the topology with assigned IPv6 addresses for interfaces and BGP peering sessions, and successfully validated BGP route propagation and SRv6 uSID forwarding through both the unnumbered and numbered fabrics.  
 
@@ -83,8 +82,6 @@ Example frr.conf:
 After bushwhacking through some learning curve, I had my SONiC fabric running with BGP unnumbered and exchanging IPv6 and VPN prefix info with SRv6 locator + End.DT function pairs. 
 
 Example FRR SRv6 uSID configuration. In this case the uN SID is explicitly configured in FRR. In other scenarios, the uN SID may be automatically created through the IGP Protocol (e.g., IS-IS).
- 
- 
 
 <div class="highlighter-rouge">
 <pre class="highlight"><code>segment-routing
@@ -147,21 +144,12 @@ fc00:0:1::                    1 uN                          yes
 </code></pre>
 </div>
 
-From a dataplane perspective ingress and egress nodes successfully perform SRv6 encapsulation and decapsulation and the fabric itself behaves like an IPv6 fabric. 
+From a dataplane perspective ingress and egress nodes successfully perform SRv6 encapsulation and decapsulation, and due to the seamless deployment nature of SRv6, the fabric itself behaves like an IPv6 fabric. 
 
-Note that while the configurations in the GitHub repo have SRv6 uSID enabled on all nodes, it’s technically not necessary on the transit leaf and spine nodes so long as BGP is exchanging IPv6 underlay prefixes. The fact that SRv6 uSID is built on the foundation of IP routing gives us the ability to do seamless deployment over IP fabrics.
+Note that while the configurations in the GitHub repo have SRv6 uSID enabled on all nodes, it’s technically not necessary on the transit leaf and spine nodes so long as BGP is exchanging IPv6 underlay prefixes. The fact that SRv6 uSID is built on the foundation of IP routing, the Longest Prefix Match,  gives us the ability to do seamless deployment over IP fabrics.
 
 Here is some example tcpdump output from a leaf node where I removed the SRv6 config:
 
-<div class="highlighter-rouge">
-<pre class="highlight"><code>admin@sonic06:~$ <span class="bold">sudo tcpdump -ni Ethernet0</span>
-tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
-listening on Ethernet0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
-16:32:51.907316 IP6 fc00:0:1::1 > fc00:0:11:6500::: RT6 (len=2, type=4, segleft=0, last-entry=0, tag=0, [0]fc00:0:11:6500::) IP 10.101.1.2 > 10.101.11.1: ICMP echo request, id 69, seq 1865, length 64
-16:32:51.910107 IP6 fc00:0:11::1 > fc00:0:1:6500::: RT6 (len=2, type=4, segleft=0, last-entry=0, tag=0, [0]fc00:0:1:6500::) IP 10.101.11.1 > 10.101.1.2: ICMP echo reply, id 69, seq 1865, length 64
-</code></pre>
-</div>
-<br />
 <div class="highlighter-rouge">
 <pre class="highlight"><code>admin@sonic06:~$ <span class="bold">sudo tcpdump -ni Ethernet0</span>
 tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
@@ -171,11 +159,11 @@ listening on Ethernet0, link-type EN10MB (Ethernet), snapshot length 262144 byte
 </code></pre>
 </div>
 
-The non-SRv6 enabled leaf node is simply routing the traffic using standard longest prefix match. 
+The non-SRv6 enabled leaf node is simply routing the traffic using standard IP Longest Prefix Match. 
 
 My IPv6/SRv6 uSID fabric comes with several other benefits. uSID gives me up to 6 steering hops or 5 steering hops and VPN function bits in a single IPv6 destination address, so I get both granular traffic steering and VPN segmentation with lower overhead than VxLAN. And because its IPv6, my fabric achieves perfect load balancing with the IPv6 Flow Label that provides HW-friendly entropy at a shallow and fixed position.
 
-My next POC goal was to validate traffic engineering in the fabric using SRv6 uSID. To do this I built a little packet generator script using [Scapy (scapy.net)](https://scapy.net/). The script forms UDP packets that are encapsulated in an outer IPv6 header where the destination address is a set of SRv6 uSID values that I’ve manipulated such that packets will traverse the path sonic01 &rarr; 03 &rarr; 07 &rarr; sonic11. 
+My next POC goal was to validate traffic engineering in the fabric using SRv6 uSID. To do this I built a little packet generator script using [Scapy (scapy.net)](https://scapy.net/). The script forms UDP packets that are encapsulated in an outer IPv6 header where the destination address is a set of SRv6 uSID values that I’ve manipulated such that packets will traverse the path sonic01 &rarr; 03 &rarr; 07 &rarr; sonic11 &rarr; VPN decaps. 
 
 For the purpose for this demo, I used this hard-coded packets. However, this can be achieved using the SRv6 Policy constructs. Here’s an example tcpdump output from transit leaf sonic03:
 
@@ -184,7 +172,7 @@ Ingress:
 <pre class="highlight"><code>admin@sonic03:~$ <span class="bold">sudo tcpdump -ni Ethernet0</span>
 tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
 listening on Ethernet0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
-03:32:59.202575 IP6 2001:0:101:1::4 > <mark>fc00:0:3:7:11:e000::</mark> IP 10.101.11.2.22222 > 10.101.11.1.33333: UDP, length 0
+03:32:59.202575 IP6 fc00:0:1::1 > <mark>fc00:0:3:7:11:e000::</mark> IP 10.101.11.2.22222 > 10.101.11.1.33333: UDP, length 0
 </code></pre>
 </div>
 
@@ -193,25 +181,32 @@ Egress:
 <pre class="highlight"><code>admin@sonic03:~$ <span class="bold">sudo tcpdump -ni Ethernet8</span>
 tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
 listening on Ethernet8, link-type EN10MB (Ethernet), snapshot length 262144 bytes
-03:33:13.983362 IP6 2001:0:101:1::4 > <mark>fc00:0:7:11:e000::</mark> IP 10.101.11.2.22222 > 10.101.11.1.33333: UDP, length 0
+03:33:13.983362 IP6 fc00:0:1::1 > <mark>fc00:0:7:11:e000::</mark> IP 10.101.11.2.22222 > 10.101.11.1.33333: UDP, length 0
 </code></pre>
 </div>
 
 The tcpdump output shows uSID shift-and-forward behavior in action. Now I have a fabric I can traffic engineer!
 
-My final goal for the POC was to demonstrate a basic service chain using SRv6 uSID. For this I attached a VPP instance to the sonic02 ToR, with one VPP interface attached to the default VRF and another attached to Vrf2. That and a couple VPP and VRF static routes later and I had the ability to steer traffic to a “scrubber” VNF, and then across a clean Vrf2. 
+My final goal for the POC was to demonstrate service insertion -a simple service chain- using SRv6 uSID. For this I attached a VPP instance with a scrubber appliance to the sonic02 ToR. This enables the source node to steer traffic through the "srubber" VNF in addition to the traffic engineering capabilities. 
 
-Just in case your eyes haven’t entirely glazed over looking at tcpdumps, here is an example outbound packet as leaves sonic01 on its way to the VNF. Note: on my VPP I’ve configured an end.dt4 localsid fc00:0:101:2:aaaa:: which will pop the outer IPv6 header and forward based on the inner IPv4:
+Just in case your eyes haven’t entirely glazed over looking at tcpdumps, here is an example outbound packet as leaves sonic01 on its way to the scrubber VNF. 
 
 <div class="highlighter-rouge">
-<pre class="highlight"><code>21:29:35.430201 IP6 2001:0:101:1::4 > <mark>fc00:0:2:101:2:aaaa::</mark> IP 10.101.1.2 > 10.102.12.1: ICMP echo request, id 0, seq 0, length 8
+<pre class="highlight"><code>21:29:35.430201 IP6 fc00:0:1::1 > <mark>fc00:0:3:2:faaf:11:e000::</mark> IP 10.101.1.2 > 10.102.12.1: ICMP echo request, id 0, seq 0, length 8
 </code></pre>
 </div>
 
-The packet arrives at VPP and the outer IPv6 is decapsulated. VPP then steers the underlying IPv4 packet via an SRv6 uSID policy back across the fabric, traversing sonic06 and sonic10 and finally terminating at egress node sonic12 Vrf2: 
+The script forms UDP packets that are encapsulated in an outer IPv6 header where the destination address is a set of SRv6 uSID values that I’ve manipulated such that packets will traverse the path sonic01 &rarr; 03 &rarr; 02 &rarr; scrubber-VNF (SID 0xfaaf) &rarr; sonic11 &rarr; VPN decaps. 
 
+Ingress-Scrubber VNF:
 <div class="highlighter-rouge">
-<pre class="highlight"><code>14:29:50.871321 IP6 fc00:0:102:2::3 > <mark>fc00:0:6:10:12:e001::</mark> IP 10.101.1.2 > 10.102.12.1: ICMP echo request, id 0, seq 0, length 8
+<pre class="highlight"><code>21:29:39.871321 IP6 fc00:0:1::1 > <mark>fc00:0:2:faaf:11:e000::</mark> IP 10.101.1.2 > 10.102.12.1: ICMP echo request, id 0, seq 0, length 8
+</code></pre>
+</div>
+
+Egress-Scrubber VNF:
+<div class="highlighter-rouge">
+<pre class="highlight"><code>21:29:44.452142 IP6 fc00:0:1::1 > <mark>fc00:0:11:e000::</mark> IP 10.101.1.2 > 10.102.12.1: ICMP echo request, id 0, seq 0, length 8
 </code></pre>
 </div>
 

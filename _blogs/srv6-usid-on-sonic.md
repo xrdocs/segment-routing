@@ -218,7 +218,7 @@ Egress-Scrubber VNF:
 
 All in all, the POC succeeded in its goals of demonstrating an SRv6/eBGP based DC fabric capable of supporting multi-tenancy and traffic steering, including service chaining. I was able to spin up a fabric quickly and easily, apply configs, and run both default path traffic and traffic that took a path I explicitly engineered. In theory this SONiC SRv6 fabric could come from the factory with the unnumbered configs pre-loaded and quite literally be plug and play. The GitHub repo referenced in this post is public so please feel free to download it for your own testing. We’re also happy to accept contributions if you have things to add or suggestions for improvement.
 
-In our SONiC blog we'll explain how SRv6 uSID outperforms traditional ECMP-based fabrics for AI/ML training clusters, where the synchronization event in the network causes GPUs to be idle while waiting for the slowest path through the network to complete.
+In our next SRv6 uSID-SONiC blog we'll explain how SRv6 uSID outperforms traditional ECMP-based fabrics for AI/ML training clusters, where the synchronization event in the network causes GPUs to be idle while waiting for the slowest path through the network to complete. The nature of the traffic (results are synchronous, high-bandwith and long-lived) differs from traditional DC traffic patters (most of it asynchronous, small-bandwidth, and short-lived flows). In this scenario traditional ECMP-based fabrics fail to provide optimal networking.
 <br />
 <hr />
 <span id="1">¹</span> SRv6 uSID is available in SONiC since release 202211. SONiC 202305 provides several scale enhancements for SRv6 VPN and SRv6 Policy.[⏎](#a1)<br>

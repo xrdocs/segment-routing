@@ -31,20 +31,20 @@ feature_key:
 slider_book:
     image_path: images/path-tracing/Goldman_Sachs.png
     title: Goldman Sachs's Technology Fellow and Network Architect Mike Valentine presents Path Tracing at NANOG85
-    url: 'https://www.segment-routing.net/path-tracing/2022-06-08-NANOG85-path-tracing/'
+    url: 'path-tracing/2022-06-08-NANOG85-path-tracing/'
     btn_label: Watch presentation
     class: book-slide
     button_class: plusBookSlides
 slider_quote: 
   - title: Goldman Sachs's Technology Fellow and Network Architect Mike Valentine present Path Tracing at NANOG85
     image_path: images/path-tracing/Goldman_Sachs.png
-    url: 'https://www.segment-routing.net/path-tracing/2022-06-08-NANOG85-path-tracing/'
+    url: 'path-tracing/2022-06-08-NANOG85-path-tracing/'
     btn_label: Watch presentation
     class: quote-slide
     button_class: plusQuoteSlides
   - title: "Ahmed Abdelsalam of Cisco demonstrates Path Tracing: Revealing the Unknowns about ECMP"
     image_path: images/path-tracing/P4-programming-language-logo.png
-    url: 'https://www.segment-routing.net/demos/20220524-P4-PT-demo/'
+    url: 'demos/20220524-P4-PT-demo/'
     btn_label: Watch presentation
     class: quote-slide
     button_class: plusQuoteSlides
@@ -65,10 +65,10 @@ published: true
 Path Tracing allows operators to deterministically monitor ECMP paths. It is implemented in HW at linerate, in the normal forwarding pipeline to report accurate data. 
 Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracing data, correlates it with routing information, and computes key metrics for operators to monitor the health of their network.  
     </div>
-      <a href="{{ 'path-tracing/pt-tutorial' | base_url }}" target="_blank">
+      <a href="{{ 'path-tracing/pt-tutorial' | relative_url }}">
         <button>Tutorial </button>
       </a>
-      <a href="{{ 'path-tracing/pt-demo-ecmp' | base_url }}" target="_blank">
+      <a href="{{ 'path-tracing/pt-demo-ecmp' | relative_url }}">
         <button>Demo </button>
       </a>
   </div>
@@ -81,31 +81,32 @@ Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracin
     <div style="margin-bottom:30px; margin-top:30px; color:#676767" class="section-description-pt-ietf">
 Path Tracing is being standardized by the IETF.
     </div>
-      <a href="https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing/" target="_blank">
+      <a href="https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing/">
         <button>PT in SRv6 networks </button>
       </a>
-      <a href="https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing-srmpls/" target="_blank">
+      <a href="https://datatracker.ietf.org/doc/draft-filsfils-spring-path-tracing-srmpls/">
         <button>PT in SR-MPLS networks </button>
       </a>
   </div>
 </div>
 
-
-<div class="hero-block" style="background-image: url('images/new-design/SR-Background-Image-2.png');">
+{% assign background_image = 'images/new-design/SR-Background-Image-2.png' | relative_url %}
+<div class="hero-block" style="background-image: url('{{ background_image }}');">
   <div class="container">
     <h1 class="large-hero-title">Open-source softwares supporting Path Tracing</h1>
   </div>
 </div>
+{% comment %} This table should have a responsive alternative: flexbox? grid? {% endcomment %}
 <table style="margin-left: auto; margin-right: auto">
   <tr>
-    <td><img src="images/open-software/linux.png" width="300"></td>
-    <td><img src="images/open-software/vpp.png" width="300"></td>
-    <td><img src="images/open-software/sonic.png" width="300"></td>
+    <td><img src="{{ 'images/open-software/linux.png' | relative_url }}" width="300"></td>
+    <td><img src="{{ 'images/open-software/vpp.png' | relative_url }}" width="300"></td>
+    <td><img src="{{ 'images/open-software/sonic.png' | relative_url }}" width="300"></td>
   </tr>
   <tr>
-    <td><img src="images/open-software/p4.png" width="300"></td>
-    <td><img src="images/open-software/tcpdump.jpeg" width="300"></td>
-    <td><img src="images/open-software/wireshark.png" width="300" ></td>
+    <td><img src="{{ 'images/open-software/p4.png' | relative_url }}" width="300"></td>
+    <td><img src="{{ 'images/open-software/tcpdump.jpeg' | relative_url }}" width="300"></td>
+    <td><img src="{{ 'images/open-software/wireshark.png' | relative_url }}" width="300" ></td>
   </tr>
 </table>
 

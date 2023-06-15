@@ -88,7 +88,7 @@ published: true
 <div class="home-notice">
   <div class="container">
       <h4>Explore the state of SRv6 and how it enhances all Segment Routing MPLS capabilities.</h4>
-      <a href="{{ 'srv6-status' | base_url }}" target="_blank">
+      <a href="{{ 'srv6-status' | relative_url }}" target="_blank">
         <button >State of SRv6</button>
       </a>
   </div>
@@ -118,9 +118,9 @@ published: true
     <div class="discover-tech-content-block">
       <h2 class="features-title">Discover <span class="discover-tech-span">SRv6</span></h2>
       <div class="descover-tech-links">
-        <a href="{{ 'srv6-demos' | base_url }}" class="discover-tech-link">Demos <i class="fas fa-arrow-circle-right"></i></a>
-        <a href="{{ 'srv6-tutorials' | base_url }}" class="discover-tech-link">Tutorials <i class="fas fa-arrow-circle-right"></i></a>
-        <a href="{{ 'srv6-news' | base_url }}" class="discover-tech-link">News <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'srv6-demos' | relative_url }}" class="discover-tech-link">Demos <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'srv6-tutorials' | relative_url }}" class="discover-tech-link">Tutorials <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'srv6-news' | relative_url }}" class="discover-tech-link">News <i class="fas fa-arrow-circle-right"></i></a>
       </div>
     </div>
   </div>
@@ -133,9 +133,9 @@ published: true
     <div class="discover-tech-content-block">
       <h2 class="features-title">Discover <span class="discover-tech-span">SR MPLS</span></h2>
       <div class="descover-tech-links">
-        <a href="{{ 'srmpls-demos' | base_url }}" class="discover-tech-link">Demos <i class="fas fa-arrow-circle-right"></i></a>
-        <a href="{{ 'srmpls-tutorials' | base_url }}" class="discover-tech-link">Tutorials <i class="fas fa-arrow-circle-right"></i></a>
-        <a href="{{ 'srmpls-news' | base_url }}" class="discover-tech-link">News <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'srmpls-demos' | relative_url }}" class="discover-tech-link">Demos <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'srmpls-tutorials' | relative_url }}" class="discover-tech-link">Tutorials <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="{{ 'srmpls-news' | relative_url }}" class="discover-tech-link">News <i class="fas fa-arrow-circle-right"></i></a>
       </div>
     </div>
   </div>

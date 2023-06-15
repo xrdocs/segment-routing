@@ -14,7 +14,8 @@
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div class="hero-section" style="background-image: url('images/path-tracing/background-pt-2.png');">
+    {% assign background_image = 'images/path-tracing/background-pt-2.png' | relative_url %}
+    <div class="hero-section" style="background-image: url('{{ background_image }}');">
       <div class="container" style="text-align:center;">
          <h1 class="hero-title" itemprop="headline">
             SRv6 Path Tracing
@@ -32,7 +33,7 @@
           <div id="light">
             <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
             <video id="hero-video" controls preload>
-              <source src="images/path-tracing/video-pitch-rev3a.mp4" type="video/mp4">
+              <source src="{{ 'images/path-tracing/video-pitch-rev3a.mp4' | relative_url }}" type="video/mp4">
             </video>
           </div>
           <div id="fade" onClick="lightbox_close();"></div>

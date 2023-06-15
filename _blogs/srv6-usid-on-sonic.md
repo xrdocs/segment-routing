@@ -18,6 +18,7 @@ div.highlighter-rouge, figure.highlight {
     /*font-family: Monaco,Consolas,"Lucida Console",monospace;*/
     font-family: Consolas,"Lucida Console",monospace;
     /*font-size: 1em;*/
+    letter-spacing: 0;
     line-height: 1.3;
     border: 1px solid #f2f3f3;
     border-radius: 5px;

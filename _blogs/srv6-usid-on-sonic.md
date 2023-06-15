@@ -3,7 +3,7 @@ published: true
 breadnav: true
 date: '2023-06-02 10:00 -0700'
 title: 'Building an SRv6 uSID Data Center Fabric with SONiC'
-author: 'Bruce McDougall, Cisco'
+author: 'Bruce McDougall, Cisco Systems'
 technology: 'SRv6'
 category:
 excerpt: 'Discover how the decoupled architecture of SONiC, combined with SRv6 uSID, offers operational simplicity, unified forwarding, and cost-effectiveness for network deployments. This blog provides insights into the proof-of-concept testing and the potential for highly automated, plug-and-play fabrics in data centers. Explore the configurations, benefits, and real-world examples of SRv6 uSID in SONiC, showcasing its capabilities in traffic engineering and service chaining.'
@@ -40,7 +40,16 @@ a em {
 .highlight .bold {
     font-weight: bold;
 }
+.blog-author {
+    color: #676767;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 0.9em;
+}
 </style>
+
+{: .blog-author}
+Author: {{ page.author }}
 
 **Simplicity always prevails.**
 

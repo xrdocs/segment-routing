@@ -13,5 +13,5 @@ excerpt: >-
   <p class="article-excerpt">
   SRv6 simplifies network management by giving traffic instructions in advance, reducing the need to send data through multiple routers. According to the telco, this is an Australian first.
   </p>
-teaser: images/tpg_logo.png.svg
+teaser: images/tpg_logo.png
 ---

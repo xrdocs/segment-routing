@@ -1,7 +1,7 @@
 ---
 published: true
 breadnav: true
-date: '2023-03-30 00:00 -0700'
+date: '2023-10-04 00:00 -0700'
 title: 'SRv6 uSID Roadshow in Rome, Italy'
 author: 'Cisco team'
 technology: 'SRv6'
@@ -34,8 +34,6 @@ The SRv6 team presented their plan for bringing SRv6 uSID and Integrated Perform
 ![](/images/2023-10-04-pablo-camarillo-srv6-dc-rome_1.jpeg)
 
 ![](/images/2023-10=04-pablo-camarillo-srv6-dc-rome_2.png)
-
-
 
 SRv6 continue to gain momentum in the networking industry as more operators adopt this technology. With the success of the workshop, it is very likely to have more similar event in other regions around the world and again for Europe region. Stay tuned for the upcoming SRv6 events. 
 

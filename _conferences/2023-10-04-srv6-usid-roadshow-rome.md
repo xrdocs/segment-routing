@@ -9,6 +9,8 @@ excerpt: 'SRv6 continue to gain momentum in the networking industry as more oper
 header:
   teaser: '/images/2023-10-04-srv6-usid-roadshow-rome.jpg'
 ---
+SRv6 continue to gain momentum in the networking industry as more operators are adopting the technology. 
+
 After Japan, the Middle-East and NYC, we gathered in Rome with operators to foster SRv6 uSID and Integrated Performance Measurement deployments in Europe.
 With more than 70 attendees representing 30 different EMEA customers, 6 testimonial and a total of 100+ participants we gathered in a magnificent auditorium in the center of Rome for two days of technology updates, TOIs and sharing of customers experiences. Sharing has continued also over the dinner with traditional Roman dishes.
 
@@ -32,8 +34,6 @@ The SRv6 team presented the benefits of bringing SRv6 uSID and Integrated Perfor
 
 ![](/images/2023-10-04-pablo-camarillo-srv6-dc-rome.jpeg)
 *SRv6 team presenting the benefits of bringing SRv6 uSID simplification to the DC* 
-
-SRv6 continue to gain momentum in the networking industry as more operators are adopting the technology. 
 
 With the success of the workshop, it is very likely to have more similar event in other regions around the world and again for Europe region. 
 

@@ -16,7 +16,7 @@ With more than 70 attendees representing 30 different EMEA customers, 6 testimon
 
 After the two days and listening to the testimonials talks, the benefit of SRv6 uSID as unified solution to deliver any kind of service (VPN, TE, FRR, NFV) end-to-end across the various network segments (Core, Metro, DC, NFV, Cloud, Host) was evident. The benefits are always translated into lower cost and higher efficiency and reliability. 
 
-![](/images/2023-10-04-srv6-usid-roadshow-rome.jpg)
+![](/images/2023-10-04-srv6-usid-roadshow-rome.jpg#center)
 *SRv6 uSID Roadshow - Rome, Oct 2023*
  
 ![](/images/2023-10-04-clarence-filsfils-srv6-roadshow-opening.jpeg)

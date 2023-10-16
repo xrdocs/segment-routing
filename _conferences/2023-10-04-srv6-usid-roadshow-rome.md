@@ -21,13 +21,13 @@ After the two days and listening to the testimonials talks, the benefit of SRv6 
 ![](/images/2023-10-04-clarence-filsfils-srv6-roadshow-opening.jpeg#center)
 *Opening session by Clarence Filsfils*
 
-In addition to SRv6 uSID benefits in terms of service creation, the native integration of the measurement capabilities makes it a unique solution. The SRv6 team together Accedian team (now part of Cisco) the Cisco integrated Measurement and Analytics Solution; a game changing solution in the area of network measurements and service and assurance. The solution provides the best scalable, deterministic, and usable platform for visibility and assurance. Stay tuned from more updates on the solution. 
+In addition to SRv6 uSID benefits in terms of service creation, the native integration of the measurement capabilities makes it a unique solution. The SRv6 team together Accedian team (now part of Cisco) the Integrated Performance Measurement (IPM) solution; a game changing solution in the area of network measurements and service and assurance. The solution provides the best scalable, deterministic, and usable platform for visibility and assurance. Stay tuned from more updates on the solution. 
 
 ![](/images/2023-10-04-srv6-team-and-accedian-joint-talk-srv6-usid-roadshow-rome_1.jpg#center)
-*SRv6 and Accedian teams joint talk on Intergrated Performance Measurements (IPM) Solution*
+*SRv6 and Accedian teams joint talk on Intergrated Performance Measurements (IPM) solution*
 
 ![](/images/2023-10-04-srv6-team-and-accedian-joint-talk-srv6-usid-roadshow-rome_2.jpg#center)
-*SRv6 and Accedian teams joint talk on Intergrated Performance Measurements (IPM) Solution*
+*SRv6 and Accedian teams joint talk on Intergrated Performance Measurements (IPM) solution*
 
 The SRv6 team presented the benefits of bringing SRv6 uSID and Integrated Performance Measurements (IPM) simplification to the DC. 
 

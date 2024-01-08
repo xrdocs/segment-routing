@@ -1,4 +1,5 @@
 ---
+published: false
 title: 'CESNET3: Premiere of SRv6 technology in the national research network'
 author: 'CESNET'
 source: 'CESNET Press releases'

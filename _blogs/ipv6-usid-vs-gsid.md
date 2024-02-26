@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2024-02-26 00:00 -0700'
-title: 'Unveiling the Superiority of IPv6 uSID'
+title: 'uSID is the best SRv6 Compression'
 author: 'Cisco team'
 technology: 'SRv6'
 excerpt: 'In networking, the efficiency, flexibility, and scalability of data routing are paramount. Segment Routing over IPv6 (SRv6) stands at the forefront of this evolution, offering innovative solutions for simplifying operations and enhancing network performance. Among these solutions, uSID and GSID represent two compression approaches with distinct characteristics and capabilities. Today, we delve into why IPv6 uSID emerges as the superior choice over GSID, focusing on its advantages in terms of compression efficiency, encapsulation simplicity, flexibility, interoperability, and open-source ecosystem support.'

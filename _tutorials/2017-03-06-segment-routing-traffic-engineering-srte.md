@@ -7,7 +7,7 @@ order: 9
 category: te
 technology: 'SRv6, SRMPLS'
 title: Segment Routing Traffic Engineering (SR-TE)
-pdf2txt: images/tutorials/SRTE_TOI_dev_v20a_EXTERNAL.txt
+pdf2txt: images/tutorials/SRTE_TOI_dev_v20b.txt
 excerpt: >-
   An introduction to the Segment Routing Traffic Engineering (SR-TE) technology.
   See how SR-TE provides a simple, automated, and scalable architecture to
@@ -18,5 +18,5 @@ An introduction to the Segment Routing Traffic Engineering (SR-TE) technology. S
 SR-TE provides lots of functionality. It was designed with lead operators, along their use-cases.
 {: .notice}  
 
-{% include pdf link="/images/tutorials/SRTE_TOI_dev_v20a_EXTERNAL.pdf" %}
+{% include pdf link="/images/tutorials/SRTE_TOI_dev_v20b.pdf" %}
 

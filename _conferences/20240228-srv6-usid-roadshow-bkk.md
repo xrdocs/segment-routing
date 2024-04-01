@@ -13,7 +13,7 @@ header:
 ---
 After Dubai, Tokyo, NYC, and Rome, the SRv6 uSID roadshow got back to Asia to celebrate the many deployments in the region and provide an update on SRv6 uSID and IPM solutions.
 
-The SRv6 uSID solution provides a unified solution across various network segments, outperforming legacy silo solutions. It allows to build stateless end-to-end programs encompassing overlay, underlay and service chaining requirements.
+SRv6 uSID provides a unified solution across various network segments, outperforming legacy silo solutions. It allows to build stateless end-to-end programs encompassing overlay, underlay and service chaining requirements.
 
 The IPM solution provides the scale required to monitor the network experience of all clients  (3 to 4 orders of magnitude higher scale than legacy solutions). It drastically reduces CAPEX and OPEX. It provides richer metrics (latency histograms). It correlates measurement with routing analytics. It provides a formidable opportunity for AI.
 

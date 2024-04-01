@@ -29,13 +29,13 @@ Stay in touch with your Cisco contact for updates on the upcoming events.
 ![](/images/2024-bkk/20240228-bkk-Anup-Changaroth-Cisco-event-opening.JPG#center)
 *Event opening By Anup Changaroth, Cisco Systems Engineering Director.*
 
-![](/images/2024-bkk/20240228-bkk-Clarence-Filsfils-Cisco-uSID-IPM-update.JPG.JPG#center)
+![](/images/2024-bkk/20240228-bkk-Clarence-Filsfils-Cisco-uSID-IPM-update.JPG#center)
 *Clarence Filsfils (Cisco) providing explaining the benefits of the SRv6 uSID and IPM solutions.*
 
 ![](/images/2024-bkk/20240228-bkk-Clarence-Filsfils-Cisco-SRv6-uSID-simplicity.JPG#center)
 *Clarence Filsfils (Cisco) explaining the simplicity of SRv6 uSID.*
 
-![](/images/2024-bkk/220240228-bkk-Ahmed-Abdelsalam-Cisco-IPM-RA.JPG#center)
+![](/images/2024-bkk/20240228-bkk-Ahmed-Abdelsalam-Cisco-IPM-RA.JPG#center)
 *Ahmed Abdelsalam (Cisco) explaining the IPM and Routing Analytics solution.*
 
 ![](/images/2024-bkk/20240228-bkk-Amish-Servansing-Cisco-Accedian-Skylight.JPG#center)

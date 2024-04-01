@@ -42,6 +42,7 @@ Stay in touch with your Cisco contact for updates on the upcoming events.
 *Amish Servansing (Cisco) explaining the Accedian Skylight solution.*
 
 ![](/images/2024-bkk/20240228-bkk-Roy-Jiang-Alibaba-SRv6-uSID-deployment.JPG#center)
+*Roy Jiang (Alibaba) explaining Alibaba’s SRv6 uSID deployment.*
 
 ![](/images/2024-bkk/20240228-bkk-Akash-Agrawal-Rakuten-SRv6-uSID-deployment.JPG#center)
 *Akash Agrawal (Rakuten) explaining Rakuten’s SRv6 uSID deployment and the journey to simplification.*

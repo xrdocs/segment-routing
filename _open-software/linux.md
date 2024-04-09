@@ -1,5 +1,5 @@
 ---
-position: 1
+position: 10
 title: Linux Kernel
 app: false
 breadnav: true

@@ -87,7 +87,7 @@ Presenting a DC uSID design use case, a new state of the art innovation.
 {: .notice}
 
 <div markdown="1">
-#### [Cisco: Cisco: Wavelength Services delivered over IP/MPLS ... Why not?](/conferences/Paris23-Cisco-Christian-Schmutzer)
+#### [Cisco: Wavelength Services delivered over IP/MPLS ... Why not?](/conferences/Paris23-Cisco-Christian-Schmutzer)
 _**Christian Schmutzer** of Cisco Systems_
 {: .indent}
 Discussing service SLA attributes and how technology building blocks such as EVPN-VPWS, PLE, OAM, circuit-style SR-TE, PCE, QoS and protection paradigms can work together to deliver mission critical services in a fundamental new and beneficial way for both the end-customer and the provider.
@@ -96,7 +96,7 @@ Discussing service SLA attributes and how technology building blocks such as EVP
 {: .notice}
 
 ### SRv6 uSID Interoperability Test Report
-EANTC published the results of the annual multi-vendor MPLS SDN interoperability test event. The results were showcased at the MPLS SD & AI World Congress 2023. Detailed descriptions of each test and its results are published in the test report that can be found [**here** (eantc.de)](https://eantc.de/fileadmin/eantc/downloads/events/2023/EANTC-InteropTest2023-TestReport.pdf).
+EANTC published the results of the annual multi-vendor MPLS SDN interoperability test event. The results were showcased at the MPLS SD & AI World Congress 2023. Detailed descriptions of each test and its results are published in the test report that can be found [**here** (eantc.de)](https://eantc.de/events/mpls-sdn-interop-2023/).
 
 {% comment %}
 ### Demonstrations:

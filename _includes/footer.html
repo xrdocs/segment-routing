@@ -3,13 +3,13 @@
     {% if site.data.ui-text[site.locale].contact_label %}
       <h2 class="section-title">{{ site.data.ui-text[site.locale].contact_label }}</h2>
     {% endif %}
-      <a href="https://github.com/segmentrouting" target="_blank"><img src="{{ 'images/github.svg' | relative_url }}" width="60" alt="github icon" class="social-icon"></i></a>
-      <a href="https://segment-routing-net.slack.com/" target="_blank"><img src="{{ 'images/slack-circle.svg' | relative_url }}" width="60" alt="slack icon" class="social-icon"></i></a>
+      <a href="https://github.com/segmentrouting" target="_blank" title="Github"><img src="{{ 'images/github.svg' | relative_url }}" width="60" alt="github icon" class="social-icon"></i></a>
+      <a href="https://segment-routing-net.slack.com/" target="_blank" title="Slack"><img src="{{ 'images/slack-circle.svg' | relative_url }}" width="60" alt="slack icon" class="social-icon"></i></a>
     {% if site.author.email %}
-      <a href="mailto:{{ site.author.email }}" target="_blank"><img src="{{ 'images/email-icon.svg' | relative_url }}" width="60" alt="email icon" class="social-icon"></a>
+      <a href="mailto:{{ site.author.email }}" target="_blank" title="Email"><img src="{{ 'images/email-icon.svg' | relative_url }}" width="60" alt="email icon" class="social-icon"></a>
     {% endif %}
     {% if site.author.twitter %}
-      <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank"><img src="{{ 'images/x-twitter-icon.svg' | relative_url }}" width="60" alt="x-twitter icon" class="social-icon"></i></a>
+      <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" title="X (Twitter)"><img src="{{ 'images/x-twitter-icon.svg' | relative_url }}" width="60" alt="x-twitter icon" class="social-icon"></i></a>
     {% endif %}
     {% if site.facebook.username %}
       <a href="https://facebook.com/{{ site.facebook.username }}" target="_blank"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a>
@@ -21,7 +21,7 @@
       <a href="http://bitbucket.org/{{ site.author.bitbucket }}" target="_blank"><i class="fa fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a>
     {% endif %}
     {% if site.author.linkedin-group %}
-      <a href="https://www.linkedin.com/groups/{{ site.author.linkedin-group }}" target="_blank"><img src="{{ 'images/linkedin-icon.svg' | relative_url }}" width="60" alt="linkedin icon" class="social-icon"></a>
+      <a href="https://www.linkedin.com/groups/{{ site.author.linkedin-group }}" target="_blank" title="LinkedIn"><img src="{{ 'images/linkedin-icon.svg' | relative_url }}" width="60" alt="linkedin icon" class="social-icon"></a>
     {% endif %}
     {% if site.rss_feed %}
       <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" target="_blank"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a>

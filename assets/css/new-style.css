@@ -1645,7 +1645,7 @@ details {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     max-width: 100%;
 }
 .embed-container iframe,.embed-container object,.embed-container embed {

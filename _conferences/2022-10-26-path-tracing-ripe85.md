@@ -17,7 +17,7 @@ Path Tracing allows to have the complete trajectory of the packet at linerate wi
 
 ### Video
 
-{% include video id="mhQ4L8eBd-0" provider="youtube" %}
+{% include video id="mhQ4L8eBd-0?start=10750s" provider="youtube" %}
 
 ### Slides
 

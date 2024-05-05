@@ -71,10 +71,10 @@ Presenting the intricate design experience of an SRv6 uSID Data Center. Explorin
 {: .notice}
 
 <div markdown="1">
-#### [Alibaba: IPv6 SONiC Whitebox Readiness for uSID and IPM](/conferences/Paris24-Alibaba-Eddie-Ruan)
+#### [Alibaba: SONiC Readiness for SRv6 uSID deployment](/conferences/Paris24-Alibaba-Eddie-Ruan)
 _**Eddie Ruan**, Senior Staff Engineer, Alibaba_
 {: .indent}
-Describing Alibaba's journey of building and deploying a whitebox router using SONiC in their new constructed backbone network, equipped with uSID and Integrated Performance Measurement.
+Describing Alibaba's journey of building and deploying a whitebox router using SONiC in their new constructed backbone network, equipped with SRv6 uSID.
 {: .indent}
 </div>
 {: .notice}

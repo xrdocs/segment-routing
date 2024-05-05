@@ -6,9 +6,9 @@ title: 'Path Tracing at RIPE85'
 author: 'Pablo Camarillo'
 technology: 'SRv6, PT'
 excerpt: 'Pablo Camarillo from Cisco presents Path Tracing and Analytics at RIPE85.'
-dummy: 'https://www.youtube.com/watch?v=mhQ4L8eBd-0&list=PLDWsJmznqM9H4E8uN_93vM6HbHFsAP9fD&t=10740s'
+dummy: 'https://www.youtube.com/watch?v=mhQ4L8eBd-0&t=10750s'
 header:
-  teaser: 'images/open-software/linux.png'
+  teaser: 'images/ripe85-logo.png'
 ---
 
 Pablo Camarillo from Cisco presents Path Tracing and Analytics at RIPE85. 

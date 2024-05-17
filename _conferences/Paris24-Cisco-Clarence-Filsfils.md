@@ -5,7 +5,7 @@ date: '2024-04-09 07:00'
 title: 'Cisco: SRv6 uSID and Integrated Performance Measurement'
 author: Segment Routing Team
 technology: 'SRv6'
-excerpt: 'At the MPLS SD & AI Net World Congress in Paris, April 2024, Clarence Filsfils, Cisco Systems, presented "SRv6 Technology Status and Deployment Update"'
+excerpt: 'At the MPLS SD & AI Net World Congress in Paris, April 2024, Clarence Filsfils, Cisco Systems, presented "SRv6 uSID and Integrated Performance Measurement"'
 header:
   teaser: '/images/MPLS-WC-2024/Paris24-Cisco-Clarence-Filsfils-teaser.png'
 ---

@@ -8,7 +8,7 @@ date: 2024-05-25
 eurl: news/2024-05-25-phoenixwing-initiative-kick-off-in-beijing/
 technology: 'SRv6'
 excerpt: >-
-    The PhoenixWing Initiative, launched in Beijing, on May 25th 2024, aims to integrate SRv6 into SONiC platforms, reducing costs and enhancing features. Backed by major tech firms like Alibaba and Cisco, it promises to expand SONiC's network applications and marks a collaborative milestone for the community.
+    The PhoenixWing Initiative, launched in Beijing, on May 25th 2024, aims to integrate SRv6 into SONiC platforms, reducing costs and enhancing features. Backed by major tech firms like Alibaba and Cisco, it promises to expand SONiC's network applications and marks a collaborative milestone for the community. Visit this item to view the endorsement videos.
 teaser: images/2024-05-25-phoenixwing-initiative-kick-off-in-beijing.png
 ---
 <style>
@@ -24,7 +24,7 @@ PhoenixWing will contribute to the SONiC 202411 release, focusing on SRv6 deploy
 
 [Click here to read the SONiC Foundation blog entry (sonicfoundation.dev)](https://sonicfoundation.dev/phoenixwing-initiative-kick-off-in-beijing/).
 
-**Endorsements**
+**Endorsement videos**
 
 Arpit Joshipura from Linux Foundation, Clarence Filsfils from Cisco, Hasan Siraj from Broadcom, Lihua Yuan from Microsoft and Dennis Cai from Alibaba sent endorsement videos to celebrate the kick-off.
 

@@ -77,7 +77,7 @@ In this blog I built the fabric in a fully virtualized fashion. However this is 
 
 The 202305 SONiC release has support for SRv6 uSID (including SAI and FRR)<span id="a1">[¹](#1)</span>. In this POC, our engineering team applied some patches on top of SONiC 202305 to enable the static allocation of the uN and uA functionality. They are in the process of upstreaming the patch to the community. In the meantime, you can find the VS build here: 
 
-[sonic-srv6-vs-rev4.img (2.5GB)](https://onedrive.live.com/download?cid=266D2E4F35D86653&resid=266D2E4F35D86653%21138084&authkey=AN9P9j7tPoEU3iU)
+[sonic-srv6-vs-rev4.img (2.5GB)](https://drive.google.com/file/d/13eNk7xqcD0hMye_A-uYUUb899sl0NAS_/view?usp=sharing)
  
 One of the features I was most excited to test with SONiC was SRv6 over BGP unnumbered. With BGP unnumbered we’re able to establish eBGP peering sessions over IPv6 link-local connections, and thus significantly simplify our router configuration and addressing scheme. For completeness I also built out a ‘numbered’ version of the topology with assigned IPv6 addresses for interfaces and BGP peering sessions, and successfully validated BGP route propagation and SRv6 uSID forwarding through both the unnumbered and numbered fabrics.  
 

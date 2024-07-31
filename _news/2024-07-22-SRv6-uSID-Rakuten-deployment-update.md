@@ -24,7 +24,7 @@ Akash shared the outcome/benefits of the SRv6 uSID deployment which includes:
 
 ### Video
 
-{% include video id="QmQ8VO5ldKA?start=2170s&end=2923s" provider="youtube" %}
+{% include video id="QmQ8VO5ldKA?start=2170&end=2923" provider="youtube" %}
 
 &nbsp;
 

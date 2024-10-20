@@ -70,7 +70,7 @@ slider_book:
     title: Available on Amazon as paperback or Kindle editions.
     excerpt: >-
      Part I by Clarence Filsfils, Kris Michielsen and Ketan Talaulikar walks the reader through the journey that led to the invention Segment Routing. Besides describing the SR functionalities, it also describes the intuition behind the key concepts and explains why it was designed this way.
-    url: 'https://amzn.com/B01I58LSUO'
+    url: 'https://www.amazon.com/dp/B01I58LSUO'
     btn_label: Buy Part I
     class: book-slide
     button_class: plusBookSlides
@@ -78,8 +78,16 @@ slider_book:
     title: Available on Amazon as paperback or Kindle editions.
     excerpt: >-
      Part II by Clarence Filsfils, Kris Michielsen, François Clad and Daniel Voyer explains how Segment Routing has changed the game of Traffic Engineering in Service Provider and Enterprise networks by finding the right balance between distributed intelligence and centralized control.
-    url: 'https://amzn.com/B01I58LSUO'
+    url: 'https://www.amazon.com/dp/B07N13RDM9'
     btn_label: Buy Part II
+    class: book-slide
+    button_class: plusBookSlides
+  - image_path: images/sr-book-part3.jpg
+    title: Available on Amazon as Kindle edition, paperback edition coming soon!
+    excerpt: >-
+     Part III by Clarence Filsfils, Ahmed Abdelsalam, Pablo Camarillo, Francois Clad and Kris Michielsen explains how Segment Routing over IPv6 dataplane (SRv6) emerges as the key enabler of a new era of networking. Integrating the Segment Routing functionalities with the native capabilities of IPv6 to create a self-sufficient solution. This powerful synergy unlocks possibilities for increased network efficiency, enhanced control, and greater versatility, which are critical in modern networking environments.
+    url: 'https://www.amazon.com/dp/B0D6GWWRWH'
+    btn_label: Buy Part III
     class: book-slide
     button_class: plusBookSlides
 

@@ -20,4 +20,13 @@ We had the opportunity to listen to the SRv6 uSID & IPM deployment experience of
 
 ## Sessions recording 
 
-The Sessions recording will be posted soon. stay tuned! 
+**Akash Agrawal (Rakuten)** presents "Rakuten - SRv6 journey and experience".
+
+{% include video id="P3SOYuX0oTI" provider="youtube" %}
+
+
+<br>
+
+**Sonia Ben Ayed (Cisco)** presents the "IP Measurements (IPM)" technology.
+
+{% include video id="-JYr7XdcOuk" provider="youtube" %}

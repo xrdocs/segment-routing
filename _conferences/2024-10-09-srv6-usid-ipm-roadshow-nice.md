@@ -15,7 +15,7 @@ We convened for two days in Nice, France to share the latest updates on the SRv6
 
 We had the opportunity to listen to the SRv6 uSID & IPM deployment experience of many operators including Alibaba, Arelion, Bell Canada, Colt, Goldman Sachs. Rakuten, Rijkswaterstaat, Softbank, Swisscom, TPG Telecom.
 
-![](/images/2024-10-09-srv6-usid-ipm-roadshow-nice-thumbnail.jpeg)
+![](/images/2024-10-09-srv6-usid-ipm-roadshow-nice.jpeg)
 
 
 ## Sessions recording 

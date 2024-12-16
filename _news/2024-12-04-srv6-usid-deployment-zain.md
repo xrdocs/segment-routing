@@ -18,6 +18,8 @@ With SRv6, Zain Kuwait is revolutionizing its network, delivering end-to-end sol
 
 Looking ahead, Zain Kuwait plans to expand SRv6 to additional sites and adopt Cisco’s latest innovations in automation and assurance.
 
+![](/images/20241204-menog-zain-kuwait-1.jpeg)
+
 ### Slides
 
 {% include pdf link="/images/20241204-SRv6-uSID-MENOG.pdf" %}

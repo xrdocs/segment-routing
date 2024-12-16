@@ -2,14 +2,15 @@
 title: >-
   Celebrating Zain Kuwait's SRv6 Deployment
 author: 'Cisco'
-source-url: news/2024-12-04-SRv6-deployment-zain-kuwait/
+source-url: news/2024-12-04-srv6-usid-deployment-zain/
 date: 2024-12-04
-eurl: news/2024-12-04-SRv6-deployment-zain-kuwait/
+eurl: news/2024-12-04-srv6-usid-deployment-zain/
 technology: 'SRv6'
 excerpt: >-
     At MENOG24, Omar AlSharad from Zain Kuwait joined Clarence Filsfils to announce the successful deployment of SRv6. This milestone marks the successful completion of the first phase of one of the region's flagship SRv6 deployment.
 teaser: '/images/20241204-menog-zain-kuwait-1.jpeg'
 ---
+
 At MENOG24, Omar AlSharad from Zain Kuwait joined Clarence Filsfils to announce the successful deployment of SRv6. 
 This milestone marks the successful completion of the first phase of one of the region's flagship SRv6 deployment.
 

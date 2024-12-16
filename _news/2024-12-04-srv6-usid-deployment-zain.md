@@ -4,6 +4,7 @@ breadnav: true
 date: '2024-12-04 00:00 -0700'
 title: 'Celebrating Zain Kuwait's SRv6 Deployment'
 author: 'Cisco'
+eurl: news/2024-12-04-SRv6-deployment-zain-kuwait/
 technology: 'SRv6'
 excerpt: 'At MENOG24, Omar AlSharad from Zain Kuwait joined Clarence Filsfils to announce the successful deployment of SRv6. This milestone marks the successful completion of the first phase of one of the region's flagship SRv6 deployment.'
 header:

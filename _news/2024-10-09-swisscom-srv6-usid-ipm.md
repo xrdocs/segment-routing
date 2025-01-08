@@ -18,6 +18,6 @@ Rolf Schmid (Architect of IP Transport Networks at Swisscom) explained the TITAN
 
 Rolf explained the ECMP nature of the TITAN Network and how the IPM solution help them to measure the Latency, Loss and Liveness for all ECMP Paths. Swisscom did a PoC of IPM in their lab and as a next step they will do a trail of IPM in their production network.
 
-### Recording
+&nbsp;
 
 {% include video id="1Z1vuSWp7gM" provider="youtube" %}

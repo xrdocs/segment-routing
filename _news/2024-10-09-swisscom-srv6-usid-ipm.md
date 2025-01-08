@@ -2,9 +2,9 @@
 title: >-
   Swisscom Greenfield SRv6 uSID Network. 
 author: Swisscom
-source-url: news/2024-10-09-swisscom-usid-ipm/
+source-url: news/2024-10-09-swisscom-srv6-usid-ipm/
 date: 2024-10-09
-eurl: news/2024-10-09-swisscom-usid-ipm/
+eurl: news/2024-10-09-swisscom-srv6-usid-ipm/
 technology: 'SRv6'
 excerpt: >-
     Rolf Schmid (Architect of IP Transport Networks at Swisscom) explained the TITAN Network design based on SRv6. He highlighted the benefits of deploying the SRv6 technology at Swisscom in terms of simplicity, scale, reliability. 

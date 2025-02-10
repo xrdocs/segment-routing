@@ -8,7 +8,7 @@ eurl: news/2024-12-04-srv6-usid-deployment-zain/
 technology: 'SRv6'
 excerpt: >-
     At MENOG24, Omar AlSharad from Zain Kuwait joined Clarence Filsfils to announce the successful deployment of SRv6. This milestone marks the successful completion of the first phase of one of the region's flagship SRv6 deployment.
-teaser: '/images/20241204-menog-zain-kuwait-1.jpeg'
+teaser: '/images/20241204-menog-zain-kuwait-1-thumbnail.jpeg'
 ---
 
 At MENOG24, Omar AlSharad from Zain Kuwait joined Clarence Filsfils to announce the successful deployment of SRv6. 
@@ -28,6 +28,6 @@ Looking ahead, Zain Kuwait plans to expand SRv6 to additional sites and adopt Ci
 
 ### Video
 
-coming soon. Stay tuned! 
+{% include video id="ZPacM_yFr78" provider="youtube" %}
 
 

@@ -25,7 +25,7 @@ header:
 }
 </style>
 
-At Cisco Live 2025 in Amsterdam, multiple sessions explored various SRv6 uSID topics. Discover the free collection of on-demand sessions at the [Cisco Live On-Demand Library](https://www.ciscolive.com/on-demand/on-demand-library.html).
+At the Cisco Live 2025 event in Amsterdam, multiple sessions explored various SRv6 uSID topics. Discover the free collection of on-demand sessions at the [Cisco Live On-Demand Library](https://www.ciscolive.com/on-demand/on-demand-library.html).
 
 In one of the sessions, **Alexey Gorovoy of [Nebius](https://nebius.com)**, presented their SRv6 design case study: “SRv6 uSID DC Frontend to Peering”, explaining how SRv6 provides simplicity and unification, building a bridge from the Cloud Gateway to the Internet Border, all the way across the data center and WAN domains.
 
@@ -36,6 +36,8 @@ In one of the sessions, **Alexey Gorovoy of [Nebius](https://nebius.com)**, pres
 </div>
 {: .notice}
 
+The full session can be found in [the free Cisco Live on-demand library, seach for BRKSPG-3198](https://www.ciscolive.com/on-demand/on-demand-library.html?search=BRKSPG-3198&search.event=1737762187215001jsy4#/).
+
 ## Session presentation extract 
 
 {% include pdf link="/images/20250213-CLEUR_BRKSPG-3198-nebius.pdf" %}
@@ -44,5 +46,5 @@ In one of the sessions, **Alexey Gorovoy of [Nebius](https://nebius.com)**, pres
 
 ## Session video extract
 
-Coming soon!
+{% include video id="ZZWkxbS-QXo" provider="youtube" %}
 

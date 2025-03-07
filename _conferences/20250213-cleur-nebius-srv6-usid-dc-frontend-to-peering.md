@@ -27,16 +27,7 @@ header:
 
 At the Cisco Live 2025 event in Amsterdam, multiple sessions explored various SRv6 uSID topics. Discover the free collection of on-demand sessions at the [Cisco Live On-Demand Library](https://www.ciscolive.com/on-demand/on-demand-library.html).
 
-In one of the sessions, **Alexey Gorovoy of [Nebius](https://nebius.com)**, presented their SRv6 design case study: “SRv6 uSID DC Frontend to Peering”, explaining how SRv6 provides simplicity and unification, building a bridge from the Cloud Gateway to the Internet Border, all the way across the data center and WAN domains.
-
-[In his LinkedIn post](https://www.linkedin.com/posts/alexey-gorovoy_srv6-nebius-ugcPost-7300446546645385216-k-Tv), Alexey writes:
-<div markdown="1">
-“As SRv6 was initially designed for Service Providers, it’s been mainly adopted in big telco networks. Nebius was among the first cloud providers who came up with a unique use case - applying SRv6 in the cloud environment and extending it to the physical WAN network. This will help us build a bridge from the Cloud Gateway to the Internet Border, all the way across the data center and WAN domains. Plus, SRv6’s native traffic engineering capabilities allow us to build efficient service chains, including our in-house developed firewall and other network virtual functions. Along with some other cloud providers and hyperscalers, Nebius is on the edge of the network design evolution applying with SRv6.”
-{: .indent}
-</div>
-{: .notice}
-
-The full session can be found in [the free Cisco Live on-demand library, seach for BRKSPG-3198](https://www.ciscolive.com/on-demand/on-demand-library.html?search=BRKSPG-3198&search.event=1737762187215001jsy4#/).
+At Cisco Live Europe 2025, **Alexey Gorovoy of [Nebius](https://nebius.com)**, presented their SRv6 design case study: “SRv6 uSID DC Frontend to Peering”, explaining how SRv6 provides simplicity and unification, building a bridge from the Cloud Gateway to the Internet Border, all the way across the data center and WAN domains.
 
 ## Session presentation extract 
 
@@ -48,3 +39,11 @@ The full session can be found in [the free Cisco Live on-demand library, seach f
 
 {% include video id="ZZWkxbS-QXo" provider="youtube" %}
 
+[In his LinkedIn post](https://www.linkedin.com/posts/alexey-gorovoy_srv6-nebius-ugcPost-7300446546645385216-k-Tv), Alexey writes:
+<div markdown="1">
+“As SRv6 was initially designed for Service Providers, it’s been mainly adopted in big telco networks. Nebius was among the first cloud providers who came up with a unique use case - applying SRv6 in the cloud environment and extending it to the physical WAN network. This will help us build a bridge from the Cloud Gateway to the Internet Border, all the way across the data center and WAN domains. Plus, SRv6’s native traffic engineering capabilities allow us to build efficient service chains, including our in-house developed firewall and other network virtual functions. Along with some other cloud providers and hyperscalers, Nebius is on the edge of the network design evolution applying with SRv6.”
+{: .indent}
+</div>
+{: .notice}
+
+The full session can be found in [the free Cisco Live on-demand library, seach for BRKSPG-3198](https://www.ciscolive.com/on-demand/on-demand-library.html?search=BRKSPG-3198&search.event=1737762187215001jsy4#/).

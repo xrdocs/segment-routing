@@ -12,7 +12,7 @@ excerpt: >-
   - The synergy of SRv6 and Cisco Routed Optical Networking will provide Rakuten Mobile with unmatched operational flexibility, network simplicity, speed-to-market and a path to profitability.<br/>
   - Cisco Customer Experience (CX) will manage the architecture design for the network enhancements to help Rakuten Mobile speed time to market with new services and applications.
 
-teaser: /images/rakuten-mobile-logo-1line.jpg
+teaser: /images/rakuten-mobile-logo.jpg
 ---
 
 

@@ -19,22 +19,24 @@ Puneet Garg, CTO, Reliance Jio:
 <div markdown="1">
 “Cisco has been instrumental in advancing our business objectives through strategic partnerships and
 reshaping our future state architecture. This collaboration supports our vision of connecting 100
-million homes and 600 million mobile and enterprise customers. With Agile Services Networking—
-encompassing comprehensive SRv6, an expanding network of edge data centers, and cloud-native
-BNG, all seamlessly integrated with an AI-enabled automation framework—we are equipped with the
-future-proof IP network architecture needed to manage the anticipate four-fold increase in traffic.”
+million homes and 600 million mobile and enterprise customers. With <strong>Agile Services Networking—
+encompassing comprehensive SRv6</strong>, an expanding network of edge data centers, and cloud-native
+BNG, all seamlessly integrated with an AI-enabled automation framework— <strong>we are equipped with the
+future-proof IP network architecture needed to manage the anticipate four-fold increase in traffic.</strong>”
 {: .indent}
 </div>
+{: .notice}
 
 <br />
 Dariusz Solowiej, VP Network Technology & Customer Operations, Arelion:
 <div markdown="1">
 “Sustainability is always top of mind, so we are pleased to continue our innovation partnership with
 Cisco and leverage new Cisco 8000 Series solutions based on the Silicon One P100 device that can
-help us meet net zero goals. Simplifying networks through convergence with power-efficient
-platforms that can support 800G, segment routing with SRv6, and assurance will help us build future-proof networks for high-quality experiences for our customers in a sustainable way.”
+help us meet net zero goals. <strong>Simplifying networks through convergence with power-efficient
+platforms that can support 800G, segment routing with SRv6, and assurance will help us build future-proof networks</strong> for high-quality experiences for our customers in a sustainable way.”
 {: .indent}
 </div>
+{: .notice}
 
 <br />
 Markus Reber, Executive Vice President of Networks, Swisscom:
@@ -42,11 +44,12 @@ Markus Reber, Executive Vice President of Networks, Swisscom:
 “Historically we had separate IP networks for our services which resulted in complexity in delivering
 the best experiences for our clients. We partnered with Cisco, adopting their Agile Services
 Networking architecture from end-to-end and implementing Silicon One based 8000 series routers,
-which perfectly aligned with our sustainability and business goals. In our journey so far, we have been
+which perfectly aligned with our sustainability and business goals. In our journey so far, <strong>we have been
 able to converge 20 MPLS networks into 1 SRv6 network with an astounding 50% reduction in
-power.”
+power</strong>.”
 {: .indent}
 </div>
+{: .notice}
 
 <br />
 

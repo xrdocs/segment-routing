@@ -10,6 +10,21 @@ excerpt: >-
     At Mobile World Congress 2025, Jio Platforms Limited (JPL), along with AMD, Cisco, and Nokia, plans to build an Open Telecom AI Platform to redefine telecom operations with cutting-edge AI integration. A significant component of this initiative is Cisco's Agile Services Networking, which features comprehensive SRv6 technology.
 teaser: '/images/2025-03-03-open-telecom-ai-platform-thumbnail.jpg'
 ---
+<style>
+.indent {
+    padding-left: 2em;
+}
+.notice {
+    margin: 2em 0 !important;
+    padding: 1em;
+    /* color: #3d4144; */
+    /* font-size: .75em !important; */
+    /* text-indent: initial; */
+    background-color: #f2f3f3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(189,193,196,0.25);
+}
+</style>
 
 At Mobile World Congress 2025, Jio Platforms Limited (JPL), along with AMD, Cisco, and Nokia, plans to build an Open Telecom AI Platform to redefine telecom operations with cutting-edge AI integration. A significant component of this initiative is Cisco's Agile Services Networking, which features comprehensive SRv6 technology.
 

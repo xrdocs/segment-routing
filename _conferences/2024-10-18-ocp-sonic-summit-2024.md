@@ -7,7 +7,7 @@ author: 'Cisco team'
 technology: 'SRv6'
 excerpt: 'At the OCP SONiC Summit 2024, Ahmed Abdelsalam of Cisco Systems presented “IP Measurements”'
 header:
-  teaser: '/images/2024-10-18-ocp-sonic-summit-2024-teaser.png'
+  teaser: 'https://img.youtube.com/vi/mOM_Bc9SaqQ/mqdefault.jpg'
 ---
 
 At the OCP SONiC Summit 2024, co-located at OCP Global Summit, **Ahmed Abdelsalam** of Cisco Systems presented “IP Measurements.”
@@ -33,5 +33,5 @@ In this presentation we review the IPM solution and provide an update on the SAI
 
 ### Video
 
-[<img src="/images/2024-10-18-ocp-sonic-summit-2024.png">](https://www.youtube.com/live/1X17yj-NUbQ?start=15119)
+{% include video id="mOM_Bc9SaqQ" provider="youtube" %}
 

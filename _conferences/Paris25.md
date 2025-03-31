@@ -53,6 +53,14 @@ Clarence emphasizes the importance of collaboration with lead operators and intr
 #### [Microsoft: SONiC for AI with SRv6](/conferences/Paris25-Microsoft-Rita-Hui)
 _**Rita Hui**, Principal Software Engineering Manager, Microsoft_
 {: .indent}
+This presentation discusses the use of SONiC, an open-source network operating system, in AI environments using SRv6. SONiC is crucial for Microsoft's global Data Centers, ensuring high availability and efficiency for services like Bing and Office 365, as well as hosting applications on the Azure cloud platform. The Data Center topology includes rack-level switches, tier switches, and spines connected through a redundant mesh.
+{: .indent}
+
+With AI workloads requiring massive data, SONiC's SRv6 implementation facilitates efficient traffic management via source routing, path enumeration, and failure detection at the source. This setup ensures scalable, reliable, and low-latency networks capable of supporting AI training clusters. SONiC contributions include static SRv6 uSID configurations and locator support, enhancing control over traffic flows without dynamic routing protocols.
+{: .indent}
+
+The server side utilizes SmartNICs to manage point-to-point data transactions between GPUs during AI training. SONiC's adaptability allows for expanding network capacity without altering fundamental designs.
+{: .indent}
 </div>
 {: .notice}
 
@@ -103,6 +111,11 @@ This journey involves collaboration with vendors and internal teams, aiming for 
 <div markdown="1">
 #### [Rakuten: Guaranteed bandwidth services with SRv6 policy for deterministic networking](/conferences/Paris25-Rakuten-Akash-Agrawal)
 _**Akash Agrawal**, Technical Director, Rakuten_
+{: .indent}
+This presentation discusses Rakuten Mobile's SRv6 deployment journey, focusing on transforming their IP transport network in Japan into a simpler, scalable, and agile architecture. Rakuten Mobile achieved this by migrating to an overlay architecture with SRv6, improving network efficiency and offering differentiated SLA services. Notable improvements include significant reductions in routing inefficiencies, enhanced IGP scale, faster convergence, and a decrease in site flaps.
+{: .indent}
+
+This year, Rakuten Mobile introduces new services with low latency, high reliability, and high bandwidth using Flex Algo and QoS, managed by centralized SDN controllers. They are also developing a cloud SD-WAN with Cisco to enable rich connectivity for enterprise customers. A key focus is on guaranteed bandwidth services, using resource isolation, bandwidth reservation, and a bandwidth manager to ensure strict paths and avoid oversubscription.
 {: .indent}
 </div>
 {: .notice}

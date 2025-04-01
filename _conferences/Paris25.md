@@ -80,6 +80,11 @@ SRv6 addresses these challenges by enabling efficient bridging of data center an
 #### [Swisscom: TITAN: SRv6 uSID and IPM at Swisscom](/conferences/Paris25-Swisscom-Rolf-Schmid)
 _**Rolf Schmid**, Senior System Architect for IP Transport Networks, Swisscom_
 {: .indent}
+This presentation introduces the Titan network, Swisscom's new converged IP transport network built on SRv6 and uSIDs. Swisscom, a leader in the Swiss telco market known for innovation and sustainability, is transitioning from a complex network landscape with multiple suppliers to a simplified, unified network with Cisco as the strategic supplier. The new network aims to standardize services, offer them through APIs, and implement network as a service with robust telemetry for monitoring.
+{: .indent}
+
+Titan features a dual core plane for high availability, using SRv6 for efficient traffic engineering and address summarization, reducing locators and enhancing convergence. Swisscom is conducting IPM testing for path performance measurement, leveraging Cisco's hardware-based solution for scalability and ECMP awareness. The next steps include a trial in the Titan production network, furthering Swisscom's efforts to maintain its leadership in network quality and innovation.
+{: .indent}
 </div>
 {: .notice}
 

@@ -129,6 +129,14 @@ This year, Rakuten Mobile introduces new services with low latency, high reliabi
 #### [SoftBank: SRv6 MUP, an architecture implementation update progress](/conferences/Paris25-SoftBank-Satoru-Matsushima)
 _**Satoru Matsushima**, Technical Meister, SoftBank_
 {: .indent}
+This presentation provides updates on SRv6 MUP, a solution optimizing the user plane of mobile networks without altering the existing 5G architecture. SRv6 MUP supports seamless end-to-end slicing and has been implemented in commercial deployments with interoperability across various platforms.
+{: .indent}
+
+A notable field trial involved a live music festival in Japan, where musicians performed a remote ensemble via a 5G network using SRv6 MUP, demonstrating significantly reduced latency compared to non-MUP setups. Another use case involved Multi-access Edge Computing (MEC) application deployment on highways, utilizing AI dash cams that operate efficiently even in challenging environments like tunnels.
+{: .indent}
+
+MUP's capabilities allow for reduced latency and simplified deployment of MEC applications without complex 5G core setups.
+{: .indent}
 </div>
 {: .notice}
 

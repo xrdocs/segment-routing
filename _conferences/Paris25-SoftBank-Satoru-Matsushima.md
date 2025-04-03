@@ -11,3 +11,14 @@ header:
 ---
 **Satoru Matsushima** of SoftBank presented “SRv6 MUP, an architecture implementation update progress” at the [**MPLS SRv6 WC 2025** (uppersideconferences.com)](https://www.uppersideconferences.com/mpls-sdn-nfv/mplswc_2025_agenda.html), March 2025 in Paris.
 
+{% comment %}
+### Video
+
+{% include video id="XXXX" provider="youtube" %}
+{% endcomment %}
+
+&nbsp;
+
+### Slides
+
+{% include pdf link="/images/MPLS-SRv6-WC-2025/POST_MATSUSHIMA-MPLSWC2025-SRv6MUP-SoftBank-srnet.pdf" %}

@@ -1,7 +1,7 @@
 ---
 title: "SRv6Pipes: Enabling in-network bytestream functions"
 authors: Fabien Duchene, David Lebrun and Olivier Bonaventure
-publisher: Computer Communications
+publisher: Computer Communications (COMCOM)
 location:
 month: 9
 year: 2019

@@ -1,7 +1,7 @@
 ---
 title: "Exploring various use cases for IPv6 Segment Routing"
 authors: 	Fabien Duchene, Mathieu Jadin and Olivier Bonaventure
-publisher: ACM SIGCOMM Posters and Demos
+publisher: ACM Conference on Special Interest Group on Data Communication (SIGCOMM) Posters and Demos
 location: Budapest, Hungary
 month: 8
 year: 2018

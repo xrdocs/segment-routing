@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Service Programming with Path Preprocessing"
 authors: Julian Klaiber, Severin Dellsperger, Laurent Metzger, Ahmed Abdelsalam, Francois Clad
-publisher: 17th International Conference on Network and Service Management (CNSM)
+publisher: International Conference on Network and Service Management (CNSM)
 location: Izmir, Turkey
 month: 10
 year: 2021

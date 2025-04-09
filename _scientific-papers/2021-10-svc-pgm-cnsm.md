@@ -6,5 +6,4 @@ location: Izmir, Turkey
 month: 10
 year: 2021
 doi: 10.23919/CNSM52442.2021.9615567
-eurl: https://ieeexplore.ieee.org/document/9615567
 ---

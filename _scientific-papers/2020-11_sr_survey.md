@@ -5,5 +5,5 @@ publisher: IEEE Communications Surveys & Tutorials
 location: 
 month: 11
 year: 2020
-eurl: https://ieeexplore.ieee.org/document/9253580
+doi: 10.1109/COMST.2020.3036826
 ---

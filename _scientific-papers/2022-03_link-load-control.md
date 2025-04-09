@@ -5,5 +5,5 @@ publisher: Conference on Innovation in Clouds, Internet and Networks (ICIN)
 location: Paris, France
 month: 4
 year: 2022
-eurl: https://noms2022.ieee-noms.org/program/short-and-poster-sessions
+doi: 10.1109/ICIN53892.2022.9758091
 ---

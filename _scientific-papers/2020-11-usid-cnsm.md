@@ -6,5 +6,4 @@ location:
 month: 11
 year: 2020
 doi: 10.23919/CNSM50824.2020.9269075
-eurl: https://ieeexplore.ieee.org/document/9269075
 ---

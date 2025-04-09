@@ -5,5 +5,5 @@ publisher: IEEE/IFIP Network Operations and Management Symposium (NOMS)
 location: Budapest, Hungary
 month: 4
 year: 2022
-eurl: https://noms2022.ieee-noms.org/program/short-and-poster-sessions
+doi: 10.1109/NOMS54207.2022.9789941
 ---

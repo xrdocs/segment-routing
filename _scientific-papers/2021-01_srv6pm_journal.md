@@ -5,5 +5,5 @@ publisher: IEEE Transactions on Network and Service Management (TNSM)
 location:
 month: 1
 year: 2021
-eurl: https://ieeexplore.ieee.org/document/9328539
+doi: 10.1109/TNSM.2021.3052603
 ---

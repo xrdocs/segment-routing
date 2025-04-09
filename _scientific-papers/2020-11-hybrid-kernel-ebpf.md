@@ -5,5 +5,5 @@ publisher: Computer Networks (COMNET) special issue on Hybrid IP/SDN network
 location: 
 month: 11
 year: 2020
-eurl: http://netgroup.uniroma2.it/Stefano_Salsano/papers/20-srv6-hybrid-sdn-hike.pdf
+doi: 10.1016/j.comnet.2020.107705
 ---

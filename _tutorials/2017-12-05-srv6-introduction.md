@@ -5,7 +5,7 @@ breadnav: true
 date: '2017-12-05 22:03 +0100'
 order: 99
 category: srv6
-technology: 'SRv6'
+technology: ''
 pdf2txt: images/tutorials/SRv6-TOI-rev3i-EXTERNAL.txt
 title: SRv6 Introduction
 ---

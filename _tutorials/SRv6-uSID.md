@@ -6,6 +6,7 @@ date: '2022-04-04 22:03 +0100'
 order: 10
 category: srv6
 technology: 'SRv6'
+pdf2txt: images/tutorials/SRv6_intro_v3k.txt
 title: 'Introduction to SRv6 uSID Technology'
 ---
 

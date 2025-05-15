@@ -1,0 +1,124 @@
+---
+layout: archive-full
+permalink: /ietf3
+regenerate: true
+hero-image: images/new-design/SR-Background-Image-2.png
+title: "IETF"
+type: "IETF"
+description: "Segment Routing is being standardized by the IETF.
+<b>The architecture and use-cases are handled in the SPRING working group.</b>
+Protocol extensions are handled in their specific protocol working group (ISIS, OSPF, IDR, PCEP, 6MAN)."
+---
+
+{% include base_path %}
+{% assign articles = site.data.ietf3["documents"] %}
+<div class="container accordion">
+  <details open>
+    <summary>Architecture</summary>
+    {% assign tag = "architecture" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details open>
+    <summary>SRv6</summary>
+    {% assign tag = "srv6" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>SR-MPLS</summary>
+    {% assign tag = "srmpls" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>Use-Cases and Requirements</summary>
+    {% assign tag = "usecase" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>Deployments and Interoperability</summary>
+    {% assign tag = "deployment" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>Fast Reroute (FRR)</summary>
+    {% assign tag = "frr" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>Network Resource Partitioning</summary>
+    {% assign tag = "etwork-partition" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>Performance Measurement</summary>
+    {% assign tag = "pm" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>OAM</summary>
+    {% assign tag = "oam" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>Path Tracing</summary>
+    {% assign tag = "pt" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>Service Programming</summary>
+    {% assign tag = "service-program" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>BGP</summary>
+    {% assign tag = "bgp" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>BGP-LS</summary>
+    {% assign tag = "bgp-ls" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>IS-IS</summary>
+    {% assign tag = "isis" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>OSPF</summary>
+    {% assign tag = "ospf" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>PCEP</summary>
+    {% assign tag = "pcep" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>Replication</summary>
+    {% assign tag = "mcast" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+  <details>
+    <summary>Yang models</summary>
+    {% assign tag = "yang" %}
+    {% include accordion_section.html tag=tag articles=articles %}
+  </details>
+
+</div>

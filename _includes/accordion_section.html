@@ -1,0 +1,32 @@
+{% comment %}
+  Parameters:
+    - tag: The tag to filter entries by
+    - articles: The articles
+{% endcomment %}
+
+{% assign filtered_articles = articles | where_exp: "post", "post.tags contains tag" %}
+
+{% assign rfc_articles = filtered_articles | where_exp: "post", "post.status contains 'RFC'" %}
+{% assign wg_documents = filtered_articles | where: "status", "WG Document" %}
+{% assign draft_articles = filtered_articles | where: "status", "Draft" %}
+{% assign 3gpp_articles = filtered_articles | where: "status", "3GPP Study Item" %}
+{% assign other_articles = draft_articles | concat: 3gpp_articles %}
+
+{% assign sorted_rfc_articles = rfc_articles | sort: "status" %}
+{% for post in sorted_rfc_articles %}
+  <div>
+    {% include rfc_list %}
+  </div>
+{% endfor %}
+
+{% for post in wg_documents %}
+  <div>
+    {% include rfc_list %}
+  </div>
+{% endfor %}
+
+{% for post in other_articles %}
+  <div>
+    {% include rfc_list %}
+  </div>
+{% endfor %}

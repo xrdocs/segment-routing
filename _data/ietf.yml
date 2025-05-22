@@ -112,6 +112,8 @@ list_usecases:
   - title: Circuit Style Segment Routing Policy
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-cs-sr-policy/
     status: WG Document
+
+list_aidc:
   - title: SRv6 for Deterministic Path Placement in AI Backends
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-ai-backend/
     status: Draft

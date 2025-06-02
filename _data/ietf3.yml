@@ -11,7 +11,7 @@ documents:
   - title: Segment Routing Policy Architecture
     url: https://datatracker.ietf.org/doc/rfc9256/
     status: RFC 9256
-    tags: "architecture"
+    tags: "architecture,srte"
     #  - title: SR Policy Implementation and Deployment Considerations
     #    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-sr-policy-considerations/
     #    status: Draft
@@ -30,15 +30,15 @@ documents:
   - title: SRv6 BGP based Overlay services
     url: https://datatracker.ietf.org/doc/rfc9252/
     status: RFC 9252
-    tags: "srv6"
+    tags: "srv6,bgp"
   - title: IS-IS Extensions to Support Segment Routing over the IPv6 Data Plane
     url: https://datatracker.ietf.org/doc/rfc9352/
     status: RFC 9352
-    tags: "srv6"
+    tags: "srv6,isis"
   - title: Operations, Administration, and Maintenance (OAM) in Segment Routing Networks with IPv6 Data plane (SRv6)
     url: https://datatracker.ietf.org/doc/rfc9259/
     status: RFC 9259
-    tags: "srv6"
+    tags: "srv6,oam"
   - title: Compressed SRv6 Segment List Encoding (CSID)
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-srv6-srh-compression/
     status: WG Document
@@ -139,7 +139,12 @@ documents:
   - title: Circuit Style Segment Routing Policy
     url: https://datatracker.ietf.org/doc/draft-ietf-spring-cs-sr-policy/
     status: WG Document
+    tags: "usecase,srte"
+  - title: Lightweight Host Routing using LLDP
+    url: https://datatracker.ietf.org/doc/draft-filsfils-rtgwg-lightweight-host-routing/
+    status: Draft
     tags: "usecase"
+
   - title: SRv6 for Deterministic Path Placement in AI Backends
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-ai-backend/
     status: Draft
@@ -157,11 +162,11 @@ documents:
   - title: Topology Independent Fast Reroute using Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ietf-rtgwg-segment-routing-ti-lfa/
     status: WG Document
-    tags: "frr"
+    tags: "frr,isis,ospf"
   - title: Loop avoidance using Segment Routing
     url: https://datatracker.ietf.org/doc/draft-bashandy-rtgwg-segment-routing-uloop/
     status: Draft
-    tags: "frr"
+    tags: "frr,isis,ospf"
 
   - title: Building blocks for Network Slice Realization in Segment Routing Network
     url: https://datatracker.ietf.org/doc/draft-ali-teas-spring-ns-building-blocks/
@@ -202,6 +207,18 @@ documents:
     tags: "pm"
   - title: Simple Two-Way Direct Loss Measurement Procedure
     url: https://datatracker.ietf.org/doc/draft-gandhi-ippm-simple-direct-loss/
+    status: Draft
+    tags: "pm"
+  - title: Simple Two-Way Active Measurement Protocol (STAMP) Extensions for Reflecting STAMP Packet Headers
+    url: https://datatracker.ietf.org/doc/draft-ietf-ippm-stamp-ext-hdr/
+    status: WG Document
+    tags: "pm"
+  - title: Encapsulation of Simple Two-Way Active Measurement Protocol for Pseudowires and LSPs in MPLS Networks
+    url: https://datatracker.ietf.org/doc/draft-ietf-mpls-stamp-pw/
+    status: WG Document
+    tags: "pm"
+  - title: Simple Two-Way Active Measurement Protocol (STAMP) Extensions for Bit Error Detection and Bit Error Rate Measurement
+    url: https://datatracker.ietf.org/doc/draft-gandhi-ippm-stamp-ber/
     status: Draft
     tags: "pm"
 
@@ -276,6 +293,22 @@ documents:
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-segment-routing-te-policy/
     status: WG Document
     tags: "bgp"
+  - title: Segment Routing BGP Egress Peer Engineering over Layer 2 Bundle Members
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-sr-epe-over-l2bundle/
+    status: WG Document
+    tags: "bgp"
+  - title: Segment Routing over IPv6 Argument Signaling for BGP Services
+    url: https://datatracker.ietf.org/doc/draft-ietf-bess-bgp-srv6-args/
+    status: WG Document
+    tags: "bgp"
+  - title: BGP Colored Prefix Routing (CPR) for Services Based on Segment Routing over IPv6 (SRv6)
+    url: https://datatracker.ietf.org/doc/rfc9723/
+    status: RFC 9723
+    tags: "bgp"
+  - title: BGP SR Policy Extensions for Segment List Identifier
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-sr-policy-seglist-id/
+    status: WG Document
+    tags: "bgp,srte"
 
   - title: Border Gateway Protocol - Link State (BGP-LS) Extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/rfc9085/
@@ -321,6 +354,14 @@ documents:
     url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-sr-policy/
     status: WG Document
     tags: "bgp-ls"
+  - title: Advertising Flexible Algorithm Extensions in BGP Link-State
+    url: https://datatracker.ietf.org/doc/draft-hegdearavind-idr-bgp-ls-flex-algo-ext/
+    status: Draft
+    tags: "bgp-ls"
+  - title: Advertising Segment Routing Policies in BGP
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-sr-policy-safi/
+    status: WG Document
+    tags: "bgp-ls"
 
   - title: IS-IS Extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/rfc8667/
@@ -333,7 +374,7 @@ documents:
   - title: IGP Flexible Algorithm
     url: https://datatracker.ietf.org/doc/rfc9350/
     status: RFC 9350
-    tags: "isis"
+    tags: "isis,ospf"
   - title: Signaling MSD (Maximum SID Depth) using IS-IS
     url: https://datatracker.ietf.org/doc/rfc8491/
     status: RFC 8491
@@ -349,11 +390,15 @@ documents:
   - title: 'IGP Flexible Algorithms: Bandwidth, Delay, Metrics and Constraints'
     url: https://datatracker.ietf.org/doc/draft-ietf-lsr-flex-algo-bw-con/
     status: WG Document
-    tags: "isis"
+    tags: "isis,ospf"
   - title: IGP Unreachable Prefix Announcement
     url: https://datatracker.ietf.org/doc/draft-ietf-lsr-igp-ureach-prefix-announce/
     status: WG Document
-    tags: "isis"
+    tags: "isis,ospf"
+  - title: IGP Flexible Algorithms Reverse Affinity Constraint
+    url: https://datatracker.ietf.org/doc/draft-ietf-lsr-igp-flex-algo-reverse-affinity/
+    status: WG Document
+    tags: "isis,ospf"
 
   - title: OSPF Extensions for Segment Routing
     url: https://datatracker.ietf.org/doc/rfc8665/
@@ -370,10 +415,6 @@ documents:
   - title: OSPFv3 Extensions for Segment Routing over IPv6 (SRv6)
     url: https://datatracker.ietf.org/doc/draft-ietf-lsr-ospfv3-srv6-extensions/
     status: WG Document
-    tags: "ospf"
-  - title: IGP Flexible Algorithm
-    url: https://datatracker.ietf.org/doc/rfc9350/
-    status: RFC 9350
     tags: "ospf"
   - title: OSPF Traffic Engineering (TE) Metric Extensions
     url: https://datatracker.ietf.org/doc/rfc7471/
@@ -467,4 +508,60 @@ documents:
     status: Draft
     tags: "yang"
 
+  - title: SRv6 Policy SID List Optimization Advertisement
+    url: https://datatracker.ietf.org/doc/draft-ali-idr-srv6-policy-sl-opt-distribution/
+    status: Draft
+    tags: "srte"
+  - title: SR Policies Extensions for Path Segment and Bidirectional Path in BGP-LS
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-sr-policy-path-segment/
+    status: WG Document
+    tags: "srte"
+  - title: BGP SR Policy Extensions for metric
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-sr-policy-metric/
+    status: WG Document
+    tags: "srte"
+  - title: Path Computation Element Communication Protocol (PCEP) Extensions for Associated Bidirectional Segment Routing (SR) Paths
+    url: https://datatracker.ietf.org/doc/draft-ietf-pce-sr-bidir-path/
+    status: WG Document
+    tags: "srte,pcep"
+  - title: Path MTU (PMTU) for Segment Routing (SR) Policy
+    url: https://datatracker.ietf.org/doc/draft-ietf-spring-pmtu-sr-policy/
+    status: WG Document
+    tags: "srte"
+  - title: Advertisement of Traffic Engineering Paths using BGP Link-State
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-te-path/
+    status: WG Document
+    tags: "srte,bgp-ls"
+  - title: LSP State Reporting Extensions in Path Computation Element Communication Protocol (PCEP)
+    url: https://datatracker.ietf.org/doc/draft-sidor-pce-lsp-state-reporting-extensions/
+    status: Draft
+    tags: "srte,pcep"
+  - title: SR Policy Programming RPC
+    url: https://datatracker.ietf.org/doc/draft-ali-spring-sr-policy-programming-rpc/
+    status: Draft
+    tags: "srte"
+  - title: Path Computation Element Communication Protocol (PCEP) Extension for Path Segment in Segment Routing (SR)
+    url: https://datatracker.ietf.org/doc/draft-ietf-pce-sr-path-segment/
+    status: WG Document
+    tags: "srte,pcep"
+  - title: IGP Flex Soft Dataplane
+    url: https://datatracker.ietf.org/doc/draft-ginsberg-lsr-flex-soft-dataplane/
+    status: Draft
+    tags: "srte,isis,ospf"
+  - title: Update to Automatic Bandwidth Adjustment procedure of Stateful PCE
+    url: https://datatracker.ietf.org/doc/draft-ietf-pce-stateful-pce-autobw-update/
+    status: WG Document
+    tags: "srte"
+  - title: Segment Routing Segment Types Extensions for BGP SR Policy
+    url: https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-sr-segtypes-ext/
+    status: WG Document
+    tags: "srte"
+  - title: A YANG Data Model for MPLS-TE Topology
+    url: https://datatracker.ietf.org/doc/draft-ietf-teas-yang-te-mpls-topology/
+    status: WG Document
+    tags: "srte"
+  - title: Path Computation Element Communication Protocol (PCEP) extensions for SRv6 Policy SID List Optimization
+    url: https://datatracker.ietf.org/doc/draft-all-pce-srv6-policy-sid-list-optimization/
+    status: Draft
+    tags: "srte,pcep"
 ---

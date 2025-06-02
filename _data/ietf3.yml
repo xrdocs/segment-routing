@@ -143,11 +143,11 @@ documents:
   - title: SRv6 for Deterministic Path Placement in AI Backends
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-ai-backend/
     status: Draft
-    tags: "usecase"
+    tags: "aidc"
   - title: SRv6 Converged DC Frontend and WAN
     url: https://datatracker.ietf.org/doc/draft-filsfils-srv6-converged-dc-frontend-wan/
     status: Draft
-    tags: "usecase"
+    tags: "aidc"
 
   - title: SRv6 Implementation and Deployment Status
     url: https://datatracker.ietf.org/doc/draft-matsushima-spring-srv6-deployment-status/

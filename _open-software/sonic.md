@@ -1,5 +1,5 @@
 ---
-position: 30
+position: 20
 published: true
 breadnav: true
 date: '2025-06-30 09:00 -0700'

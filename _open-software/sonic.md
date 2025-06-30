@@ -2,30 +2,22 @@
 position: 30
 published: true
 breadnav: true
-date: '2022-11-08 08:52 -0700'
+date: '2025-06-30 09:00 -0700'
 title: SAI/SONiC
 app: false
 header:
   teaser: images/open-software/sonic.png
 excerpt: >-
-  Cisco, alongside with  other ecosystem partners, has collaborated in the development of the SRv6 uSID implementation in SONiC/SAI.
-  Find out how to leverage this platform in your network architecture:
+  SRv6 has been a key feature in SONiC for many years—mature, widely deployed, and supported by a rich ecosystem. Cisco, Microsoft, Alibaba, and other SONiC ecosystem partners have collaborated on the SRv6 uSID implementation in SONiC/SAI. Discover the latest status and advancements of SRv6 uSID in SONiC.
 ---
 
-##	SAI
-The Switch Abstraction Interface (SAI) is an abstraction layer to program any silicon, regardless of its vendor. The community has worked on a standard API that models SRv6 uSID configuration on a router.
-SRv6 uSID is fully supported in SAI since June 2021 in [SAI release 1.9 (github.com)](https://github.com/opencomputeproject/SAI/blob/master/doc/SAI-IPv6-Segment-Routing-Update.md). [SAI release 1.12 (github.com)](https://github.com/opencomputeproject/SAI/blob/master/doc/SAI-IPv6-Segment-Routing-VPN.md) provides several scale enhancements for SRv6 VPN and SRv6 Policy.
-You can find more details on the latest status of SRv6 uSID support in SAI at the [SAI official GitHub repository (github.com)](https://github.com/opencomputeproject/SAI/tree/master/doc).
-Cisco Silicon One ASIC has native support for SRv6 uSID in its SDK and implements the SAI adaptor.
+SRv6 has been a key feature in SONiC for many years—mature, widely deployed, and supported by a rich ecosystem.
 
-##	SONiC
-SONiC (Software for Open Networking in the Cloud) is a free Network OS based on Linux and currently being developed by the Open Compute Project. SONiC includes the networking software components necessary for a fully functional L3 device and was designed to meet the requirements of a cloud data center.
-SRv6 uSID is supported in SONiC since [release 202211 (github.com)](https://github.com/sonic-net/SONiC/tree/master/doc/srv6). [SONiC 202305 (github.com)](https://github.com/sonic-net/SONiC/pull/1252) provides several scale enhancements for SRv6 VPN and SRv6 Policy.
-You can find more details on the latest status of SRv6 uSID support in SONiC at the [SONiC official GitHub repository (github.com)](https://github.com/sonic-net/SONiC/tree/master/doc/srv6).
+Cisco, Microsoft, Alibaba, and other SONiC ecosystem partners have collaborated on the SRv6 uSID implementation in SONiC/SAI.
 
-##	FRR
-SONiC uses the Free-Range Routing (FRR) stack for the routing protocols such ISIS and BGP and the RIB functionality. SRv6 uSID is supported in FRR since the [FRR 8.5 release (frrouting.org)](https://frrouting.org/release/8.5/).
-You can find more details on the latest status of SRv6 uSID support in FRR at the [FRR official GitHub repository (github.com)](https://github.com/FRRouting/frr/releases).
+The following slides provides the status of SRv6 support in SONiC/SAI/FRR.
+
+{% include pdf link="/images/20250630-SRv6-uSID-SONiC-FRR.pdf" %}
 
 <br />
 

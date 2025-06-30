@@ -1,12 +1,12 @@
 ---
 title: >-
-  SONiC: Powering AI Fabrics and Enterprise Networks with Precision and Insight
+  SONiC 202505: SRv6 uSID support to enable source-routed AI backend networks with optimized load balancing and fast reroute in case of path failures
 author: 'SONiC'
 source-url: https://sonicfoundation.dev/sonic-202505-powering-ai-fabrics-and-enterprise-networks-with-precision-and-insight/
 date: 2025-06-16
 eurl: https://sonicfoundation.dev/sonic-202505-powering-ai-fabrics-and-enterprise-networks-with-precision-and-insight/
 technology: 'SRv6'
 excerpt: >-
-    The SONiC 202505 release introduces support for SRv6 (Segment Routing over IPv6) to enable source-routed AI backend networks—optimized for high-performance training and inference workloads. It enables source-routed AI backend networks with optimized load balancing and fast reroute in case of path failures.
+    The SONiC 202505 release introduces support for SRv6 uSID to enable source-routed AI backend networks—optimized for high-performance training and inference workloads. It enables source-routed AI backend networks with optimized load balancing and fast reroute in case of path failures. Microsoft’s Yanzhao Zhang (SONiC PM Manager) has authored a blog about SONiC 202505 highlighting the SRv6 uSID support and its benefits for AI Backend.
 teaser: '/images/open-software/sonic.png'
 ---

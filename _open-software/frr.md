@@ -8,9 +8,18 @@ app: false
 header:
   teaser: images/open-software/frr.svg
 excerpt: >-
-  FRRouting (FRR) is a free and open source Internet routing protocol suite for Linux and Unix platforms. It implements BGP, OSPF, RIP, IS-IS, PIM, LDP, BFD, Babel, PBR, OpenFabric and VRRP, with alpha support for EIGRP and NHRP. FRR is the routing stack used by default in SONiC.
+  FRRouting (FRR) is an open source routing protocol suite. FRR is the routing stack used by SONiC.It has full support of SRv6 uSID and ensures full SRv6 uSID interoperability with Cisco IOS-XR. 
 ---
 
 ## Introduction
 
-TBD
+FRRouting (FRR) is open-source routing protocol suite. FRR implements BGP, IS-IS, Static Routing and many other routing protocols. 
+FRR is the routing stack used by SONiC 
+
+FRR has full SRv6 uSID support and ensures full SRv6 uSID interoperability with Cisco IOS-XR. 
+
+Cisco, Alibaba, LINE Corporation, and 6WIND have been the main contributors of the SRv6 uSID implementation in SONiC. 
+
+The following slides provides the status of SRv6 uSID support in FRR.
+
+{% include pdf link="/images/20250630-SRv6-uSID-FRR.pdf" %}

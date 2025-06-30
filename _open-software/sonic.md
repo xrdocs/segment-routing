@@ -8,14 +8,14 @@ app: false
 header:
   teaser: images/open-software/sonic.png
 excerpt: >-
-  SRv6 has been a key feature in SONiC for many years—mature, widely deployed, and supported by a rich ecosystem. Cisco, Microsoft, Alibaba, and other SONiC ecosystem partners have collaborated on the SRv6 uSID implementation in SONiC/SAI. Discover the latest status and advancements of SRv6 uSID in SONiC.
+  SRv6 uSID has been a key feature in SONiC for many years—mature, widely deployed, and supported by a rich ecosystem. Cisco, Microsoft, Alibaba, and other SONiC ecosystem partners have collaborated on the SRv6 uSID implementation in SONiC/SAI. Discover the latest status and advancements of SRv6 uSID in SONiC.
 ---
 
-SRv6 has been a key feature in SONiC for many years—mature, widely deployed, and supported by a rich ecosystem.
+SRv6 uSID has been a key feature in SONiC for many years—mature, widely deployed, and supported by a rich ecosystem.
 
 Cisco, Microsoft, Alibaba, and other SONiC ecosystem partners have collaborated on the SRv6 uSID implementation in SONiC/SAI.
 
-The following slides provides the status of SRv6 support in SONiC/SAI/FRR.
+The following slides provides the status of SRv6 uSID support in SONiC/SAI/FRR.
 
 {% include pdf link="/images/20250630-SRv6-uSID-SONiC-FRR.pdf" %}
 

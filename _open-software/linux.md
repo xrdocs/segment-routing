@@ -3,69 +3,49 @@ position: 10
 title: Linux Kernel
 app: false
 breadnav: true
-date: '2017-01-20 12:18 +0100'
+date: '2025-06-30 12:18 +0100'
 header:
   teaser: images/open-software/linux.png
 excerpt: >-
-  The IPv6 dataplane functionalities for Segment Routing are available in the Linux Kernel. Find out how to start using SR on any Linux host.
+  SRv6 has been supported in the Linux kernel since its introduction at IETF. Currently, the Linux kernel supports most of the SRv6 Network programming behaviors defined in RFC8986
 ---
 
-## Linux kernel 4.10
+SRv6 has been supported in the Linux kernel since its introduction at IETF.
 
-The IPv6 dataplane functionalities enabling Segment Routing packet generation and forwarding are available in the latest Linux kernel releases (4.10 and later). This implementation is provided by the [IP Networking Lab](https://inl.info.ucl.ac.be) of Université Catholique de Louvain, Louvain-la-Neuve, Belgium.
+The very first support of SRv6 in the Linux kernel was introduced in Kernel 4.10 which was released in Feb 2017.
 
-## Linux kernel 4.14
+Since then, SRv6 support in the Linux kernel has been getting more mature with almost each kernel release.
 
-Kernel 4.14 is another milestone in SRv6 support in Linux. A new set of SRv6 behaviors has been added to the kernel (see table below).
+New features, bug fixes and performance improvement patches are getting merged in the Linux kernel over time.
 
-Quick start guide and complete documentation are available on the [dedicated website](http://www.segment-routing.org/).
+Currently, the Linux kernel supports most of the SRv6 Network programming behaviors defined in [RFC8986](https://datatracker.ietf.org/doc/html/rfc8986).
 
-For any question regarding this implementation, please reach out to the [developers mailing list](https://sympa-2.sipr.ucl.ac.be/sympa/info/sr6-dev).
+## Endpoint behaviors
+
+| Kernel | Date | behavior | Description |
+| ------ | ---- | -------- | ----------- |
+| 4.10 | Feb 2017 | End | Endpoint |
+|      |          | End.X | Endpoint with L3 cross-connect |
+| 4.14 | Nov 2017 | End.T | Endpoint with specific IPv6 table lookup |
+|      |          | End.DT6 | Endpoint with decapsulation and specific IPv6 table lookup |
+|      |          | End.DX6 | Endpoint with decapsulation and IPv6 cross-connect |
+|      |          | End.DX4 | Endpoint with decapsulation and IPv4 cross-connect |
+|      |          | End.DX2 | Endpoint with decapsulation and L2 cross-connect |
+|      |          | End.B6 | Endpoint bound to an SRv6 policy |
+|      |          | End.B6.Encaps | Endpoint bound to an SRv6 encapsulation Policy |
+| 5.11 | Dec 2020 | End.DT4 | Endpoint with decapsulation and IPv4 table lookup |
+| 5.14 | June 2021 | End.DT46 | Endpoint with decapsulation and specific IP table lookup |
+| 6.1 | Dec 2022 | uN | uSID Endpoint  |
+| 6.3 | Apr 2023 | End (PSP) | Endpoint with Penultimate Segment Pop of the SRH
+| 6.6 | Oct 2023 | uA | uSID Endpoint with L3 cross-connect |
 
 
-## srext - a Linux kernel module for the SRv6 Network Programming model
+## Headend behaviors
 
-In parallel, the [Networking Group](http://netgroup.uniroma2.it) from University of Rome Tor Vergata, Italy, is developing a new kernel module providing more advanced Segment Routing functions. This module is intended to be eventually fully compliant with the SRv6 Network Programming model defined in [RFC8986](https://datatracker.ietf.org/doc/html/rfc8986).
-
-The srext module is [available on GitHub](https://netgroup.github.io/SRv6-net-prog/).
-
-## SR behaviors support
-
-The following tables show the availability in Linux of each SRv6 behavior defined in [RFC8986](https://datatracker.ietf.org/doc/html/rfc8986).
-
-New entries will be added to these tables as more SRv6 behaviors are defined in IETF documents.
-
-### Endpoint functions
-
-Endpoint functions are triggered when the IPv6 Destination Address of an incoming packet matches an entry in the _My Local SIDs_ table of an SRv6-enabled node.
-
-| Name | Description | Release |
-| ---- | ----------- | :-----: |
-| End | Endpoint function | <span style="color:green">**4.10** (February 2017)</span>, <span style="color:#049FD9">**srext**</span> |
-| End.X | Endpoint function with Layer-3 cross-connect | <span style="color:green">**4.10** (February 2017)</span>, <span style="color:#049FD9">**srext**</span> |
-| End.T | Endpoint function with specific IPv6 table lookup | <span style="color:green">**4.14** (November 2017)</span> |
-| End.DX2 | Endpoint with decapsulation and Layer-2 cross-connect | <span style="color:green">**4.14** (November 2017)</span>, <span style="color:#049FD9">**srext**</span> |
-| End.DX6 | Endpoint with decapsulation and IPv6 cross-connect | <span style="color:green">**4.14** (November 2017)</span>, <span style="color:#049FD9">**srext**</span> |
-| End.DX4 | Endpoint with decapsulation and IPv4 cross-connect | <span style="color:green">**4.14** (November 2017)</span>, <span style="color:#049FD9">**srext**</span> |
-| End.DT6 | Endpoint with decapsulation and IPv6 table lookup | <span style="color:green">**4.14** (November 2017)</span> |
-| End.DT4 | Endpoint with decapsulation and IPv4 table lookup | <span style="color:green">**5.11** (December 2020)</span> |
-| End.DT46 | Endpoint with decapsulation and IP table lookup | <span style="color:green">**5.14** (June 2021)</span> |
-| End.B6 | Endpoint bound to an SRv6 policy | <span style="color:green">**4.14** (November 2017)</span> |
-| End.B6.Encaps | Endpoint bound to an SRv6 encapsulation Policy | <span style="color:green">**4.14** (November 2017)</span> |
-| End.BM | Endpoint bound to an SR-MPLS Policy | <span style="color:orange">In development</span> |
-| End.S | Endpoint in search of a target in table T | <span style="color:orange">In development</span> |
-| End.AD | Endpoint to SR-unaware APP via dynamic proxy | <span style="color:#049FD9">**srext**</span> |
-| End.AM | Endpoint to SR-unaware APP via masquerading | <span style="color:#049FD9">**srext**</span> |
-
-### Transit behaviors
-
-Transit behaviors are triggered when an in-transit packet matches a steering
-rule on an SRv6-enabled node. Examples of steering rules are packets arriving on
-a specific incoming interface or whose Destination Address belongs in a given
-prefix.
-
-| Name | Description | Release |
-| ---- | ----------- | :-----: |
-| T.Insert | Transit behavior with insertion of an SRv6 Policy | <span style="color:green">**4.10** (February 2017)</span> |
-| T.Encaps | Transit behavior with encapsulation in an SRv6 policy | <span style="color:green">**4.10** (February 2017)</span> |
-| T.Encaps.L2 | T.Encaps behavior of the received L2 frame | <span style="color:green">**4.14** (November 2017)</span> |
+| Kernel | Date | behavior | Description |
+| ------ | ---- | -------- | ----------- |
+| 4.10 | Feb 2017 | H.Encpas | SR Headend with Encapsulation in an SR Policy |
+|      |          | H.Insert | SR Headend with insertion of an SRv6 Policy |
+| 4.14 | Nov 2017 | H.Encaps.L2 | H.Encaps Applied to Received L2 Frames |
+| 6.0 | Oct 2022 | H.Encaps.Red | H.Encaps with Reduced Encapsulation |
+|     |          | H.Encaps.L2.Red | H.Encaps Applied to Received L2 Frames |

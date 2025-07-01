@@ -10,7 +10,7 @@ header:
   teaser: 'images/NETDEV-logo.png'
 ---
 
-In March 2025, the [Linux Netdev Conference](https://netdevconf.info/0x19/index.html), hosted an [SRv6 Workshop] (https://netdevconf.info/0x19/sessions/bof/srv6-in-linux-kernel-frr-and-ebpf-review-the-current-status-and-plan-the-future-evolution.html), exploring the evolution of SRv6 in the open-source ecosystem, including SONiC, FRR, and Linux Kernel.
+In March 2025, the [Linux Netdev Conference](https://netdevconf.info/0x19/index.html), hosted an [SRv6 Workshop](https://netdevconf.info/0x19/sessions/bof/srv6-in-linux-kernel-frr-and-ebpf-review-the-current-status-and-plan-the-future-evolution.html), exploring the evolution of SRv6 in the open-source ecosystem, including SONiC, FRR, and Linux Kernel.
 
 This workshop is a collaborative effort between the Cisco SRv6 team and the University of Rome Tor Vergata, led by Prof. Stefano Salsano.
 

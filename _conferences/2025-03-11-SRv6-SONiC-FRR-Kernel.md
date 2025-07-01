@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2025-03-11 00:00 -0700'
-title: 'SRv6 uSID status in SONiC, FRR, and Linux kernel. 
+title: 'SRv6 uSID status in SONiC, FRR, and Linux kernel.'
 author: 'Cisco team'
 technology: 'SRv6'
 excerpt: 'Cisco and University of Rome Tor Vergata hosted an SRv6 workshop at the Linux Netdev conference. The workshop reviewed the status of SRv6 uSID in SONiC, FRR and Linux Kernel. 

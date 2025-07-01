@@ -1,6 +1,6 @@
 ---
 title: >-
-  IETF: SRv6 Converged DC Frontend and WAN
+  SRv6 Converged DC Frontend and WAN
 author: 'Cisco'
 source-url: https://datatracker.ietf.org/doc/draft-filsfils-srv6-converged-dc-frontend-wan/
 date: '2025-04-04 01:00'

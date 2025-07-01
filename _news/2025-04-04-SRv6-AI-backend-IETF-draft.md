@@ -1,6 +1,6 @@
 ---
 title: >-
-  IETF: SRv6 for Deterministic Path Placement in AI Backends
+  SRv6 for Deterministic Path Placement in AI Backends
 author: 'Cisco'
 source-url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-ai-backend/
 date: '2025-04-04 01:00'

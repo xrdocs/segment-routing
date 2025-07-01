@@ -7,7 +7,7 @@ author: Microsoft
 technology: 'SRv6'
 excerpt: 'OCP EMEA 2025 - Guohan Lu from Microsoft explained how they build Source Routed AI Backend Network with SRv6.'
 header:
-  teaser: 'images/microsoft-logo.svg'
+  teaser: 'images/OCP-EMEA.png'
 ---
 OCP EMEA 2025: Guohan Lu from Microsoft explained athow they build Source Routed AI Backend Network with SRv6.
 

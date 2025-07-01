@@ -15,6 +15,12 @@ He highlighted the benefits of SRv6 in the AI Backend to provide optimized load-
 
 Guohan highlighted the SONiC extension added to support SRv6 AI Backend use-case. The extensions are open-source and available in SONiC and FRR mainline. 
 
+### Slides
+
+{% include pdf link="/images/20250430-OCP-MSFT-SRv6-AI.pdf" %}
+
 &nbsp;
+
+### Video
 
 {% include video id="ZBnn_YOGhp0" provider="youtube" %}

@@ -33,9 +33,9 @@ list_srv6:
   - title: Operations, Administration, and Maintenance (OAM) in Segment Routing Networks with IPv6 Data plane (SRv6)
     url: https://datatracker.ietf.org/doc/rfc9259/
     status: RFC 9259
-  - title: Compressed SRv6 Segment List Encoding (CSID)
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-srv6-srh-compression/
-    status: WG Document
+  - title: Compressed SRv6 Segment List Encoding
+    url: https://datatracker.ietf.org/doc/rfc9800/
+    status: RFC 9800
   - title: "Network Programming extension: SRv6 uSID instruction"
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-net-pgm-extension-srv6-usid/
     status: Draft

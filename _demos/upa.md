@@ -6,7 +6,7 @@ title: 'SRv6 uSID Unreachable Prefix Announcement'
 author: 'Jakub Horn, Cisco'
 technology: 'SRv6'
 excerpt: 'SRv6 uSID Unreachable Prefix Announcement'
-teaser: images/demo-upa/teaser.png
+teaser: images/demo-upa/UPA_teaser.png
 ---    
 ### *Demo Video*
 {% include video id="i28RgnUcD4w" provider="youtube" %}

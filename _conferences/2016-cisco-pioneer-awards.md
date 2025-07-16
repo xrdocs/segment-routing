@@ -5,7 +5,7 @@ date: '2016-11-25 16:48 -0700'
 title: 'Cisco Pioneer Awards 2016'
 technology: 'SRv6, SRMPLS'
 header:
-  teaser: 'images/sr_team.jpeg'
+  teaser: 'images/sr_team_thumbnail.jpeg'
 excerpt: >-
   Segment Routing is the winner of the Cisco Pioneer Award 2016 in the category "Core Technology".
   The Pioneer is Cisco’s highest engineering award recognizing the pioneering spirit of innovation.

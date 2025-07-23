@@ -115,10 +115,10 @@ list_usecases:
 
 list_aidc:
   - title: SRv6 for Deterministic Path Placement in AI Backends
-    url: https://datatracker.ietf.org/doc/draft-filsfils-spring-srv6-ai-backend/
+    url: https://datatracker.ietf.org/doc/draft-filsfils-srv6ops-srv6-ai-backend/
     status: Draft
-  - title: SRv6 Converged DC Frontend and WAN
-    url: https://datatracker.ietf.org/doc/draft-filsfils-srv6-converged-dc-frontend-wan/
+  - title: SRv6 End-to-End DC Frontend and WAN
+    url: https://datatracker.ietf.org/doc/draft-filsfils-srv6ops-srv6-e2e-dc-frontend-wan/
     status: Draft
 
 list_deploy:
@@ -193,8 +193,8 @@ list_oam:
   - title: OAM for Service Programming with Segment Routing
     url: https://datatracker.ietf.org/doc/draft-ali-spring-sr-service-programming-oam/
     status: Draft
-  - title: LSP Ping/Traceroute for Prefix SID in Presence of Multi-Algorithm/Multi-Topology Networks
-    url: https://datatracker.ietf.org/doc/draft-iqbal-spring-mpls-ping-algo/
+  - title: LSP Ping/Traceroute for Prefix SID in Multi-Algorithm/Multi-Topology Networks
+    url: https://datatracker.ietf.org/doc/draft-ali-mpls-algo-mt-oam/
     status: Draft
 
 list_path_tracing:
@@ -327,7 +327,7 @@ list_pcep:
   - title: PCEP Operational Clarification
     url: https://datatracker.ietf.org/doc/draft-ietf-pce-operational/
     status: WG Document
-  - title: Carrying SR-Algorithm in Path Computation Element Communication Protocol (PCEP).
+  - title: Carrying SR-Algorithm in Path Computation Element Communication Protocol (PCEP)
     url: https://datatracker.ietf.org/doc/draft-ietf-pce-sid-algo/
     status: WG Document
 
@@ -344,6 +344,9 @@ list_mcast:
   - title: Multicast and Ethernet VPN with Segment Routing P2MP and Ingress Replication
     url: https://datatracker.ietf.org/doc/draft-ietf-bess-mvpn-evpn-sr-p2mp/
     status: WG Document
+  - title: Multicast over SRv6 networks
+    url: https://datatracker.ietf.org/doc/draft-mankamana-pim-multicast-over-srv6/
+    status: Draft
 
 list_yang:
   - title: YANG Data Model for Segment Routing Policy

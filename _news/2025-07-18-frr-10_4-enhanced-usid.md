@@ -3,7 +3,7 @@ title: >-
   FRR 10.4: Enhanced SRv6 uSID support for SONiC deployments. 
 author: 'Cisco'
 source-url: https://frrouting.org/release/10.4.0/
-date: 2025-03-18
+date: 2025-07-18
 eurl: https://frrouting.org/release/10.4.0/
 technology: 'SRv6'
 excerpt: >-

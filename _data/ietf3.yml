@@ -39,9 +39,9 @@ documents:
     url: https://datatracker.ietf.org/doc/rfc9259/
     status: RFC 9259
     tags: "srv6,oam"
-  - title: Compressed SRv6 Segment List Encoding (CSID)
-    url: https://datatracker.ietf.org/doc/draft-ietf-spring-srv6-srh-compression/
-    status: WG Document
+  - title: Compressed SRv6 Segment List Encoding
+    url: https://datatracker.ietf.org/doc/rfc9800/
+    status: RFC 9800
     tags: "srv6"
   - title: "Network Programming extension: SRv6 uSID instruction"
     url: https://datatracker.ietf.org/doc/draft-filsfils-spring-net-pgm-extension-srv6-usid/

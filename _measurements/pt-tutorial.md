@@ -2,10 +2,15 @@
 order: 10
 published: true
 breadnav: true
+category: 'Tutorials'
 date: '2022-05-09 14:00 +0200'
 title: 'Path Tracing Introduction'
 author: 'Ahmed Abdelsalam, Cisco'
+technology: 'SRv6, PT'
+pt-order: 10
 excerpt: 'Path Tracing allows operator to deterministically detect ECMP paths. It is implemented in HW at linerate in the normal forwarding pipeline and provides an Ultra-MTU-Efficiency.'
+header:
+  teaser: 'https://img.youtube.com/vi/ZdSfa2N08AA/mqdefault.jpg'
 ---
 ECMP is a key in today’s IP network. It provides both efficiency and resilience. 
 Between any two nodes in the network, we are going to have several ECMP Paths. 
@@ -25,13 +30,13 @@ Cisco is shipping Path Tracing in calendar year 2022 across the portfolio. Some 
 
 In this tutorial, we provide an introduction to the Path Tracing Solution. 
 
+
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZdSfa2N08AA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% include video id="ZdSfa2N08AA" provider="youtube" %}
 
+&nbsp;
 ## Slides
 
-{% capture "pdf-link" %}/images/path-tracing/pt-demo-rev1b.pdf{% endcapture %}
-<script src="{{ 'assets/js/pdfobject.min.js' | relative_url }}"></script>
-<div class="fitvidsignore" id="pdf"></div>
-<script>PDFObject.embed(" {{ pdf-link | relative_url }} ", "#pdf", {height: "21.5em", width: "31.3em"});</script>
+{% include pdf link="/images/path-tracing/pt-demo-rev1b.pdf" %}
+

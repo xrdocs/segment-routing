@@ -156,6 +156,9 @@ collections:
   blogs:
     output: true
     permalink: /:collection/:path/    
+  measurements:
+    output: true
+    permalink: /:collection/:path/
   path-tracing:
     output: true
     permalink: /:collection/:path/
@@ -224,6 +227,15 @@ defaults:
   - scope:
       path: ""
       type: blogs
+    values:
+      layout: single-full
+      read_time: false
+      related: true
+      position: "top"
+# _measurement
+  - scope:
+      path: ""
+      type: measurements
     values:
       layout: single-full
       read_time: false

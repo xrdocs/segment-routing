@@ -1,19 +1,18 @@
 ---
 published: true
 breadnav: true
-order: 30
+pt-order: 30
 date: '2022-06-08 00:00 -0700'
 title: 'NANOG85 Path Tracing'
 author: Segment Routing Team
 technology: 'SRMPLS, SRv6, PT'
-category: 'Conferences'
-excerpt: 'At NANOG85, June 2022, Mike Valentine (Goldman Sachs) presented "Path Tracing". Path Tracing is a new solution that reveals all the unknows about ECMP.'
+excerpt: 'At NANOG85, June 2022, Mike Valentine of Goldman Sachs presented "Path Tracing". Path Tracing is a new solution that reveals all the unknows about ECMP.'
 teaser: 'images/2022-06-08-NANOG85-path-tracing-teaser.png'
 header:
   teaser: 'images/2022-06-08-NANOG85-path-tracing-teaser.png'
 ---
 
-At NANOG85, June 2022, Mike Valentine (Goldman Sachs) presented "Path Tracing".
+At NANOG85, June 2022, Mike Valentine of Goldman Sachs presented "Path Tracing".
 
 ECMP is a key in today’s IP network. It provides both efficiency and resilience. However, the detecting and troubleshooting of these ECMP paths remains a big challenge that faces many operators. FIB corruption or FIB misconfiguration at any node is one among many issues that can happen and may lead packets to follow a non ECMP Path.
 
@@ -31,6 +30,7 @@ In this presentation, we will review the path tracing solution and its ecosystem
 
 {% include video id="X0J2Gz57Lds" provider="youtube" %}
 
+&nbsp;
 ### Slides
 
 {% include pdf link="/images/20220608_Valentine_Path_Tracing_v1.pdf" %}

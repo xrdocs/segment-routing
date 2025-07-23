@@ -31,14 +31,14 @@ feature_key:
 slider_book:
     image_path: images/path-tracing/Goldman_Sachs.png
     title: Goldman Sachs's Technology Fellow and Network Architect Mike Valentine presents Path Tracing at NANOG85
-    url: 'path-tracing/2022-06-08-NANOG85-path-tracing/'
+    url: 'conferences/2022-06-08-NANOG85-path-tracing/'
     btn_label: Watch presentation
     class: book-slide
     button_class: plusBookSlides
 slider_quote: 
   - title: Goldman Sachs's Technology Fellow and Network Architect Mike Valentine present Path Tracing at NANOG85
     image_path: images/path-tracing/Goldman_Sachs.png
-    url: 'path-tracing/2022-06-08-NANOG85-path-tracing/'
+    url: 'conferences/2022-06-08-NANOG85-path-tracing/'
     btn_label: Watch presentation
     class: quote-slide
     button_class: plusQuoteSlides
@@ -65,10 +65,10 @@ published: true
 Path Tracing allows operators to deterministically monitor ECMP paths. It is implemented in HW at linerate, in the normal forwarding pipeline to report accurate data. 
 Path Tracing is coupled with an SDN analytical app that analyzes the Path Tracing data, correlates it with routing information, and computes key metrics for operators to monitor the health of their network.  
     </div>
-      <a href="{{ 'path-tracing/pt-tutorial' | relative_url }}">
+      <a href="{{ 'measurements/pt-tutorial' | relative_url }}">
         <button>Tutorial </button>
       </a>
-      <a href="{{ 'path-tracing/pt-demo-ecmp' | relative_url }}">
+      <a href="{{ 'measurements/pt-demo-ecmp' | relative_url }}">
         <button>Demo </button>
       </a>
   </div>

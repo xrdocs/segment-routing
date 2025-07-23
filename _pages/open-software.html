@@ -6,16 +6,32 @@ title: "Open Software Projects"
 regenerate: true
 description: 
 ---
+<style>
+.grid-img {
+    height: 130px;
+    width: auto;
+    object-fit: contain;
+}
+</style>
+<div class="container">
+  <div class="projects-no-grid-container">
+    {% assign sorted = site.open-software | where:"position","0" | sort: 'position' %}
+    {% for post in sorted %}
+      {% include archive-single.html type="grid" %}
+    {% endfor %}
+  </div>
+<hr />
+</div>  
 <div class="container">
   <div class="projects-grid-container">
-    {% assign sorted = site.open-software | where:"app","false" | sort: 'position' %}
+    {% assign sorted = site.open-software | where_exp:"item","item.position > 0" | sort: 'position' %}
     {% for post in sorted %}
       {% include archive-single.html type="grid" %}
     {% endfor %}
   </div>
 </div>  
 
-<!--
+{% comment %}
 <div class="middle-hero" style="background-image: url('{{ page.hero-image | relative_url }}');">
   <div class="container">
     <h1 class="middle-hero-title">SR-aware applications</h1>
@@ -29,4 +45,5 @@ description:
       {% include archive-single.html %}
     {% endfor %}
   </div> 
-</div>-->
+</div>
+{% endcomment %}

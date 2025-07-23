@@ -5,7 +5,7 @@ hidden: true
 date: '2024-04-09 08:00'
 title: 'Highlights of the SRv6 Conference in Paris, April 2024'
 author: Segment Routing Team
-technology: 'SRv6'
+technology: 'SRv6, IPM'
 excerpt: 'The MPLS SD & AI Net World Congress in Paris, April 2024, gave a special highlight on network performance with a special focus on Integrated Performance Measurement. IPv6 only networks will also be given a large echo, through a debate and a rich set of service providers experience reports.'
 header:
   teaser: 'images/MPLS-WC-2024/MPLS-WC-2024-teaser.png'

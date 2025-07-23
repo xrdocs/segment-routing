@@ -4,7 +4,7 @@ breadnav: true
 date: '2024-10-18 00:00 -0700'
 title: 'OCP SONiC Summit 2024: IP Measurements'
 author: 'Cisco team'
-technology: 'SRv6'
+technology: 'SRv6, IPM'
 excerpt: 'At the OCP SONiC Summit 2024, Ahmed Abdelsalam of Cisco Systems presented “IP Measurements”'
 header:
   teaser: 'https://img.youtube.com/vi/mOM_Bc9SaqQ/mqdefault.jpg'

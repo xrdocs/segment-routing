@@ -4,7 +4,7 @@ breadnav: true
 date: '2024-05-21 07:00'
 title: 'Cisco Automation Developer Days – Integrated Performance Measurement'
 author: Segment Routing Team
-technology: 'SRv6'
+technology: 'SRv6, IPM'
 excerpt: 'At the Cisco Automation Developer Days in Stockholm, May 2024, Clarence Filsfils, Cisco Systems, presented "Integrated Performance Measurement"'
 header:
   teaser: 'https://img.youtube.com/vi/M-VFktNXtJI/mqdefault.jpg'

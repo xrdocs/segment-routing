@@ -4,7 +4,8 @@ breadnav: true
 date: '2025-02-19 00:00 -0700'
 title: 'APRICOT 2025: IP Measurements'
 author: 'Cisco team'
-technology: 'SRv6'
+ipm-order: 10
+technology: 'SRv6, IPM'
 excerpt: 'At APRICOT 2025, Bart Van de Velde of Cisco Systems presented “IP Measurements,” a paradigm shift in network performance monitoring'
 header:
   teaser: 'images/apricot2025-logo.jpg'

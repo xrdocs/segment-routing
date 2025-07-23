@@ -4,7 +4,7 @@ breadnav: true
 date: '2024-05-09 07:00'
 title: 'LACNIC 41: SRv6 uSID and Integrated Performance Measurement'
 author: Segment Routing Team
-technology: 'SRv6'
+technology: 'SRv6, IPM'
 excerpt: 'At LACNIC 41 in Panama, May 2024, Clarence Filsfils, Cisco Systems, presented "SRv6 uSID and Integrated Performance Measurement"'
 header:
   teaser: 'https://img.youtube.com/vi/11xDGNlMG-w/mqdefault.jpg'

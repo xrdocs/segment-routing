@@ -9,8 +9,8 @@ main:
     url: "tutorials"
     class: "hide-on-xxs"
 
-  - title: "Path Tracing"
-    url: "path-tracing"
+  - title: "Measurements"
+    url: "measurements"
     class: "hide-on-mobile"
   
   - title: "IETF" 

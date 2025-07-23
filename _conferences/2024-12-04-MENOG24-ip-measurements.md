@@ -4,7 +4,7 @@ breadnav: true
 date: '2024-12-04 00:00 -0700'
 title: 'MENOG24: IP Measurements'
 author: 'Cisco team'
-technology: 'SRv6'
+technology: 'SRv6, IPM'
 excerpt: 'At MENOG24, Ahmed Abdelsalam of Cisco Systems presented “IP Measurements,” a paradigm shift in network performance monitoring'
 header:
   teaser: 'https://img.youtube.com/vi/rTScJfIovoU/mqdefault.jpg'

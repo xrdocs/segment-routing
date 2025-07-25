@@ -85,6 +85,9 @@ list_usecases:
   - title: Interconnecting Millions Of Endpoints With Segment Routing
     url: https://datatracker.ietf.org/doc/rfc8604/
     status: RFC 8604
+  - title: Private Line Emulation over Packet Switched Networks
+    url: https://datatracker.ietf.org/doc/rfc9801/
+    status: RFC 9801
   - title: Segment Routing over IPv6 for the Mobile User Plane
     url: https://datatracker.ietf.org/doc/draft-ietf-dmm-srv6-mobile-uplane/
     status: WG Document

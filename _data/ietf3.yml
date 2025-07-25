@@ -144,6 +144,10 @@ documents:
     url: https://datatracker.ietf.org/doc/draft-filsfils-rtgwg-lightweight-host-routing/
     status: Draft
     tags: "usecase"
+  - title: Private Line Emulation over Packet Switched Networks
+    url: https://datatracker.ietf.org/doc/rfc9801/
+    status: RFC 9801
+    tags: "usecase"
 
   - title: SRv6 for Deterministic Path Placement in AI Backends
     url: https://datatracker.ietf.org/doc/draft-filsfils-srv6ops-srv6-ai-backend/
@@ -209,7 +213,7 @@ documents:
     url: https://datatracker.ietf.org/doc/draft-gandhi-ippm-simple-direct-loss/
     status: Draft
     tags: "pm"
-  - title: Simple Two-Way Active Measurement Protocol (STAMP) Extensions for Reflecting STAMP Packet Headers
+  - title: Simple Two-Way Active Measurement Protocol (STAMP) Extensions for Reflecting STAMP Packet IP Headers
     url: https://datatracker.ietf.org/doc/draft-ietf-ippm-stamp-ext-hdr/
     status: WG Document
     tags: "pm"
@@ -217,7 +221,7 @@ documents:
     url: https://datatracker.ietf.org/doc/draft-ietf-mpls-stamp-pw/
     status: WG Document
     tags: "pm"
-  - title: Simple Two-Way Active Measurement Protocol (STAMP) Extensions for Bit Error Detection and Bit Error Rate Measurement
+  - title: Simple Two-Way Active Measurement Protocol (STAMP) Extensions for Bit Error Rate Measurement
     url: https://datatracker.ietf.org/doc/draft-gandhi-ippm-stamp-ber/
     status: Draft
     tags: "pm"

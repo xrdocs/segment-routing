@@ -3,7 +3,7 @@ title: >-
   Building the Future: Reliance Jio\'s SRv6-Powered Network
 author: 'Cisco'
 source-url: https://www.cisco.com/site/us/en/about/case-studies-customer-stories/reliance-jio.html
-date: '2025-09-09 01:00'
+date: '2025-07-23 01:00'
 eurl: https://www.cisco.com/site/us/en/about/case-studies-customer-stories/reliance-jio.html
 technology: 'SRv6'
 excerpt: >-

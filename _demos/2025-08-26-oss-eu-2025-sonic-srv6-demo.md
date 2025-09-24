@@ -127,8 +127,8 @@ PING fcbb:bbbb:b001::1 (fcbb:bbbb:b001::1) from fcbb:bbbb:a001::1 : 56 data byte
 rtt min/avg/max/mdev = 0.376/0.581/0.866/0.214 ms
 ```
 
-To visualize the ECMP paths from NIC-A to NIC-B, we can use traceroute6.
-Use the following commands to Install traceroute for IPv6:
+To visualize the ECMP paths from NIC-A to NIC-B, we can use traceroute for IPv6.
+On Ubuntu, you can use the following commands to install traceroute for IPv6:
 ```
 cisco@build-vm:~/git/oss-eu-2025/use-cases/SRv6-AI-Backend$ sudo apt install traceroute
 ```
@@ -163,7 +163,7 @@ traceroute to fcbb:bbbb:b001::1 (fcbb:bbbb:b001::1), 30 hops max, 80 byte packet
  4  fcbb:bbbb:b001::1 (fcbb:bbbb:b001::1)  1.287 ms  1.305 ms  1.392 ms
 ```
 
-As demonstrated, different Flow-label values result in probes traversing different paths. For instance, some flow labels pass through node 01T1 (`2001:db8:1:1001::1001`), while others pass through node 02T1 (`2001:db8:1:1002::1002`), showcasing the ECMP behavior.
+As demonstrated, different Flow-label values result in probes traversing different paths. For instance, Flow-label value 1 passes through node 01T1 (`2001:db8:1:1001::1001`), while Flow-label 2 passes through node 02T1 (`2001:db8:1:1002::1002`), showcasing the ECMP behavior.
 
 To enable SRv6 overlay transport, we need to configure encapsulation at NIC-A and decapsulation at NIC-B.
 Note that this use case does not involve virtualization (VPNs).
@@ -189,7 +189,7 @@ ip -6 route add fcbb:bbbb:fe09::/48 encap seg6local action End.DT46 vrftable mai
 ip -6 route add fcbb:bbbb:A001:fe09::/64 encap seg6local action End.DT46 vrftable main dev vrfdefault
 ```
 
-On NIC-A, we now reconfigure the static route to instantiate the H.Encaps.Red behavior for traffoc destined for NIC-B's locator prefix (`fcbb:bbbb:B001::/48`):
+On NIC-A, we now reconfigure the static route to instantiate the H.Encaps.Red behavior for traffic destined for NIC-B's locator prefix (`fcbb:bbbb:B001::/48`):
 ```
 # Steer IPv6 traffic over SID List
 ip -6 route add fcbb:bbbb:B001::/48 encap seg6 mode encap.red segs fcbb:bbbb:1:1001:2:B001:fe09:: dev eth1
@@ -198,7 +198,7 @@ ip -6 route add fcbb:bbbb:B001::/48 encap seg6 mode encap.red segs fcbb:bbbb:1:1
 With this route, packets destined for `fcbb:bbbb:B001::/48` will be steered over the specified SID list <`fcbb:bbbb:1:1001:2:B001:fe09::`>. These packets are encapsulated (H.Encaps.Red) in an outer IPv6 header with the Destination Address set to `fcbb:bbbb:1:1001:2:B001:fe09::`.
 This SID list directs the packets through the sequence of nodes 01T0 (`fcbb:bbbb:1::`), 01T1 (`fcbb:bbbb:1001::`), and 02T0 (`fcbb:bbbb:2::`) before reaching NIC-B's uDT46 SID (`fcbb:bbbb:B001:fe09::`).
 
-The traceroute tool does not display intermediate hops for encapsulated packets.
+The traceroute tool does not display intermediate hops for the encapsulated packets.
 However, a tcpdump packet capture on NIC-A's eth1 interface will reveal the encapsulated packets.
 
 First, start capturing packets on NIC'A's eth1 interface in one terminal.

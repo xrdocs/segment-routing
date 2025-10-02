@@ -25,3 +25,8 @@ Check out the comprehensive discussion on the robust support of SRv6 in the open
 {% include pdf id="srv6-usid-frr-netdev-0x19" link="/images/20250311-srv6-usid-frr-netdev-0x19.pdf" %}
 &nbsp;
 {% include pdf id="srv6-usid-linux-netdev-0x19" link="/images/20250311-srv6-usid-linux-netdev-0x19.pdf" %}
+&nbsp;
+
+### Video
+{% include video id="haqL-bWpM-E" provider="youtube" %}
+

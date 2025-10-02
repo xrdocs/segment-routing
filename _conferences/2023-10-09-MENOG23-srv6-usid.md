@@ -23,6 +23,7 @@ In addition, we will explain the Measurements and Analytics pillars of the SRv6 
 
 Furthermore, we will explain SRv6 uSID use-cases for Peering and Exchange. All IXP/DC sites can be managed using a single transport without interworking function (VXLAN to MPLS) while gaining native IP based ECMP (No labels/Entropy). 
 
+&nbsp;
 ### Slides
 
 {% include pdf link="/images/SRv6-uSID-MENOG23-Riyadh-rev1e.pdf" %}

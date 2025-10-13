@@ -13,10 +13,7 @@ title: "Scientific Papers and Research Publications"
 
   {% for year_group in sorted_years %}
     {% comment %} open entries of the first year {% endcomment %}
-    {% comment %}
     <details {% if forloop.first %}open{% endif %}>
-    {% endcomment %}
-    <details open>
       <summary> {{ year_group.name }} </summary>
       {% assign sorted_papers_in_year = year_group.items | sort: "month" | reverse %}
       {% for post in sorted_papers_in_year %}

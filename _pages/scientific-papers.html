@@ -7,24 +7,24 @@ title: "Scientific Papers and Research Publications"
 ---
  
 {% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
 <div class="container accordion">
-  {% assign sorted = site.scientific-papers | reverse %}
-  {% for post in sorted %}
-    {% capture year %}{{ post.year }}{% endcapture %}
-    {% if year != written_year %}
-      </details>
-      {% if post == sorted[0] %}
-      <details open>
-      {% else %}
-      <details>
-      {% endif %}
-        <summary> {{ year }} </summary>
-        {% capture written_year %}{{ year }}{% endcapture %}
-    {% endif %}
-    <div>
-      {% include papers-list %}
-    </div>
+  {% assign papers_by_year = site.scientific-papers | group_by: "year" %}
+  {% assign sorted_years = papers_by_year | sort: "name" | reverse %}
+
+  {% for year_group in sorted_years %}
+    {% comment %} open entries of the first year {% endcomment %}
+    {% comment %}
+    <details {% if forloop.first %}open{% endif %}>
+    {% endcomment %}
+    <details open>
+      <summary> {{ year_group.name }} </summary>
+      {% assign sorted_papers_in_year = year_group.items | sort: "month" | reverse %}
+      {% for post in sorted_papers_in_year %}
+        <div>
+          {% include papers-list %}
+        </div>
+      {% endfor %}
+    </details>
   {% endfor %}
 </div>
 

@@ -17,13 +17,6 @@ code {
 .single {
     text-align: left;
 }
-.sidebar {
-    padding: 8px 20px;
-    margin: 24px -20px;
-    box-shadow: none !important;
-    background-color: #E7E9EB;
-    border-radius: 5px;
-}
 </style>
 
 SRv6 has been a key feature in SONiC for many years, supported through collaboration among various SONiC Ecosystem partners. Recently, Alibaba, Cisco, Microsoft, and Nvidia have worked closely to further enhance SRv6 for AI backend use-cases.
@@ -58,11 +51,6 @@ Clone the github repo:
 git clone https://github.com/srv6-sonic/oss-eu-2025.git
 cd oss-eu-2025
 ```
-
-<div class="sidebar">
-<h4>Correction</h4>
-<p>Before deploying, make sure that the fix in the PR <a href="https://github.com/srv6-sonic/oss-eu-2025/pull/1/commits/82c9bd59860e6d3105e72a215f6fec19cc918e65">"fix FRR config of SRv6-AI-Backend node 02T1"</a> has been applied.</p>
-</div>
 
 Deploy the AI Backend use case topology:
 ```

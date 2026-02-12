@@ -1,7 +1,7 @@
 ---
 published: true
 breadnav: true
-date: '2026-02-02 00:00 -0700'
+date: '2026-01-15 00:00 -0700'
 title: 'Microsoft: SRv6 powers the largest AI DC in the world (Fairwater DC)'
 author: 'Cisco team'
 technology: 'SRv6'

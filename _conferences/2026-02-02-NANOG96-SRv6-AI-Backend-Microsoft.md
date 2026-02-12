@@ -18,7 +18,7 @@ At **NANOG 96**, **Rita Hui (Microsoft)** and **Pablo Camarillo (Cisco)** took t
 **Moving Beyond ECMP with SRv6**
 
 The presentation provided a deep dive into the fragility of traditional ECMP for AI workloads. In standard designs, hash collisions often cause multiple elephant flows to compete for the same link while parallel paths sit idle. 
-Moving away from these **probabilistic EV-based (Entropy Value) approaches**, the team demonstrated how **SRv6 offers a deterministic path placement solution** through strict source routing. By explicitly programming paths at the source, they ensure conflict-free traffic distribution, effectively solving the congestion issues inherent in hash-based forwarding.
+The proposed workarounds, leveraging **probabilistic EV-based (Entropy Value) approaches**, fall short. T∫he team demonstrated how **SRv6 offers a deterministic path placement solution** through strict source routing. By explicitly programming paths at the source, they ensure conflict-free traffic distribution, effectively solving the congestion issues inherent in hash-based forwarding.
 
 **Key Highlights from the Session:**
 

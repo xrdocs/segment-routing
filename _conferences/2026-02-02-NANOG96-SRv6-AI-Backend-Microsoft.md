@@ -35,4 +35,4 @@ The proposed workarounds, leveraging **probabilistic EV-based (Entropy Value) ap
 
 ### Video
 
-Coming soon.
+{% include video id="yB-_4lkSsEs" provider="youtube" %}

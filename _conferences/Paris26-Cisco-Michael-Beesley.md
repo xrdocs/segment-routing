@@ -15,3 +15,8 @@ In this keynote session, **Michael Beesley** of Cisco Systems presented, “From
 
 {% include video id="T906s-jTado" provider="youtube" %}
 
+&nbsp;
+
+### Slides
+
+{% include pdf link="/images/Upperside-WC-2026/Cisco-Michael-Beesley-keynote.pdf" %}

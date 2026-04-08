@@ -19,4 +19,4 @@ header:
 
 ### Slides
 
-Coming soon.
+{% include pdf link="/images/Upperside-WC-2026/Cisco-Jakub-Horn-SRv6-Addressing.pdf" %}

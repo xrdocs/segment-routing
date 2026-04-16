@@ -115,6 +115,18 @@ In this session, discover how DT is moving past the experimental phase of SRv6 t
 
 
 <div markdown="1">
+#### [Boost Mobile: From traditional MPLS to Cloud-Native SRv6](/conferences/Paris26-Boost-Frederico-Luzzi-Jorge-Marquez)
+_**Frederico Luzzi** and **Jorge Marquez**, Principal Network Engineers, Boost Mobile_
+{: .indent}
+Boost Mobile’s transition from traditional SR-MPLS to a cloud-native SRV6 architecture on AWS marks a significant shift in mobile network operations. Facing the complexities of managing over 100,000 GRE tunnels and massive configuration overhead, the team turned to SRV6 to unify their infrastructure and overcome the limitations of hierarchical network design.
+{: .indent}
+
+In this session, Jorge and Federico detail how they eliminated bottlenecks, achieved granular traffic control, and drastically simplified their network stack—reducing thousands of lines of configuration to just a few dozen. Discover their innovative approach to bypassing cloud-native hashing limitations and learn how they transformed their AWS environment into a highly scalable, resilient, and fully programmable service provider backbone.
+{: .indent}
+</div>
+{: .notice}
+
+<div markdown="1">
 #### [Cisco: From Mobile Networks to AI Infrastructure — SRv6 as the unifying technology](/conferences/Paris26-Cisco-Michael-Beesley)
 _**Michael Beesley**, CTO SP Networking, Cisco_
 {: .indent}

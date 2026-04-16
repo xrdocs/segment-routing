@@ -129,4 +129,12 @@ From the architectural elegance required for 6G mobility to the massive, distrib
 </div>
 {: .notice}
 
-
+<div markdown="1">
+#### [Cisco: SRv6 Addressing](/conferences/Paris26-Cisco-Jakub-Horn)
+_**Jakub Horn**, Principal Technical Marketing Engineer, Cisco_
+{: .indent}
+A well-planned addressing strategy is the foundation of a successful SRv6 deployment.
+In this session, learn how to design simple, hierarchical, and extensible addressing plans that optimize traffic engineering and significantly reduce long-term operational complexity. Discover strategies for networks of all sizes, from small clusters to massive global infrastructures, and see how to effectively encode flexible algorithms into locators to maintain architectural integrity. Gain expert insights into operational synergies—such as leveraging loopback addresses and link-local interface addressing—to streamline your network management and ensure your infrastructure is ready for the demands of the future.
+{: .indent}
+</div>
+{: .notice}

@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2026-04-29 06:00'
-title: 'OCP EMEA 2026 – “Innovating Network Protocol Stacks for Scalable AI Infrastructure (Scale-Up, Scale-Out, and Scale-Across)”'
+title: 'OCP EMEA 2026 – “SRv6 – Innovating Network Protocol Stacks for Scalable AI Infrastructure”'
 author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At the OCP EMEA Summit 2026, Clarence Filsfils of Cisco Systems and Guohan Lu of Microsoft presented how SRv6 unifies the network protocol stack across Scale-Out, Scale-Across, and Scale-Up to deliver an end-to-end fabric for next-generation AI infrastructure'

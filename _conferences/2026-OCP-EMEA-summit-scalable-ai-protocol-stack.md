@@ -13,7 +13,7 @@ At the [**OCP EMEA Summit 2026** (opencompute.org)](https://www.opencompute.org/
 
 Hyperscalers are deploying AI infrastructures that interconnect tens to hundreds of thousands of GPUs. Meeting the scale, latency, and performance requirements of AI workloads requires rethinking how protocol stacks are structured and optimized.
 
-This session examines the protocol-stack challenges introduced by Scale-Up, Scale-Out, and emerging Scale-Across AI architectures, each with distinct requirements for latency sensitivity, congestion behavior, and load balancing efficiency. We present an overview of ecosystem-driven innovations focused on simplifying protocol stacks, reducing overhead and improving end-to-end performance for AI traffic.
+This session examines the protocol-stack challenges introduced by Scale-Up, Scale-Out, and emerging Scale-Across AI architectures, each with distinct requirements for latency sensitivity, congestion behavior, and load balancing efficiency. They present an overview of ecosystem-driven innovations focused on simplifying protocol stacks, reducing overhead and improving end-to-end performance for AI traffic.
 
 You will gain insight into current industry directions, open challenges, and opportunities for collaboration within the OCP community to evolve network protocol stacks for next-generation AI infrastructure.
 

@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2026-10-15 04:00'
-title: 'OCP Global Summit 2026 – “SRv6 Deployments in Scale-Out and Scale-Across Networks”'
+title: 'OCP 2026 - Cisco/OpenAI: SRv6 Deployments in Scale-Out and Scale-Across Networks'
 author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At the OCP Global Summit 2026, Clarence Filsfils of Cisco and Guohan Lu of OpenAI presented SRv6 uSID deployments for scale-out AI backends, including MRC over static source routing in production.'

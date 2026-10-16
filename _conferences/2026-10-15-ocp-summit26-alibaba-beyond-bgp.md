@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2026-10-15 07:00'
-title: 'OCP Global Summit 2026 – “Beyond Traditional BGP: Decoupling Route Distribution for Large-Scale AI Clusters at Alibaba”'
+title: 'OCP 2026 - Alibaba: Beyond Traditional BGP: Decoupling Route Distribution for Large-Scale AI Clusters at Alibaba'
 author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At the OCP Global Summit 2026, Eddie Ruan and Dennis Cai of Alibaba presented HPN Pivot, decoupling infrastructure BGP from service-route distribution so AI clusters can scale without a routing-state explosion.'

@@ -2,7 +2,7 @@
 published: true
 breadnav: true
 date: '2026-10-15 02:00'
-title: 'OCP Global Summit 2026 – “Co-Designing AI Fabrics: Inside Google’s Virgo Network and the Campus-as-a-Computer”'
+title: 'OCP 2026 - Google: Co-Designing AI Fabrics: Inside Google’s Virgo Network and the Campus-as-a-Computer'
 author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At the OCP Global Summit 2026, Sunil Ahluwalia and JK Lee of Google presented Virgo, Google’s scale-out AI fabric, including SRv6 source routing for bare-metal customers running their own host stack.'

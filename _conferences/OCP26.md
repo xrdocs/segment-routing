@@ -32,19 +32,10 @@ This page highlights the SRv6 sessions from the summit.
 ### Highlighted presentations:
 
 <div markdown="1">
-#### [Meta: SRv6 powered backbone networks](/conferences/2026-10-15-ocp-summit26-meta-srv6-backbone)
-_**Jasmeet Bagga** and **Andrey Golovanov**, Meta_
+#### [OpenAI and Cisco: SRv6 Deployments in Scale-Out and Scale-Across Networks](/conferences/2026-10-15-ocp-summit26-cisco-openai-scale-out)
+_**Guohan Lu**, OpenAI, and **Clarence Filsfils**, Cisco Fellow_
 {: .indent}
-Meta is deploying SRv6 traffic engineering on regional backbone rings that share compute and storage inside a latency envelope. The team already runs MPLS SR-TE at scale and still chose SRv6—IPv6 Traffic Class carries the six Olympic QoS classes their MPLS encoding cannot. Compact uSID lists, one mySID entry per adjacency, and a per-plane FBOSS/SAI controller take the design from shallow-buffer 800G-ZR+ spans into production on Cisco Silicon One.
-{: .indent}
-</div>
-{: .notice}
-
-<div markdown="1">
-#### [Cisco and OpenAI: SRv6 Deployments in Scale-Out and Scale-Across Networks](/conferences/2026-10-15-ocp-summit26-cisco-openai-scale-out)
-_**Clarence Filsfils**, Cisco Fellow, and **Guohan Lu**, OpenAI_
-{: .indent}
-Clarence Filsfils and Guohan Lu show how SRv6 uSID replaces ECMP in AI backends: the NIC encodes a deterministic path, switches forward strictly on the list, and MRC over static SRv6 lets training jobs ride out failures. Coverage includes Microsoft Fairwater’s multi-plane fabric (up to 524,288 GPUs), a 75K-GPU OpenAI production incident, SONiC uN/uA support, and scale-up requirements for native strict source routing.
+Guohan Lu and Clarence Filsfils show how SRv6 uSID replaces ECMP in AI backends: the NIC encodes a deterministic path and switches forward strictly on that list. This is deployed in production at OpenAI. MRC over static SRv6 source routing is used to train frontier models, so jobs ride out network failures without waiting for control-plane convergence—including a 75K-GPU production incident where a T1 stopped forwarding, MRC removed the path, and throughput recovered. The session also covers SONiC uN/uA support and scale-up requirements for native strict source routing.
 {: .indent}
 </div>
 {: .notice}
@@ -54,6 +45,24 @@ Clarence Filsfils and Guohan Lu show how SRv6 uSID replaces ECMP in AI backends:
 _**Yuanchao Su**, Alibaba Cloud, and **Clarence Filsfils**, Cisco Fellow_
 {: .indent}
 AI workloads now span clusters over a regional network, where capacity is scarce and latency matters. Yuanchao Su and Clarence Filsfils present SRv6 as the end-to-end TE fabric from DC through DCI/WAN, reusing the mature SONiC SRv6 stack on DC-class hardware. The talk compares host-based and aggregation-node steering and walks through Alibaba’s ultra-scale eCore deployment for AI scale-across.
+{: .indent}
+</div>
+{: .notice}
+
+<div markdown="1">
+#### [Meta: SRv6 powered backbone networks](/conferences/2026-10-15-ocp-summit26-meta-srv6-backbone)
+_**Jasmeet Bagga** and **Andrey Golovanov**, Meta_
+{: .indent}
+Meta is deploying SRv6 traffic engineering on regional backbone rings that share compute and storage inside a latency envelope. The team already runs MPLS SR-TE at scale and still chose SRv6—IPv6 Traffic Class carries the six Olympic QoS classes their MPLS encoding cannot. The data plane uses uSID to encode up to six uSIDs in the IPv6 destination address (DA), each entry an adjacency (uA) through the fabric. A per-plane FBOSS/SAI controller programs the network; first RBB sites with SRv6 TE are in production on SAI with Cisco Silicon One.
+{: .indent}
+</div>
+{: .notice}
+
+<div markdown="1">
+#### [Google: Virgo — campus-as-a-computer, with SRv6 for bare-metal](/conferences/2026-10-15-ocp-summit26-google-virgo)
+_**Sunil Ahluwalia** and **Jeongkeun “JK” Lee**, Google_
+{: .indent}
+Virgo is Google’s dedicated accelerator-to-accelerator scale-out fabric beside Jupiter. Sunil Ahluwalia and JK Lee describe a two-layer, multi-plane design that treats the campus as a computer. Routing combines adaptive switching with **SRv6 source routing for bare-metal customers running their own host stack**, plus congestion signaling, high-speed telemetry, and Falcon transport.
 {: .indent}
 </div>
 {: .notice}
@@ -72,15 +81,6 @@ Once an AI backend uses SRv6 for strict source routing, the same path identifier
 _**Eddie Ruan** and **Dennis Cai**, Alibaba_
 {: .indent}
 Traditional BGP in a large AI Clos explodes routing state. Eddie Ruan and Dennis Cai present HPN Pivot: infrastructure routes stay in BGP, service routes are distributed by a small set of cluster-proximate virtual route reflectors, and BGP Group GR keeps forwarding up even if every RR disappears. The work continues in the SONiC Routing working group.
-{: .indent}
-</div>
-{: .notice}
-
-<div markdown="1">
-#### [Google: Virgo — campus-as-a-computer, with SRv6 for bare-metal](/conferences/2026-10-15-ocp-summit26-google-virgo)
-_**Sunil Ahluwalia** and **Jeongkeun “JK” Lee**, Google_
-{: .indent}
-Virgo is Google’s dedicated accelerator-to-accelerator scale-out fabric beside Jupiter. Sunil Ahluwalia and JK Lee describe a two-layer, multi-plane design that treats the campus as a computer. Routing combines adaptive switching with **SRv6 source routing for bare-metal customers running their own host stack**, plus congestion signaling, high-speed telemetry, and Falcon transport.
 {: .indent}
 </div>
 {: .notice}

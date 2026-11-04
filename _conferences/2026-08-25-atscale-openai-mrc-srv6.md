@@ -7,7 +7,7 @@ author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At @Scale Networking 2026, Jitendra Padhye of OpenAI presented how MRC and static SRv6 source routing keep large-scale AI training jobs running through network failures.'
 header:
-  teaser: 'images/atscale-networking-2026/2026-08-25-atscale-openai-mrc-srv6.jpg'
+  teaser: 'https://img.youtube.com/vi/gTqeU9cCxKQ/mqdefault.jpg'
 ---
 At **[@Scale: Networking 2026](https://atscaleconference.com/events/networking-2026/)** (25 August 2026, Santa Clara), **Jitendra Padhye** of OpenAI presented “Resilient AI Supercomputer Networking using MRC and SRv6.”
 

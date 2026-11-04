@@ -7,7 +7,7 @@ author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At @Scale Networking 2026, Alexey Gorovoy of Nebius presented how SRv6 bridges virtual cloud environments and the physical network edge for large-scale AI customer interconnects.'
 header:
-  teaser: 'images/atscale-networking-2026/2026-08-25-atscale-nebius-srv6-interconnects.jpg'
+  teaser: 'https://img.youtube.com/vi/nX4asnbuVPQ/mqdefault.jpg'
 ---
 At **[@Scale: Networking 2026](https://atscaleconference.com/events/networking-2026/)** (25 August 2026, Santa Clara), **Alexey Gorovoy** of Nebius presented “Building scalable AI cloud interconnects with SRv6.”
 

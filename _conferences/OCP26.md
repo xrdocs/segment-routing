@@ -8,7 +8,7 @@ author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'The OCP Global Summit 2026 in San Jose put SRv6 at the center of AI networking: Meta regional backbones, OpenAI and Cisco scale-out deployments, Alibaba DCI/WAN traffic engineering, Clustermapper path diagnosis, Alibaba’s BGP scale-out, and Google Virgo.'
 header:
-  teaser: 'images/OCP-summit26/OCP26-thumbnail.jpg'
+  teaser: 'images/OCP-summit26/OCP26-thumbnail.png'
 ---
 <style>
 .indent {

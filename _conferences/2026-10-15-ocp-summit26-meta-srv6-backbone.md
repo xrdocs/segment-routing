@@ -7,7 +7,7 @@ author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At the OCP Global Summit 2026, Jasmeet Bagga and Andrey Golovanov of Meta presented how Meta is deploying SRv6 traffic engineering on regional backbone rings, after running MPLS SR-TE at scale.'
 header:
-  teaser: 'images/OCP-summit26/2026-10-15-meta-srv6-backbone.jpg'
+  teaser: 'https://img.youtube.com/vi/FlAk9ApT0F4/mqdefault.jpg'
 ---
 At the [**OCP Global Summit 2026** (opencompute.org)](https://www.opencompute.org/events/ocp-summit/2026-ocp-global-summit/recorded-content/), **Jasmeet Bagga** and **Andrey Golovanov** of Meta presented “SRv6 powered backbone networks.”
 

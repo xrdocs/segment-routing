@@ -7,7 +7,7 @@ author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At the OCP Global Summit 2026, Yuanchao Su of Alibaba Cloud and Clarence Filsfils of Cisco presented SRv6 traffic engineering for AI DCI/WAN, extending the SONiC SRv6 stack from the AI DC across the interconnect.'
 header:
-  teaser: 'images/OCP-summit26/2026-10-15-alibaba-cisco-te.jpg'
+  teaser: 'https://img.youtube.com/vi/hkVpXFM0FAw/mqdefault.jpg'
 ---
 At the [**OCP Global Summit 2026** (opencompute.org)](https://www.opencompute.org/events/ocp-summit/2026-ocp-global-summit/recorded-content/), **Yuanchao Su** of Alibaba Cloud and **Clarence Filsfils** of Cisco Systems presented “Traffic Engineering in AI DCI/WAN for AI Traffic.”
 

@@ -7,7 +7,7 @@ author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At the OCP Global Summit 2026, Ryder Lewis and Guohan Lu of OpenAI presented Clustermapper, using SRv6 to diagnose deterministic paths through AI backend fabrics.'
 header:
-  teaser: 'images/OCP-summit26/2026-10-15-openai-clustermapper.jpg'
+  teaser: 'https://img.youtube.com/vi/33M6KdC4JIw/mqdefault.jpg'
 ---
 At the [**OCP Global Summit 2026** (opencompute.org)](https://www.opencompute.org/events/ocp-summit/2026-ocp-global-summit/recorded-content/), **Ryder Lewis** and **Guohan Lu** of OpenAI presented “Clustermapper: Deterministic path diagnosis for AI backend networks using SRv6.”
 

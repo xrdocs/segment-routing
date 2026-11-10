@@ -7,7 +7,7 @@ author: Segment Routing Team
 technology: 'SRv6'
 excerpt: 'At the OCP Global Summit 2026, Guohan Lu of OpenAI and Clarence Filsfils of Cisco presented SRv6 uSID deployments for scale-out AI backends, including MRC over static source routing in production at OpenAI.'
 header:
-  teaser: 'images/OCP-summit26/2026-10-15-cisco-openai-scale-out.jpg'
+  teaser: 'https://img.youtube.com/vi/6R5ZnYFMNQs/mqdefault.jpg'
 ---
 At the [**OCP Global Summit 2026** (opencompute.org)](https://www.opencompute.org/events/ocp-summit/2026-ocp-global-summit/recorded-content/), **Guohan Lu** of OpenAI and **Clarence Filsfils** of Cisco Systems presented “SRv6 Deployments in Scale-Out Networks.”
 
